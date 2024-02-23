@@ -1,0 +1,22 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_arterial_blood_gas_abg_record_id","px090201_phenx_arterial_blood_gas_abg",,"text","Record ID",,"PX090201",,,,,,,,,,"",
+"instructions_090201","px090201_phenx_arterial_blood_gas_abg",,"descriptive","Blood is drawn anaerobically from a peripheral artery (radial, brachial, femoral, or dorsalis pedis) via a single percutaneous needle puncture, or from an indwelling arterial cannula or catheter for multiple samples.
+
+Either method provides a blood specimen for direct measurement of partial pressures of carbon dioxide (PaCO2) and oxygen (PaO2), hydrogen ion activity (pH), total hemoglobin (Hbtotal), oxyhemoglobin saturation (HbO2), and the dyshemoglobins carboxyhemoglobin (COHb) and methemoglobin (MetHb).",,"PX090201",,,,,,,,,,"",""
+"time_at_blood_draw","px090201_phenx_arterial_blood_gas_abg",,"text","Time at Blood Draw",,"PX090201",,,,,,,,,,"",""
+"body_temperature","px090201_phenx_arterial_blood_gas_abg",,"text","Patient's Body Temperature",,"PX090201",,,,,,,,,,"",""
+"position","px090201_phenx_arterial_blood_gas_abg",,"text","Patient's Position",,"PX090201",,,,,,,,,,"",""
+"activity_level","px090201_phenx_arterial_blood_gas_abg",,"text","Patient's Activity Level",,"PX090201",,,,,,,,,,"",""
+"respiratory_rate","px090201_phenx_arterial_blood_gas_abg",,"text","Patient's Respiratory Rate",,"PX090201","number",,,,,,,,,"",""
+"sample_site","px090201_phenx_arterial_blood_gas_abg",,"text","Sample Site",,"PX090201",,,,,,,,,,"",""
+"allen_test","px090201_phenx_arterial_blood_gas_abg",,"text","Allen Test",,"PX090201",,,,,,,,,,"",""
+"inspired_oxygen_concentration","px090201_phenx_arterial_blood_gas_abg",,"text","Inspired Oxygen Concentration",,"PX090201",,,,,,,,,,"",""
+"supplemental_oxygen_flow","px090201_phenx_arterial_blood_gas_abg",,"text","Supplemental Oxygen Flow",,"PX090201",,,,,,,,,,"",""
+"mode_of_supported_ventilation","px090201_phenx_arterial_blood_gas_abg",,"text","Mode of Supported Ventilation",,"PX090201",,,,,,,,,,"",""
+"partial_pressure_co2","px090201_phenx_arterial_blood_gas_abg",,"text","Partial Pressure of Carbon Dioxide (PaCO2)",,"PX090201",,,,,,,,,,"",""
+"partial_pressure_of_oxygen","px090201_phenx_arterial_blood_gas_abg",,"text","Partial Pressure of Oxygen (PaO2)",,"PX090201",,,,,,,,,,"",""
+"hydrogen_ion_concentration","px090201_phenx_arterial_blood_gas_abg",,"text","Hydrogen Ion Activity (pH)",,"PX090201",,,,,,,,,,"",""
+"total_hemoglobin","px090201_phenx_arterial_blood_gas_abg",,"text","Total Hemoglobin (Hbtotal)",,"PX090201",,,,,,,,,,"",""
+"oxyhemoglobin_saturation","px090201_phenx_arterial_blood_gas_abg",,"text","Oxyhemoglobin Saturation (HbO2)",,"PX090201",,,,,,,,,,"",""
+"carboxyhemoglobin","px090201_phenx_arterial_blood_gas_abg",,"text","Carboxyhemoglobin (COHb)",,"PX090201",,,,,,,,,,"",""
+"methemoglobin","px090201_phenx_arterial_blood_gas_abg",,"text","Methemoglobin (MetHb)",,"PX090201",,,,,,,,,,"",""

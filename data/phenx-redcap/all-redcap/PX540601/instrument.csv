@@ -1,0 +1,37 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad_record_id","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"text","Record ID",,"PX540601",,,,,,,,,,"",
+"info_540601","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"descriptive","Each item of this questionnaire is a statement with which a person may either agree or disagree. For each item, indicate how much you agree or disagree with what the item says. Please respond to all the items; do not leave any blank. Choose only one response to each statement. Please be as accurate and honest as you can be. Respond to each item as if it were the only item. That is, don't worry about being ""consistent"" in your responses.",,"PX540601",,,,,,,,,,"",""
+"rarely_experience_fear","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","1. Even if something bad is about to happen to me, I rarely experience fear or nervousness.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"get_things_i_want","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","2. I go out of my way to get things I want.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"doing_well_at_something","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","3. When I'm doing well at something, I love to keep at it.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"willing_to_try_something_new","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","4. I'm always willing to try something new if I think it will be fun.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"get_something_i_want_energized","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","5. When I get something I want, I feel excited and energized.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"criticism_or_scolding_hurts_me","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","6. Criticism or scolding hurts me quite a bit.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"go_allout","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","7. When I want something, I usually go all-out to get it.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"do_because_might_be_fun","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","8. I will often do things for no other reason than that they might be fun.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"move_on_it_right_away","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","9. If I see a chance to get something I want, I move on it right away.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"worried_when_somebody_is_angry","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","10. I feel pretty worried or upset when I think or know somebody is angry at me.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"get_excited_right_away","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","11. When I see an opportunity for something I like, I get excited right away.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"act_spur_of_moment","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","12. I often act on the spur of the moment.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"worked_up_over_unpleasant_things","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","13. If I think something unpleasant is going to happen, I usually get pretty 'worked up'.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"good_things_affect_me_strongly","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","14. When good things happen to me, it affects me strongly.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"worried_when_done_poorly","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","15. I feel worried when I think I have done poorly at something important.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"crave_excitement","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","16. I crave excitement and new sensations.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"no_holds_barred_approach","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","17. When I go after something, I use a 'no holds barred' approach.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"few_fears_compared_to_friends","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","18. I have very few fears compared to my friends.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"excite_me_to_win_contest","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","19. It would excite me to win a contest.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"worry_about_making_mistakes","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"radio","20. I worry about making mistakes.","1, Strongly Agree | 2, Agree | 3, Disagree | 4, Strongly Disagree","PX540601",,,,,,,,,,"",""
+"scoring_540601","px540601_phenx_sensitivity_to_reward_and_punishment_adolescent_and_ad",,"descriptive","Scoring
+
+Items 1 and 18 are reverse-scored.
+
+Add up the scores associated with each answer response to obtain scores for the individual subscales listed below.
+1= strongly agree
+2= agree
+3= disagree
+4= strongly disagree
+
+BAS Drive: 2, 7, 9, 17
+BAS Fun Seeking: 4, 8, 12, 16
+BAS Reward Responsiveness: 3, 5, 11, 14, 19
+BIS: 1, 6, 10, 13, 15, 18, 20",,"PX540601",,,,,,,,,,"",""

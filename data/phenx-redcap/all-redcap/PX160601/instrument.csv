@@ -1,0 +1,56 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_assay_for_human_leukocyte_antigen_hla_genotyping_record_id","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Record ID",,"PX160601",,,,,,,,,,"",
+"protocol_leukocyte","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"descriptive","The protocol for blood collection and processing is found in the Type 1 Diabetes Genetics Consortium Blood Collection and Processing Manual of Operations (T1DGC Manual of Operations). The protocol for the extraction of DNA from whole blood is found in Rosinger et al. 2010. The protocol for human leukocyte antigen genotyping is found in Mychaleckyj et al 2010. Please note that the immobilized linear arrays used to genotype the samples were provided by Roche Molecular Systems and are not commercially available.",,"PX160601",,,,,,,,,,"",""
+"venip_blood_collect","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"descriptive","Venipuncture / Blood Collection Procedures:
+
+Editor's Note: Please review chapter VI of the Type 1 Diabetes Genetics Consortium Blood Collection and Processing Manual of Operations (T1DGC Manual of Operations - Chapter VI) for a full description of Phlebotomy procedures.
+
+General steps:
+1. Blood is collected from the best available vein.
+2. Blood for DNA analysis should be collected in a 4.9-mL purple top tube (EDTA)
+3. The tubes are handled in a way that prevents hemolysis
+4. The tube contents are mixed by inverting eight times
+5. Record date and time of blood collection
+6. Record the reason why a blood sample was not collected.",,"PX160601",,,,,,,,,,"",""
+"blood_processing","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"descriptive","Blood Processing:
+
+Editor's Note: Please review chapter VI of the Type 1 Diabetes Genetics Consortium Blood Collection and Processing Manual of Operations (T1DGC Manual of Operations - Chapter VI) for a full description of Blood Processing procedures.
+
+The sample is placed in an ice and water bath. Incubate the sample between 30 and 60 minutes.
+Do not let any of the samples stand in direct sunlight or at extreme temperatures.
+The sample is centrifuged, to separate the plasma from the cells.
+The plasma is pipetted away from the sample without disturbing the cell pack.
+The cell pack is shipped at ambient temperature to the DNA repository for DNA extraction.",,"PX160601",,,,,,,,,,"",""
+"date_of_blood_collection_month","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Date of blood Collection - month",,"PX160601","number",,,,,,,,,"",""
+"date_of_blood_collection_day","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Date of blood Collection - day",,"PX160601","number",,,,,,,,,"",""
+"date_of_blood_collection_year","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Date of blood Collection - year",,"PX160601","number",,,,,,,,,"",""
+"time_of_blood_collection_hour","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Time of blood collection - hour",,"PX160601","number",,,,,,,,,"",""
+"time_of_blood_collection_minutes","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Time of blood collection - minutes",,"PX160601","number",,,,,,,,,"",""
+"time_of_blood_collection_ampm","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"radio","Time of blood collection - am or pm","UNDEFINED_CODE,am|UNDEFINED_CODE_1,pm","PX160601",,,,,,,,,,"",""
+"pxt160601_blood_draw_done","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"radio","Was blood drawn?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX160601",,,,,,,,,,"",""
+"pxt160601_blood_draw_sample","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"radio","Was full amount obtained?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX160601",,,,,,,,,,"",""
+"pxt160601_blood_draw_comments","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Record any comments about the blood draw, including any reasons for the tube not being drawn according to the protocol.",,"PX160601",,,,,,,,,,"",""
+"pxt160601_sample_comments","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Record any comments about the sample during processing.",,"PX160601",,,,,,,,,,"",""
+"dna_extraction","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"descriptive","DNA Extraction from Whole Blood:
+
+Please review Rosinger et al., 2010 for the full description of the DNA extraction protocol.
+
+DNA is isolated by a modified salting out procedure or by cholorform extraction
+DNA concentration is determined by fluorescence using a double-stranded DNA quantification reagent.
+DNA quality is confirmed by comparison to an appropriate standard (ladder) on an agarose gel.",,"PX160601",,,,,,,,,,"",""
+"dna_concentration","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","DNA concentration",,"PX160601",,,,,,,,,,"",""
+"dna_quality","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Enter comments to describe DNA quality",,"PX160601",,,,,,,,,,"",""
+"laboratory_assay","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"descriptive","Laboratory Assay for Human Leukocyte Antigen
+
+Please review Mychaleckyj et al., 2010 for a full description of the HLA genotyping methods. Please note that the immobilized linear arrays used to genotype the samples were provided by Roche Molecular Systems and are not commercially available.
+
+DNA (5 ug total: 250 ul at 20ng/uL) is shipped to the HLA genotyping laboratory in screw top tubes.
+Each human leukocyte antigen region is amplified from 60 ng of genomic DNA by polymerase chain reaction (PCR) on a separate 96 well plate according to standardized protocol (see Mychaleckyj et al., 2010 for details of the polymerase chain reaction reaction)
+Polymerase chain reaction products are hybridized to oligonucleotide probes attached to nylon-backed membranes. The probes correspond to specific human leukocyte antigen DNA sequences. (Please note that the immobilized linear arrays used to genotype the samples were provided by Roche Molecular Systems and are not commercially available.)
+Hybridized probes are visualized and assigned a genotype by software.",,"PX160601",,,,,,,,,,"",""
+"hla_assay_type","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Record the type of assay used for HLA testing.",,"PX160601",,,,,,,,,,"",""
+"pxt160601_equipment_make","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Make of the equipment used to perform the HLA assay.",,"PX160601",,,,,,,,,,"",""
+"pxt160601_equipment_manufacturer","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Manufacturer of the equipment used to perform the HLA assay.",,"PX160601",,,,,,,,,,"",""
+"pxt160601_assay_repeatability","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Repeatability of the assay",,"PX160601","number",,,,,,,,,"",""
+"pxt160601_coefficient_of_variation","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Coefficient of variation for the assay",,"PX160601","number",,,,,,,,,"",""
+"genotyping_results","px160601_phenx_assay_for_human_leukocyte_antigen_hla_genotyping",,"text","Results of the genotyping assay",,"PX160601",,,,,,,,,,"",""

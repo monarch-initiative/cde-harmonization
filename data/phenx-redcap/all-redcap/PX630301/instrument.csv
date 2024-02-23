@@ -1,0 +1,35 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_ptsd_symptoms_selfreport_dsmiv_record_id","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"text","Record ID",,"PX630301",,,,,,,,,,"",
+"info_630301","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"descriptive","PCL-C
+
+INSTRUCTIONS: Below is a list of problems and complaints that people sometimes have in response to stressful life experiences. Please read each one carefully then select one choice to indicate how much you have been bothered by that problem in the past month.",,"PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_memories","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Repeated, disturbing memories, thoughts, or images of a stressful experience from the past?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_dreams","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Repeated, disturbing dreams of a stressful experience from the past?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_reliving","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Suddenly acting or feeling as if a stressful experience were happening again (as if you were reliving it)?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_upset","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Feeling very upset when something reminded you of a stressful experience from the past?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_physical_reaction","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Having physical reactions (e.g., heart pounding, trouble breathing, sweating) when something reminded you of a stressful experience from the past?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_avoidance_thoughts","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Avoiding thinking about or talking about a stressful experience from the past or avoiding having feelings related to it?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_avoidance_activities","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Avoiding activities or situations because they reminded you of a stressful experience from the past?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_trouble_remembering","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Trouble remembering important parts of a stressful experience from the past?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_lossof_interest","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Loss of interest in activities that you used to enjoy?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_feeling_distant","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Feeling distant or cut off from other people?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_emotionally_numb","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Feeling emotionally numb or being unable to have loving feelings for those close to you?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_future_short","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Feeling as if your future will somehow be cut short?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_trouble_sleeping","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Trouble falling or staying asleep?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_irritable","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Feeling irritable or having angry outbursts?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_concentrating","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Having difficulty concentrating?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_on_guard","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Being ""super-alert"" or watchful or on guard?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"ptsd_symptoms_feeling_jumpy","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"radio","Feeling jumpy or easily startled?","1, 1- not at all | 2, 2- A little bit | 3, 3- Moderately | 4, 4- Quite a bit | 5, 5- Extremely","PX630301",,,,,,,,,,"",""
+"scoring_630301","px630301_phenx_ptsd_symptoms_selfreport_dsmiv",,"descriptive","Scoring:
+
+Scoring instructions are adapted from the handout ""Using the PTSD Checklist for DSM-IV (PCL)"" available from the National Center for PTSD at www.ptsd.va.gov.
+
+A total symptom severity score (range = 17-85) can be obtained by summing the scores from each of the 17 items that have response options ranging from 1 ""Not at all"" to 5 ""Extremely.""
+
+A provisional diagnosis can be established in three ways:
+
+1) Determine whether an individual meets DSM-IV symptom criteria as defined by at least 1 B item (questions 1-5), 3 C items (questions 6-12), and at least 2 D items (questions 13-17). Symptoms that are rated as ""Moderately"" or above (responses 3 through 5 on individual items) are counted as present.
+
+2) Determine whether the total severity score exceeds a relevant normative threshold (e.g., for primary care settings).
+
+3) Combine methods (1) and (2) to ensure that an individual meets both the symptom pattern and severity threshold.",,"PX630301",,,,,,,,,,"",""

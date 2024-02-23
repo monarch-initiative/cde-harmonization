@@ -1,0 +1,54 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_haptoglobin_level_record_id","px810801_phenx_haptoglobin_level",,"text","Record ID",,"PX810801",,,,,,,,,,"",
+"info_810801","px810801_phenx_haptoglobin_level",,"descriptive","The following is a summary version of the full National Health and Nutrition Examination Survey 2011-2012 protocol.
+
+Exclusion Criteria
+
+Persons will be excluded from this component if they:
+
+Report that they have hemophilia; or
+Report that they have received cancer chemotherapy in the last 4 weeks
+
+SP = Sample Person.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_hemophilia","px810801_phenx_haptoglobin_level",,"radio","Do you have hemophilia?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX810801",,,,,,,,,,"",""
+"hemo_blooddraw_810801","px810801_phenx_haptoglobin_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_chemotheraphy_4weeks","px810801_phenx_haptoglobin_level",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX810801",,,,,,,,,,"",""
+"chemo_blooddraw_810801","px810801_phenx_haptoglobin_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_amount","px810801_phenx_haptoglobin_level",,"text","Haptoglobin level",,"PX810801","number",,,,,,,,,"",""
+"haptoglobin_assay_repeatability","px810801_phenx_haptoglobin_level",,"text","Repeatability of the haptoglobin assay.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_blood_draw_results","px810801_phenx_haptoglobin_level",,"text","Record the results of the blood draw.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_blood_drawtube_deviation","px810801_phenx_haptoglobin_level",,"text","Record reasons for a tube not being drawn according to the protocol.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_coefficients_variation_assay","px810801_phenx_haptoglobin_level",,"text","Coefficients of variation of the haptoglobin assay.",,"PX810801","number",,,,,,,,,"",""
+"haptoglobin_equipment_make","px810801_phenx_haptoglobin_level",,"text","Make of the equipment used to perform the haptoglobin assay.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_equipment_manufacturer","px810801_phenx_haptoglobin_level",,"text","Manufacturer of the equipment used to perform the haptoglobin assay.",,"PX810801",,,,,,,,,,"",""
+"haptoglobin_serum_description","px810801_phenx_haptoglobin_level",,"radio","If serum is hemolyzed, turbid, lipemic, or iteric, then describe.","UNDEFINED_CODE,hemolyzed|UNDEFINED_CODE_1,turbid|UNDEFINED_CODE_2,lipemic|UNDEFINED_CODE_3,icteric","PX810801",,,,,,,,,,"",""
+"haptoglobin_serum_determination","px810801_phenx_haptoglobin_level",,"radio","Determine if the serum is hemolyzed, turbid, lipemic, or icteric.","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX810801",,,,,,,,,,"",""
+"haptoglobin_venipuncture_comments","px810801_phenx_haptoglobin_level",,"text","Record any comments about the venipuncture.",,"PX810801",,,,,,,,,,"",""
+"venipuncture_810801","px810801_phenx_haptoglobin_level",,"descriptive","Venipuncture Procedures
+
+Editor's Note: Please review chapter 4 of the Laboratory Procedures Manual from the 2011-2012 National Health and Nutrition Examination Survey (NHANES) for a full description of phlebotomy procedures. This manual is posted here, and is also available at the NHANES website: 2011-2012 NHANES Laboratory Procedures Manual.
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+
+Recording the Results of the Venipuncture Procedure
+
+Immediately after completing the venipuncture, record the results of the blood draw, the reasons for a tube not being drawn according to the protocol, and any comments about the venipuncture.",,"PX810801",,,,,,,,,,"",""
+"processing_810801","px810801_phenx_haptoglobin_level",,"descriptive","
+Blood Processing
+
+Please review chapter 8 of the Laboratory Procedures Manual from the National Health and Nutrition Examination Survey 2011-2012 for a full description of blood processing procedures: 2011-2012 NHANES Laboratory Procedures Manual.
+
+Allow the blood to clot by setting aside for 30 to 45 minutes at room temperature. Do not clot for more than an hour.
+Centrifuge the tube at room temperature to separate the serum and aliquot into an appropriate storage tube.
+Determine if the serum is hemolyzed, turbid, lipemic, or icteric. If so, enter a comment to describe the serum.say.",,"PX810801",,,,,,,,,,"",""
+"lab_assay_810801","px810801_phenx_haptoglobin_level",,"descriptive","Laboratory Assay for Haptoglobin
+
+The Sickle Cell Disease Cardiovascular, Pulmonary, and Renal Working Group notes that there are a number of different assays and instruments that are appropriate to measure the concentration of haptoglobin. Once an assay is chosen for a particular study, the Working Group recommends that no changes in the protocol be made over the course of the study. To aid comparability, the Working Group recommends that the investigator record the make and manufacturer of equipment used and the repeatability and coefficients of variation for the assay.",,"PX810801",,,,,,,,,,"",""
+"ranges_810801","px810801_phenx_haptoglobin_level",,"descriptive","Reference Ranges for Haptoglobin:
+
+In normal individuals, haptoglobin levels range between 45 and 165 milligrams per deciliter of blood (mg/dL). Levels lower than 45 mg/dL can indicate increased rate of red blood cell death.",,"PX810801",,,,,,,,,,"",""

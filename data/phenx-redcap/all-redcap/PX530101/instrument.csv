@@ -1,0 +1,28 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_cognitive_flexibility_dimensional_change_card_sort_old_record_id","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"text","Record ID",,"PX530101",,,,,,,,,,"",
+"summary_530101","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"descriptive","Summary of the Dimensional Change Card Sort (DCCS) Border Version
+
+The Dimensional Change Card Sort (DCCS) Border Version makes use of two different styles of bivalent cards, displaying for example a red boat and blue rabbit. The test cards additionally have either no border or a black border.
+
+The protocol consists of the following two steps:
+
+1. The assessor sets up two sorting trays displaying target cards representing the two different styles of card. The participant is then given instructions for sorting the set of test cards: cards with borders should be sorted according to one dimension (e.g., color) and cards without borders should be sorted according to the other (e.g., shape). The assessor demonstrates the procedure using one card with a border and one without.
+
+2. The testing phase is carried out. The assessor instructs the participant to sort twelve test cards, six with borders and six without.",,"PX530101",,,,,,,,,,"",""
+"dimension_sorting_border_cards","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"radio","Dimension used for sorting border cards.","UNDEFINED_CODE,color|UNDEFINED_CODE_1,shape","PX530101",,,,,,,,,,"",""
+"number_cards_correctly_sorted","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"text","Number of cards correctly sorted: __________",,"PX530101","integer",,,,,,,,,"",""
+"standard_border_version_administered","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"radio","Standard and Border version administered?","UNDEFINED_CODE,yes|UNDEFINED_CODE_1,no","PX530101",,,,,,,,,,"",""
+"combined_score","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"radio","Combined (Standard and Border version) score.","0 , Participant failed the pre-switch phase of the standard version.|1 , Participant passed the pre-switch phase of the standard version, but failed the post-switch phase.|2 , Participant passed the pre-switch and post-switch phases of the standard version, but failed the border version.|3 , Participant passed the pre-switch and post-switch phases of the standard version and passed the border version.","PX530101",,,,,,,,,,"",""
+"scoring_530101","px530101_phenx_cognitive_flexibility_dimensional_change_card_sort_old",,"descriptive","Scoring
+
+Participants who correctly sort nine or more of the twelve test cards are considered to have passed the task.
+
+If both the DCCS Standard Version and DCCS Border Version are administered, an alternative scoring scheme is as follows:
+
+Score of 0 - Participant failed the pre-switch phase of the standard version.
+
+Score of 1 - Participant passed the pre-switch phase of the standard version, but failed the post-switch phase.
+
+Score of 2 - Participant passed the pre-switch and post-switch phases of the standard version, but failed the border version.
+
+Score of 3 - Participant passed the pre-switch and post-switch phases of the standard version and passed the border version.",,"PX530101",,,,,,,,,,"",""

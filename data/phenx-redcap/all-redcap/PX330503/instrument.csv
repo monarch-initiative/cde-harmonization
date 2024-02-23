@@ -1,0 +1,29 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"perception_risk_cigars_record_id","px330503_phenx_perception_risk_cigars",,"text","Record ID",,"PX330503",,,,,,,,,,"",""
+"instructions","px330503_phenx_perception_risk_cigars",,"descriptive","Cigars
+
+The next questions are about traditional cigars, cigarillos, and filtered cigars. These products go by lots of different names, so please use these descriptions and photos to understand what they are.
+
+Traditional cigars contain tightly rolled tobacco that is wrapped in a tobacco leaf. Some common brands of cigars include Macanudo®<sup>1</sup>, Romeo y Julieta®<sup>2</sup>, and Arturo Fuente®<sup>3</sup>, but there are many others.
+
+Cigarillos and filtered cigars are smaller than traditional cigars. They are usually brown. Some are the same size as cigarettes, and some come with plastic or wood tips. Some common brands are Black & Mild®<sup>4</sup>, Swisher Sweets®<sup>5</sup>, Dutch Masters®<sup>6</sup>, Phillies Blunts®<sup>7</sup>, Prime Time®<sup>8</sup>, and Winchester®<sup>9</sup>.",,"PX330503",,,,,,,,,,"",""
+"perception_risk_cigars_ever","px330503_phenx_perception_risk_cigars",,"radio","Have you ever seen or heard of a cigar, cigarillo, or filtered cigar before this study?","1, Yes|2, No|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,,,,,,"",""
+"image1","px330503_phenx_perception_risk_cigars",,"descriptive","[SHOW GENERIC IMAGE OF TRADITIONAL CIGARS, CIGARILLOS, AND FILTERED CIGARS]",,"PX330503",,,,,,,,,,"",""
+"perception_risk_cigars_type","px330503_phenx_perception_risk_cigars",,"radio","Which type of cigar have you heard of before this study?","1, Traditional cigars like Macanudo®, Romeo y Julieta®, Arturo Fuente®, or others|2, Cigarillos or filtered cigars like Black & Mild®, Swisher Sweets®, Dutch Masters®, Phillies Blunts®, Prime Time®, Winchester®, or others|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,"[perception_risk_cigars_ever]='1'",,,,,"",""
+"perception_risk_cigars_traditional_harmful","px330503_phenx_perception_risk_cigars",,"radio","Is smoking traditional cigars less harmful, about the same, or more harmful than smoking cigarettes?","1, Less harmful|2, About the same|3, More harmful|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,"[perception_risk_cigars_type]='1'",,,,,"",""
+"image2","px330503_phenx_perception_risk_cigars",,"descriptive","[SHOW GENERIC IMAGE OF TRADITIONAL CIGARS, CIGARILLOS, AND FILTERED CIGARS]",,"PX330503",,,,,"[perception_risk_cigars_type]='1'",,,,,"",""
+"perception_risk_cigars_cigarillos_harmful","px330503_phenx_perception_risk_cigars",,"radio","Is smoking cigarillos less harmful, about the same, or more harmful than smoking cigarettes?","1, Less harmful|2, About the same|3, More harmful|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,"[perception_risk_cigars_type]='2'",,,,,"",""
+"image3","px330503_phenx_perception_risk_cigars",,"descriptive","[SHOW GENERIC IMAGE OF TRADITIONAL CIGARS, CIGARILLOS, AND FILTERED CIGARS]",,"PX330503",,,,,"[perception_risk_cigars_type]='2'",,,,,"",""
+"perception_risk_cigars_filtered_harmful","px330503_phenx_perception_risk_cigars",,"radio","Is smoking filtered cigars less harmful, about the same, or more harmful than smoking cigarettes?","1, Less harmful|2, About the same|3, More harmful|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,"[perception_risk_cigars_type]='2'",,,,,"",""
+"image4","px330503_phenx_perception_risk_cigars",,"descriptive","[SHOW GENERIC IMAGE OF TRADITIONAL CIGARS, CIGARILLOS, AND FILTERED CIGARS]",,"PX330503",,,,,"[perception_risk_cigars_type]='2'",,,,,"",""
+"perception_risk_cigars_some_days_harmful","px330503_phenx_perception_risk_cigars",,"radio","How much do you think people harm themselves when they smoke filtered cigars some days but not every day?","1, No harm|2, A little harm|3, Some harm|4, A lot of harm|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,,,,,,"",""
+"perception_risk_cigars_compare_harmful","px330503_phenx_perception_risk_cigars",,"radio","How harmful do you think today's traditional cigars, cigarillos or filtered cigars are compared to those of five years ago?","1, Much less harmful|2, Somewhat less harmful|3, About the same|4, Somewhat more harmful|5, Much more harmful|-8, DON'T KNOW|-7, REFUSED","PX330503",,,,,,,,,,"",""
+"footer","px330503_phenx_perception_risk_cigars",,"descriptive","<sup>1</sup>General Cigar Co. Inc.
+<sup>2</sup> Max Rohr, Inc.
+<sup>3</sup> Fuente Cigar, Ltd.
+<sup>4</sup> John Middleton Co.
+<sup>5</sup> Swisher International, Inc.
+<sup>6</sup> Max Rohr, Inc.
+<sup>7</sup> Tabacalera Brands, Inc.
+<sup>8</sup> Prime Time International Distributing, Inc.
+<sup>9</sup> Lane, Ltd.",,"PX330503",,,,,,,,,,"",""

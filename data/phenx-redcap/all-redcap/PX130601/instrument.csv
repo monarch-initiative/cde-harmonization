@@ -1,0 +1,63 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_history_of_head_trauma_record_id","px130601_phenx_history_of_head_trauma",,"text","Record ID",,"PX130601",,,,,,,,,,"",
+"definitions_130601","px130601_phenx_history_of_head_trauma",,"descriptive","We would like to ask you about injuries to your head or neck that you may have had at anytime in your life.
+
+LOC=loss of consciousness (knocked out)
+TBI=traumatic brain injury",,"PX130601",,,,,,,,,,"",""
+"hospitalized_head_injury","px130601_phenx_history_of_head_trauma",,"radio","1. Have you ever been hospitalized or treated in an emergency room following an injury to your head or neck? Think about any childhood injuries you remember or were told about.","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"hospitalized_head_injury_cause","px130601_phenx_history_of_head_trauma",,"text","Cause of injury reported in question 1",,"PX130601",,,,,,,,,,"",""
+"head_or_neck_injury_loc","px130601_phenx_history_of_head_trauma",,"radio","1a. Were you knocked out or did you lose consciousness?  If yes, how long?","UNDEFINED_CODE, No LOC | UNDEFINED_CODE_1, < 30 min | UNDEFINED_CODE_2, 30 min-24 hrs | UNDEFINED_CODE_3, > 24 hrs","PX130601",,,,,,,,,,"",""
+"head_injury_memory_gap","px130601_phenx_history_of_head_trauma",,"radio","1b. If no, were you dazed or did you have a gap in your memory from the injury?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"head_or_neck_injury_age","px130601_phenx_history_of_head_trauma",,"text","1c. How old were you?",,"PX130601","number",,,,,,,,,"",""
+"moving_vehicle_head_injury","px130601_phenx_history_of_head_trauma",,"radio","2. Have you ever injured your head or neck in a car accident or from some other moving vehicle accident (e.g. motorcycle, ATV)?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"moving_vehicle_head_injury_cause","px130601_phenx_history_of_head_trauma",,"text","Cause of injury reported in question 2",,"PX130601",,,,,,,,,,"",""
+"moving_vehicle_head_injury_loc","px130601_phenx_history_of_head_trauma",,"radio","2a. Were you knocked out or did you lose consciousness (LOC)?  If yes, how long?","UNDEFINED_CODE, No LOC | UNDEFINED_CODE_1, < 30 min | UNDEFINED_CODE_2, 30 min-24 hrs | UNDEFINED_CODE_3, > 24 hrs","PX130601",,,,,,,,,,"",""
+"vehicular_head_injury_memory_gap","px130601_phenx_history_of_head_trauma",,"radio","2b. If no, were you dazed or did you have a gap in your memory from the injury?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"moving_vehicle_head_injury_age","px130601_phenx_history_of_head_trauma",,"text","2c. How old were you?",,"PX130601","number",,,,,,,,,"",""
+"head_injury_fall_hit_sports","px130601_phenx_history_of_head_trauma",,"radio","3. Have you ever injured your head or neck in a fall or from being hit by something (e.g. falling from a bike, horse, or rollerblades, falling on ice, being hit by a rock)? Have you ever injured your head or neck playing sports or on the playground?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"fall_head_injury_cause","px130601_phenx_history_of_head_trauma",,"text","Cause of injury reported in question 3",,"PX130601",,,,,,,,,,"",""
+"fall_head_injury_loc","px130601_phenx_history_of_head_trauma",,"radio","3a. Were you knocked out or did you lose consciousness (LOC)?  If yes, how long?","UNDEFINED_CODE, No LOC | UNDEFINED_CODE_1, < 30 min | UNDEFINED_CODE_2, 30 min-24 hrs | UNDEFINED_CODE_3, > 24 hrs","PX130601",,,,,,,,,,"",""
+"fall_head_injury_memory_gap","px130601_phenx_history_of_head_trauma",,"radio","3b. If no, were you dazed or did you have a gap in your memory from the injury?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"fall_head_injury_age","px130601_phenx_history_of_head_trauma",,"text","3c. How old were you?",,"PX130601","number",,,,,,,,,"",""
+"head_injury_fight","px130601_phenx_history_of_head_trauma",,"radio","4. Have you ever injured your head or neck in a fight, from being hit by someone, or from being shaken violently? Have you ever been shot in the head?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"fight_head_injury_cause","px130601_phenx_history_of_head_trauma",,"text","Cause of injury reported in question 4",,"PX130601",,,,,,,,,,"",""
+"fight_head_injury_loc","px130601_phenx_history_of_head_trauma",,"radio","4a. Were you knocked out or did you lose consciousness (LOC)?  If yes, how long?","UNDEFINED_CODE, No LOC | UNDEFINED_CODE_1, < 30 min | UNDEFINED_CODE_2, 30 min-24 hrs | UNDEFINED_CODE_3, > 24 hrs","PX130601",,,,,,,,,,"",""
+"fight_head_injury_memory_gap","px130601_phenx_history_of_head_trauma",,"radio","4b. If no, were you dazed or did you have a gap in your memory from the injury?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"fight_head_injury_age","px130601_phenx_history_of_head_trauma",,"text","4c. How old were you?",,"PX130601","number",,,,,,,,,"",""
+"explosion_head_injury","px130601_phenx_history_of_head_trauma",,"radio","5. Have you ever been nearby when an explosion or a blast occurred? If you served in the military, think about any combat- or training-related incidents.","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"explosion_head_injury_cause","px130601_phenx_history_of_head_trauma",,"text","Cause of injury reported in question 5",,"PX130601",,,,,,,,,,"",""
+"explosion_head_injury_loc","px130601_phenx_history_of_head_trauma",,"radio","5a. Were you knocked out or did you lose consciousness (LOC)?  If yes, how long?","UNDEFINED_CODE, No LOC | UNDEFINED_CODE_1, < 30 min | UNDEFINED_CODE_2, 30 min-24 hrs | UNDEFINED_CODE_3, > 24 hrs","PX130601",,,,,,,,,,"",""
+"explosion_head_injury_memory_gap","px130601_phenx_history_of_head_trauma",,"radio","5b. If no, were you dazed or did you have a gap in your memory from the injury?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX130601",,,,,,,,,,"",""
+"explosion_head_injury_age","px130601_phenx_history_of_head_trauma",,"text","5c. How old were you?",,"PX130601","number",,,,,,,,,"",""
+"number_other_injuries_with_loc","px130601_phenx_history_of_head_trauma",,"text","6. If more injuries with LOC:  How many more?",,"PX130601","number",,,,,,,,,"",""
+"other_injuries_with_loc_longest","px130601_phenx_history_of_head_trauma",,"text","If more injuries with LOC:  Longest knocked out",,"PX130601","number",,,,,,,,,"",""
+"number_other_injuries_with_loc_30min","px130601_phenx_history_of_head_trauma",,"text","If more injuries with LOC:  How many > 30 mins.?",,"PX130601","number",,,,,,,,,"",""
+"number_other_injuries_with_loc_age","px130601_phenx_history_of_head_trauma",,"text","If more injuries with LOC:  Youngest age?",,"PX130601","number",,,,,,,,,"",""
+"loc_from_drug_overdose","px130601_phenx_history_of_head_trauma",,"text","7a. Have you ever lost consciousness from a drug overdose?  If so, record the number of times.",,"PX130601","number",,,,,,,,,"",""
+"loc_from_being_choked","px130601_phenx_history_of_head_trauma",,"text","7b. Have you ever lost consciousness from being choked? If so, record the number of times.",,"PX130601","number",,,,,,,,,"",""
+"scoring_130601","px130601_phenx_history_of_head_trauma",,"descriptive","SCORING
+
+______ # TBI-LOC (number of TBI's with loss of consciousness from #1-5a)
+______ # TBI-LOC ? 30 (number of TBI's with loss of consciousness ? 30 minutes from #1-5a)
+______ age at first TBI-LOC (youngest age from #1-5c)
+______ TBI-LOC before age 15 (if youngest age from #1-5c < 15 then =1, if ? 15 then = 0)
+______ Worst Injury (1-5):
+
+If responses to #1-5 are ""no"", classify as 1 ""improbable TBI"".
+
+If in response to #1-5a and #1-5b reports never having LOC, being dazed or having memory lapses, classify as 1 ""improbable TBI"".
+
+If in response to #1-5b reports being dazed or having a memory lapse, classify as 2 ""possible TBI"".
+
+If in response to #1-5a loss of consciousness (LOC) does not exceed 30 minutes for any injury, classify as 3 ""mild TBI"".
+
+If in response to #1-5a LOC for any one injury is between 30 minutes and 24 hours, classify as 4 ""moderate TBI"".
+
+If in response to #1-5a LOC for any one injury exceeds 24 hours, classify as 5 ""severe TBI"".
+
+_______ # anoxic injuries (sum of incidents reported in #7a-b)
+
+
+This protocol was adapted with permission from the Ohio State University TBI Identification Method
+
+© reserved 2007, The Ohio Valley Center for Brain Injury Prevention and Rehabilitation",,"PX130601",,,,,,,,,,"",""

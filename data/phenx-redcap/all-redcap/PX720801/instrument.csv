@@ -1,0 +1,27 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_pregnancy_status_and_tobacco_use_record_id","px720801_phenx_pregnancy_status_and_tobacco_use",,"text","Record ID",,"PX720801",,,,,,,,,,"",
+"info_720801","px720801_phenx_pregnancy_status_and_tobacco_use",,"descriptive","The next questions are about your pregnancy history.",,"PX720801",,,,,,,,,,"",""
+"ever_pregnant_indicator","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","Have you ever been pregnant? Please include current pregnancy, live births, miscarriages, abortions, ectopic or tubal pregnancies and stillbirths.","UNDEFINED_CODE, 1 Yes | UNDEFINED_CODE_1, 2 No | UNDEFINED_CODE_2, -8 Don't Know | UNDEFINED_CODE_3, -7 Refused","PX720801",,,,,,,,,,"",""
+"number_live_birth","px720801_phenx_pregnancy_status_and_tobacco_use",,"text","How many of your pregnancies have resulted in a live birth?",,"PX720801","number",,,,,,,,,"",""
+"number_live_birth2_56e","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","How many of your pregnancies have resulted in a live birth?","UNDEFINED_CODE_1, -8 Don't know | UNDEFINED_CODE_2, -7 Refused","PX720801",,,,,,,,,,"",""
+"birth_event","px720801_phenx_pregnancy_status_and_tobacco_use",,"checkbox","For [that birth \ those FILL## births], did any of the following occur? Choose all that apply.","UNDEFINED_CODE, 1 Preterm birth (birth of baby less than 37 weeks gestational age) | UNDEFINED_CODE_1, 2 baby with low birth weight (Less than 5 pounds 8 ounces | UNDEFINED_CODE_2, 3 baby with birth defects | UNDEFINED_CODE_3, 4 Placenta Previa | UNDEFINED_CODE_4, 5 Placenta Abrupation | UNDEFINED_CODE_5, 6 Pre-eclampsia | UNDEFINED_CODE_6, 7 None of the above | UNDEFINED_CODE_7, -8 Don't know | UNDEFINED_CODE_8, -7 Refused","PX720801",,,,,,,,,,"",""
+"pregnant_now_indicator","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","Are you pregnant now?","UNDEFINED_CODE, 1 Yes | UNDEFINED_CODE_1, 2 no | UNDEFINED_CODE_2, -8 Don't Know | UNDEFINED_CODE_3, -7 Refused","PX720801",,,,,,,,,,"",""
+"month_week_pregnancy","px720801_phenx_pregnancy_status_and_tobacco_use",,"text","How many months or weeks pregnant are you? Please enter the number of months or weeks.",,"PX720801","number",,,,,,,,,"",""
+"month_week_pregnancy2_d2e","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","How many months or weeks pregnant are you? Please enter the number of months or weeks.","UNDEFINED_CODE_2, -8 Don't Know | UNDEFINED_CODE_3, -7 Refused","PX720801",,,,,,,,,,"",""
+"pregnancy_smoke_cigarette_indicator","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","During your [most recent / current] pregnancy, [did you smoke / have you smoked] any cigarettes?","UNDEFINED_CODE, 1 Yes | UNDEFINED_CODE_1, 2 No | UNDEFINED_CODE_2, -8 Don't Know | UNDEFINED_CODE_3, -7 Refused","PX720801",,,,,,,,,,"",""
+"pregnancy_smoke_cigarettes_quantity","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","During your [most recent / current] pregnancy, how many cigarettes [did you smoke/have you smoked] on an average day? A pack usually has 20 cigarettes in it.","UNDEFINED_CODE, 1 Less than 1 cigarette a day | UNDEFINED_CODE_1, 2 1 to 5 cigarettes a day | UNDEFINED_CODE_2, 3 6 to 10 cigarettes a day | UNDEFINED_CODE_3, 4 11 to 20 cigarettes a day | UNDEFINED_CODE_4, 5 21 to 40 cigarettes a day | UNDEFINED_CODE_5, 6 41 cigarettes a day | UNDEFINED_CODE_6, -8 Don't know | UNDEFINED_CODE_7, -7 Refused","PX720801",,,,,,,,,,"",""
+"pregnancy_tobacco_product_use","px720801_phenx_pregnancy_status_and_tobacco_use",,"radio","During your [most recent/ current] pregnancy, [did/have] you [use TOBACCO PRODUCT LIST below]?","UNDEFINED_CODE, 1 yes | UNDEFINED_CODE_1, 2 no | UNDEFINED_CODE_2, -8 Don't Know | UNDEFINED_CODE_3, -7 Refused","PX720801",,,,,,,,,,"",""
+"tobacco_list_720801","px720801_phenx_pregnancy_status_and_tobacco_use",,"descriptive","TOBACCO PRODUCT LIST, use the ones the respondent has ever used, excluding cigarettes:
+
+1. Cigarettes 
+2. E-cigarettes
+3. Traditional cigars 
+4. Cigarillos
+5. Filtered cigars 
+6. Pipe filled with tobacco 
+7. Hookah
+8. Snuff pouches 
+9. Smokeless tobacco (such as loose snuff, moist snuff, dip, spit or chew) 
+10. Dis-solvable tobacco 
+11. A nicotine patch, gum, inhaler, nasal spray, lozenge or pill
+12. Chantix, varenicline, Wellbutrin, Zyban, or ibupropion",,"PX720801",,,,,,,,,,"",""

@@ -1,0 +1,60 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_aspartate_aminotransferase_level_record_id","px811201_phenx_aspartate_aminotransferase_level",,"text","Record ID",,"PX811201",,,,,,,,,,"",
+"info_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","The following is a summary version of the full National Health and Nutrition Examination Survey 2011-2012 protocol.
+
+Exclusion Criteria
+
+Persons will be excluded from this component if they:
+
+Report that they have hemophilia; or
+Report that they have received cancer chemotherapy in the last 4 weeks
+
+SP = Sample Person.",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_have_hemophilia","px811201_phenx_aspartate_aminotransferase_level",,"radio","Do you have hemophilia?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX811201",,,,,,,,,,"",""
+"hemo_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_chemotheraphy_4weeks","px811201_phenx_aspartate_aminotransferase_level",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX811201",,,,,,,,,,"",""
+"chemo_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_age","px811201_phenx_aspartate_aminotransferase_level",,"text","Age",,"PX811201","number",,,,,,,,,"",""
+"aspartate_aminotransferase_amount","px811201_phenx_aspartate_aminotransferase_level",,"text","Red blood cell aspartate aminotransferase level",,"PX811201","number",,,,,,,,,"",""
+"aspartate_aminotransferase_assay_repeatability","px811201_phenx_aspartate_aminotransferase_level",,"text","Repeatability of the red blood cell aspartate aminotransferase assay",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_blood_draw_results","px811201_phenx_aspartate_aminotransferase_level",,"text","Record the results of the blood draw.",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_blood_draw_tube_deviation","px811201_phenx_aspartate_aminotransferase_level",,"text","Record reasons for a tube not being drawn according to the protocol.",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_coefficients_variation_assay","px811201_phenx_aspartate_aminotransferase_level",,"text","Coefficients of variation of the red blood cell aspartate aminotransferase assay",,"PX811201","number",,,,,,,,,"",""
+"aspartate_aminotransferase_equipment_make","px811201_phenx_aspartate_aminotransferase_level",,"text","Make of the equipment used to perform the red blood cell aspartate aminotransferase assay",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_equipment_manufacturer","px811201_phenx_aspartate_aminotransferase_level",,"text","Manufacturer of the equipment used to perform the red blood cell aspartate aminotransferase assay",,"PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_serum_description","px811201_phenx_aspartate_aminotransferase_level",,"radio","If serum is hemolyzed, turbid, lipemic, or iteric, then describe.","UNDEFINED_CODE,hemolyzed|UNDEFINED_CODE_1,turbid|UNDEFINED_CODE_2,lipemic|UNDEFINED_CODE_3,icteric","PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_serum_determination","px811201_phenx_aspartate_aminotransferase_level",,"radio","Determine if the serum is hemolyzed, turbid, lipemic, or icteric.","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX811201",,,,,,,,,,"",""
+"aspartate_aminotransferase_venipuncture_comments","px811201_phenx_aspartate_aminotransferase_level",,"text","Record any comments about the venipuncture.",,"PX811201",,,,,,,,,,"",""
+"venipuncture_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","Venipuncture Procedures
+
+Editor's Note: Please review chapter 4 of the Laboratory Procedures Manual from the 2011-2012 National Health and Nutrition Examination Survey (NHANES) for a full description of phlebotomy procedures. This manual is posted here, and is also available at the NHANES website: 2011-2012 NHANES Laboratory Procedures Manual.
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+
+Recording the Results of the Venipuncture Procedure
+
+Immediately after completing the venipuncture, record the results of the blood draw, the reasons for a tube not being drawn according to the protocol, and any comments about the venipuncture.",,"PX811201",,,,,,,,,,"",""
+"processing_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","Blood Processing
+
+Please review chapter 8 of the Laboratory Procedures Manual from the National Health and Nutrition Examination Survey 2011-2012 for a full description of blood processing procedures: 2011-2012 NHANES Laboratory Procedures Manual.
+
+Allow the blood to clot by setting aside for 30 to 45 minutes at room temperature. Do not clot for more than an hour.
+Centrifuge the tube at room temperature to separate the serum and aliquot into an appropriate storage tube.
+Determine if the serum is hemolyzed, turbid, lipemic, or icteric. If so, enter a comment to describe the serum.",,"PX811201",,,,,,,,,,"",""
+"lab_assay_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","Laboratory Assay for Aspartate Aminotransferase (AST)
+
+The Sickle Cell Disease Cardiovascular, Pulmonary, and Renal Working Group notes that there are a number of different assays and instruments that are appropriate to measure the concentration of aspartate aminotransferase (AST). Once an assay is chosen for a particular study, the Working Group recommends that no changes in the protocol be made over the course of the study. To aid comparability, the Working Group recommends that the investigator record the make and manufacturer of equipment used and the repeatability and coefficients of variation for the assay.",,"PX811201",,,,,,,,,,"",""
+"ranges_811201","px811201_phenx_aspartate_aminotransferase_level",,"descriptive","Reference Ranges for Aspartate Aminotransferase (AST):
+
+
+Age (years) \ IU/L
+
+0-6 \ 18-63
+6-10 \ 21-44
+10-20 \ 13-38
+>20 \ 13-33",,"PX811201",,,,,,,,,,"",""

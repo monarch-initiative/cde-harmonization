@@ -1,0 +1,12 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_healthy_food_environments_record_id","px210701_phenx_healthy_food_environments",,"text","Record ID",,"PX210701",,,,,,,,,,"",
+"quality_fresh_fruits_vegetables","px210701_phenx_healthy_food_environments",,"radio","The fresh fruits and vegetables in my neighborhood are of high quality.","1 , strongly agree|2 , agree|3 , neither agree nor disagree|4 , disagree|5 , strongly disagree","PX210701",,,,,,,,,,"",""
+"large_selection_fresh_fruits_vegetables","px210701_phenx_healthy_food_environments",,"radio","A large selection of fresh fruits and vegetables is available in my neighborhood.","1 , strongly agree|2 , agree|3 , neither agree nor disagree|4 , disagree|5 , strongly disagree","PX210701",,,,,,,,,,"",""
+"large_selection_low_fat_products","px210701_phenx_healthy_food_environments",,"radio","A large selection of low-fat products is available in my neighborhood.","1 , strongly agree|2 , agree|3 , neither agree nor disagree|4 , disagree|5 , strongly disagree","PX210701",,,,,,,,,,"",""
+"scoring_210701","px210701_phenx_healthy_food_environments",,"descriptive","Scoring Instructions
+
+The Perceived Availability of Healthy Foods Scale is estimated by taking the average across the three items (note that only respondents with complete information for all three items can be assigned a scale score).
+
+Lower mean scores indicate better availability of healthy foods (i.e., low-fat products, fruits, and vegetables).
+
+Note that in papers by Moore, Diez Roux, and Brines (2008) and Moore et al. (2008) the five-point Likert scale was reported as follows: 0 = strongly agree; 1 = agree; 2 = neither agree nor disagree; 3 = disagree; and 4 = strongly disagree.",,"PX210701",,,,,,,,,,"",""

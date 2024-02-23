@@ -1,0 +1,10 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_weight_loss_gain_record_id","px021401_phenx_weight_loss_gain",,"text","Record ID",,"PX021401",,,,,,,,,,"",
+"wt_in_pounds","px021401_phenx_weight_loss_gain",,"radio","ENTER WEIGHT IN POUNDS OR KILOGRAMS","1, POUNDS | 2, KILOGRAMS","PX021401",,,,,,,,,,"",""
+"weight_1year_ago_kgs","px021401_phenx_weight_loss_gain",,"text","How much did {you/[participant]} weigh a year ago?",,"PX021401","number",23,338,,"[wt_in_pounds] = '2'",,,,,"",""
+"weight_1year_ago_lbs","px021401_phenx_weight_loss_gain",,"text","How much did {you/[participant]} weigh a year ago?",,"PX021401","number",50,750,,"[wt_in_pounds] = '1'",,,,,"",""
+"weight_1year_ago_coded","px021401_phenx_weight_loss_gain",,"radio","How much did {you/[participant]} weigh a year ago?","777 , REFUSED|999 , DON'T KNOW","PX021401",,,,,,,,,,"",""
+"weight_before_pregnancy_kgs","px021401_phenx_weight_loss_gain",,"text","[If {you were/she was} pregnant a year ago, how much did {you/she} weigh before your pregnancy?]",,"PX021401","number",23,338,,"[wt_in_pounds] = '2'",,,,,"",""
+"weight_before_pregnancy_lbs","px021401_phenx_weight_loss_gain",,"text","[If {you were/she was} pregnant a year ago, how much did {you/she} weigh before your pregnancy?]",,"PX021401","number",50,750,,"[wt_in_pounds] = '1'",,,,,"",""
+"wt_before_pregnancy_coded","px021401_phenx_weight_loss_gain",,"radio","[If {you were/she was} pregnant a year ago, how much did {you/she} weigh before your pregnancy?]","777, REFUSED | 999, DON'T KNOW","PX021401",,,,,,,,,,"",""
+"wt_bef_pregn_proxy_name","px021401_phenx_weight_loss_gain",,"text","When the question is being asked of a proxy respondent, insert the participant's name here",,"PX021401",,,,,,,,,,"",""

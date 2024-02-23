@@ -1,0 +1,56 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_delayed_reward_discounting_monetary_choice_questionnaire_record_id","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"text","Record ID",,"PX530301",,,,,,,,,,"",
+"info_530301","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"descriptive","For each of the next 27 choices, please indicate which reward you would prefer: the smaller reward today, or the larger reward in the specified number of days.",,"PX530301",,,,,,,,,,"",""
+"fiftyforus_or_55_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $54 today, or $55 in 117 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"fiftyfive_or_75_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $55 today, or $75 in 61 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"ninetheen_or_25_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $19 today, or $25 in 53 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"thirthyone_or_85_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $31 today, or $85 in 7 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"fortheen_or_25_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $14 today, or $25 in 19 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"forthy7_or_50_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $47 today, or $50 in 160 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"fifteen_or_35_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $15 today, or $35 in 13 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twentyfive_or_60_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $25 today, or $60 in 14 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"seventy_or_80_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $78 today, or $80 in 162 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"forthy_or_55_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $40 today, or $55 in 62 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"eleven_or_30_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $11 today, or $30 in 7 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"sixtyseven_or_75_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $67 today, or $75 in 119 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"thirthyfive_or_35_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $34 today, or $35 in 186 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twentyseven_or_50_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $27 today, or $50 in 21 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"sixtynine_or_85_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $69 today, or $85 in 91 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"forthynine_or_60_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $49 today, or $60 in 89 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"eighty_or_85_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $80 today, or $85 in 157 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twenty_or_35_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $24 today, or $35 in 29 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"thirthythree_or_80_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $33 today, or $80 in 14 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twentyeight_or_30_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $28 today, or $30 in 179 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"thirthyfour_or_50_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $34 today, or $50 in 30 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twentyfive_or_30_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $25 today, or $30 in 80 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"forthyone_or_75_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $41 today, or $75 in 20 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"fiftyfour_or_60_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $54 today, or $60 in 111 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"fiftyfour_or_80_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $54 today, or $80 in 30 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twentytwo_or_25_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $22 today, or $25 in 136 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"twenty_or_55_mcq","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"radio","Would you prefer $20 today, or $55 in 7 days?","UNDEFINED_CODE,smaller reward today|UNDEFINED_CODE_1,larger reward in the specified number of days","PX530301",,,,,,,,,,"",""
+"scoring_530301","px530301_phenx_delayed_reward_discounting_monetary_choice_questionnaire",,"descriptive","Scoring
+
+A participant's discounting curve may be calculated according to the following function:
+
+V = A/(1+kD)
+
+V is the present value of the delayed reward A at delay D, and k is the rate of discounting. k typically falls between 0.0 and 0.5, with smaller values indicating a lack of discounting and preference for delayed rewards and higher values indicating strong discounting and a preference for immediate rewards. Thus higher values of k are indicative of high levels of impulsivity.
+
+There are two ways of scoring the Monetary-Choice Questionnaire. The first involves hand scoring to get an estimate of k following the guidelines given in Kirby (2000). The second involves fitting a logistic regression function to individual responses following procedures described in Wileyto et al. (2004).
+
+Estimating Discounting Rate
+
+The following lists the calculated k values (the degree of discounting) at indifference for each question (i.e., when the subjective value of the 
+immediate and delayed rewards are equivalent).
+
+Questions 13, 1 & 9:  k at indifference=.00016
+Questions 20, 6 & 17:  k at indifference=.00040
+Questions 26, 24 & 12:  k at indifference=.0010
+Questions 22, 16 & 15:  k at indifference=.0025
+Questions 3, 10 & 2:  k at indifference=.0060
+Questions 18, 21 & 25:  k at indifference=.016
+Questions 5, 14 & 23:  k at indifference=.041
+Questions 7, 8 & 19:  k at indifference=.10
+Questions 11, 27 & 4:  k at indifference=.25
+
+An estimate of the respondent's discounting rate can be calculated as the geometric mean (to avoid underweighting) of the k at indifference between the two questions that reflect when the respondent changes between choosing the delayed reward versus the immediate reward. In cases where the respondent's change between preferring the delayed versus the immediate reward is not consistent, the two questions that are most proportional to their responses are chosen. If the participant always chooses the immediate reward or the delayed reward, the estimation of k is equal to one of the endpoints (0.25 or 0.00016).",,"PX530301",,,,,,,,,,"",""

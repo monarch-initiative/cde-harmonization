@@ -1,0 +1,64 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_cue_reactions_to_tobacco_stimuli_record_id","px720501_phenx_cue_reactions_to_tobacco_stimuli","Relaxation Trial","text","Record ID",,"PX720501",,,,,,,,,,"",
+"relax_inst_720501","px720501_phenx_cue_reactions_to_tobacco_stimuli","Relaxation Trial","descriptive","Instructions: [Read to respondent, or pre-record and play over intercom]:
+
+""For the next 5 minutes, please sit quietly and relax.""
+
+[Let 5 minutes elapse].
+
+""Please take Folder #1 [contains study Brief]1, place it in front of you and open it. It is important that you clearly mark only one response for each line and that you choose a response for each line. Remember these questions (Self-reported Craving - Specific - Tobacco) are about how you're feeling right now. When you have finished the questionnaire in this folder, place it inside the folder and [return the folder to the rack].2 Do you have any questions? If not, you can begin.""",,"PX720501",,,,,,,,,,"",""
+"qsu_relaxation_trial_score","px720501_phenx_cue_reactions_to_tobacco_stimuli",,"text","Participant's reactions to the stimuli by conducting the Brief Questionnaire of Smoking Urges (QSU-Brief) in the Relaxation Trial",,"PX720501",,,,,,,,,,"",""
+"neutral_cues_720501","px720501_phenx_cue_reactions_to_tobacco_stimuli","Neutral Cues Trial","descriptive","Experimenter: Take tray containing neutral cues (a small notepad, pencil and eraser) into lab. These neutral cues are the control stimuli for the smoking cues below).
+
+The stimuli are placed on a tray and covered with a box.
+
+In person: ""Now we're ready to begin the next part of the study. In a moment I will give you instructions over the intercom"".
+
+From observation room, via intercom:
+
+""Please remove the cover and place it to the side.
+
+Please pick up the pencil. (8 seconds)
+
+Hold and look at the pencil for the next few minutes. (10 seconds)
+
+Pick up the eraser with your other hand.
+
+Hold the pencil in front of you. (40 seconds)
+
+Put the eraser down on the table. (5 seconds)
+
+Hold the pencil and look at it for the next few minutes. (1 minute)
+
+Please gently place the pencil and eraser back on the tray.
+
+We're going to continue with the questionnaires (Self-reported Craving - Specific - Tobacco). Now, please take Folder #2, place it in front of you.3 The instructions are the same as before. Remember, it is important that you clearly mark only one response for each line and that you choose a response for each line. These questions ask about how you're feeling right now. When you have finished the questionnaire in this folder, place it inside the folder and [return the folder to the rack]. Do you have any questions? If not, you can begin.""
+
+[Once the participant completes the questionnaire, puts it in the folder and moves the folder out of the way]:",,"PX720501",,,,,,,,,,"",""
+"qsu_neutral_cues_trial_score","px720501_phenx_cue_reactions_to_tobacco_stimuli",,"text","Participant's reactions to the stimuli by conducting the Brief Questionnaire of Smoking Urges (QSU-Brief) in the Neutral Cues Trial",,"PX720501",,,,,,,,,,"",""
+"smoking_cues_720501","px720501_phenx_cue_reactions_to_tobacco_stimuli","Smoking Cues Trial","descriptive","Experimenter: Prepare tray with cigarette pack (opened), ashtray and lighter, cover stimuli with box. Take tray into lab. Remove neutral trial tray.
+
+From observation room, via intercom:
+
+""We are now ready to begin the next part of the study. Please remove the cover and place it to the side.
+
+Pick up one of the cigarettes and hold the cigarette in whichever hand is comfortable. (8 seconds)
+
+Pick up the lighter with your other hand.
+
+Hold the cigarette in front of you and light the lighter. (10 seconds)
+
+Hold the cigarette at a downward angle in front of you and put the tip of the cigarette in the lighter flame until the cigarette begins to burn.
+
+Do not smoke or puff on the cigarette. (40 seconds)
+
+Please re-light the cigarette if it goes out during this trial.
+
+Put the lighter down on the table. (5 seconds)
+
+Hold the cigarette as you usually would, and look at it for the next few minutes without smoking it. (1 minute)
+
+Please gently put out the cigarette. Place the cigarette and lighter back on the tray.
+
+Now, take Folder #3 and place it in front of you.3 This is the same questionnaire as before (Self-reported Craving - Specific - Tobacco). Remember to answer it for how you are feeling right now. When you finish, [place the folder back in the rack].""",,"PX720501",,,,,,,,,,"",""
+"qsu_smoking_cues_trial_score","px720501_phenx_cue_reactions_to_tobacco_stimuli",,"text","Participant's reactions to the stimuli by conducting the Brief Questionnaire of Smoking Urges (QSU-Brief) in the Smoking Cues Trial",,"PX720501",,,,,,,,,,"",""

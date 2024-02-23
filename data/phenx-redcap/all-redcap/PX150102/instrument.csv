@@ -1,0 +1,17 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm_record_id","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Record ID",,"PX150102",,,,,,,,,,"",
+"instructions_150102","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"descriptive","Secure the heart-rate monitor chest strap and wrist receiver. Ask the study participant to warm up by walking on a treadmill at 0% grade at a brisk, but comfortable pace of 2 to 4.5 mph for 4 minutes. The warm up pace should produce a heart rate that is 50-70% of the age-predicted maximum heart rate (220 - age in years). After 4 minutes at 0% grade, begin the test by increasing the grade of the treadmill to 5%, start the stopwatch. The speed should remain the same for 4 minutes at the 5% grade. Heart rate from a heart-rate monitor should be obtained for the last 15 sec of the test. Record the speed, heart rate, age, and gender into the following scoring equation to determine predicted relative VO2max (maximal oxygen consumption)",,"PX150102",,,,,,,,,,"",""
+"pxt150102_sex","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"radio","Participant's sex","UNDEFINED_CODE,male|UNDEFINED_CODE_1,female","PX150102",,,,,,,,,,"",""
+"pxt150102_age","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Participant's age",,"PX150102","number",,,,,,,,,"",""
+"treadmill_speed","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Treadmill speed during warm up",,"PX150102","number",,,,,,,,,"",""
+"heart_rate_during_warmup","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Participant's heart rate during the 4-minute warmup as shown on the heart rate monitor.",,"PX150102","number",,,,,,,,,"",""
+"heart_rate_during_test","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Participant's heart rate during the last 10 minutes of the walk as shown on heart rate monitor",,"PX150102","number",,,,,,,,,"",""
+"pxt150102_time_to_complete_walk_minutes","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Time to complete entire 1 mile walk",,"PX150102","number",,,,,,,,,"",""
+"pxt150102_time_to_complete_walk_seconds","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"text","Time to complete entire 1 mile walk",,"PX150102","number",,,,,,,,,"",""
+"scoring_150102","px150102_phenx_cardiorespiratory_fitnessexercise_test_estimate_treadm",,"descriptive","Scoring
+
+VO2max = 15.1 + 21.8*SPEED (mph) - 0.327* HEART RATE (bpm) - 0.263*SPEED*AGE (yrs) + 0.00504*HEART RATE*AGE + 5.98*GENDER
+
+(0 = female, 1 = male)
+
+Units are milliliters of oxygen per kilogram body weight per minute expressed as mil/kg/min.",,"PX150102",,,,,,,,,,"",""

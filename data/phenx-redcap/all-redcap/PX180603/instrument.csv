@@ -1,0 +1,17 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+general_self_efficacy_child_record_id,px180603_general_self_efficacy_child,,text,"Record ID",,PX180603,,,,,,,,,,,
+general_self_efficacy_child_intro_text,px180603_general_self_efficacy_child,,descriptive,"Self-Efficacy (Ages 8-12) - Item Bank/Fixed Form
+
+Please respond to each question or statement by marking one box per row.
+
+Please read the sentence and decide how true it is of you in general.",,,,,,,,,,,,,
+general_self_efficacy_child_always_manage_difficult_problem_try,px180603_general_self_efficacy_child,,radio,"I can always manage to solve difficult problems if I try hard enough","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_can_find_way_get_what_want,px180603_general_self_efficacy_child,,radio,"If someone tries to keep me from getting what I want, I can find a way to get what I want","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_easy_stick_reach_goal,px180603_general_self_efficacy_child,,radio,"It is easy for me to stick to my goals and reach them","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_confident_good_job_unexpected_event,px180603_general_self_efficacy_child,,radio,"I am confident that I could do a good job dealing with unexpected events","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_talent_skill_handle_unexpected_event,px180603_general_self_efficacy_child,,radio,"Thanks to my talents and skills, I know how to handle unexpected situations","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_solve_problem_try_hard,px180603_general_self_efficacy_child,,radio,"I can solve most problems if I try hard enough","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_stay_calm_face_difficulty,px180603_general_self_efficacy_child,,radio,"I can stay calm when facing difficulties because I can handle them","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_problem_several_way_solve,px180603_general_self_efficacy_child,,radio,"When I have a problem, I can find several ways to solve it","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_trouble_think_solution,px180603_general_self_efficacy_child,,radio,"If I am in trouble, I can think of a solution","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,
+general_self_efficacy_child_handle_whatever_comes,px180603_general_self_efficacy_child,,radio,"I can handle whatever comes my way","1, Never|2, Almost Never|3, Sometimes|4, Fairly Often|5, Very Often",PX180603,,,,,,,,,mat1,,

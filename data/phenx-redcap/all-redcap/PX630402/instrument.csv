@@ -1,0 +1,53 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5_record_id","px630402_phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5",,"text","Record ID",,"PX630402",,,,,,,,,,"",
+"summary_630402","px630402_phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5",,"descriptive","Summary of the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5)
+
+The CAPS-5 is a 30-item semi-structured interview that is used to:
+
+Make current (past month) or lifetime diagnosis of PTSD
+Provide a continuous index of PTSD severity
+Assess PTSD symptoms over the past week
+In addition to assessing DSM-5 PTSD symptoms, questions target the onset and duration of symptoms, subjective distress, and impact of symptoms on social and occupational functioning, improvement in symptoms since a previous CAPS administration, overall response validity, and specifications for the dissociative subtype (depersonalization and derealization). Most symptom severity ratings are anchored to a combination of symptom frequency and intensity; only amnesia and diminished interest are anchored to amount of disturbance and intensity.
+
+Administration requires identification of an index traumatic event to serve as the basis for symptom inquiry. The Life Events Checklist for DSM-5 (LEC-5, see Trauma Adversity and Exposure) is recommended in addition to the Criterion A inquiry included in the CAPS-5. Standardized questions and probes are provided for each symptom.
+
+The CAPS was designed to be administered by clinicians and clinical researchers who have a working knowledge of PTSD, but can also be administered by appropriately trained paraprofessionals. The full interview takes 45-60 minutes to administer.",,"PX630402",,,,,,,,,,"",""
+"changes_630402","px630402_phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5",,"descriptive","Changes to CAPS for DSM-5 (compared to CAPS for DSM-IV)
+
+
+CAPS for DSM-IV asked respondents to endorse up to three traumatic events to keep in mind during the interview. CAPS-5 requires the identification of a single index trauma to serve as the basis of symptom inquiry.
+CAPS-5 is a 30-item interview, corresponding to the DSM-5 diagnosis for PTSD. The language of the CAPS-5 reflects changes to the definition of the traumatic event (Criterion A), changes to existing symptoms, and the addition of new symptoms in DSM-5. CAPS-5 asks questions relevant to assessing the dissociative subtype of PTSD (depersonalization and derealization), but no longer includes other associated symptoms (e.g., gaps in awareness).
+As with previous versions of the CAPS, CAPS-5 symptom severity ratings are based on symptom frequency and intensity (except for amnesia and diminished interest which are based on amount and intensity). However, CAPS-5 items are rated with a single severity score in contrast to previous versions of the CAPS, which required separate frequency and intensity scores.
+General instructions and scoring information are included with the CAPS-5.",,"PX630402",,,,,,,,,,"",""
+"sample_630402","px630402_phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5",,"descriptive","Sample Item:
+
+In the past month, have you had any unwanted memories of (EVENT) while you were awake, so not counting dreams? How does it happen that you start remembering (EVENT)?
+
+[If not clear:] (Are these unwanted memories, or are you thinking about [EVENT] on purpose?) How much do these memories bother you? Are you able to put them out of your mind and thing about something else? How often have you had these memories in the past month? # of times ______.
+
+Severity Rating
+
+0. Absent: The respondent denied the problem of the respondent's report doesn't fit the DSM-5 symptom criterion.
+
+1. Mild/subthreshold: The respondent described a problem that is consistent with the symptom criterion but isn't severe enough to be considered clinically significant. The problem doesn't satisfy the DSM-5 symptom criterion and thus doesn't count toward a PTSD diagnosis.
+
+2. Moderate/threshold: The respondent described a clinically significant problem. The problem satisfies the DSM-5 symptom criterion and thus counts toward a PTSD diagnosis. The problem would be a target for intervention. This rating requires a minimum frequency of 2 x month or some of the time (20-30%) PLUS a minimum intensity of Clearly Present.
+
+3. Severe/markedly elevated: The respondent described a problem that is above threshold. The problem is difficult to manage and at times overwhelming, and would be a prominent target for intervention. This rating requires a minimum frequency of 2 x week or much of the time (50-60%) PLUS a minimum intensity of Pronounced.
+
+4. Extreme/incapacitating: The respondent described a dramatic symptom, far above threshold. The problem is pervasive, unmanageable, and overwhelming, and would be a high-priority target for intervention.",,"PX630402",,,,,,,,,,"",""
+"scoring_630402","px630402_phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5",,"descriptive","Scoring:
+
+Detailed scoring information is included with the CAPS-5 and should be reviewed carefully before administering. Briefly, the assessor combines information about frequency and intensity of an item into a single severity rating. CAPS-5 total symptom severity score is calculated by summing severity scores for the 20 DSM-5 PTSD symptoms. Similarly, CAPS-5 symptom cluster severity scores are calculated by summing the individual item severity scores for symptoms corresponding to a given DSM-5 cluster: Criterion B (items 1-5); Criterion C (items 6-7); Criterion D (items 8-14); and, Criterion E (items 15-20). A symptom cluster score may also be calculated for dissociation by summing items 19 and 20.
+
+PTSD diagnostic status is determent by first dichotomizing each symptom as ""present"" or ""absent,"" then following the DSM-5 diagnostic rule. A symptom is considered present only if the corresponding item severity score is rated 2 (""moderate/threshold"") or higher. The DSM-5 PTSD diagnostic rule requires:
+
+At least one Criterion B symptom
+At least one Criterion C symptom
+At least two Criterion D symptoms
+At least two Criterion E symptoms
+Criterion F is met (disturbance has lasted one month)
+Criterion G is met (disturbance cause either clinically significant distress or functional impairment)",,"PX630402",,,,,,,,,,"",""
+"availibility_630402","px630402_phenx_ptsd_symptoms_severity_and_diagnosis_dsm_5",,"descriptive","Availability:
+
+The Clinician-Administered PTSD Scale for DSM-5 (CAPS-5) is available from the National Center for PTSD www.ptsd.va.gov.",,"PX630402",,,,,,,,,,"",""

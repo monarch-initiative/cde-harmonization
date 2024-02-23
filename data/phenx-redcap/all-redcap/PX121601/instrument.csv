@@ -1,0 +1,90 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_psychopathy_record_id","px121601_phenx_psychopathy",,"text","Record ID",,"PX121601",,,,,,,,,,"",
+"instr_0121601","px121601_phenx_psychopathy",,"descriptive","Triarchic Psychopathy Measure (TriPM):
+
+Instructions:
+
+This questionnaire contains statements that different people might use to describe themselves. Each statement is followed by four options:
+
+ True, Somewhat true, Somewhat false, False
+
+For each statement, choose the option that describes you best. There are no right or wrong answers; just choose the option that best describes you.",,"PX121601",,,,,,,,,,"",""
+"optimistic","px121601_phenx_psychopathy",,"radio","1. I'm optimistic more often than not.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"other_peoples_feelings","px121601_phenx_psychopathy",,"radio","2. How other people feel is important to me.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"act_on_immediate_needs","px121601_phenx_psychopathy",,"radio","3. I often act on immediate needs.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"parachute","px121601_phenx_psychopathy",,"radio","4. I have no strong desire to parachute out of an airplane.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"missed_events","px121601_phenx_psychopathy",,"radio","5. I've often missed things I promised to attend.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"high_speed_chase","px121601_phenx_psychopathy",,"radio","6. I would enjoy being in a high-speed chase.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"deal_with_stress","px121601_phenx_psychopathy",,"radio","7. I am well-equipped to deal with stress.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"someone_i_dislike_gets_hurt","px121601_phenx_psychopathy",,"radio","8. I don't mind if someone I dislike gets hurt.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"impulsive_decisions","px121601_phenx_psychopathy",,"radio","9. My impulsive decisions have caused problems with loved ones.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"easily_scared","px121601_phenx_psychopathy",,"radio","10. I get scared easily.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"sympathize_with_others","px121601_phenx_psychopathy",,"radio","11. I sympathize with others' problems.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"missed_work_without_calling","px121601_phenx_psychopathy",,"radio","12. I have missed work without bothering to call in.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"born_leader","px121601_phenx_psychopathy",,"radio","13. I'm a born leader.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"enjoy_physical_fight","px121601_phenx_psychopathy",,"radio","14. I enjoy a good physical fight.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"jump_without_thinking","px121601_phenx_psychopathy",,"radio","15. I jump into things without thinking.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"things_turn_out_my_way","px121601_phenx_psychopathy",,"radio","16. I have a hard time making things turn out the way I want.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"return_insults","px121601_phenx_psychopathy",,"radio","17. I return insults.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"missed_too_much_school","px121601_phenx_psychopathy",,"radio","18. I've gotten in trouble because I missed too much school.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"influence_people","px121601_phenx_psychopathy",,"radio","19. I have a knack for influencing people.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"other_peoples_pain","px121601_phenx_psychopathy",,"radio","20. It doesn't bother me to see someone else in pain.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"good_self_control","px121601_phenx_psychopathy",,"radio","21. I have good control over myself.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"new_situations","px121601_phenx_psychopathy",,"radio","22. I function well in new situations, even when unprepared.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"enjoy_pushing_others_around","px121601_phenx_psychopathy",,"radio","23. I enjoy pushing people around sometimes.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"take_money_from_wallet","px121601_phenx_psychopathy",,"radio","24. I have taken money from someone's purse or wallet without asking.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"not_talented","px121601_phenx_psychopathy",,"radio","25. I don't think of myself as talented.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"taunt_others","px121601_phenx_psychopathy",,"radio","26. I taunt people just to stir things up.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"abuse_trust","px121601_phenx_psychopathy",,"radio","27. People often abuse my trust.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"less_fear_than_others","px121601_phenx_psychopathy",,"radio","28. I'm afraid of far fewer things than most people.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"not_worried_about_hurting_others","px121601_phenx_psychopathy",,"radio","29. I don't see any point in worrying if what I do hurts someone else.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"keep_appointments","px121601_phenx_psychopathy",,"radio","30. I keep appointments I make.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"bore_quickly","px121601_phenx_psychopathy",,"radio","31. I often get bored quickly and lose interest.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"not_traumatized_like_others","px121601_phenx_psychopathy",,"radio","32. I can get over things that would traumatize others.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"sensitive_to_others_feelings","px121601_phenx_psychopathy",,"radio","33. I am sensitive to the feelings of others.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"conned_people_for_money","px121601_phenx_psychopathy",,"radio","34. I have conned people to get money from them.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"worried_about_unfamiliar_situations","px121601_phenx_psychopathy",,"radio","35. It worries me to go into an unfamiliar situation without knowing all the details.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"no_sympathy_for_others","px121601_phenx_psychopathy",,"radio","36. I don't have much sympathy for people.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"trouble_not_consider_consequences","px121601_phenx_psychopathy",,"radio","37. I get in trouble for not considering the consequences of my actions.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"convince_others","px121601_phenx_psychopathy",,"radio","38. I can convince people to do what I want.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"honesty_best_policy","px121601_phenx_psychopathy",,"radio","39. For me, honesty really is the best policy.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"injured_to_see_pain","px121601_phenx_psychopathy",,"radio","40. I've injured people to see them in pain.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"dont_like_lead_groups","px121601_phenx_psychopathy",,"radio","41. I don't like to take the lead in groups.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"insult_to_get_reaction","px121601_phenx_psychopathy",,"radio","42. I sometimes insult people on purpose to get a reaction from them.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"stolen_from_store","px121601_phenx_psychopathy",,"radio","43. I have taken items from a store without paying for them.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"easily_embarrassed","px121601_phenx_psychopathy",,"radio","44. It's easy to embarrass me.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"enjoy_danger","px121601_phenx_psychopathy",,"radio","45. Things are more fun if a little danger is involved.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"hard_to_wait","px121601_phenx_psychopathy",,"radio","46. I have a hard time waiting patiently for things I want.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"avoid_physical_danger","px121601_phenx_psychopathy",,"radio","47. I stay away from physical danger as much as I can.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"dont_mind_hurting_others","px121601_phenx_psychopathy",,"radio","48. I don't care much if what I do hurts others.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"actions_lost_friends","px121601_phenx_psychopathy",,"radio","49. I have lost a friend because of irresponsible things I've done.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"stack_up_to_others","px121601_phenx_psychopathy",,"radio","50. I don't stack up well against most others.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"others_concerned_lack_self_control","px121601_phenx_psychopathy",,"radio","51. Others have told me they are concerned about my lack of self-control.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"relate_to_peoples_emotions","px121601_phenx_psychopathy",,"radio","52. It's easy for me to relate to other people's emotions.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"robbed_someone","px121601_phenx_psychopathy",,"radio","53. I have robbed someone.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"not_worried_about_looking_foolish","px121601_phenx_psychopathy",,"radio","54. I never worry about making a fool of myself with others.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"not_bothered_by_people_hurting","px121601_phenx_psychopathy",,"radio","55. It doesn't bother me when people around me are hurting.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"problems_at_work_because_irresponsible","px121601_phenx_psychopathy",,"radio","56. I have had problems at work because I was irresponsible.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"not_good_at_influencing_others","px121601_phenx_psychopathy",,"radio","57. I'm not very good at influencing people.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"stolen_from_vehicle","px121601_phenx_psychopathy",,"radio","58. I have stolen something out of a vehicle.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, Somewhat true | UNDEFINED_CODE_2, Somewhat false | UNDEFINED_CODE_3, FALSE","PX121601",,,,,,,,,,"",""
+"scoring_0121601","px121601_phenx_psychopathy","Scoring","descriptive","Step 1: Coding Responses
+
+For items followed by [F]-i.e., items 2, 4, 10, 11, 16, 21, 25, 30, 33, 35, 39, 41, 44, 47, 50, 52, 57-code responses as follows: True = 0; Somewhat true = 1; Somewhat false = 2; False = 3.
+
+Code responses for all other items as follows: True = 3; Somewhat true = 2; Somewhat false = 1; False = 0.
+
+Step 2: Computing Scale Scores and Total Scores
+
+Boldness subscale (19 items)-Sum coded responses for the following items:
+
+1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 32, 35, 38, 41, 44, 47, 50, 54, 57
+
+Meanness subscale (19 items)-Sum coded responses for the following items:
+
+2, 6, 8, 11, 14, 17, 20, 23, 26, 29, 33, 36, 39, 40, 42, 45, 48, 52, 55
+
+Disinhibition subscale (20 items)-Sum coded responses for the following items:
+
+3, 5, 9, 12, 15, 18, 21, 24, 27, 30, 31, 34, 37, 43, 46, 49, 51, 53, 56, 58
+
+Total Psychopathy score-Sum scores across the three subscales.",,"PX121601",,,,,,,,,,"",""

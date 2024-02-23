@@ -1,0 +1,32 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_expired_carbon_monoxide_record_id","px720301_phenx_expired_carbon_monoxide",,"text","Record ID",,"PX720301",,,,,,,,,,"",
+"info_720301","px720301_phenx_expired_carbon_monoxide",,"descriptive","Carbon Monoxide Collection: Standard Operating Procedure (SOP)
+
+1. Make sure the participant is standing before beginning CO collection.
+      a. If the participant is unable to stand, have him or   her sit up as straight as possible.
+
+2. Turn on the Bedfont Micro+ Smokerlyzer by pressing and holding the on/off button, located on the top of the monitor.
+
+3. While the monitor is loading, attach the D-piece to the monitor and attach a cardboard mouthpiece to the D-piece. Check that all of the connections are pushed firmly together.
+     a. The monitor will inform you when the D-piece should be changed (approximately every 4 weeks).
+     b. A new cardboard mouthpiece should be used each time.
+
+4. The monitor is ready when the display is shown.
+
+5. Explain the instructions to the participant.
+     a. Read: ""When I tell you, I want you to take a deep breath, filling your lungs completely, and hold it for 15 seconds (demonstrate proper deep breath). The monitor will count down the time on the screen. Near the end of the 15 seconds when the monitor begins to beep, I will hand it to you. Please be sure that your hand is not pressing against the exhaust port on the back (show port). After the three beeps, I will tell you when to breathe out slowly and steadily into the monitor for at least 6 seconds. The idea is to empty your lungs. For the exhale, you want to form a tight seal with your lips around the cardboard mouthpiece (point to mouthpiece). When you are finished exhaling, please hand the monitor back to me. Any questions? Are you ready to begin?""
+
+6. Once the participant is ready to begin, touch the on-screen icon of a person blowing into a monitor to start the breath test and ask the participant to take a deep breath and hold.
+
+7. At the end of the countdown, hand the monitor to the participant and inform the participant when to exhale.
+
+8. Make sure the participant follows the directions properly.
+
+9. The monitor has shown the final reading when the number stops increasing and the icons are displayed on the screen.
+
+10. Record the expired breath carbon monoxide reading.
+
+11. Turn off the monitor by pressing and holding the on/off button.
+
+12. Remove the D-piece from the monitor, remove and dispose of the cardboard mouthpiece, and put the monitor and D-piece back in the case.",,"PX720301",,,,,,,,,,"",""
+"expired_carbon_monoxide_concentration","px720301_phenx_expired_carbon_monoxide",,"text","Expired carbon monoxide concentration in COppm/COHb",,"PX720301",,,,,,,,,,"",""

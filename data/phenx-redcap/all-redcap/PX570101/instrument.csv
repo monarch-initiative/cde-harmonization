@@ -1,0 +1,109 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_body_mass_index_record_id","px570101_phenx_body_mass_index",,"text","Record ID",,"PX570101",,,,,,,,,,"",
+"instructions_570101","px570101_phenx_body_mass_index",,"descriptive","Standing Height Protocol Ask the participant to remove hair ornaments, jewelry, buns, or braids from the top of the head that interfere with the measurement. Shoes should be removed.
+
+Ask the participant to stand erect against the backboard with the body weight evenly distributed and both feet flat on the stadiometer platform (Exhibit 1). The participant's feet should be positioned with the heels together and toes pointed slightly outward at approximately a 60 degree angle. Check to be sure that the back of the head, shoulder blades, buttocks, and heels make contact with the backboard of the stadiometer.
+
+Note: Depending on the overall body conformation of the individual, all four contact points-head, shoulders, buttocks, and heels-may or may not touch the stadiometer backboard (Exhibit 2). For example, elderly survey participants may have kyphosis, a forward curvature of the spine that appears as a hump at the upper back. In particular, dowager's hump is a form of kyphosis that creates a hump at the back of the neck. Additionally, some overweight survey participants cannot stand straight while touching all four contact points to the backboard. In such instances, it is important to obtain the best measurement possible according to the protocol.
+
+Stature measurements are made with the head aligned in the Frankfort horizontal plane (Exhibit 2). The head is in the Frankfort plane when the horizontal line from the ear canal to the lower border of the orbit of the eye is parallel to the floor and perpendicular to the vertical backboard (see Exhibit 2). Many people will assume this position naturally, but for some survey participants the examiner may need to gently tilt the head up or down to achieve the proper alignment. Instruct the survey participant to look straight ahead.
+
+If you cannot position the participant such that his or her trunk remains vertical above the waist, such that the arms and shoulders are relaxed, and such that the head is positioned in the Frankfort plane, be sure to note this in the measurement record. This information might be useful to interpret study findings. In the National Health and Nutrition Examination Study 2007-2008, a comment described as ""Not Straight"" is noted in the stature record.
+
+Once positioned, lower the stadiometer headpiece so that it rests firmly on top of the participant's head, with sufficient pressure to compress the hair. Instruct the survey participant to stand as tall as possible, take a deep breath, and hold this position. The act of taking a deep breath helps straighten the spine to yield a more consistent and reproducible stature measurement. Notice that the inhalation will cause the headpiece to rise slightly.
+
+As soon as the participant inhales, record the measurement. After recording the measurement, tell the participant to relax. Once the measurement is taken, raise the stadiometer headpiece and have the participant step away from the stadiometer.
+
+Adjustments for shoes and hair: When participants cannot remove hair braids, buns, and headwear that interfere with the stature measurement, measure the distance from the scalp to the top of the hair with a small ruler to the nearest 0.1 cm. If shoes are worn, measure the height of the shoe heel to the nearest 0.1 cm. A corrected height value can be calculated by subtracting these distances from the original stature measurement, thus yielding an adjusted stature value.
+
+Record standing height in meters (or centimeters) or inches. Repeat height measurement.",,"PX570101",,,,,,,,,,"",""
+"bmi_exhibit_1","px570101_phenx_body_mass_index",,"descriptive","Exhibit 1. Stadiometer with a fixed length backboard and an adjustable headpiece",,"PX570101",,,,,,,,,,"",""
+"bmi_exhibit_2","px570101_phenx_body_mass_index",,"descriptive","Exhibit 2. Body Orientation for Standing Height Measurement and Frankfort Horizontal Plane",,"PX570101",,,,,,,,,,"",""
+"standing_height_1_feets","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, first measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_1_inches","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, first measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_1_meters","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, first measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_2_feets","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, second measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_2_inches","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, second measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_2_meters","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, second measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_3_feets","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, third measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_3_inches","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, third measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_3_meters","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, third measurement",,"PX570101",,,,,,,,,,"",""
+"standing_height_average_feets","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, average",,"PX570101",,,,,,,,,,"",""
+"standing_height_average_inches","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, average",,"PX570101",,,,,,,,,,"",""
+"standing_height_average_meters","px570101_phenx_body_mass_index",,"text","Standing Height measured in centimeter, average",,"PX570101",,,,,,,,,,"",""
+"weight_instr_570101","px570101_phenx_body_mass_index",,"descriptive","Current Measured Weight Protocol
+
+A digital scale or beam balance is used to weigh participants.
+
+Participants are asked to wear an examination gown and socks or light clothes without shoes. Only undergarments are worn beneath the gown. The procedures for obtaining the weight measurement are as follows:
+
+The examiner briefly informs the participant that his/her weight will be measured. Participants are asked to remove objects such as cell phones, wallets, and toys from their pockets.
+
+The health technician directs participants to stand in the center of the scale platform with hands at their sides and looking straight ahead.
+The weight measurement is recorded in kilograms or pounds.
+Special situations:
+Small children: Infants and toddlers who cannot stand alone on the scale will be weighed with an adult, with an infant's scale. If an adult is holding the child, then the adult guardian or the health technician will stand alone on the scale so the scale can be tared. This sets the scale readout to zero. The child is then handed to the adult and the child's weight is measured.
+If the participant is wearing a cast or medical prosthesis, make a note in the record of the location and place.
+If the participant wore street clothes instead of the examination gown, make a note of this in the record. It is acceptable for infants to wear diapers or underpants and a t-shirt.
+Participants should not be weighed if they are wearing shoes.
+Note that special consideration may be needed for participants whose weight exceeds the capacity of the study scale. For example, weight can be obtained using two portable scales:
+Have the participant stand with one foot on each portable scale.
+Combine the two results to approximate the weight.
+Record the weight.
+If the weight equals the capacity of both portable scales, note that the weight Equals Capacity (EC) of the scales.
+Record current weight in pounds or kilograms. Repeat weight measurement.",,"PX570101",,,,,,,,,,"",""
+"cast_or_medical_prosthesis","px570101_phenx_body_mass_index",,"radio","Record whether the participant is wearing a cast or prosthesis.","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX570101",,,,,,,,,,"",""
+"cast_or_medical_prosthesis_location","px570101_phenx_body_mass_index",,"text","If the participant is wearing one, record the location of a cast or medical prosthesis",,"PX570101",,,,,,,,,,"",""
+"street_clothes","px570101_phenx_body_mass_index",,"radio","Record whether or not the participant is wearing street (as opposed to a gown) clothes during measurement.","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX570101",,,,,,,,,,"",""
+"measured_weight_1_pounds","px570101_phenx_body_mass_index",,"text","Measured weight in lbs, first measurement",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_2_pounds","px570101_phenx_body_mass_index",,"text","Measured weight in lbs, second measurement",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_3_pounds","px570101_phenx_body_mass_index",,"text","Measured weight in lbs, third measurement",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_average_pounds","px570101_phenx_body_mass_index",,"text","Measured weight in lbs, average",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_1_kilograms","px570101_phenx_body_mass_index",,"text","Measured weight in kg, first measurement",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_2_kilograms","px570101_phenx_body_mass_index",,"text","Measured weight in kg, second measurement",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_3_kilograms","px570101_phenx_body_mass_index",,"text","Measured weight in kg, third measurement",,"PX570101",,1,1000,,,,,,,"",""
+"measured_weight_average_kilograms","px570101_phenx_body_mass_index",,"text","Measured weight in kg, average",,"PX570101",,1,1000,,,,,,,"",""
+"bmi__kilogram_per_squaremeter","px570101_phenx_body_mass_index",,"text","calculated BMI in kg/m2",,"PX570101",,1,1000,,,,,,,"",""
+"bmi__pound_per_squareinch","px570101_phenx_body_mass_index",,"text","calculated BMI in lb/in2",,"PX570101",,1,1000,,,,,,,"",""
+"bmi_570101","px570101_phenx_body_mass_index",,"descriptive","Derivation of Body Mass Index (BMI)
+
+BMI calculations are recommended in children (2+ years) and adults, but some references suggest that the calculations are relevant from birth.
+
+Measurement Units
+
+Formula and Calculation
+
+Kilograms and meters (or centimeters)
+
+Formula: BMI = weight (kg) / [height (m)]2
+With the metric system, the formula for BMI is weight in kilograms divided by height in meters squared. Since height is commonly measured in centimeters, divide height in centimeters by 100 to obtain height in meters.
+Example: Weight = 68 kg, Height= 165 cm (1.65 m)
+Calculation: 68÷(1.65)2= 24.98
+
+Pounds and inches
+
+Formula: BMI = weight (lb) / [height (in)]2 x 703
+Calculate BMI by dividing weight in pounds (lbs) by height in inches (in) squared and multiplying by a conversion factor of 703.
+Example: Weight = 150 lbs, Height = 5'5"" (65"")
+Calculation: [150 ÷ (65)2] x 703 = 24.96
+
+Source: Centers for Disease Control and Prevention website. Body Mass Index page.",,"PX570101",,,,,,,,,,"",""
+"interpretation_bmi","px570101_phenx_body_mass_index",,"descriptive","Interpretation of BMI in Adults
+
+The following categories are used to interpret BMI in both adult men and women (20 years old and older).
+
+Underweight : below 18.5
+Normal weight: 18.5-24.9
+Overweight: 25-29.9
+Obesity: 30 and above
+Source: Centers for Disease Control and Prevention website. Body Mass Index page.
+
+Interpretation of BMI in Children and Teens
+
+
+BMI for children and teens is age- and sex-specific, so it is often referred to as BMI-for-age. After calculating BMI, the BMI number should be plotted on the BMI-for-age growth chart (available for boys and girls, separately, from the Centers for Disease Control and Prevention website) to obtain a percentile ranking. The following categories are used to interpret BMI-for-age in children and teens.
+
+Underweight: less than the 5th percentile
+Normal weight: 5th percentile to less than the 85th percentile
+Overweight: 85th to less than the 95th percentile
+Obesity: equal to or greater than the 95th percentile",,"PX570101",,,,,,,,,,"",""

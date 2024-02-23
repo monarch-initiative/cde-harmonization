@@ -1,0 +1,16 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_sweat_chloride_test_record_id","px221701_phenx_sweat_chloride_test",,"text","Record ID",,"PX221701",,,,,,,,,,"",
+"instructions_221701","px221701_phenx_sweat_chloride_test",,"descriptive","The following description is a summary. See Clinical and Laboratory Standards Institute (CLSI) document C34-A2 for the full protocol. The test should be performed at a CFF accredited laboratory. In addition, the CFF has also provided testing guidelines (LeGrys et al., 2007) that should be followed.
+
+Pilocarpine is applied to gauze or filter paper.
+Electrodes are attached to the gauze or filter paper.
+The electrodes are attached to the newborn's lower arm or upper leg for about 5 minutes. Sweat collection should not occur longer than 30 minutes.
+Collect a minimum of 75 mg of sweat.
+Quantitatively analyze the sweat for chloride concentration by coulometric titration using a chloridometer, or using the Schales and Schales mercuric nitrate procedure or an automated analyzer that has been validated against the other methods.
+It is recommended but not required that the test be repeated on the newborn.",,"PX221701",,,,,,,,,,"",""
+"sweattest_borderlien","px221701_phenx_sweat_chloride_test",,"text","Negative Sweat test - Cystic Fibrosis",,"PX221701",,,"< 40",,,,,,,"",""
+"sweattest_negative","px221701_phenx_sweat_chloride_test",,"text","Borderline Sweat test - Cystic Fibrosis",,"PX221701",,"40","60",,,,,,,"",""
+"sweattest_positive","px221701_phenx_sweat_chloride_test",,"text","Positive Sweat test - Cystic Fibrosis",,"PX221701",,">60",,,,,,,,"",""
+"values_221701","px221701_phenx_sweat_chloride_test",,"descriptive","Reference values
+
+Sweat chloride concentrations < 40 mmol/L are negative; 40 to 60 mmol/L are borderline/intermediate; > 60 mmol/L are positive.",,"PX221701",,,,,,,,,,"",""

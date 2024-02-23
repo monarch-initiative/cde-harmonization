@@ -1,0 +1,43 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_internalizing_externalizing_and_substance_use_disorders_record_id","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"text","Record ID",,"PX580101",,,,,,,,,,"",
+"instructions_580101","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"descriptive","The following questions are about common psychological, behavioral, and personal problems. These problems are considered significant when you have them for 2 or more weeks, when they keep coming back, when they keep you from meeting your responsibilities, or when they make you feel like you can't go on.
+
+After each of the following questions, please tell us the last time, if ever, you had the problem, by answering whether it was in the past month, 2 to 12 months ago, more than 1 year ago, or never.",,"PX580101",,,,,,,,,,"",""
+"pxt580101_feeling_depressed_hopeless","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","1a. When was the last time that you had significant problems with feeling very trapped, lonely, sad, blue, depressed, or hopeless about the future?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_sleep_trouble","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","1b. When was the last time that you had significant problems with sleep trouble, such as bad dreams, sleeping restlessly, or falling asleep during the day?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_feeling_anxious_nervous","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","1c. When was the last time that you had significant problems with feeling very anxious, nervous, tense, scared, panicked, or like something bad was going to happen?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_distressed_about_past","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","1d. When was the last time that you had significant problems with becoming very distressed and upset when something reminded you of the past?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_committing_suicide","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","1e. When was the last time that you had significant problems with a. feeling very trapped, lonely, sad, blue, depressed, or hopeless about the future?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_lied_or_conned","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","2a. When was the last time that you did the following things two or more times? Lied or conned to get things you wanted or to avoid having to do something?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_hard_time_paying_attention","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","2b. When was the last time that you did the following things two or more times? Had a hard time paying attention at school, work, or home?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_hard_time_listening_to_instructions","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","2c. When was the last time that you did the following things two or more times? Had a hard time listening to instructions at school, work, or home?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_threatened_other_people","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","2d. When was the last time that you did the following things two or more times? Were a bully or threatened other people?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_started_physical_fights","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","2e. When was the last time that you did the following things two or more times? Started physical fights with other people?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_used_alcohol_or_drugs_weekly","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","3a. When was the last time that you used alcohol or other drugs weekly or more often?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_lot_of_time_alcohol_drugs","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","3b. When was the last time that you spent a lot of time either getting alcohol or other drugs, using alcohol or other drugs, or recovering from the effects of alcohol or other drugs (e.g., feeling sick)?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_continued_using_alcohol_drugs","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","3c. When was the last time that you kept using alcohol or other drugs even though it was causing social problems, leading to fights, or getting you into trouble with other people?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_alcohol_drugs_caused_reduced_involvement","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","3d. When was the last time that your use of alcohol or other drugs caused you to give up or reduce your involvement in activities at work, school, home, or social events?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"pxt580101_withdrawal_problems","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"radio","3e. When was the last time that you had withdrawal problems from alcohol or other drugs, like shaky hands, throwing up, having trouble sitting still or sleeping, or you used any alcohol or other drugs to stop being sick or avoid withdrawal problems?","3, Past month | 2, 2 to 12 months ago | 1, 1+ years ago | 0, Never","PX580101",,,,,,,,,,"",""
+"scoring_580101","px580101_phenx_internalizing_externalizing_and_substance_use_disorders",,"descriptive","Scoring and interpretation
+
+The three subscreeners consist of the following items:
+
+     1a to 1e for the Internalizing Disorder Screener (IDScr)
+     2a to 2e for the Externalizing Disorder Screener   (EDScr)
+     3a to 3e for the Substance Disorder Screener (SDScr)
+
+The count of past-month (3's) responses is used as a measure of change. The count of past-year (3's or 2's) responses is used to predict past year/current diagnosis. The count of lifetime (3's, 2's, or 1's) responses is used to predict lifetime diagnosis. Counts are triaged into low (0 symptoms), moderate (1-2 symptoms), and high (3 or more symptoms) severity. Remission overall or in a given area is defined as lifetime ""moderate/high"" severity but no symptoms in the past month (early) or past year (sustained).
+
+Be sure to count, instead of sum, the raw answers. For example, if the client's responses for the items in the IDScr were:
+
+1a = 3 (past month)
+
+1b = 2 (2-12 months ago)
+
+1c = 3 (past month)
+
+1d = 1 (more than 12 months ago)
+
+1e = 0 (never)
+
+Then, the IDScr past year score would be 3, since 1a, 1b, and 1c reflect past-year symptoms. The past-month version would be the count of the 3's, and lifetime would be the count of 1's, 2's, and 3's.",,"PX580101",,,,,,,,,,"",""

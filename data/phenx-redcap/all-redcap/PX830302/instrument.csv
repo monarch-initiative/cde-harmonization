@@ -1,0 +1,9 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+hemoglobin_characterization_record_id,px830302_hemoglobin_characterization,,text,"Record ID",,PX830302,,,,,,,,,,,
+hemoglobin_characterization_blood_draw,px830302_hemoglobin_characterization,,radio,"Was the blood drawn into an appropriate EDTA tube?","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No",PX830302,,,,,,,,,,,
+hemoglobin_characterization_assay_equipment_manufacturer,px830302_hemoglobin_characterization,,text,"Who is the manufacturer of the equipment used?",,PX830302,,,,,,,,,,,
+hemoglobin_characterization_assay_equipment_make,px830302_hemoglobin_characterization,,text,"What is the make of the equipment used?",,PX830302,,,,,,,,,,,
+hemoglobin_characterization_assay_equipment_coefficients,px830302_hemoglobin_characterization,,text,"What are the coefficients of variation for the assay?",,PX830302,number,,,,,,,,,,
+hemoglobin_characterization_assay_equipment_repeatability,px830302_hemoglobin_characterization,,text,"Describe the repeatability of the assay:",,PX830302,,,,,,,,,,,
+hemoglobin_characterization_assay_results,px830302_hemoglobin_characterization,,radio,"Were the assay results recorded for the following hemoglobins? A, F, S, C, A2, E, D, G, O","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No",PX830302,,,,,,,,,,,
+hemoglobin_characterization_assay_results_list,px830302_hemoglobin_characterization,,text,"What were the assay results for the following hemoglobins? A, F, S, C, A2, E, D, G, O",,PX830302,,,,,,,,,,,

@@ -1,0 +1,9 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_walkingambulation_objective_measure_record_id","px151001_phenx_walkingambulation_objective_measure",,"text","Record ID",,"PX151001",,,,,,,,,,"",
+"day1_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 1",,"PX151001","number",,,,,,,,,"",""
+"day2_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 2",,"PX151001","number",,,,,,,,,"",""
+"day3_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 3",,"PX151001","number",,,,,,,,,"",""
+"day4_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 4",,"PX151001","number",,,,,,,,,"",""
+"day5_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 5",,"PX151001","number",,,,,,,,,"",""
+"day6_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 6",,"PX151001","number",,,,,,,,,"",""
+"day7_number_steps","px151001_phenx_walkingambulation_objective_measure",,"text","Number of steps the participant takes on day 7",,"PX151001","number",,,,,,,,,"",""

@@ -1,0 +1,52 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_bone_age_record_id","px220301_phenx_bone_age",,"text","Record ID",,"PX220301",,,,,,,,,,"",
+"intro_220301","px220301_phenx_bone_age",,"descriptive","The Tanner-Whitehouse Test is an online tool which was developed by Lorentz Jantschi and Sorana Bolboaca and is available at:
+
+<a href=""http://vl.academicdirect.org/medical_informatics/bone_age/v1.0/"" target=""_blank"">vl.academicdirect.org/medical_informatics/bone_age/v1.0/</a>
+
+The tool describes various findings associated with each of the following 20 regions of interest (ROI) of the left hand as seen on x-ray. The ROIs are the:
+
+Radius
+Ulna
+First, third, and fifth metacarpal
+Proximal phalanx of the thumb, third finger, and fifth finger
+Middle phalanx of the third and fifth finger
+Distal phalanx of the thumb, third finger, and fifth finger
+Capitate
+Hamate
+Triquetral
+Lunate
+Scaphoid
+Trapezium
+Trapezoid
+
+
+Users select a finding that matches what they see on the x-ray. Each finding has two x-ray images, a drawing and a written description. Once a selection is made for each ROI, the users enters the patient's name*, address, x-ray date, diagnostic, gender, weight, height and age (in years and months, for example 11 years and 3 months). Then the program calculates the individual's bone age based upon the standard atlas associated with the Tanner and Whitehouse method. *See Specific Instructions for suggestions regarding personal identifying information.",,"PX220301",,,,,,,,,,"",""
+"bone_age_radius","px220301_phenx_bone_age",,"text","findings associated with the radius of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_ulna","px220301_phenx_bone_age",,"text","findings associated with the ulna of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_first_metacarpal","px220301_phenx_bone_age",,"text","findings associated with the first metacarpal of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_third_metacarpal","px220301_phenx_bone_age",,"text","findings associated with the third metacarpal of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_fifth_metacarpal","px220301_phenx_bone_age",,"text","findings associated with the fifth metacarpal of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_proximalphalanxa_thumb","px220301_phenx_bone_age",,"text","findings associated with the proximal phalanx of the thumb of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_proximalphalanxa_third_finger","px220301_phenx_bone_age",,"text","findings associated with the proximal phalanx of the third finger of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_proximalphalanxa_fifth_finger","px220301_phenx_bone_age",,"text","findings associated with the proximal phalanx of the fifth finger of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_middle_plananx_thirdfinger","px220301_phenx_bone_age",,"text","findings associated with the middle phalanx of the third finger of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_middle_plananx_fifthfinger","px220301_phenx_bone_age",,"text","findings associated with the middle phalanx of the fifth finger of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_distalphalanx_thumb","px220301_phenx_bone_age",,"text","findings associated with the distal phalanx of the thumb of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_distal_phalanx_thirdfinger","px220301_phenx_bone_age",,"text","findings associated with the distal phalanx of the third finger of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_distal_phalanx_fifthfinger","px220301_phenx_bone_age",,"text","findings associated with the distal phalanx of the fifth finger of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_capitate","px220301_phenx_bone_age",,"text","findings associated with the capitate of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_hamate","px220301_phenx_bone_age",,"text","findings associated with the hamate of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_triquetral","px220301_phenx_bone_age",,"text","findings associated with the triquetral of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_lunate","px220301_phenx_bone_age",,"text","findings associated with the lunate of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_scaphoid","px220301_phenx_bone_age",,"text","findings associated with the scaphoid of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_trapezium","px220301_phenx_bone_age",,"text","findings associated with the trapezium of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_trapezoid","px220301_phenx_bone_age",,"text","findings associated with the trapezoid of the left hand as seen on x-ray",,"PX220301",,,,,,,,,,"",""
+"bone_age_patient_name","px220301_phenx_bone_age",,"text","Patient Full Name",,"PX220301",,,,,,,,,,"",""
+"bone_age_patient_address","px220301_phenx_bone_age",,"text","Patient's Address",,"PX220301",,,,,,,,,,"",""
+"bone_age_xray_date","px220301_phenx_bone_age",,"text","Date of X-Ray",,"PX220301","date_mdy",,,,,,,,,"",""
+"bone_age_diagnostic","px220301_phenx_bone_age",,"text","Diagnoistic Code",,"PX220301",,,,,,,,,,"",""
+"bone_age_patient_gender","px220301_phenx_bone_age",,"text","Patient gender",,"PX220301",,,,,,,,,,"",""
+"bone_age_patient_weight","px220301_phenx_bone_age",,"text","Patient Weight",,"PX220301",,,,,,,,,,"",""
+"bone_age_patient_age","px220301_phenx_bone_age",,"text","Patient Age in Years and Months",,"PX220301",,,,,,,,,,"",""
+"bone_age_patient_height","px220301_phenx_bone_age",,"text","Patient Height",,"PX220301",,,,,,,,,,"",""

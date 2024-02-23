@@ -1,0 +1,50 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_waist_circumference_adult_protocol_record_id","px021602_phenx_waist_circumference_adult_protocol",,"text","Record ID",,"PX021602",,,,,,,,,,"",
+"ad_waist_circ_in_cm","px021602_phenx_waist_circumference_adult_protocol",,"radio","Waist circumference measured in centimeter or inch","1, centimeter | 2, inch","PX021602",,,,,,,,,,"",""
+"waist_circum_exhibit_1a","px021602_phenx_waist_circumference_adult_protocol",,"descriptive","Exhibit 1. Location of Measurement Landmarks between the Lowest Rib and Iliac Crest (Ilium).",,"PX021602",,,,,,,,,,"",""
+"waist_circumference_iliac_crest_1","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 0.1 centimeter, first measurement.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_iliac_crest_2","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 0.1 centimeter, second measurement.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_iliac_crest_3","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 0.1 centimeter, thrid measurement",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_iliac_crest_average","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 0.1 centimeter, average",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circum_exhibit_2","px021602_phenx_waist_circumference_adult_protocol",,"descriptive","Waist Circumference - image 2",,"PX021602",,,,,,,,,,"",""
+"waist_circumference_natural_waist_1","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, first measurement.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_natural_waist_2","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, second measurement.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_natural_waist_3","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, thrid measurement",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_natural_waist_average","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 0.1 centimeter, average",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_umbilicus_1","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, first measurement.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_umbilicus_2","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, second measurement.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_umbilicus_3","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, thrid measurement",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circumference_umbilicus_average","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference taken at the narrowest part of the torso measured to the nearest 0.1 centimeter, average.",,"PX021602",,1,1000,,"[ad_waist_circ_in_cm] = '1'",,,,,"",""
+"waist_circum_exhibit_3","px021602_phenx_waist_circumference_adult_protocol",,"descriptive","Waist Circumference - image 3",,"PX021602",,,,,,,,,,"",""
+"ad_wc_iliac_crest_1","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 1/4 inch, first measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_iliac_crest_2","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 1/4 inch, second measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_iliac_crest_3","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 1/4 inch, thrid measurement
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_iliac_crest_ave","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured circumference at the top of the hips measured to the nearest 1/4 inch, average",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_d_bottom_ribiliac_crest1","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured distance between the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, first measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_d_bottom_ribiliac_crest2","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured distance between the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, second measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_d_bottom_ribiliac_crest3","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured distance between the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, third measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_d_btm_ribiliac_crest_ave","px021602_phenx_waist_circumference_adult_protocol",,"text","Measured distance between the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, average.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_mpt_btm_ribiliac_crest1","px021602_phenx_waist_circumference_adult_protocol",,"text","Midpoint of the length from the bottom of the ribcage to the top of the hips recorded to the nearest 1/4 inch, first measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_mpt_btm_ribiliac_crest2","px021602_phenx_waist_circumference_adult_protocol",,"text","Midpoint of the length from the bottom of the ribcage to the top of the hips recorded to the nearest 1/4 inch, second measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_mpt_btm_ribiliac_crest3","px021602_phenx_waist_circumference_adult_protocol",,"text","Midpoint of the length from the bottom of the ribcage to the top of the hips recorded to the nearest 1/4 inch, third measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_mpt_btm_ribiliac_crest_ave","px021602_phenx_waist_circumference_adult_protocol",,"text","Midpoint of the length from the bottom of the ribcage to the top of the hips recorded to the nearest 1/4 inch, average.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_mpt_btm_ribiliac_crest1","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the midpoint from the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, first measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_mpt_btm_ribiliac_crest2","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the midpoint from the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, second measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_mpt_btm_ribiliac_crest3","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the midpoint from the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, third measurement.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"ad_wc_mpt_btm_ribiliac_crest_av","px021602_phenx_waist_circumference_adult_protocol",,"text","Waist circumference taken at the midpoint from the bottom of the ribcage to the top of the hips measured to the nearest 1/4 inch, average.
+",,"PX021602",,,,,"[ad_waist_circ_in_cm] = '2'",,,,,"",""
+"waist_circum_exhibit_4a","px021602_phenx_waist_circumference_adult_protocol",,"descriptive","Obesity Status of Adults - Image",,"PX021602",,,,,,,,,,"",""

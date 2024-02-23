@@ -1,0 +1,14 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_body_proportions_record_id","px220201_phenx_body_proportions",,"text","Record ID",,"PX220201",,,,,,,,,,"",
+"body_proportions_arm_span","px220201_phenx_body_proportions",,"text","Measurement of the arm span",,"PX220201",,,,,,,,,,"",""
+"body_proportions_standing_height","px220201_phenx_body_proportions",,"text","Measurement of the standing height",,"PX220201",,,,,,,,,,"",""
+"body_proportions_exhibit_1","px220201_phenx_body_proportions",,"descriptive","IMAGE - body_proportions_exhibit_1",,"PX220201",,,,,,,,,,"",""
+"body_proportions_exhibit_2","px220201_phenx_body_proportions",,"descriptive","IMAGE - body_proportions_exhibit_2",,"PX220201",,,,,,,,,,"",""
+"body_proportions_sitting_height","px220201_phenx_body_proportions",,"text","Measurement of the sitting height",,"PX220201",,,,,,,,,,"",""
+"body_proportions_exhibit_3","px220201_phenx_body_proportions",,"descriptive","IMAGE - body_proportions_exhibit_3",,"PX220201",,,,,,,,,,"",""
+"body_proportions_exhibit_4","px220201_phenx_body_proportions",,"descriptive","IMAGE - body_proportions_exhibit_4",,"PX220201",,,,,,,,,,"",""
+"body_proportions_lower_segment","px220201_phenx_body_proportions",,"text","measurement from the upper border of the symphysis pubis to the floor*, to the nearest 0.1 centimeter
+
+*If it is difficult to locate the symphysis pubis, the sitting height should be measured (see protocol for Sitting Height below). The sitting height measurement can be subtracted from the standing height measurement to determine the value for the lower segment.",,"PX220201",,,,,,,,,,"",""
+"body_proportions_upper_segment","px220201_phenx_body_proportions",,"text","measurement of the upper body segment by subtracting the lower segment from the standing height for the upper segment measurement",,"PX220201",,,,,,,,,,"",""
+"body_proportions_upper_lower_ratio","px220201_phenx_body_proportions",,"text","Ratio of the upper segment measurement over the lower segment",,"PX220201",,,,,,,,,,"",""

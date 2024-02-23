@@ -1,0 +1,64 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv_record_id","px630401_phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv",,"text","Record ID",,"PX630401",,,,,,,,,,"",
+"summary_630401","px630401_phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv",,"descriptive","Summary of the Clinician-Administered PTSD Scale for DSM-IV (CAPS-IV)
+
+The CAPS-IV is a 30-item structured interview that can be used to:
+
+Make current (past month) or lifetime diagnosis of PTSD
+Provide a continuous index of PTSD severity
+Assess PTSD symptoms over the past week
+In addition to assessing DSM-IV PTSD symptoms, questions target the onset and duration of symptoms, subjective distress, and impact of symptoms on social and occupational functioning, improvement in symptoms since a previous CAPS administration, overall response validity, and features of dissociation (depersonalization and derealization). Most symptom severity ratings are anchored to a combination of symptom frequency and intensity; only amnesia and diminished interest are anchored to amount of disturbance and intensity.
+
+Administration requires identification of three index traumatic events to serve as the basis for symptom inquiry. The Life Events Checklist for DSM-5 (LEC-5, see Trauma Adversity and Exposure) is recommended prior to the Criterion A inquiry included in the CAPS-IV. Standardized questions and probes are provided for each symptom.
+
+The CAPS was designed to be administered by clinicians and clinical researchers who have a working knowledge of PTSD, but can also be administered by appropriately trained paraprofessionals. The full interview takes 45-60 minutes to administer.",,"PX630401",,,,,,,,,,"",""
+"frequency_630401","px630401_phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv",,"descriptive","Frequency
+
+Have you ever had unwanted memories of (EVENT)? What were they like? (What did you remember?) [IF NOT CLEAR:] (Did they ever occur while you were awake, or only in dreams?)
+
+[EXCLUDE IF MEMORIES OCCURRED ONLY DURING DREAMS] How often have you had these memories in the past month (week)?
+
+
+0 Never
+
+1 Once or twice
+
+2 Once or twice a week
+
+3 Several times a week
+
+4 Daily or almost every day",,"PX630401",,,,,,,,,,"",""
+"intensity_630401","px630401_phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv",,"descriptive","Intensity
+
+How much distress or discomfort did these memories cause you? Were you able to put them out of your mind and think about something else? (How hard did you have to try?) How much did they interfere with your life?
+
+
+0 None
+
+1 Mild, minimal distress or disruption of activities
+
+2 Moderate, distress clearly present but still manageable, some disruption of activities
+
+3 Severe, considerable distress, difficulty dismissing memories, marked disruption of activities
+
+4 Extreme, incapacitating distress, cannot dismiss memories, unable to continue activities",,"PX630401",,,,,,,,,,"",""
+"scoring_630401","px630401_phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv",,"descriptive","Scoring:
+
+It is recommended that the ""1, 2"" rule be used to determine a diagnosis; that is, a frequency score of 1 (scale 0 = ""none of the time"" to 4 = ""most or all of the time"") and an intensity score of 2 (scale 0 = ""none"" to 4 = ""extreme"") is required for a particular symptom to meet criterion (Weathers et al., 1999). The diagnosis is then made according to the DSM-IV algorithm:
+
+• At least one Criterion B symptom,
+
+• At least three Criterion C symptoms,
+
+• At least two Criterion D symptoms,
+
+• Criterion A is met,
+
+• Criterion E is met, and
+
+• Criterion F is met.
+
+A severity score for each symptom is calculated by summing the frequency and intensity scores, which can then be summed for all 17 symptom questions and/or for the three symptom clusters.",,"PX630401",,,,,,,,,,"",""
+"availability_630401","px630401_phenx_ptsd_symptoms_severity_and_diagnosis_dsmiv",,"descriptive","Availability:
+
+The Clinician-Administered PTSD Scale (CAPS-IV) for The Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition (DSM-IV) is available from the National Center for PTSD www.ptsd.va.gov.",,"PX630401",,,,,,,,,,"",""

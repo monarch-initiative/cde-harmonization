@@ -1,0 +1,27 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_insomnia_record_id","px640801_phenx_insomnia",,"text","Record ID",,"PX640801",,,,,,,,,,"",
+"info_640801","px640801_phenx_insomnia",,"file","Insomnia Severity Index
+
+For each question, please CIRCLE the number that best describes your answer.
+
+Please rate the CURRENT (i.e. LAST 2 WEEKS) SEVERITY of your insomnia problem(s).",,"PX640801",,,,,,,,,,"",""
+"insomnia_falling_asleep","px640801_phenx_insomnia",,"radio","1. Difficulty falling asleep","0, None =0 | 1, Mild =1 | 2, Moderate =2 | 3, Severe =3 | 4, Very Severe =4","PX640801",,,,,,,,,,"",""
+"insomnia_staying_asleep","px640801_phenx_insomnia",,"radio","2. Difficulty staying asleep","0, None =0 | 1, Mild =1 | 2, Moderate =2 | 3, Severe =3 | 4, Very Severe =4","PX640801",,,,,,,,,,"",""
+"insomnia_waking_up_early","px640801_phenx_insomnia",,"radio","3. Problems waking up too early","0, None =0 | 1, Mild =1 | 2, Moderate =2 | 3, Severe =3 | 4, Very Severe =4","PX640801",,,,,,,,,,"",""
+"insomnia_satisfieddissatisfied_sleep_pattern","px640801_phenx_insomnia",,"radio","4. How SATISFIED/DISSATISFIED are you with your CURRENT sleep pattern?","0, Very Satisfied =0 | 1, Satisfied =1 | 2, Moderately Satisfied =2 | 3, Dissatisfied =3 | 4, Very Dissatisfied =4","PX640801",,,,,,,,,,"",""
+"insomnia_noticeable_impairing_qol","px640801_phenx_insomnia",,"radio","5. How NOTICEABLE to others do you think your sleep problem is in terms of impairing the quality of your life?","0, Not at all Noticeable =0 | 1, A Little =1 | 2, Somewhat =2 | 3, Much =3 | 4, Very Much Noticeable =4","PX640801",,,,,,,,,,"",""
+"insomnia_worried_distressed","px640801_phenx_insomnia",,"radio","6. How WORRIED/DISTRESSED are you about your current sleep problem?","0, Not at all Worried =0 | 1, A Little =1 | 2, Somewhat =2 | 3, Much =3 | 4, Very Much Worried =4","PX640801",,,,,,,,,,"",""
+"insomnia_interfere_dailyfunctioning","px640801_phenx_insomnia",,"radio","7 To what extent do you consider your sleep problem to INTERFERE with your daily functioning (e.g. daytime fatigue, mood, ability to function at work/daily chores, concentration, memory, mood, etc.) CURRENTLY?","0, Not at all Interfering =0 | 1, A little =1 | 2, Somewhat =2 | 3, Much =3 | 4, Very Much Interfering =4","PX640801",,,,,,,,,,"",""
+"scoring_640801","px640801_phenx_insomnia",,"descriptive","Guidelines for Scoring/Interpretation:
+
+Add the scores for all seven items (questions 1 + 2 + 3 + 4 + 5 +6 + 7) = _______ your total score
+
+Total score categories:
+
+0-7 = No clinically significant insomnia
+
+8-14 = Sub-threshold insomnia
+
+15-21 = Clinical insomnia (moderate severity)
+
+22-28 = Clinical insomnia (severe)",,"PX640801",,,,,,,,,,"",""

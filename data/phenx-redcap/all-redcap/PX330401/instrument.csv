@@ -1,0 +1,4 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"nicotine_metabolite_concentration_record_id","px330401_phenx_nicotine_metabolite",,"text","Record ID",,"PX330401",,,,,,,,,,"",""
+"nicotine_metabolite_concentration_cotinine","px330401_phenx_nicotine_metabolite",,"text","Concentration of cotinine (COT)",,"PX330401","number",0,,,,,,,,"",""
+"nicotine_metabolite_concentration_hydroxycotinine","px330401_phenx_nicotine_metabolite",,"text","Concentration of trans-3'-hydroxycotinine (HC)",,"PX330401","number",0,,,,,,,,"",""

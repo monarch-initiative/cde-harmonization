@@ -1,0 +1,8 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_neighborhood_safety_record_id","px210901_phenx_neighborhood_safety",,"text","Record ID",,"PX210901",,,,,,,,,,"",
+"feel_safe_walking_neighborhood","px210901_phenx_neighborhood_safety",,"radio","I feel safe walking in my neighborhood, day or night.","1 , Strongly Agree|2 , Agree|3 , Neutral (neither agree nor disagree)|4 , Disagree|5 , Strongly Disagree","PX210901",,,,,,,,,,"",""
+"neighborhood_violence","px210901_phenx_neighborhood_safety",,"radio","Violence is not a problem in my neighborhood.","1 , Strongly Agree|2 , Agree|3 , Neutral (neither agree nor disagree)|4 , Disagree|5 , Strongly Disagree","PX210901",,,,,,,,,,"",""
+"neighborhood_safe_from_crime","px210901_phenx_neighborhood_safety",,"radio","My neighborhood is safe from crime.","1 , Strongly Agree|2 , Agree|3 , Neutral (neither agree nor disagree)|4 , Disagree|5 , Strongly Disagree","PX210901",,,,,,,,,,"",""
+"scoring_210901","px210901_phenx_neighborhood_safety",,"descriptive","Scoring Instructions
+
+A total score can be obtained by computing the average of the three items. Lower scores indicate more neighborhood safety.",,"PX210901",,,,,,,,,,"",""

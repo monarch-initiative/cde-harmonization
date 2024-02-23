@@ -1,0 +1,99 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_quality_of_life_as_affected_by_respiratory_disease_record_id","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"text","Record ID",,"PX091301",,,,,,,,,,"",
+"health_self_assessment","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how much chest trouble you have had over the past 3 months. (Please tick/check one.) How do you describe your current health?","UNDEFINED_CODE, Very good | UNDEFINED_CODE_1, Good | UNDEFINED_CODE_2, Fair | UNDEFINED_CODE_3, Poor | UNDEFINED_CODE_4, Very Poor","PX091301",,,,,,,,,,"",""
+"frequency_3_months_cough","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Over the past 3 months, I have coughed:","UNDEFINED_CODE, Most days a week | UNDEFINED_CODE_1, Several days a week | UNDEFINED_CODE_2, A few days a month | UNDEFINED_CODE_3, Only with chest infections | UNDEFINED_CODE_4, Not at all","PX091301",,,,,,,,,,"",""
+"frequency_3_months_phlegm_sputum","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Over the past 3 months, I have brought up phlegm (sputum):","UNDEFINED_CODE, Most days a week | UNDEFINED_CODE_1, Several days a week | UNDEFINED_CODE_2, A few days a month | UNDEFINED_CODE_3, Only with chest infections | UNDEFINED_CODE_4, Not at all","PX091301",,,,,,,,,,"",""
+"frequency_3_months_breath_shortness","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Over the past 3 months, I have had shortness of breath:","UNDEFINED_CODE, Most days a week | UNDEFINED_CODE_1, Several days a week | UNDEFINED_CODE_2, A few days a month | UNDEFINED_CODE_3, Only with chest infections | UNDEFINED_CODE_4, Not at all","PX091301",,,,,,,,,,"",""
+"frequency_3_months_wheezing","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Over the past 3 months, I have had attacks of wheezing:","UNDEFINED_CODE, Most days a week | UNDEFINED_CODE_1, Several days a week | UNDEFINED_CODE_2, A few days a month | UNDEFINED_CODE_3, Only with chest infections | UNDEFINED_CODE_4, Not at all","PX091301",,,,,,,,,,"",""
+"three_months_chest_attack_times","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","During the past 3 months, how many severe or very unpleasant attacks of chest trouble have you had?","UNDEFINED_CODE, More than 3 attacks | UNDEFINED_CODE_1, 3 attacks | UNDEFINED_CODE_2, 2 attacks | UNDEFINED_CODE_3, 1 attack | UNDEFINED_CODE_4, No attacks","PX091301",,,,,,,,,,"",""
+"worst_chest_attack_last","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","How long did the worst attack of chest trouble last?","UNDEFINED_CODE, A week or more | UNDEFINED_CODE_1, 3 or more days | UNDEFINED_CODE_2, 1 or 2 days | UNDEFINED_CODE_3, Less than a day","PX091301",,,,,"[three_months_chest_attack_times] = 'UNDEFINED_CODE' or [three_months_chest_attack_times] = 'UNDEFINED_CODE_1' or [three_months_chest_attack_times] = 'UNDEFINED_CODE_2' or [three_months_chest_attack_times] = 'UNDEFINED_CODE_3'",,,,,"",""
+"good_days_in_week","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Over the past 3 months, in an average week, how many good days (with little chest trouble) have you had?","UNDEFINED_CODE, No good days | UNDEFINED_CODE_1, 1 or 2 good days | UNDEFINED_CODE_2, 3 or 4 good days | UNDEFINED_CODE_3, Nearly every day is good | UNDEFINED_CODE_4, Every day is good","PX091301",,,,,,,,,,"",""
+"wheeze_worse_in_morning","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","If you have a wheeze, is it worse in the morning?","UNDEFINED_CODE,No|UNDEFINED_CODE_1,Yes","PX091301",,,,,,,,,,"",""
+"chest_self_assessment","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","How would you describe your chest condition?","UNDEFINED_CODE,The most important problem I have|UNDEFINED_CODE_1,Causes me quite a lot of problems|UNDEFINED_CODE_2,Causes me a few problems|UNDEFINED_CODE_3,Causes no problems","PX091301",,,,,,,,,,"",""
+"chest_trouble_affect_employment","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","If you have ever had paid employment.","UNDEFINED_CODE,My chest trouble made me stop work altogether|UNDEFINED_CODE_1,My chest trouble interferes with my work or made me change my work|UNDEFINED_CODE_2,My chest trouble does not affect my work","PX091301",,,,,,,,,,"",""
+"breathless_these_days_sitting","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Sitting or lying still:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathless_these_days_washed","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Getting washed or dressed:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathless_these_days_walking_home","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Walking around the home:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathless_these_days_walking_outside","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Walking outside on the level:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathless_these_days_wakling_stairs","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Walking up a flight of stairs:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathless_these_days_walking_hills","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Walking up hills:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathless_these_days_sports","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","What activities usually make you feel breathless these days? Playing sports or games:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"cough_breathless_hurts","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Some more questions about your cough and breathlessness these days. My cough hurts:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"cough_breathless_tired","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Some more questions about your cough and breathlessness these days. My cough makes me tired:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"cough_breathless_when_talk","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Some more questions about your cough and breathlessness these days. I am breathless when I talk:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"cough_breathless_when_bend_over","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Some more questions about your cough and breathlessness these days. I am breathless when I bend over:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"cough_breathless_disturb_sleep","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Some more questions about your cough and breathlessness these days. My cough or breathing disturbs my sleep:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"cough_breathless_exhausted","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Some more questions about your cough and breathlessness these days. I get exhausted easily:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_embarrassing_public","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. My cough or breathing is embarrassing in public:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_nuisance_family_friend","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. My chest trouble is a nuisance to my family, friends, or neighbors:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_afraid_panic","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. I get afraid or panic when I cannot get my breath:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_not_in_control","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. I feel that I am not in control of my chest problem:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_not_get_better","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. I do not expect my chest to get any better:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_frail_invalid","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. I have become frail or an invalid because of my chest:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_exercise_not_safe","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. Exercise is not safe for me:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"chest_effect_everything_much_effort","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about other effects that your chest trouble may have on you these days. Everything seems too much of an effort:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"medication_these_days_taking","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about your medication these days. Are you currently taking medication?","1, Yes | 2, No","PX091301",,,,,,,,,,"",""
+"medication_not_help","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about your medication these days. My medication does not help me very much:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,"[medication_these_days_taking] = '1'",,,,,"",""
+"medication_embarrassed_using_public","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about your medication these days. I get embarrassed using my medication in public:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,"[medication_these_days_taking] = '1'",,,,,"",""
+"medication_unpleasant_side_effects","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about your medication these days. I have unpleasant side effects from my medication:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,"[medication_these_days_taking] = '1'",,,,,"",""
+"medication_interfere_life","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about your medication these days. My medication interferes with my life a lot:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,"[medication_these_days_taking] = '1'",,,,,"",""
+"activities_affected_washed_dressed","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. I take a long time to get washed or dressed:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"activities_affected_bath_shower","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. I cannot take a bath or shower, or I take a long time:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"activities_affected_walk_stop","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. I walk slower than other people, or I stop for rests:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"activities_affected_housework_stop","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. Jobs such as housework take a long time, or I have to stop for rests:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"activities_affected_upstairs_stop","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. If I walk up one flight of stairs, I have to go slowly or stop:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"activities_affected_hurry_fast_stop","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. If I hurry or walk fast, I have to stop or slow down:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathing_difficult_activities_light","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. My breathing makes it difficult to do things such as walk up hills, carrying things up stairs, light gardening such as weeding, dance, play bowls, or play golf:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"breathing_difficult_activities_heavy","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","My breathing makes it difficult to do things such as carry heavy loads, dig the garden or shovel snow, jog or walk at 5 miles per hour, play tennis or swim.","UNDEFINED_CODE,TRUE|UNDEFINED_CODE_1,FALSE","PX091301",,,,,,,,,,"",""
+"breathing_difficult_activities_very_heavy","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Questions about how your activities might be affected by your breathing. My breathing makes it difficult to do things such as very heavy manual work, run, cycle, swim fast, or play competitive sports:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"daily_life_sports_games","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","We would like to know how your chest usually affects your daily life. I cannot play sports or games:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"daily_life_entertainment_recreation","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","We would like to know how your chest usually affects your daily life. I cannot go out for entertainment or recreation:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"daily_life_go_out_shopping","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","We would like to know how your chest usually affects your daily life. I cannot go out of the house to do the shopping:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"daily_life_housework","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","We would like to know how your chest usually affects your daily life. I cannot do housework:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"daily_life_far_bed_chair","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","We would like to know how your chest usually affects your daily life. I cannot move far from my bed or chair:","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX091301",,,,,,,,,,"",""
+"daily_life_specify_1","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"text","Please write in any other important activities that your chest trouble may stop you doing. Here is a list of other activities that your chest trouble may prevent you doing. (You do not have to tick these; they are just to remind you of ways in which your breathlessness may affect you):
+
+Going for walks or walking the dog
+
+Doing things at home or in the garden
+
+Sexual intercourse
+
+Going out to church, pub, club, or place of entertainment
+
+Going out in bad weather or into smoky rooms
+
+Visiting family or friends or playing with children
+
+Please write in any other important activities that your chest trouble may stop you doing:",,"PX091301",,,,,,,,,,"",""
+"daily_life_specify_2","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"text","Please write in any other important activities that your chest trouble may stop you doing. Here is a list of other activities that your chest trouble may prevent you doing. (You do not have to tick these; they are just to remind you of ways in which your breathlessness may affect you):
+
+Going for walks or walking the dog
+
+Doing things at home or in the garden
+
+Sexual intercourse
+
+Going out to church, pub, club, or place of entertainment
+
+Going out in bad weather or into smoky rooms
+
+Visiting family or friends or playing with children
+
+Please write in any other important activities that your chest trouble may stop you doing:",,"PX091301",,,,,,,,,,"",""
+"daily_life_specify_3","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"text","Please write in any other important activities that your chest trouble may stop you doing. Here is a list of other activities that your chest trouble may prevent you doing. (You do not have to tick these; they are just to remind you of ways in which your breathlessness may affect you):
+
+Going for walks or walking the dog
+
+Doing things at home or in the garden
+
+Sexual intercourse
+
+Going out to church, pub, club, or place of entertainment
+
+Going out in bad weather or into smoky rooms
+
+Visiting family or friends or playing with children
+
+Please write in any other important activities that your chest trouble may stop you doing:",,"PX091301",,,,,,,,,,"",""
+"chest_affect_best_description","px091301_phenx_quality_of_life_as_affected_by_respiratory_disease",,"radio","Which you think best describes how your chest affects you?","UNDEFINED_CODE,It does not stop me doing anything I would like to do|UNDEFINED_CODE_1,It stops me doing one or two things I would like to do|UNDEFINED_CODE_2,It stops me doing most of the things I would like to do|UNDEFINED_CODE_3,It stops me doing everything I would like to do","PX091301",,,,,,,,,,"",""

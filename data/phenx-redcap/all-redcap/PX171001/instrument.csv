@@ -1,0 +1,125 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"PX171001_systemic_lupus_erythematosus_record_id","px171001_PX171001_systemic_lupus_erythematosus","Ocular (either eye, by clinical assessment)","text","Record ID",,"PX171001",,,,,,,,,,"",
+"ocular_any_cataract_ever","px171001_PX171001_systemic_lupus_erythematosus","Ocular (either eye, by clinical assessment)","radio","Any cataract ever (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"ocular_retinal_change_optic_atrophy","px171001_PX171001_systemic_lupus_erythematosus","Ocular (either eye, by clinical assessment)","radio","Retinal change or optic atrophy (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"neuropsychiatric_cognitive_impairment","px171001_PX171001_systemic_lupus_erythematosus","Neuropsychiatric","radio","Cognitive impairment (e.g., memory deficit, difficulty with calculation, poor concentration, difficulty in spoken or written language, impaired performance level) or major psychosis (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"neuropsychiatric_seizures","px171001_PX171001_systemic_lupus_erythematosus","Neuropsychiatric","radio","Seizures requiring therapy for 6 months (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"neuropsychiatric_cerebrovascular_accident_ever","px171001_PX171001_systemic_lupus_erythematosus","Neuropsychiatric","radio","Cerebrovascular accident ever (score 2 if > 1) (Score 1 (2))","0, No | 1, Yes | 2, Yes, more than 1","PX171001",,,,,,,,,,"",""
+"neuropsychiatric_cranial_or_peripheral_neuropathy","px171001_PX171001_systemic_lupus_erythematosus","Neuropsychiatric","radio","Cranial or peripheral neuropathy (excluding optic) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"neuropsychiatric_transverse_myelitis","px171001_PX171001_systemic_lupus_erythematosus","Neuropsychiatric","radio","Transverse myelitis (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"renal_glomerular_filtration_rate","px171001_PX171001_systemic_lupus_erythematosus","Renal","radio","Estimated or measured glomerular filtration rate < 50% (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"renal_proteinuria","px171001_PX171001_systemic_lupus_erythematosus","Renal","radio","Renal  Proteinuria > = 3.5 gm/24 hours","0 , No|1 , Yes","PX171001",,,,,,,,,,"",""
+"renal_endstage_renal_disease","px171001_PX171001_systemic_lupus_erythematosus","Renal","radio","End-stage renal disease (regardless of dialysis or transplantation) (Score 3)","0, No | 3, Yes","PX171001",,,,,,,,,,"",""
+"pulmonary_hypertension","px171001_PX171001_systemic_lupus_erythematosus","Pulmonary","radio","Pulmonary hypertension (right ventricular prominence, or loud P2) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"pulmonary_fibrosis","px171001_PX171001_systemic_lupus_erythematosus","Pulmonary","radio","Pulmonary fibrosis (physical and radiograph) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"pulmonary_shrinking_lung","px171001_PX171001_systemic_lupus_erythematosus","Pulmonary","radio","Shrinking lung (radiograph) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"pulmonary_pleural_fibrosis","px171001_PX171001_systemic_lupus_erythematosus","Pulmonary","radio","Pleural fibrosis (radiograph) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"infarction","px171001_PX171001_systemic_lupus_erythematosus","Pulmonary","radio","Pulmonary infarction (radiograph) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"cardiovascular_angina_coronary_artery_bypass","px171001_PX171001_systemic_lupus_erythematosus","Cardiovascular","radio","Angina or coronary artery bypass (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"cardiovascular_myocardial_infarction_ever","px171001_PX171001_systemic_lupus_erythematosus","Cardiovascular","radio","Myocardial infarction ever (score 2 if >I)  (Score 1 (2))","0, No | 1, Yes | 2, Yes, more than 1","PX171001",,,,,,,,,,"",""
+"cardiovascular_cardiomyopathy","px171001_PX171001_systemic_lupus_erythematosus","Cardiovascular","radio","Cardiomyopathy (ventricular dysfunction) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"cardiovascular_valvular_disease","px171001_PX171001_systemic_lupus_erythematosus","Cardiovascular","radio","Valvular disease (diastolic, murmur, or systolic murmur >3/6)  (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"cardiovascular_pericarditis","px171001_PX171001_systemic_lupus_erythematosus","Cardiovascular","radio","Pericarditis for 6 months, or pericardiectomy  (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"peripheral_vascular_claudication","px171001_PX171001_systemic_lupus_erythematosus","Peripheral vascular","radio","Claudication for 6 months (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"peripheral_vascular_minor_tissue_loss","px171001_PX171001_systemic_lupus_erythematosus","Peripheral vascular","radio","Minor tissue loss (pulp space) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"peripheral_vascular_significant_tissue_loss","px171001_PX171001_systemic_lupus_erythematosus","Peripheral vascular","radio","Significant tissue loss ever (e.g., loss of digit or limb) (score 2 if >1 site) (Score 1 (2))","0, No | 1, Yes | 2, Yes, more than 1 site","PX171001",,,,,,,,,,"",""
+"peripheral_vascular_venous_thrombosis","px171001_PX171001_systemic_lupus_erythematosus","Peripheral vascular","radio","Venous thrombosis with swelling, ulceration, or venous stasis (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"gastrointestinal_infarction_resection_of_bowel","px171001_PX171001_systemic_lupus_erythematosus","Gastrointestinal","radio","Infarction or resection of bowel below duodenum, spleen, liver, or gall bladder ever, for cause any (score 2 if > 1) (Score 1 (2))","0, No | 1, Yes | 2, Yes, more than 1 site","PX171001",,,,,,,,,,"",""
+"gastrointestinal_mesenteric_insufficiency","px171001_PX171001_systemic_lupus_erythematosus","Gastrointestinal","radio","Mesenteric insufficiency (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"gastrointestinal_chronic_peritonitis","px171001_PX171001_systemic_lupus_erythematosus","Gastrointestinal","radio","Chronic peritonitis (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"gastrointestinal_stricture_gastrointestinal_tract_surgery","px171001_PX171001_systemic_lupus_erythematosus","Gastrointestinal","radio","Stricture or upper gastrointestinal tract surgery ever (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"musculoskeletal_muscle_atrophy","px171001_PX171001_systemic_lupus_erythematosus","Musculoskeletal","radio","Muscle atrophy or weakness (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"musculoskeletal_arthritis","px171001_PX171001_systemic_lupus_erythematosus","Musculoskeletal","radio","Deforming or erosive arthritis (including reducible deformities, excluding avascular necrosis) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"musculoskeletal_osteoporosis","px171001_PX171001_systemic_lupus_erythematosus","Musculoskeletal","radio","Osteoporosis with fracture or vertebral collapse (excluding avascular necrosis) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"musculoskeletal_avascular_necrosis","px171001_PX171001_systemic_lupus_erythematosus","Musculoskeletal","radio","Avascular necrosis (score 2 if > 1 ) (Score 1 (2))","0, No | 1, Yes | 2, Yes, more than 1","PX171001",,,,,,,,,,"",""
+"musculoskeletal_osteomyelitis","px171001_PX171001_systemic_lupus_erythematosus","Musculoskeletal","radio","Osteomyelitis (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"skin_scarring_chronic_alopecia","px171001_PX171001_systemic_lupus_erythematosus","Skin","radio","Scarring chronic alopecia (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"skin_extensive_scarring_or_panniculum","px171001_PX171001_systemic_lupus_erythematosus","Skin","radio","Extensive scarring or panniculum other than scalp and pulp space (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"skin_ulceration","px171001_PX171001_systemic_lupus_erythematosus","Skin","radio","Skin ulceration (excluding thrombosis) for >6 months (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"premature_gonadal_failure","px171001_PX171001_systemic_lupus_erythematosus","Other","radio","Premature gonadal failure (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"diabetes","px171001_PX171001_systemic_lupus_erythematosus","Other","radio","Diabetes (regardless of treatment) (Score 1)","0, No | 1, Yes","PX171001",,,,,,,,,,"",""
+"malignancy","px171001_PX171001_systemic_lupus_erythematosus","Other","radio","Malignancy (exclude dysplasia) (score 2 if > 1 site) (Score 1 (2))","0, No | 1, Yes | 2, Yes, more than 1","PX171001",,,,,,,,,,"",""
+"px171001_glossary","px171001_PX171001_systemic_lupus_erythematosus","Glossary of SLICC/ACR Damage Index terms:","descriptive","Damage:
+
+Nonreversible change, not related to active inflammation, occurring since diagnosis of lupus, ascertained by clinical assessment and present for at least 6 months unless otherwise stated. Repeat episodes must occur at least 6 months apart to score 2. The same lesion cannot be scored twice.
+
+Cataract:
+
+A lens opacity (cataract) in either eye, ever, whether primary or secondary to steroid therapy, documented by ophthalmoscopy.
+
+Retinal change:
+
+Documented by ophthalmoscopic examination, may result in field defect, legal blindness.
+
+Optic atrophy:
+
+Documented by ophthalmoscopic examination.
+
+Cognitive impairment:
+
+Memory deficit, difficulty with calculation, poor concentration, difficulty in spoken or written language, impaired performance level, documented on clinical examination or by formal neurocognitive testing.
+
+Major psychosis:
+
+Altered ability to function in normal activity due to psychiatric reasons. Severe disturbance in the perception of reality characterized by the following features: delusions, hallucinations (auditory, visual), incoherence, marked loose associations, impoverished thought content, marked illogical thinking, bizarre, disorganized or catatonic behavior.
+
+Seizures:
+
+Paroxysmal electrical discharge occurring in the brain and producing characteristic physical changes including tonic and clonic movements and certain behavioral disorders. Only seizures requiring therapy for 6 months are counted as damage.
+
+CVA:
+
+Cerebovascular accident resulting in focal findings such as paresis, weakness, etc., or
+
+surgical resection for causes other than malignancy.
+
+Neuropathy :
+
+Damage to either a cranial or peripheral nerve, excluding optic nerve, resulting in either motor or sensory dysfunction.
+
+Transverse myelitis:
+
+Lower-extremity weakness or sensory loss with loss of rectal and urinary bladder sphincter control.
+
+Renal:
+
+Estimated or measured glomerular filtration rate < 50%, proteinuria ? 3.5 gm/24 hours, or end-stage renal disease (regardless of dialysis or transplantation).
+
+Pulmonary:
+
+Pulmonary hypertension (right ventricular prominence, or loud P2), pulmonary fibrosis (physical and radiograph), shrinking lung (radiograph), pleural fibrosis (radiograph), pulmonary infarction (radiograph), resection for cause other than malignancy.
+
+Cardiovascular:
+
+Angina or coronary artery bypass, myocardial infarction (documented by electrocardiograph and enzyme studies) ever, cardiomyopathy (ventricular dysfunction documented clinically),valvular disease (diastolic murmur, or systolic murmur >3/6), pericarditis for 6 months, or pericardiectomy .
+
+Peripheral vascular:
+
+Claudication, persistent for 6 months, by history, minor tissue loss, such as pulp space, ever, significant tissue loss, such as loss of digit or limb, or resection, ever, venous thrombosis with swelling, ulceration, or clinical evidence of venous stasis.
+
+Gastrointestinal:
+
+Infarction or resection of bowel below duodenum, by history, resection of spleen, liver, or gall bladder ever, for whatever cause, mesenteric insufficiency, with diffuse abdominal pain on clinical examination, chronic peritonitis, with persistent abdominal pain and peritoneal irritations, on clinical examination, esophageal stricture, shown on endoscopy, upper gastrointestinal tract surgery, such as correction of stricture, ulcer surgery, etc., ever, by history, pancreatic insufficiency requiring enzyme replacement or with a pseudocyst.
+
+Musculoskeletal:
+
+Muscle atrophy or weakness, demonstrated on clinical examination, deforming or erosive arthritis, including reducible deformities, (excluding avascular necrosis) on clinical examination, osteoporosis with fracture or vertebral collapse (excluding avascular necrosis) demonstrated radiographically, avascular necrosis, demonstrated by any imaging technique, osteomyelitis, documented clinically, and supported by culture evidence, tendon ruptures.
+
+Skin:
+
+Scarring, chronic alopecia, documented clinically, extensive scarring or panniculum other than scalp and pulp space, documented clinically, skin ulceration (excluding thrombosis) for more than 6 months.
+
+Premature gonadal failure:
+
+Secondary amenorrhea, prior to age 40.
+
+Diabetes:
+
+Diabetes requiring therapy, but regardless of treatment.
+
+Malignancy:
+
+Documented by pathologic examination, excluding dysplasias.",,"PX171001",,,,,,,,,,"",""
+"px171001_scoring","px171001_PX171001_systemic_lupus_erythematosus","Scoring Instructions:","descriptive","Each item in the SLICC/ACR is scored as present only if it has been present for at least six months prior to the assessment. With the exception of end stage renal disease (ESRD), the presence of each item is given a score of 1 or 2. Whereas, ESRD is given a score of 3.
+
+Of note, repeat episodes must occur at least six months apart and the same lesion cannot be scored twice, except for CVA.",,"PX171001",,,,,,,,,,"",""

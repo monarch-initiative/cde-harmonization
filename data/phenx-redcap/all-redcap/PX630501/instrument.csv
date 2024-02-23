@@ -1,0 +1,35 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_social_support_record_id","px630501_phenx_social_support",,"text","Record ID",,"PX630501",,,,,,,,,,"",
+"info_630501","px630501_phenx_social_support",,"descriptive","Medical Outcomes Study (MOS) Social Support Survey
+
+People sometimes look to others for companionship, assistance, or other types of support. How often is each of the following kinds of support available to you if you need it? Select one in each box.",,"PX630501",,,,,,,,,,"",""
+"support_confined_bed","px630501_phenx_social_support",,"radio","Someone to help you if you were confined to bed.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_listen","px630501_phenx_social_support",,"radio","Someone you can count on to listen to you when you need to talk.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_good_advice","px630501_phenx_social_support",,"radio","Someone to give you good advice about a crisis.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_transport_doctor","px630501_phenx_social_support",,"radio","Someone to take you to the doctor if you needed it.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_love_affection","px630501_phenx_social_support",,"radio","Someone who shows you love and affection.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_good_time","px630501_phenx_social_support",,"radio","Someone to have a good time with.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_information_help","px630501_phenx_social_support",,"radio","Someone to give you information to help you understand a situation.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_confide_problems","px630501_phenx_social_support",,"radio","Someone to confide in or talk to about yourself or your problems.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_hugs","px630501_phenx_social_support",,"radio","Someone who hugs you.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_relax","px630501_phenx_social_support",,"radio","Someone to get together with for relaxation.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_prepare_meals","px630501_phenx_social_support",,"radio","Someone to prepare your meals if you were unable to do it yourself.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_advice_want","px630501_phenx_social_support",,"radio","Someone whose advice you really want.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_do_things_with","px630501_phenx_social_support",,"radio","Someone to do things with to help get your mind off things.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_help_chores","px630501_phenx_social_support",,"radio","Someone to help with daily chores if you were sick.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_share_worries_fears","px630501_phenx_social_support",,"radio","Someone to share your most private worries and fears with.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_turn_to_problems","px630501_phenx_social_support",,"radio","Someone to turn to for suggestions about how to deal with a personal problem.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_do_enjoyable_things","px630501_phenx_social_support",,"radio","Someone to do something enjoyable with.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_understands_problems","px630501_phenx_social_support",,"radio","Someone who understands your problems.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"support_love_feel_wanted","px630501_phenx_social_support",,"radio","Someone to love and make you feel wanted.","1, 1- none of the time | 2, 2- A little of the time | 3, 3- Some of the Time | 4, 4- Most of the Time | 5, 5- All of the Time","PX630501",,,,,,,,,,"",""
+"scoring_630501","px630501_phenx_social_support",,"descriptive","Scoring:
+
+A score for each social support subscale can be computed as either a total score or an average for the individual items. Higher scores indicate more support.
+
+Emotional/informational support: items 2, 3, 7, 8, 12, 15, 16, 18
+
+Tangible support: items 1, 4, 11, 14
+
+Affectionate support: items 5, 9, 19
+
+Positive social interaction: items 6, 10, 17",,"PX630501",,,,,,,,,,"",""

@@ -1,0 +1,14 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_child_head_circumference_record_id","px020501_phenx_child_head_circumference",,"text","Record ID",,"PX020501",,,,,,,,,,"",
+"head_circum_image_1","px020501_phenx_child_head_circumference",,"descriptive","Exhibit 1. Head circumference tape position",,"PX020501",,,,,,,,,,"",""
+"child_head_circumference_desc","px020501_phenx_child_head_circumference",,"descriptive","The circumference of the head is measured on children from birth through 36 months of age. Follow the steps below to obtain the head circumference measurement:
+
+ 1. Position of the study participant: Instruct the parent (or guardian) to stand holding the child over the parent’s left shoulder or else sit with the child in the parent’s lap. Ask the parent to remove hair ornaments or braids that might interfere with the measurement.
+
+ 2. Taking the measurement: Place the head circumference tape around the child’s head so that the tape lies: across the frontal bones of the skull; slightly above the eyebrows; perpendicular to the long axis of the face; above the ears; and over the occipital prominence at the back of the head (Exhibit 1). Move the tape up and down over the back of the head to locate the maximal circumference. Tighten the insertion tape so that it fits snugly around the head and compresses the hair and underlying soft tissues. Measure the circumference to the nearest 0.1 cm.
+
+ 3. Record the result. Remove the head circumference tape.",,"PX020501",,,,,,,,,,"",""
+"child_head_circumference_1","px020501_phenx_child_head_circumference",,"text","Child Head Circumference measured in centimeter, first measurement",,"PX020501",,,,,,,,,,"",""
+"child_head_circumference_2","px020501_phenx_child_head_circumference",,"text","Child Head Circumference measured in centimeter, second measurement",,"PX020501",,,,,,,,,,"",""
+"child_head_circumference_3","px020501_phenx_child_head_circumference",,"text","Child Head Circumference measured in centimeter, third measurement",,"PX020501",,,,,,,,,,"",""
+"child_head_circumference_average","px020501_phenx_child_head_circumference",,"text","Child Head Circumference measured in centimeter, average",,"PX020501",,,,,,,,,,"",""

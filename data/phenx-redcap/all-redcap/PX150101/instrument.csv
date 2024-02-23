@@ -1,0 +1,21 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi_record_id","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"text","Record ID",,"PX150101",,,,,,,,,,"",
+"instructions_150101","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"descriptive","Note: if a track is not used, the location where the timed walk takes place must be flat and pre-measured to equal 1 mile.
+
+First, obtain the participant's weight in pounds via a reliable scale, and also record his/her sex, and current age. Secure the HR monitor chest strap and watch to the participant. Explain that you will time the participant as he/she walks as quickly as possible for one-mile.
+
+Once the participant is ready at the starting line, say ""go"" and start the stopwatch. Time the participant until he/she completes the entire 1 mile walk. Record the time in minutes and seconds and then convert to seconds [(minutes x 60) + seconds].",,"PX150101",,,,,,,,,,"",""
+"pxt150101_weight","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"text","Participant's weight",,"PX150101","number",,,,,,,,,"",""
+"sex","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"radio","Participant's sex","UNDEFINED_CODE,male|UNDEFINED_CODE_1,female","PX150101",,,,,,,,,,"",""
+"age","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"text","Participant's age",,"PX150101","number",,,,,,,,,"",""
+"heart_rate","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"text","Participant's heart rate during the last 10 minutes of the walk as shown on heart rate monitor",,"PX150101","number",,,,,,,,,"",""
+"time_to_complete_walk_minutes","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"text","Time to complete entire 1 mile walk",,"PX150101","number",,,,,,,,,"",""
+"time_to_complete_walk_seconds","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"text","Time to complete entire 1 mile walk",,"PX150101","number",,,,,,,,,"",""
+"scoring_150101","px150101_phenx_cardiorespiratory_fitnessexercise_test_estimate_one_mi",,"descriptive","Insert the person's weight, age, sex, time, and heart rate into the following scoring equation to determine VO2max (maximal oxygen consumption).
+
+Scoring:
+VO2max = 6.9652 + (0.0091 * WEIGHT) - (0.0257 * AGE) + (0.5995 * SEX1) - (0.2240 * TIME) - ( 0.0115 * HEART RATE)
+    
+(in equation above - Sex1: Male = 1, Female = 0)
+
+Units of VO2max are liters of oxygen per minute (l/min)",,"PX150101",,,,,,,,,,"",""

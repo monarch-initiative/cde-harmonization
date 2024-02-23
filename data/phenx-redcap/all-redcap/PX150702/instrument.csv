@@ -1,0 +1,274 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_total_physical_activitycomprehensive_adult_protocol_record_id","px150702_phenx_total_physical_activitycomprehensive_adult_protocol","PAR INTERVIEW INSTRUCTIONS","text","Record ID",,"PX150702",,,,,,,,,,"",
+"inst1_150702","px150702_phenx_total_physical_activitycomprehensive_adult_protocol","PAR INTERVIEW INSTRUCTIONS","descriptive","Important Points:
+
+** The PAR interviewer should NOT be a member of the research team who is involved in administering the intervention to the participant being interviewed.
+
+** The interviewer should practice conducting the PAR interview ?3 times before interviewing a study participant.
+
+** Stress that this is a recall of actual activities for the past week, not a history of what the participant usually does.
+
+** Emphasize that we are NOT asking about many physical activities that are considered light activities, such as desk work, standing, light housework, strolling, and stop-and-go walking such as grocery or window shopping. Clarify that we are interested in occupational, household, and sports activities that make them feel similar to how they feel when walking at a normal pace, and more vigorous activities.
+
+** Allow the participant to determine the appropriate intensity category. The categories on the List of Activities should serve as a guide, but the participant must decide which category is most appropriate. (The only exception is running, which should always be classified as ""very hard"")
+
+** Remain neutral, do not encourage or praise the participant. Do not reply or, if you do, use a neutral word such as OK. If an interviewer accidentally says ""good,"" correct the mistake by adding, ""You remembered really well.""
+
+** It is helpful to restate what the participant reported.
+
+** Cue and prompt as necessary.
+
+Interviewer's Role:
+
+The role of the interviewer is to gather accurate information about each participant's physical activity during the past week. It is important to ask appropriate open-ended questions, have good timing, prompt often without leading the participant, and provide cues and definitions when necessary. Examples of open-ended questions that help a participant recall his or her day might be, ""What were you doing Tuesday morning? You said that you got up at 6:00 a.m. Did you go anywhere after that? ... Did you watch any particular TV show? ... What did you make for dinner? ... What did you do that evening?"" If a participant is going into excessive detail, remind him/her that he/she does not need to account for every minute. A good interviewer controls the pace and structure of the interview but does not control the participants' answers. Be impartial and allow the participant to decide how he or she is going to answer. For example, when a participant is asked to choose the intensity of a physical activity, only the participant should decide how to rate it. Be aware of your own opinions so that you do not manipulate the information. Remember to record what is heard, not what you think it should be.
+
+Assessing Physical Activity:
+
+It is necessary to consider the frequency, intensity, time, and type (F.I.T.T.) of the physical activity. The PAR interview focuses on collecting data on intensity, time, and type of activity. The PAR differentiates between occupational physical activities, such as stocking shelves, waitressing, and construction work, and leisure activity (i.e., all other physical activities that are not done during paid work hours.) Most participants spend the majority of their waking hours in light activity. Many tiring household or occupational tasks do not have a very high energy cost. Store clerks may report feeling fatigued from standing all day, but the energy cost is minimal. With occupational tasks, it is necessary to clarify the time spent in physical activity by asking about breaks. Time spent in lunch, coffee breaks, and standing breaks can be subtracted from physical activity time. For example, a store clerk reports stocking shelves for 8 h and is asked if he or she took any breaks. After recalling time spent on lunch and just standing around, the clerk reports spending 6 of the 8 doing moderate physical activity.
+
+Recalling events is easier when working backwards from the present day to 1 wk ago from today. Record yesterday above column 7, and work backwards so that column 1 is 1 wk ago from today. Inform the participant that you will begin asking questions about yesterday and work backwards through the previous 7 d. Before starting the interview, briefly explain to the participant what is involved in the interview process.
+
+Intensity:
+
+Ask only about activities that are at least the intensity of walking, but include walking. Ask what the intensity was for every activity. The exception is running, and only running. If a person states that he or she jogged or ran, then that activity goes in the very hard category. It is not necessary to give the intensity guidelines. If a person categorizes running or jogging as moderate or hard, it is placed in the very hard category. This does not apply for walking because it is difficult to know if it was a stroll, normal, or brisk walk. For all other activities - baseball, swimming, surfing, painting, digging, etc. - provide the intensity guidelines for comparison. Walking and running provide good frames of reference for classifying activities, and participants should be able to compare subjectively the physical activity he/she did to running or walking. For most activities, the rate at which it is performed can make a significant difference in the energy cost. Use comparisons to walking and running so the participant can rate how hard he/she did the activity.
+
+List of Activities:
+
+Provide the participant with the ""PAR List of Activities"" during the interview. This list is to be used as a guide to help the participant remember activities that they may have performed during the past 7 days. The interviewer may use the list to help prompt the participant. There may be other activities that the participant reports that do not appear on this list. It is important that the participant decide which intensity category is most appropriate for each activity (it may differ from the intensity category on the List of Activities).
+
+Duration & Scoring:
+
+The interview needs to be sensitive to walking. Although people walk many times during the day, not all walks are counted (e.g., we do not add up each time a person walks to the refrigerator). The specific rule for walking is that only walks of 5 min or longer are counted. However, that 5-min bout of walking can only be counted if another 5-min bout occurs in the same intensity category in the same day.
+
+For any activity to be counted, it must add up to at least 10 min by the end of the day. The general rule is that a participant must do at least 10 min of an activity in 1 activity category during one day for it to be counted; this amount is recorded and rounded to 15 min.
+
+Rounding: 10 and 20 min are rounded to 15 min = .25 h
+25 and 35 min are rounded to 30 min = .50 h
+40 and 50 min are rounded to 45 min = .75 h
+55 and 65 min are rounded to 60 min = 1.0 h
+
+Evaluating the Interview:
+
+Evaluate the interview by answering the questions on page 2 of the worksheet. List any activities reported by the subject that you do not know how to classify. Be detailed. Ask the name of the activity, the duration (not including breaks), and how the activity compares to walking and running.
+
+Special cases:
+
+If the last week was totally atypical (e.g., the subject was in the hospital or in bed, involved in a family or work crisis, or traveling), it is permissible to go to the previous week for the survey. Do not take this action lightly; use it only in unusual circumstances.",,"PX150702",,,,,,,,,,"",""
+"inst2_150702","px150702_phenx_total_physical_activitycomprehensive_adult_protocol","PAR INTERVIEWER SCRIPT","descriptive","(Interviewer's script is shown in bold):
+
+1. Introduction: ""The questions that I will be asking you refer to the physical activities you've engaged in during the past week.""
+
+2. Work: ""I am going to start by asking you a few questions about your employment.""
+
+(Ask employment questions on top of PAR worksheet.)
+
+
+3. Weekend Days: ""What 2 d of the week do you consider to be your weekend days? Most people consider Sat. and Sun. to be their weekend days, but it may be different for you.""
+
+{Some participants state that they do not have weekend days because they work all week or never have 2 d off; in this case, ask what 2 d are most like weekend days. If only I d is given as a weekend day, then ask what other day is most like a weekend day.}
+
+
+4. Sleep: ""Now I'd like to look at the time you spent sleeping in the past week. By sleeping, I mean the time you went to bed one night and the time that you got out of bed the next morning. You may not necessarily have been asleep the entire time you were in bed. You may have been reading or watching television. Today is (Monday), so yesterday was (Sunday). What time did you go to bed (Sunday) night? What time did you get up (Monday) morning?""
+
+{Determine hours spent in bed to the nearest ¿ h. The participant does not need to be asleep the entire time, because lying down and sleeping bum approximately the same number of kilocalories. Time spent in sexual activity is not counted as sleep. Start with yesterday and work backward through the previous 7 days. Do this for each day of the 7 -d recall. Calculate total time spent sleeping after completing the interview.}
+
+5. Work Hours: {If Applicable} ""Now I'd like you to tell me what hours you worked each day during the past week.""
+
+{Record start and end times on worksheet. Calculate total time spent working after completing the interview.)
+
+6. Physical Activity: ""I am going to ask you about the physical activities you engaged in during the past 7 d, starting with yesterday and going back 7 d. In doing so, please remember, this is a recall of actual activities for the past week, not a history of what you usually do. We are not considering light activities, such as desk work, standing, or light housework. We are considering occupational, household, recreational, and sports activities that make you feel similar to how you feel when you are walking at a normal pace, and more vigorous activities. For example, slow stop-and-go walking such as window shopping, is not included; however, walking at a normal pace to do an errand is included.""
+
+
+7. PAR List of Activities: {Provide the participant with the PAR List of Activities} ""These are examples of activities that you may have engaged in. Remember that we are not considering Light Activities, which include the majority of our daily activities.""
+
+8. Intensity Guidelines: ""I will ask you to categorize the intensity of each physical activity you do into one of three groups: moderate, hard, or very hard.
+
+The moderate category is similar to how you feel when you're walking at a normal pace.
+
+The very hard category is similar to how you feel when you are running.
+
+The hard category falls in between.
+
+In other words, if the activity seems harder than walking but not as strenuous as running, it should go in the hard category.""
+
+9. Segments of the Day: ""I am going to ask you about the physical activities you engaged in during three segments of the day, which includes morning, afternoon, and evening. Morning is considered from the time you get up in the morning to the time you have lunch; afternoon is from lunch to dinner; and evening is from dinner until the time you go to bed.""
+
+{If a meal is skipped, it is appropriate to define morning from the time a person wakes up until 12 noon, afternoon from 12-6 PM, and evening from 6 PM to bed. Always spend some time setting the stage for each day to help people remember their activities. Physical activity can be performed intermittently or continuously}
+
+
+10. ""Today is (Monday), so yesterday was (Sunday). Think about what you did (Sunday) morning. Where were you? Think about what you usually do. Did you do anything unusual? Did you do any physical activity (Sunday morning)? How long did you do that activity? How much of that time was spent standing still or taking breaks?""
+
+{Do not record time spent on breaks, rest periods, and meals. Be sure that the time reported for an activity was actually spent doing the activity. Being at the swimming pool for 2 h but only swimming for 15 min should be recorded as 15 min, not 2 h. Working in the garden all day Saturday (8 h) should mean actually working for 8 h. Query participants to be sure they are reporting these activities accurately. Start with yesterday and work backward throughout the week. Differentiate work-related activities with an asterisk or star. The asterisk should be placed to the right of the duration corresponding to the work-related activity; e.g., .75 h*}.
+
+11. Intensity: ""Did that activity feel similar to how you feel when you are walking or running or is it somewhere in between?"" {Always refer to intensity guidelines}. ""Keep in mind that a moderate intensity activity feels similar to walking at a normal-to-brisk pace, and very hard feels similar to running.""
+
+{The interviewer should not guess what intensity an activity is. The subject is responsible for classifying his or her physical activities into intensity categories.}
+
+12. At the End of Each Day Ask: ""Are there any physical activities that you might have forgotten? Did you do any physical activity at work? How do you get to and from work? Are there any other recreational or sport activities? Did you participate in any sports or any vigorous family activities? How about any housework that made you feel similar to brisk walking? Or gardening? Were there any other walks that you might have taken?""
+
+13. On the Last Day of Recall: ""Take a moment to think back over the course of the week and think of any activities that you may have forgotten. Did you want to add any other household, occupational, or sports activities that you participated in during the past week that you may have overlooked? Did you take any walks you did not tell me about? Are there any activities that you are unsure about?""
+
+14. Last Question: ""The last question I am going to ask you is, Compared to your physical activity over the past 3 mo, was last week's physical activity more, less, or about the same?""
+
+{Record answer on page 2 of worksheet}
+
+15. ""Thank You"": {Thank the participant for his/her time and participation}",,"PX150702",,,,,,,,,,"",""
+"employed","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","Were you employed in the last seven days?","0 , No|1 , Yes","PX150702",,,,,,,,,,"",""
+"days_employed","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","If yes, which days?","UNDEFINED_CODE,Mon|UNDEFINED_CODE_1,Tues|UNDEFINED_CODE_2,Wed|UNDEFINED_CODE_3,Thurs|UNDEFINED_CODE_4,Fri|UNDEFINED_CODE_5,Sat|UNDEFINED_CODE_6,Sun","PX150702",,,,,,,,,,"",""
+"weekend","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","What two days do you consider your weekend days?","UNDEFINED_CODE,Mon|UNDEFINED_CODE_1,Tues|UNDEFINED_CODE_2,Wed|UNDEFINED_CODE_3,Thurs|UNDEFINED_CODE_4,Fri|UNDEFINED_CODE_5,Sat|UNDEFINED_CODE_6,Sun","PX150702",,,,,,,,,,"",""
+"day1_name","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","Day: (Day 1)","UNDEFINED_CODE,Sunday|UNDEFINED_CODE_1,Monday|UNDEFINED_CODE_2,Tuesday|UNDEFINED_CODE_3,Wednesday|UNDEFINED_CODE_4,Thursday|UNDEFINED_CODE_5,Friday|UNDEFINED_CODE_6,Saturday","PX150702",,,,,,,,,,"",""
+"sleep_inbed_day1_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day1_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day1_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day1_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day1_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day1_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day2_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day2_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day2_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day2_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day2_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day2_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day3_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day3_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day3_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day3_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day3_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day3_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day4_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day4_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day4_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day4_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day4_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day4_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day5_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day5_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day5_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day5_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day5_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day5_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day6_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day6_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day6_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day6_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day6_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day6_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day7_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day7)",,"PX150702","number",,,,,,,,,"",""
+"sleep_inbed_day7_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: In Bed (Day7)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day7_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day7)",,"PX150702","number",,,,,,,,,"",""
+"sleep_outofbed_day7_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Up (Day7)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day7_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day7)",,"PX150702","number",,,,,,,,,"",""
+"sleep_totaltime_day7_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Sleep: Total Time (Day7)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day1_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day1_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day1_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day1_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day1_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day1_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 1)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day2_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day2_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day2_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day2_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day2_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day2_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 2)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day3_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day3_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day3_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day3_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day3_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day3_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 3)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day4_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day4_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day4_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day4_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day4_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day4_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 4)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day5_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day5_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day5_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day5_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day5_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day5_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 5)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day6_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day6_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day6_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day6_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day6_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day6_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 6)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day7_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 7)",,"PX150702","number",,,,,,,,,"",""
+"work_start_day7_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Start (Day 7)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day7_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 7)",,"PX150702","number",,,,,,,,,"",""
+"work_end_day7_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: End (Day 7)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day7_hours","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 7)",,"PX150702","number",,,,,,,,,"",""
+"work_totaltime_day7_minutes","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Work: Total Time (Day 7)",,"PX150702","number",,,,,,,,,"",""
+"morning_day1_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 1): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day1_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 1): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day1_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 1): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day1_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 1): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day1_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 1): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day1_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 1): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day1_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 1): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day1_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 1): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day1_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 1): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day2_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 2): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day2_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 2): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day2_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 2): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day2_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 2): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day2_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 2): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day2_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 2): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day2_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 2): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day2_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 2): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day2_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 2): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day3_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 3): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day3_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 3): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day3_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 3): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day3_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 3): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day3_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 3): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day3_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 3): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day3_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 3): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day3_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 3): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day3_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 3): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day4_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 4): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day4_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 4): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day4_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 4): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day4_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 4): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day4_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 4): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day4_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 4): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day4_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 4): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day4_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 4): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day4_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 4): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day5_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 5): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day5_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 5): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day5_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 5): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day5_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 5): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day5_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 5): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day5_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 5): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day5_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 5): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day5_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 5): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day5_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 5): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day6_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 6): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day6_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 6): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day6_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 6): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day6_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 6): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day6_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 6): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day6_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 6): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day6_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 6): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day6_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 6): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day6_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 6): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day7_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 7): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day7_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 7): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"morning_day7_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Morning (Day 7): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day7_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 7): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day7_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 7): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"afternoon_day7_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 7): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day7_moderate","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 7): Moderate Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day7_hard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Evening (Day 7): Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"evening_day7_veryhard","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Afternoon (Day 7): Very Hard Activity",,"PX150702","number",,,,,,,,,"",""
+"physical_activity_comparison","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","Compared to your physical activity over the past three months, was last week's physical activity more, less or about the same?","1 , More|2 , Less|3 , About the same","PX150702",,,,,,,,,,"",""
+"interviewer_noted_problems","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","Were there any problems with the 7-Day PAR interview?","0 , No|1 , Yes","PX150702",,,,,,,,,,"",""
+"interviewer_noted_problems_specify","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Completed if answer is Yes""""",,"PX150702",,,,,,,,,,"",""
+"interviewer_par_valid","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"radio","Do you think this was a valid 7-Day PAR interview?","0 , No|1 , Yes","PX150702",,,,,,,,,,"",""
+"interviewer_par_valid_specify","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"text","Completed if answer is No""""",,"PX150702",,,,,,,,,,"",""
+"calc_01","px150702_phenx_total_physical_activitycomprehensive_adult_protocol","PAR CALCULATIONS","descriptive",,,"PX150702",,,,,,,,,,"",""
+"calc_02","px150702_phenx_total_physical_activitycomprehensive_adult_protocol",,"descriptive",,,"PX150702",,,,,,,,,,"",""
+"refs","px150702_phenx_total_physical_activitycomprehensive_adult_protocol","PAR REFERENCES & ADAPTATIONS","descriptive",,,"PX150702",,,,,,,,,,"",""

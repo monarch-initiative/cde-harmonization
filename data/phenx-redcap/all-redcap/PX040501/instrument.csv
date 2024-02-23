@@ -1,0 +1,6 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_heart_valve_function_record_id","px040501_phenx_heart_valve_function",,"text","Record ID",,"PX040501",,,,,,,,,,"",
+"ever_have_heart_valve_problem","px040501_phenx_heart_valve_function",,"radio","Has a doctor ever told you that you had rheumatic heart disease or heart valve problems?","1 , Yes|0 , No|9 , Don't Know","PX040501",,,,,,,,,,"",""
+"ecg_examination_date","px040501_phenx_heart_valve_function",,"text","Date of Electrocardiogram (ECG) Examination (mm/dd/yyyy).",,"PX040501","date_mdy",,,,"[ever_have_heart_valve_problem] = '1'",,,,,"",""
+"ecg_image_id","px040501_phenx_heart_valve_function",,"text","Electrocardiogram Trace/Image ID.",,"PX040501",,,,,"[ever_have_heart_valve_problem] = '1'",,,,,"",""
+"cardio_005_image002","px040501_phenx_heart_valve_function",,"descriptive","Classification of Severity of Valve Disease in Adults - image",,"PX040501",,,,,,,,,,"",""

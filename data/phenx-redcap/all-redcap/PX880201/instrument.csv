@@ -1,0 +1,10 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+testosterone_level_record_id,px880201_testosterone_level,,text,"Record ID",,PX880201,,,,,,,,,,,
+testosterone_level_hemophilia,px880201_testosterone_level,,radio,"Do you have hemophilia?","1, Yes|2, No|7, Refused|9, Don't Know",PX880201,,,,,,,,,,,
+testosterone_level_cancer_chemotherapy_past_4_weeks,px880201_testosterone_level,,radio,"Have you received cancer chemotherapy in the past 4 weeks, or do you anticipate such therapy in the next 4 weeks?","1, Yes|2, No|7, Refused|9, Don't Know",PX880201,,,,,,,,,,,
+testosterone_level_measurement,px880201_testosterone_level,,text,"What is the measured value of testosterone levels?",,PX880201,number,,,,,,,,,,
+testosterone_level_measurement_unit,px880201_testosterone_level,,text,"What is the measured value of testosterone levels? - Units",,PX880201,,,,,,,,,,,
+testosterone_level_manufacturer_equipment,px880201_testosterone_level,,text,"What is the manufacturer of equipment used?",,PX880201,,,,,,,,,,,
+testosterone_level_make_equipment,px880201_testosterone_level,,text,"What is the make of the equipment used?",,PX880201,,,,,,,,,,,
+testosterone_level_repeatability_assay,px880201_testosterone_level,,text,"What is the repeatability of the assay used?",,PX880201,,,,,,,,,,,
+testosterone_level_coefficient_variation_assay,px880201_testosterone_level,,text,"What is the coefficient of variation of the assay used?",,PX880201,,,,,,,,,,,

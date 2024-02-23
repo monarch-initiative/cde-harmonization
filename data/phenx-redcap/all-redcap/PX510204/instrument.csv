@@ -1,0 +1,26 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_screen_and_sev_of_subst_use_problems_adults_drugs_record_id","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"text","Record ID",,"PX510204",,,,,,,,,,"",
+"instructions_510204","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"descriptive","The following questions concern information about your possible involvement with drugs not including alcoholic beverages during the past 12 months. Carefully read each statement and decide if your answer is ""Yes"" or ""No"". Then, circle the appropriate response beside the question.
+
+In the statements, ""drug abuse"" refers to (1) the use of prescribed or over-the-counter drugs in excess of the directions, and (2) any non-medical use of drugs.",,"PX510204",,,,,,,,,,"",""
+"used_drugs","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","1. Have you used drugs other than those required for medical reasons?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"more_than_one_drug","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","2. Do you abuse more than one drug at a time?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"able_to_stop_using_drugs","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","3. Are you always able to stop using drugs when you want to?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"blackouts_flashbacks","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","4. Have you had 'blackouts' or 'flashbacks' as a result of drug use?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"feel_guilty_about_drug_use","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","5. Do you feel very bad or guilty about your drug use?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"spouse_complains_about_drugs","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","6. Does your spouse (or parents) ever complain about your involvement with drugs?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"neglected_family_because_of_drugs","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","7. Have you neglected your family because of your use of drugs?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"illegal_activities_to_obtain_drugs","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","8. Have you engaged in illegal activities in order to obtain drugs?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"experienced_withdrawal_symptoms","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","9. Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"medical_problems_from_drug_use","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"radio","10. Have you ever had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding, etc.)?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX510204",,,,,,,,,,"",""
+"scoring_510204","px510204_phenx_screen_and_sev_of_subst_use_problems_adults_drugs",,"descriptive","Scoring Procedure and Interpretation
+
+Add up the number of items scored in the critical direction (indicating drug problems). The critical direction answer is NO for items 4 and 5 and YES for all others.
+
+The total score can range from 0 to 20.
+
+A total score of 6 or more indicates need for further evaluation for possible drug use disorder.
+
+A score of 16 or more indicates a severe drug use disorder.
+
+© Copyright 1982 by Harvey A. Skinner, PhD and the Centre for Addiction and Mental Health, Toronto, Canada. You may reproduce this instrument for non-commercial use (clinical, research, training purposes) as long as you credit the author Harvey A. Skinner, Department of Public Health Sciences, University of Toronto.",,"PX510204",,,,,,,,,,"",""

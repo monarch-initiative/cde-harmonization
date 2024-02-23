@@ -1,0 +1,18 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_recumbent_length_record_id","px020702_phenx_recumbent_length",,"text","Record ID",,"PX020702",,,,,,,,,,"",
+"recumbent_instruction","px020702_phenx_recumbent_length",,"yesno","Review protocol instructions",,"PX020702",,,,,,,,,,"",""
+"recumbent_length_desc_1","px020702_phenx_recumbent_length",,"descriptive","Recumbent length is measured on infants and children ages birth through 47 months of age in NHANES 2007-08. An infantometer device is used. The device has a fixed headpiece, horizontal backboard, and movable foot piece. If the child is not wearing an examination gown, ask the parent or guardian to remove the child's clothes except for a diaper or underpants and t-shirt.
+
+Position the child on the infantometer with the feet positioned against the foot piece (Exhibit 1) and the head against the headpiece (Exhibit 2). Children often cry when placed on the infantometer, so ask the parent or guardian to stand between the examiner and recorder, make eye contact, and reassure the child.
+",,"PX020702",,,,,"[recumbent_instruction] = '1'",,,,,"",""
+"recumbent_length_desc_2","px020702_phenx_recumbent_length",,"descriptive","Exhibit 1. Proper Positioning of the Foot Piece of the Infantometer",,"PX020702",,,,,,,,,,"",""
+"recumbent_length_desc_3","px020702_phenx_recumbent_length",,"descriptive","Exhibit 2. Proper Positioning of the Headpiece of the Infantometer",,"PX020702",,,,,,,,,,"",""
+"recumbent_length_desc_4","px020702_phenx_recumbent_length",,"descriptive","One person supports the child's head and ensures that the head is positioned in the Frankfort horizontal plane. To do this, apply gentle traction to bring the top of the head in contact with the fixed headpiece. Secure the child's head in the proper alignment by lightly cupping the palms of your hands over the ears.
+
+A second person can align the child's legs by placing one hand gently but with mild pressure over the knees. With the other hand, slide the foot piece to rest firmly against the soles of the feet. The toes should point upward with both soles of the feet flexed perpendicular against the acrylic foot piece. To encourage the child to flex the feet, run the tip of your finger down the inside of the foot.
+
+NOTE: If you are unable to position both legs correctly, make certain that at least one leg is straight with the foot flexed against the foot piece so that a measurement can be made. The one-leg positioning is the exception rather than the rule and is only used when children are extremely agitated or uncooperative.",,"PX020702",,,,,,,,,,"",""
+"recumbent_length_1","px020702_phenx_recumbent_length",,"text","Recumbent Length 1",,"PX020702","number",0,,,,,,,,"",""
+"recumbent_length_2","px020702_phenx_recumbent_length",,"text","Recumbent Length 2",,"PX020702","number",0,,,,,,,,"",""
+"recumbent_length_3","px020702_phenx_recumbent_length",,"text","Recumbent Length 3",,"PX020702","number",0,,,,,,,,"",""
+"recumbent_length_average","px020702_phenx_recumbent_length",,"calc","Recumbent Length Average","mean([recumbent_length_1],[recumbent_length_2],[recumbent_length_3])","PX020702",,,,,,,,,,"",""

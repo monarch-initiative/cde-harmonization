@@ -1,0 +1,55 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_emotional_state_child_protocol_record_id","px180502_phenx_emotional_state_child_protocol",,"text","Record ID",,"PX180502",,,,,,,,,,"",
+"instructions_180502","px180502_phenx_emotional_state_child_protocol",,"descriptive","Feelings and Emotions (PANAS-C)
+
+This scale consists of a number of words that describe different feelings and emotions.
+Read each item and choose the appropriate answer next to that word.
+Indicate how much you have felt this way during the past few weeks.
+
+Not much or not at all = 1
+A little = 2
+Some = 3
+Quite a bit = 4
+A lot = 5",,"PX180502",,,,,,,,,,"",""
+"pxt180502_interested","px180502_phenx_emotional_state_child_protocol",,"radio","Interested","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_sad","px180502_phenx_emotional_state_child_protocol",,"radio","Sad","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_frightened","px180502_phenx_emotional_state_child_protocol",,"radio","Frightened","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_alert","px180502_phenx_emotional_state_child_protocol",,"radio","Alert","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_excited","px180502_phenx_emotional_state_child_protocol",,"radio","Excited","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_ashamed","px180502_phenx_emotional_state_child_protocol",,"radio","Ashamed","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_upset","px180502_phenx_emotional_state_child_protocol",,"radio","Upset","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_happy","px180502_phenx_emotional_state_child_protocol",,"radio","Happy","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_strong","px180502_phenx_emotional_state_child_protocol",,"radio","Strong","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_nervous","px180502_phenx_emotional_state_child_protocol",,"radio","Nervous","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_guilty","px180502_phenx_emotional_state_child_protocol",,"radio","Guilty","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_energetic","px180502_phenx_emotional_state_child_protocol",,"radio","Energetic","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_scared","px180502_phenx_emotional_state_child_protocol",,"radio","Scared","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_calm","px180502_phenx_emotional_state_child_protocol",,"radio","Calm","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"miserable","px180502_phenx_emotional_state_child_protocol",,"radio","Miserable","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_jittery","px180502_phenx_emotional_state_child_protocol",,"radio","Jittery","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_cheerful","px180502_phenx_emotional_state_child_protocol",,"radio","Cheerful","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_active","px180502_phenx_emotional_state_child_protocol",,"radio","Active","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_proud","px180502_phenx_emotional_state_child_protocol",,"radio","Proud","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_afraid","px180502_phenx_emotional_state_child_protocol",,"radio","Afraid","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_joyful","px180502_phenx_emotional_state_child_protocol",,"radio","Joyful","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_lonely","px180502_phenx_emotional_state_child_protocol",,"radio","Lonely","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"mad","px180502_phenx_emotional_state_child_protocol",,"radio","Mad","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_fearless","px180502_phenx_emotional_state_child_protocol",,"radio","Fearless","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_disgusted","px180502_phenx_emotional_state_child_protocol",,"radio","Disgusted","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_delighted","px180502_phenx_emotional_state_child_protocol",,"radio","Delighted","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_blue","px180502_phenx_emotional_state_child_protocol",,"radio","Blue","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_daring","px180502_phenx_emotional_state_child_protocol",,"radio","Daring","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"gloomy","px180502_phenx_emotional_state_child_protocol",,"radio","Gloomy","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"pxt180502_lively","px180502_phenx_emotional_state_child_protocol",,"radio","Lively","1 , Not much or not at all|2 , A little|3 , Some|4 , Quite a bit|5 , A lot","PX180502",,,,,,,,,,"",""
+"panas_c_scoring_180502","px180502_phenx_emotional_state_child_protocol",,"descriptive","PANAS-C SCORING SHEET
+
+Instructions: Record the child or adolescent's rating for each item in the appropriate blank.
+
+Ratings are from 1 to 5. To obtain the score for the positive affect (PA) scale, add the raw scores for the 12 items that compose the PA scale. Similarly, adding the raw scores for the 15 items that compose the negative affect (NA) scale results in the score for the NA scale.
+
+PA scale: Interested, excited, happy, strong, energetic, calm, cheerful, active, proud, joyful, delighted and lively.
+PA total ___________
+
+NA scale:  Sad, frightened, ashamed, upset, nervous, guilty, scared, misearable, jittery, afraid, lonely, mad, disgusted, blue, gloomy.
+NA total ___________
+",,"PX180502",,,,,,,,,,"",""

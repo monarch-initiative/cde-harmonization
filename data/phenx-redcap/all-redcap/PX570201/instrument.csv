@@ -1,0 +1,20 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing_record_id","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"text","Record ID",,"PX570201",,,,,,,,,,"",
+"hiv_testing_570201","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"descriptive","Below are a few questions about getting tested for HIV. Remember, an HIV test checks whether someone has the virus that causes AIDS.",,"PX570201",,,,,,,,,,"",""
+"tested_for_hiv","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"radio","1. Have you ever been tested for HIV?","0, No | 1, Yes | 7, Refused to answer | 9, Don't know","PX570201",,,,,,,,,,"",""
+"directions_570201","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"descriptive","If the answer to Q1 is NO = skip to Q4
+If the answer to Q1 is Refused or Don't know, end the protocol
+If the answer to Q1 is YES = go to Q2 and continue",,"PX570201",,,,,,,,,,"",""
+"most_recent_hiv_test_month","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"text","2. What month (1-12) did you have your most recent HIV test?",,"PX570201","number",,,,"[tested_for_hiv] = '1'",,,,,"",""
+"most_recent_hiv_test_year","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"text","2a. What year did you have your most recent HIV test?",,"PX570201","number",,,,"[tested_for_hiv] = '1'",,,,,"",""
+"most_recent_hiv_test_result","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"radio","3. What was the result of your most recent HIV test?","1, Negative | 2, Positive | 3, Never obtained results | 4, Indeterminate | 7, Refused to answer | 9, Don't know","PX570201",,,,,"[tested_for_hiv] = '1'",,,,,"",""
+"interview_instru_570201","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"descriptive","INTERVIEWER INSTRUCTIONS: Refer to Q2. LAST HIV TEST WAS DONE (Check one):
+
+? 12 months ago. . . . . . . . . . . . . . . . . . . . .[ ] End protocol
+
+> 12 months ago. . . . . . . . . . . . . . . . . . . . .[ ] Go to Q4
+
+Date of last test Don't know/Refused. . . .[ ] End protocol","1, ? 12 months ago.
+2, > 12 months ago
+3, Don't know/Refused","PX570201",,,,,"[tested_for_hiv] = '1'",,,,,"",""
+"reason_not_tested_for_hiv","px570201_phenx_selfreport_of_human_immunodeficiency_virus_hiv_testing",,"radio","4. I'm going to read you a list of reasons why some people have not been tested for HIV. Which of these best describes the most important reason you have not been tested for HIV in the past 12 months?","1, You think you are at low risk for HIV infection? | 2, You were afraid of finding out that you had HIV? | 3, You didn't have time? | 4, Some other reason? | 5, No particular reason | 7, Refused to answer | 9, Don't know","PX570201",,,,,"[tested_for_hiv] = '1' or [tested_for_hiv] = '0'",,,,,"",""

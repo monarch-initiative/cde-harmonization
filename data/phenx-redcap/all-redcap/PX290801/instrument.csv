@@ -1,0 +1,8 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+income_concentration_record_id,px290801_residential_concentration_income,,text,"Record ID",,PX290801,,,,,,,,,,,
+income_concentration_method,px290801_residential_concentration_income,,radio,"Method used to access summary files","UNDEFINED_CODE, Excel|UNDEFINED_CODE_1, SAS",PX290801,,,,,,,,,,,
+income_concentration_neighborhood,px290801_residential_concentration_income,,text,Neighborhood,,PX290801,,,,,,,,,,,
+income_concentration_number_affluent_people,px290801_residential_concentration_income,,text,"Number of affluent persons in the neighborhood (e.g., in the 80th income percentile)",,PX290801,integer,,,,,,,,,,
+income_concentration_number_poor_people,px290801_residential_concentration_income,,text,"Number of poor persons in neighborhood i (e.g., in the 20th income percentile)",,PX290801,integer,,,,,,,,,,
+income_concentration_number_total_population,px290801_residential_concentration_income,,text,"Total population with known income level in the neighborhood",,PX290801,integer,,,,,,,,,,
+income_concentration_ice_value,px290801_residential_concentration_income,,text,"Computed ICE value",,PX290801,number,,,,,,,,,,

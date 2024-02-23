@@ -1,0 +1,66 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"air_quality_index_record_id","px290101_phenx_air_quality_index",,"text","Record ID",,"PX290101",,,,,,,,,,"",""
+"air_quality_index_days_aqi","px290101_phenx_air_quality_index",,"text","# Days with AQI
+
+Number of days in the year having an Air Quality Index value. This is the number of days on which measurements from any monitoring site in the county or MSA were reported to the Air Quality System (AQS) database.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_aqi_good","px290101_phenx_air_quality_index",,"text","# Days Good
+
+Number of days in the year having an AQI value 0 through 50.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_aqi_moderate","px290101_phenx_air_quality_index",,"text","# Days Moderate
+
+Number of days in the year having an AQI value 51 through 100.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_aqi_unhealthy_sensitive_groups","px290101_phenx_air_quality_index",,"text","# Days Unhealthy for Sensitive Groups
+
+Number of days in the year having an AQI value 101 through 150.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_aqi_unhealthy","px290101_phenx_air_quality_index",,"text","# Days Unhealthy
+
+Number of days in the year having an AQI value 151 through 200.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_aqi_very_unhealthy","px290101_phenx_air_quality_index",,"text","# Days Very Unhealthy
+
+Number of days in the year having an AQI value 201 or higher. This includes the AQI categories very unhealthy and hazardous. Very few locations (about 0.3% of counties) have any days in the very unhealthy or hazardous categories.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_aqi_max_value","px290101_phenx_air_quality_index",,"text","AQI Max
+
+The highest daily AQI value in the year.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_aqi_90_percentile_value","px290101_phenx_air_quality_index",,"text","AQI 90th %ile
+
+90 percent of daily AQI values during the year were less than or equal to the 90th percentile value.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_aqi_median_value","px290101_phenx_air_quality_index",,"text","AQI Median
+
+Half of daily AQI values during the year were less than or equal to the median value, and half equaled or exceeded it.",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_co","px290101_phenx_air_quality_index",,"text","# Days CO",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_no2","px290101_phenx_air_quality_index",,"text","# Days NO2",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_o3","px290101_phenx_air_quality_index",,"text","# Days O3",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_so2","px290101_phenx_air_quality_index",,"text","# Days SO2",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_pm2","px290101_phenx_air_quality_index",,"text","# Days PM2.5",,"PX290101","integer",,,,,,,,,"",""
+"air_quality_index_days_pm10","px290101_phenx_air_quality_index",,"text","# Days PM10",,"PX290101","integer",,,,,,,,,"",""
+"information1","px290101_phenx_air_quality_index",,"descriptive","A daily index value is calculated for each air pollutant measured. The highest of those index values is the AQI value, and the pollutant responsible for the highest index value is the ""Main Pollutant."" These columns give the number of days each pollutant measured was the main pollutant. A blank column indicates a pollutant not measured in the county or CBSA.
+
+US EPA Air Quality Index Ranges and Associated Categories
+
+Range
+
+Category
+
+0-50
+
+Good
+
+51-100
+
+Moderate
+
+101-150
+
+Unhealthy for Sensitive Groups
+
+151-200
+
+Unhealthy
+
+201-300
+
+Very Unhealthy
+
+301-500
+
+Hazardous",,"PX290101",,,,,,,,,,"",""

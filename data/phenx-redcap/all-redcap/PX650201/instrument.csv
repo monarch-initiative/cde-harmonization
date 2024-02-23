@@ -1,0 +1,39 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_exercise_dependence_scale_record_id","px650201_phenx_exercise_dependence_scale",,"text","Record ID",,"PX650201",,,,,,,,,,"",
+"instructions_650201","px650201_phenx_exercise_dependence_scale",,"descriptive","Exercise Dependence Scale-21
+
+Instructions. Using the scale provided below, please complete the following questions as honestly as possible. The questions refer to current exercise beliefs and behaviors that have occurred in the past 3 months. Please select your answer to the right of the question.
+
+1= never
+2
+3
+4
+5
+6= always",,"PX650201",,,,,,,,,,"",""
+"exercise_avoid_feeling_irritable","px650201_phenx_exercise_dependence_scale",,"radio","I exercise to avoid feeling irritable.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_despite_recurring_physical_problems","px650201_phenx_exercise_dependence_scale",,"radio","I exercise despite recurring physical problems.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_increase_intensity_forresults","px650201_phenx_exercise_dependence_scale",,"radio","I continually increase my exercise intensity to achieve the desired effects/benefits.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_unableto_reduce_length","px650201_phenx_exercise_dependence_scale",,"radio","I am unable to reduce how long I exercise.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_insteadof_social_activity","px650201_phenx_exercise_dependence_scale",,"radio","I choose to exercise so that I can get out of spending time with family/friends.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_time_spent","px650201_phenx_exercise_dependence_scale",,"radio","I spend a lot of time exercising.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_longerthan_intended","px650201_phenx_exercise_dependence_scale",,"radio","I exercise longer than I intend.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_avoid_feeling_anxious","px650201_phenx_exercise_dependence_scale",,"radio","I exercise to avoid feeling anxious.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_when_injured","px650201_phenx_exercise_dependence_scale",,"radio","I exercise when injured.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_increase_frequency_forresults","px650201_phenx_exercise_dependence_scale",,"radio","I continually increase my exercise frequency to achieve the desired effects/benefits.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_unableto_reduce_frequency","px650201_phenx_exercise_dependence_scale",,"radio","I am unable to reduce how often I exercise.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_thoughts_insteadof_school_work","px650201_phenx_exercise_dependence_scale",,"radio","I think about exercise when I should be concentrating on school/work.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_majorityof_free_time","px650201_phenx_exercise_dependence_scale",,"radio","I spend most of my free time exercising.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_longerthan_expected","px650201_phenx_exercise_dependence_scale",,"radio","I exercise longer than I expect.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_avoid_feeling_tense","px650201_phenx_exercise_dependence_scale",,"radio","I exercise to avoid feeling tense.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_despite_persistent_physical_problems","px650201_phenx_exercise_dependence_scale",,"radio","I exercise despite persistent physical problems.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_increase_duration_forresults","px650201_phenx_exercise_dependence_scale",,"radio","I continually increase my exercise duration to achieve the desired effects/benefits.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_unable_reduce_intensity","px650201_phenx_exercise_dependence_scale",,"radio","I am unable to reduce how intense I exercise.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_excusefrom_social_activity","px650201_phenx_exercise_dependence_scale",,"radio","A great deal of my time is spent exercising.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"exercise_longerthan_planned","px650201_phenx_exercise_dependence_scale",,"radio","I exercise longer than I plan.","1 , Never|UNDEFINED_CODE_1,2|UNDEFINED_CODE_2,3|UNDEFINED_CODE_3,4|UNDEFINED_CODE_4,5|6 , Always","PX650201",,,,,,,,,,"",""
+"scoring_650201","px650201_phenx_exercise_dependence_scale",,"descriptive","Scoring:
+
+The proposed scoring procedure for the Exercise Dependence Scale is computer based, which allows for immediate and accurate scoring. The computer scoring of the Exercise Dependence Scale is based on the SPSS (Statistic Package for the Social Sciences). A syntax file (see https://www.phenxtoolkit.org/index.php?pageLink=browse.si.all&nimh=true) has been developed by the authors that enables immediate feedback to the Exercise Dependence Scale responses once the items are entered into SPSS. The syntax enables:
+
+1. Computing a total and subscale mean scores for Exercise Dependence Scale-21. A higher score indicates more exercise-dependent symptoms.
+
+2. Categorizing participants into either at-risk for exercise dependent, nondependent-symptomatic, or nondependent-asymptomatic groups. The categorization into one of the three groups is generated by a scoring manual that consists of flowchart decision rules in which items or combinations or items determine if an individual would be classified in the dependent, symptomatic, or asymptomatic range on each of the 7 DSM IV criteria. Individuals who are classified into the dependent range on 3 or more of the DSM criteria are classified as exercise dependence. The dependent range is operationalized as indicating a score of 5 or 6 for that item. Individuals who scored in the 3 to 4 range are classified as symptomatic. These individuals may theoretically be considered at-risk for exercise dependence. Finally, individuals who score in the 1-2 range are classified as asymptomatic.",,"PX650201",,,,,,,,,,"",""

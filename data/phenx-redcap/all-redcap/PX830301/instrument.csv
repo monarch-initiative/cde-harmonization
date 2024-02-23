@@ -1,0 +1,27 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_hemoglobin_characterization_record_id","px830301_phenx_hemoglobin_characterization",,"text","Record ID",,"PX830301",,,,,,,,,,"",
+"info_830301","px830301_phenx_hemoglobin_characterization",,"descriptive","Hemoglobin Characterization
+
+Blood Draw:
+Blood should be drawn into an appropriate EDTA tube.
+
+Laboratory Assay for Hemoglobin Characterization
+
+The Sickle Cell Disease Scientific and Research Panel (SRSP) notes that there are numerous different assays and instruments (e.g., hemoglobin electrophoresis, isoelectric focusing, high performance liquid chromatography, DNA sequencing analysis) that are appropriate to characterize hemoglobin variants. Once an assay is chosen for a particular study, the SRSP recommends that no changes in the protocol be made over the course of the study. To aid comparability, the SRSP recommends that the investigator record the make and manufacturer of equipment used and the repeatability and coefficients of variation for the assay.
+
+The SRSP notes that investigators should record the assay results for the following hemoglobins (the exact list of hemoglobins that can be distinguished will depend on the assay being used). The hemoglobins are listed in order of the amount present with the most prevalent coming first.
+
+* A
+* F
+* S
+* C
+* E/A2
+* D-Punjab
+* G-Philadelphia
+* O-Arab",,"PX830301",,,,,,,,,,"",""
+"scd_hemoglobin_assay_equipment_coefficients","px830301_phenx_hemoglobin_characterization",,"text","What are the coefficients of variation for the assay?",,"PX830301",,,,,,,,,,"",""
+"scd_hemoglobin_assay_equipment_make","px830301_phenx_hemoglobin_characterization",,"text","What is the make of the equipment used?",,"PX830301",,,,,,,,,,"",""
+"scd_hemoglobin_assay_equipment_manufacturer","px830301_phenx_hemoglobin_characterization",,"text","Who is the manufacturer of the equipment used?",,"PX830301",,,,,,,,,,"",""
+"scd_hemoglobin_assay_equipment_repeatability","px830301_phenx_hemoglobin_characterization",,"text","Describe the repeatability of the assay:",,"PX830301",,,,,,,,,,"",""
+"scd_hemoglobin_assay_results","px830301_phenx_hemoglobin_characterization",,"radio","Were the assay results recorded for the following hemoglobins? A, F, S, C, E/A2, D-Punjab, G-Philadelphia, O-Arab","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX830301",,,,,,,,,,"",""
+"scd_hemoglobin_blooddraw","px830301_phenx_hemoglobin_characterization",,"radio","Was the blood drawn into an appropriate EDTA tube?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX830301",,,,,,,,,,"",""

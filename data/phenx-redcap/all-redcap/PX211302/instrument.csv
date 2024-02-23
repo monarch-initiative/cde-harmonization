@@ -1,0 +1,8 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_neighborhood_concentrated_disadvantage_record_id","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Record ID",,"PX211302",,,,,,,,,,"",
+"percent_below_poverty_line","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Percent Of Individuals Below The Poverty Line (derived from ACS Table C17002)",,"PX211302",,,,,,,,,,"",""
+"percent_on_public_assistance","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Percent of Households Receiving Public Assistance (derived from ACS Table B19057)",,"PX211302",,,,,,,,,,"",""
+"percent_female_headed_households","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Percent Female-Headed Families (derived from ACS Table B11001)",,"PX211302",,,,,,,,,,"",""
+"percent_unemployed","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Percent Unemployed (derived from ACS Table B23025)",,"PX211302",,,,,,,,,,"",""
+"percent_younger_than_18","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Percent Less Than Age 18 (derived from ACS Table B01001)",,"PX211302",,,,,,,,,,"",""
+"percent_black","px211302_phenx_neighborhood_concentrated_disadvantage",,"text","Percent Black (derived from ACS Table B02001)",,"PX211302",,,,,,,,,,"",""

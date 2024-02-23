@@ -1,0 +1,9 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_peak_expiratory_flow_rate_pefr_record_id","px090801_phenx_peak_expiratory_flow_rate_pefr",,"text","Record ID",,"PX090801",,,,,,,,,,"",
+"instructions_090801","px090801_phenx_peak_expiratory_flow_rate_pefr",,"descriptive","The largest value from at least three acceptable blows is recorded.",,"PX090801",,,,,,,,,,"",""
+"peak_expiratory_flow_rate1","px090801_phenx_peak_expiratory_flow_rate_pefr",,"text","Peak Expiratory Flow Rate 1",,"PX090801","number",,,,,,,,,"",""
+"peak_expiratory_flow_rate1_units","px090801_phenx_peak_expiratory_flow_rate_pefr",,"radio","Peak Expiratory Flow Rate 1 units","UNDEFINED_CODE,L/sec|UNDEFINED_CODE_1,L/min","PX090801",,,,,,,,,,"",""
+"peak_expiratory_flow_rate2","px090801_phenx_peak_expiratory_flow_rate_pefr",,"text","Peak Expiratory Flow Rate 2",,"PX090801","number",,,,,,,,,"",""
+"peak_expiratory_flow_rate2_units","px090801_phenx_peak_expiratory_flow_rate_pefr",,"radio","Peak Expiratory Flow Rate 2 units","UNDEFINED_CODE,L/sec|UNDEFINED_CODE_1,L/min","PX090801",,,,,,,,,,"",""
+"peak_expiratory_flow_rate3","px090801_phenx_peak_expiratory_flow_rate_pefr",,"text","Peak Expiratory Flow Rate 3",,"PX090801","number",,,,,,,,,"",""
+"peak_expiratory_flow_rate3_units","px090801_phenx_peak_expiratory_flow_rate_pefr",,"radio","Peak Expiratory Flow Rate 3 units","UNDEFINED_CODE,L/sec|UNDEFINED_CODE_1,L/min","PX090801",,,,,,,,,,"",""

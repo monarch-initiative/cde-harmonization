@@ -1,0 +1,65 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_bilirubin_level_record_id","px810901_phenx_bilirubin_level",,"text","Record ID",,"PX810901",,,,,,,,,,"",
+"info_810901","px810901_phenx_bilirubin_level",,"descriptive","The following is a summary version of the full National Health and Nutrition Examination Survey 2011-2012 protocol.
+
+Exclusion Criteria
+
+Persons will be excluded from this component if they:
+
+Report that they have hemophilia; or
+Report that they have received cancer chemotherapy in the last 4 weeks
+
+SP = Sample Person.",,"PX810901",,,,,,,,,,"",""
+"billirubin_hemophilia","px810901_phenx_bilirubin_level",,"radio","Do you have hemophilia?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX810901",,,,,,,,,,"",""
+"hemo_810901","px810901_phenx_bilirubin_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX810901",,,,,,,,,,"",""
+"billirubin_chemotheraphy_4weeks","px810901_phenx_bilirubin_level",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX810901",,,,,,,,,,"",""
+"chemo_810901","px810901_phenx_bilirubin_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX810901",,,,,,,,,,"",""
+"billirubin_age","px810901_phenx_bilirubin_level",,"text","Age",,"PX810901","number",,,,,,,,,"",""
+"billirubin_blood_draw_results","px810901_phenx_bilirubin_level",,"text","Record the results of the blood draw.",,"PX810901",,,,,,,,,,"",""
+"billirubin_blood_draw_tube_deviation","px810901_phenx_bilirubin_level",,"text","Record reasons for a tube not being drawn according to the protocol.",,"PX810901",,,,,,,,,,"",""
+"billirubin_coefficientsvariation_totalbillirubin_assay","px810901_phenx_bilirubin_level",,"text","Coefficients of variation of the total billirubin assay.",,"PX810901","number",,,,,,,,,"",""
+"billirubin_equipment_make","px810901_phenx_bilirubin_level",,"text","Make of the equipment used to perform the total billirubin assay.",,"PX810901",,,,,,,,,,"",""
+"billirubin_equipment_manufacturer","px810901_phenx_bilirubin_level",,"text","Manufacturer of the equipment used to perform the total billirubin assay.",,"PX810901",,,,,,,,,,"",""
+"billirubin_serum_description","px810901_phenx_bilirubin_level",,"radio","If serum is hemolyzed, turbid, lipemic, or iteric, then describe.","UNDEFINED_CODE,hemolyzed|UNDEFINED_CODE_1,turbid|UNDEFINED_CODE_2,lipemic|UNDEFINED_CODE_3,icteric","PX810901",,,,,,,,,,"",""
+"billirubin_serum_determination","px810901_phenx_bilirubin_level",,"radio","Determine if the serum is hemolyzed, turbid, lipemic, or icteric.","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX810901",,,,,,,,,,"",""
+"billirubin_total_billirubin_assay_repeatability","px810901_phenx_bilirubin_level",,"text","Repeatability of the total billirubin assay.",,"PX810901",,,,,,,,,,"",""
+"billirubin_total_billirubin_concentration","px810901_phenx_bilirubin_level",,"text","Total billirubin concentration",,"PX810901","number",,,,,,,,,"",""
+"billirubin_venipuncture_comments","px810901_phenx_bilirubin_level",,"text","Record any comments about the venipuncture.",,"PX810901",,,,,,,,,,"",""
+"venipuncture_810901","px810901_phenx_bilirubin_level",,"descriptive","Venipuncture Procedures
+
+Editor's Note: Please review chapter 4 of the Laboratory Procedures Manual from the 2011-2012 National Health and Nutrition Examination Survey (NHANES) for a full description of phlebotomy procedures. This manual is posted here, and is also available at the NHANES website: 2011-2012 NHANES Laboratory Procedures Manual.
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+
+Recording the Results of the Venipuncture Procedure
+
+Immediately after completing the venipuncture, record the results of the blood draw, the reasons for a tube not being drawn according to the protocol, and any comments about the venipuncture.",,"PX810901",,,,,,,,,,"",""
+"processing_810901","px810901_phenx_bilirubin_level",,"descriptive","Blood Processing
+
+Please review chapter 8 of the Laboratory Procedures Manual from the National Health and Nutrition Examination Survey 2011-2012 for a full description of blood processing procedures: 2011-2012 NHANES Laboratory Procedures Manual.
+
+Allow the blood to clot by setting aside for 30 to 45 minutes at room temperature. Do not clot for more than an hour.
+Centrifuge the tube at room temperature to separate the serum and aliquot into an appropriate storage tube.
+Determine if the serum is hemolyzed, turbid, lipemic, or icteric. If so, enter a comment to describe the serum.
+There are many methods and recommended blood volumes for neonatal and pediatric bilirubin measurements.
+
+Neonatal blood collection - volumes may change depending on the laboratory but volumes as low as 0.1mL in a green or red top tube have been used.
+Pediatric blood collection - volumes may change depending on the laboratory but volumes as low as 0.5mL in a green or red top tube have been used.",,"PX810901",,,,,,,,,,"",""
+"lab_assay_810901","px810901_phenx_bilirubin_level",,"descriptive","Laboratory Assay for Total Bilirubin
+
+The Sickle Cell Disease Cardiovascular, Pulmonary, and Renal Working Group notes that there are a number of different assays and instruments that are appropriate to measure the concentration of total bilirubin. Once an assay is chosen for a particular study, the Working Group recommends that no changes in the protocol be made over the course of the study. To aid comparability, the Working Group recommends that the investigator record the make and manufacturer of equipment used and the repeatability and coefficients of variation for the assay.",,"PX810901",,,,,,,,,,"",""
+"ranges_810901","px810901_phenx_bilirubin_level",,"descriptive","Reference Ranges for Total Bilirubin:
+
+Neonatal
+
+Age of Participant (days) \ mg/dL
+
+0-1 \ 2.0-6.0
+1-2 \ 6.0-10.0
+3-5 \ 4.0-8.0
+>5 \ 0.2-1.3",,"PX810901",,,,,,,,,,"",""

@@ -1,0 +1,77 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_labbased_urine_drug_analysis_record_id","px510701_phenx_labbased_urine_drug_analysis",,"text","Record ID",,"PX510701",,,,,,,,,,"",
+"urine_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Urine collection, processing, and storage
+
+The participant is asked to urinate into a sterile 90 ml urine specimen container. Specimen collection should be observed to prevent specimen adulteration or substitution. Specimens should be refrigerated immediately after collection and aliquoted into a 4 ml cryovial (for each drug type being tested) within 48 hours. Cryovials should be frozen at -20?C until analysis. Specimens should be analyzed within 2 months of collection.",,"PX510701",,,,,,,,,,"",""
+"cannabis_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Cannabis
+
+Enzyme immunoassay should be employed to detect the marijuana metabolite ?9-tetrahydrocannabinol-9-carboxylic acid (THCCOOH). The assay will reliably detect marijuana metabolite concentrations greater than 50 ng/ml.
+
+Gas chromatographic mass spectrometric or liquid chromatographic mass spectrometric analysis should be employed to accurately detect THCCOOH concentrations greater than 15 ng/ml.
+
+Cannabis detection window
+
+a) It has been reported that after occasional use, 11-nor-9-carboxy-?9-tetrahydrocannabinol (THCCOOH) concentrations in urine remain above 15 ng/ml after alkaline hydrolysis for up to 4 days (Huestis et al., 1996).
+
+b) Urinary THCCOOH detection windows range from several days in infrequent users to months in frequent users (Ellis et al., 1985; Peat, 1989; Kelly & Jones, 1992; Fraser & Worth, 2003; Lowe et al., 2009).
+
+c) Differentiating new cannabis use from prolonged urinary excretion in chronic users is difficult. Several mathematical approaches for identifying new cannabis use based upon creatinine corrected THCCOOH urinary concentrations have been reported (Huestis et al., 1998; Schwilke et al., 2011; Smith et al., 2009).
+
+d) Research continues to identify biomarkers for directly distinguishing new cannabis use (Skopp & Potsch, 2002; Mareck et al., 2009; Weinmann et al., 2000).",,"PX510701",,,,,,,,,,"",""
+"cannabis","px510701_phenx_labbased_urine_drug_analysis",,"text","Cannabis",,"PX510701","number",,,,,,,,,"",""
+"cocaine_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Cocaine
+
+Enzyme immunoassay should be employed to detect the cocaine metabolite benzoylecgonine (BE). The assay will reliably detect cocaine metabolite concentrations greater than 300 ng/ml.
+
+Gas chromatographic mass spectrometric (GCMS) or liquid chromatographic mass spectrometric analysis should be employed to accurately detect BE concentrations greater than 150 ng/ml.
+
+Cocaine detection window
+
+The Drugs of Abuse Reference Guide indicates the urine screening cutoff for cocaine detection is 300 ng/ml. National Institute of Drug Abuse (NIDA) clinical trials also use this concentration as the threshold. GCMS can confirm a concentration of 150 ng/ml or greater. The urine detection time is 2-5 days (Lab Corporation of America, 2007).",,"PX510701",,,,,,,,,,"",""
+"pxt510701_cocaine","px510701_phenx_labbased_urine_drug_analysis",,"text","Cocaine",,"PX510701","number",,,,,,,,,"",""
+"meth_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Amphetamine or methamphetamine
+
+Enzyme immunoassay should be employed to reliably detect methamphetamine concentrations greater than 500 ng/ml.
+
+Gas chromatographic mass spectrometric or liquid chromatographic mass spectrometric analysis should be employed to accurately detect methamphetamine concentrations greater than 250 ng/ml and amphetamine concentrations greater than 100 ng/ml. To be positive for methamphetamine, a specimen must exceed 250 ng/ml methamphetamine and contain more than 100 ng/ml of amphetamine.
+
+Methamphetamine detection window
+
+25-77 hrs after oral administration of a single 10 mg methamphetamine hydrochloride sustained release capsule methamphetamine and amphetamine urine concentrations exceeded 250 and 100 ng/ml, respectively (n = 5) (Oyler et al., 2002).",,"PX510701",,,,,,,,,,"",""
+"pxt510701_amphetamine","px510701_phenx_labbased_urine_drug_analysis",,"text","Amphetamine",,"PX510701","number",,,,,,,,,"",""
+"pxt510701_methamphetamine","px510701_phenx_labbased_urine_drug_analysis",,"text","Methamphetamine",,"PX510701","number",,,,,,,,,"",""
+"opiates_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Opiates
+
+Enzyme immunoassay should be employed to reliably detect morphine concentrations greater than 300 ng/ml.
+
+Gas chromatographic mass spectrometric or liquid chromatographic mass spectrometric analysis should be employed to accurately detect codeine and morphine concentrations greater than 300 ng/ml.
+
+Opiate detection window
+
+The Drugs of Abuse Reference Guide indicates the urine screening cutoff for codeine and morphine detection is 300 ng/ml. National Institute of Drug Abuse (NIDA) clinical trials also use this concentration as the threshold. GCMS can confirm a concentration of 300 ng/ml or greater. The urine detection time is 2-3 days (Lab Corporation of America, 2007).",,"PX510701",,,,,,,,,,"",""
+"pxt510701_opiates","px510701_phenx_labbased_urine_drug_analysis",,"text","Opiates",,"PX510701","number",,,,,,,,,"",""
+"ecstasy_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Methylenedioxymethamphetamine (MDMA, ecstasy), methylenedioxyamphetamine (MDA) or methylenedioxyethylamphetamine (MDEA)
+
+Enzyme immunoassay should be employed to reliably detect MDMA concentrations greater than 500 ng/ml.
+
+Gas chromatographic mass spectrometric or liquid chromatographic mass spectrometric analysis should be employed to accurately detect MDMA, MDA, and MDEA concentrations greater than 250 ng/ml.
+
+MDMA detection window
+
+Following a single 1.0 or 1.6 mg/kg oral administration of MDMA, urine specimens were unlikely to contain more than 250 ng/ml of MDMA for more than 48 hrs after dosing (n = 16) (Abraham et al., 2009).",,"PX510701",,,,,,,,,,"",""
+"mdma_ecstasy","px510701_phenx_labbased_urine_drug_analysis",,"text","Methylenedioxymethamphetamine (MDMA, ecstasy), methylenedioxyamphetamine (MDA) or methylenedioxyethylamphetamine (MDEA)",,"PX510701","number",,,,,,,,,"",""
+"methadone_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Methadone
+
+Enzyme immunoassay should be employed to reliably detect methadone concentrations greater than 300 ng/ml.
+
+Gas chromatographic mass spectrometric or liquid chromatographic mass spectrometric analysis should be employed to accurately detect methadone and 2-ethylidine-1,5dimethyl-3,3-diphenylpyrrolidine (EDDP) concentrations greater than 100 ng/ml.",,"PX510701",,,,,,,,,,"",""
+"pxt510701_methadone","px510701_phenx_labbased_urine_drug_analysis",,"text","Methadone",,"PX510701","number",,,,,,,,,"",""
+"buprenorphine_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Buprenorphine (Suboxone)
+
+Enzyme immunoassay should be employed to reliably detect norbuprenorphine, the metabolite of buprenorphine, at levels greater than 10 ng/ml.
+
+Gas chromatographic mass spectrometric or liquid chromatographic mass spectrometric analysis should be employed to accurately detect buprenorphine at levels greater than 2 ng/ml.",,"PX510701",,,,,,,,,,"",""
+"buprenorphine","px510701_phenx_labbased_urine_drug_analysis",,"text","Buprenorphine (Suboxone)",,"PX510701","number",,,,,,,,,"",""
+"interpretation_510701","px510701_phenx_labbased_urine_drug_analysis",,"descriptive","Interpretation of Results
+
+In general, a positive result, i.e., the presence of drug is detected in an enzyme immunoassay, indicates that the individual has ingested the drug, or a drug in the same chemical class, within the window of detection. Not all positive drug screens are due to illicit drug use or are confirmed. Drugs taken in low doses or at times outside of the window of detection may not result in a positive drug screen.",,"PX510701",,,,,,,,,,"",""

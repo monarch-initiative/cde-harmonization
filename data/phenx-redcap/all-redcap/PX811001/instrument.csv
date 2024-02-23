@@ -1,0 +1,59 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_lactate_dehydrogenase_level_record_id","px811001_phenx_lactate_dehydrogenase_level",,"text","Record ID",,"PX811001",,,,,,,,,,"",
+"info_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","The following is a summary version of the full National Health and Nutrition Examination Survey 2011-2012 protocol.
+
+Exclusion Criteria
+
+Persons will be excluded from this component if they:
+
+Report that they have hemophilia; or
+Report that they have received cancer chemotherapy in the last 4 weeks
+
+SP = Sample Person.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_hemophilia","px811001_phenx_lactate_dehydrogenase_level",,"radio","Do you have hemophilia?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX811001",,,,,,,,,,"",""
+"hemo_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_chemotheraphy_4weeks","px811001_phenx_lactate_dehydrogenase_level",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX811001",,,,,,,,,,"",""
+"chemo_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_age","px811001_phenx_lactate_dehydrogenase_level",,"text","Age",,"PX811001","number",,,,,,,,,"",""
+"lactate_dehydrogenase_assay_repeatability","px811001_phenx_lactate_dehydrogenase_level",,"text","Repeatability of the lactate dehydrogenase assay.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_blood_draw_results","px811001_phenx_lactate_dehydrogenase_level",,"text","Record the results of the blood draw.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_blood_drawtube_deviation","px811001_phenx_lactate_dehydrogenase_level",,"text","Record reasons for a tube not being drawn according to the protocol.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_coefficients_variation_assay","px811001_phenx_lactate_dehydrogenase_level",,"text","Coefficients of variation of the lactate dehydrogenase assay.",,"PX811001","number",,,,,,,,,"",""
+"lactate_dehydrogenase_concentration","px811001_phenx_lactate_dehydrogenase_level",,"text","Lactate dehydrogenase level",,"PX811001","number",,,,,,,,,"",""
+"lactate_dehydrogenase_equipment_make","px811001_phenx_lactate_dehydrogenase_level",,"text","Make of the equipment used to perform the lactate dehydrogenase assay.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_equipment_manufacturer","px811001_phenx_lactate_dehydrogenase_level",,"text","Manufacturer of the equipment used to perform the lactate dehydrogenase assay.",,"PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_serum_description","px811001_phenx_lactate_dehydrogenase_level",,"radio","If serum is hemolyzed, turbid, lipemic, or iteric, then describe.","UNDEFINED_CODE,hemolyzed|UNDEFINED_CODE_1,turbid|UNDEFINED_CODE_2,lipemic|UNDEFINED_CODE_3,icteric","PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_serum_determination","px811001_phenx_lactate_dehydrogenase_level",,"radio","Determine if the serum is hemolyzed, turbid, lipemic, or icteric.","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX811001",,,,,,,,,,"",""
+"lactate_dehydrogenase_venipuncture_comments","px811001_phenx_lactate_dehydrogenase_level",,"text","Record any comments about the venipuncture.",,"PX811001",,,,,,,,,,"",""
+"venipuncture_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","Venipuncture Procedures
+
+Editor's Note: Please review chapter 4 of the Laboratory Procedures Manual from the 2011-2012 National Health and Nutrition Examination Survey (NHANES) for a full description of phlebotomy procedures. This manual is posted here, and is also available at the NHANES website: 2011-2012 NHANES Laboratory Procedures Manual
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+Recording the Results of the Venipuncture Procedure
+
+Immediately after completing the venipuncture, record the results of the blood draw, the reasons for a tube not being drawn according to the protocol, and any comments about the venipuncture.",,"PX811001",,,,,,,,,,"",""
+"processing_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","Blood Processing
+
+Please review chapter 8 of the Laboratory Procedures Manual from the National Health and Nutrition Examination Survey 2011-2012 for a full description of blood processing procedures: 2011-2012 NHANES Laboratory Procedures Manual
+
+Allow the blood to clot by setting aside for 30 to 45 minutes at room temperature. Do not clot for more than an hour.
+Centrifuge the tube at room temperature to separate the serum and aliquot into an appropriate storage tube.
+Determine if the serum is hemolyzed, turbid, lipemic, or icteric. If so, enter a comment to describe the serum.
+Pediatric blood collection - volumes may change depending on the laboratory but volumes as low as 0.5mL in a red top, green top or no additive tube/Microtainer™ have been used.",,"PX811001",,,,,,,,,,"",""
+"lab_assay_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","Laboratory Assay for Lactate Dehydrogenase
+
+The Sickle Cell Disease Cardiovascular, Pulmonary, and Renal Working Group notes that there are a number of different assays and instruments that are appropriate to measure the concentration of lactate dehydrogenase. Once an assay is chosen for a particular study, the Working Group recommends that no changes in the protocol be made over the course of the study. To aid comparability, the Working Group recommends that the investigator record the make and manufacturer of equipment used and the repeatability and coefficients of variation for the assay.",,"PX811001",,,,,,,,,,"",""
+"ranges_811001","px811001_phenx_lactate_dehydrogenase_level",,"descriptive","Reference Ranges for Lactate Dehydrogenase:
+
+Age (years) \ IU/L
+
+0-5 \ 140-304
+5-10 \ 142-290
+10-15 \ 115-257
+>15 \ 93-198",,"PX811001",,,,,,,,,,"",""

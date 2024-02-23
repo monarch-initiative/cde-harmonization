@@ -1,0 +1,12 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_refractive_error_adult_record_id","px111401_phenx_refractive_error_adult",,"text","Record ID",,"PX111401",,,,,,,,,,"",
+"inst1_0111401","px111401_phenx_refractive_error_adult",,"descriptive","See instrument details refer <a href=""https://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&id=111401"" target=""_blank"">here</a>.",,"PX111401",,,,,,,,,,"",""
+"refractive_error_instrument_model","px111401_phenx_refractive_error_adult",,"text","Model of instrument used to measure Refractive Error",,"PX111401",,,,,,,,,,"",""
+"right_eye_spherical_power","px111401_phenx_refractive_error_adult",,"text","Right Eye Spherical Power measured",,"PX111401",,,,,,,,,,"",""
+"right_eye_cylinder_axis","px111401_phenx_refractive_error_adult",,"text","Right Eye Cylinder Axis measured",,"PX111401",,,,,,,,,,"",""
+"right_eye_cylindrical_power","px111401_phenx_refractive_error_adult",,"text","Right Eye Cylindrical Power measured",,"PX111401",,,,,,,,,,"",""
+"righteye_best_corrected_visual_acuity","px111401_phenx_refractive_error_adult",,"text","Right Eye Best Corrected Visual Acuity measured",,"PX111401",,,,,,,,,,"",""
+"left_eye_spherical_power","px111401_phenx_refractive_error_adult",,"text","Left Eye Spherical Power measured",,"PX111401",,,,,,,,,,"",""
+"left_eye_cylinder_axis","px111401_phenx_refractive_error_adult",,"text","Left Eye Cylinder Axis measured",,"PX111401",,,,,,,,,,"",""
+"left_eye_cylindrical_power","px111401_phenx_refractive_error_adult",,"text","Left Eye Cylindrical Power measured",,"PX111401",,,,,,,,,,"",""
+"lefteye_best_corrected_visual_acuity","px111401_phenx_refractive_error_adult",,"text","Left Eye Best Corrected Visual Acuity measured",,"PX111401",,,,,,,,,,"",""

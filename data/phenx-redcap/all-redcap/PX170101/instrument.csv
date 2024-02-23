@@ -1,0 +1,38 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"PX170101_alkaline_phosphatase_record_id","px170101_PX170101_alkaline_phosphatase",,"text","Record ID",,"PX170101",,,,,,,,,,"",
+"hemophilia","px170101_PX170101_alkaline_phosphatase",,"radio","Do you have hemophilia? (exclusion from Phlebotomy)","1 , Yes|2 , No|7 , Refused|9 , Don't Know","PX170101",,,,,,,,,,"",""
+"chemotherapy","px170101_PX170101_alkaline_phosphatase",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks? (exclusion from Phlebotomy)","1 , Yes|2 , No|7 , Refused|9 , Don't Know","PX170101",,,,,,,,,,"",""
+"exclusion_criteria","px170101_PX170101_alkaline_phosphatase",,"radio","Exclusion Criteria","UNDEFINED_CODE, Hemophilia | UNDEFINED_CODE_1, Received cancer chemotherapy in the last 4 weeks | UNDEFINED_CODE_2, None","PX170101",,,,,,,,,,"",""
+"veni_proc_170101","px170101_PX170101_alkaline_phosphatase",,"descriptive","Venipuncture Procedures
+
+Please review chapter 4 of the Laboratory Procedures Manual from the National Health and Nutrition Examination Survey 2007-2008 for a full description of phlebotomy procedures. 2007-2008 NHANES Lab Manual
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+Note from the Skin, Bone, Muscle and Joint Working Group: Blood should be collected in an appropriate 5-mL or 10-mL red-top tube or serum separator tube.",,"PX170101",,,,,,,,,,"",""
+"blood_draw_done","px170101_PX170101_alkaline_phosphatase",,"radio","Was blood drawn?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX170101",,,,,,,,,,"",""
+"blood_draw_sample","px170101_PX170101_alkaline_phosphatase",,"radio","Was full amount obtained?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX170101",,,,,,,,,,"",""
+"blood_draw_comments","px170101_PX170101_alkaline_phosphatase",,"text","Record any comments about the blood draw, including any reasons for the tube not being drawn according to the protocol.",,"PX170101",,,,,,,,,,"",""
+"sample_comments","px170101_PX170101_alkaline_phosphatase",,"text","Record any comments about the sample during processing.",,"PX170101",,,,,,,,,,"",""
+"equipment_make","px170101_PX170101_alkaline_phosphatase",,"text","Make of the equipment used to perform the alkaline phosphatase assay.",,"PX170101",,,,,,,,,,"",""
+"equipment_manufacturer","px170101_PX170101_alkaline_phosphatase",,"text","Manufacturer of the equipment used to perform the alkaline phosphatase assay.",,"PX170101",,,,,,,,,,"",""
+"assay_repeatability","px170101_PX170101_alkaline_phosphatase",,"text","Repeatability of the assay",,"PX170101",,,,,,,,,,"",""
+"coefficient_of_variation","px170101_PX170101_alkaline_phosphatase",,"text","Coefficient of variation for the assay",,"PX170101",,,,,,,,,,"",""
+"alkaline_phosphatase_concentration","px170101_PX170101_alkaline_phosphatase",,"text","Alkaline phosphatase concentration",,"PX170101",,,,,,,,,,"",""
+"reference_ranges","px170101_PX170101_alkaline_phosphatase",,"descriptive","Reference Ranges for Alkaline Phosphatase*
+
+Serum or Plasma            
+Age Group__________ IU/L
+
+0-5 Y________________60-321
+
+5-10 Y_______________110-360
+
+10-12 Y______________103-373
+
+12-16 Y______________67-382
+
+>16 Y _______________36-113
+
+
+* From the National Health and Nutrition Examination Survey 2007-2008 laboratory protocol",,"PX170101",,,,,,,,,,"",""

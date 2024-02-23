@@ -1,0 +1,63 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry_record_id","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry",,"text","Record ID",,"PX170701",,,,,,,,,,"",
+"px170701_inst1","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry",,"descriptive","The following is a summary of the Framingham Osteoporosis Study Generation 3 Musculoskeletal Exam (May 2008-2010) manual. These excerpts refer to a specific make and model dual-energy X-ray absorptiometry (DXA) scanner (GE Lunar densitometer<U+00A9>). Several brands of DXA scanners are available and manufacturer-specific software, calibration, and quality control practices should be followed.
+
+A downloadable procedure manual for the Framingham Osteoporosis Study Generation 3 Musculoskeletal Exam (May 2008-2010) is available: <a href=""https://www.phenxtoolkit.org/toolkit_content/supplemental_info/sbmj/additional_info/Framingham_Osteoporosis_Study_Bone_Density_MOP.pdf"" target=""_blank"">Framingham Osteoporosis Study Generation 3 Musculoskeletal Exam</a>
+",,"PX170701",,,,,,,,,,"",""
+"px170701_sectiona","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","A. Pre-Clinic Procedures","descriptive","Dual energy x-ray absorptiometry poses a radiation hazard. Thus, the Framingham Osteoporosis Study Generation 3 Musculoskeletal Exam includes a pre-clinic pregnancy screening questionnaire which is administered to all women younger than 55 years old ten days prior to the visit. Women who are pregnant or trying to get pregnant are excluded from the exam. Women who do not use birth control are asked to abstain from sex 7 days prior to their exam.",,"PX170701",,,,,,,,,,"",""
+"px170701_sectionb","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","B. Daily Quality Assurance and Phantom Procedures","descriptive","A quality assurance test is performed each day using a black calibration block which consists of tissue-equivalent material and three bone-simulating chambers of known mineral content. Additionally, an encapsulated spine phantom scan is collected every day to standardize on known ""vertebral heights.""",,"PX170701",,,,,,,,,,"",""
+"px170701_sectionc","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","C. Participants Enter Main Clinic","file","The lab technician collects urine for a pregnancy test on all women younger than 55 who have not had a tubal ligation or hysterectomy. The technician uses the results of the pregnancy test to complete the Pregnancy Determination form (see Appendix A of the <a href=""https://www.phenxtoolkit.org/toolkit_content/supplemental_info/sbmj/additional_info/Framingham_Osteoporosis_Study_Bone_Density_MOP.pdf"" target=""_blank"">Framingham Osteoporosis Study Generation 3 Musculoskeletal Exam</a> for form). The lab technician also measures/records the participant's weight and height if they are not already noted.",,"PX170701",,,,,,,,,,"",""
+"px170701_sectiond","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","descriptive","<b>Consent participant/review pregnancy issues</b>
+
+For men and women who are either aged 55 years or older or have had a tubal ligation or hysterectomy, the bone technician will explain and gather consent for the bone scan. For all other women, the bone technician will review the results of the pregnancy test. If the test is positive, the participant is excluded from the test and is asked to reschedule her scan. If the test is negative, the participant is asked whether she had intercourse in the past week. If the participant indicates the possibility of being pregnant, she is excluded from the test and is asked to reschedule her scan. Once the technician establishes that there is no risk of pregnancy, the technician will explain and gather consent for the bone scan.
+
+<b>Participant preparation</b>
+
+The technician asks the participant to remove any metallic items such as rings, piercings, watches, or hair clips. The technician asks the participant whether he or she has implanted metallic medical devices such as spine implants, hip replacements, pins, and screws. The technician notes the location of any metal items that are not removed before the scan.",,"PX170701",,,,,,,,,,"",""
+"pregnant","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","Are you pregnant?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No|UNDEFINED_CODE_2,Don't Know","PX170701",,,,,,,,,,"",""
+"womenunder55_hysterectomy_tubal_ligation","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","For women < 55 years old: Have you had a hysterectomy [removal of the uterus] or tubal ligation [tubes tied]?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX170701",,,,,,,,,,"",""
+"womenover55_hysterectomy","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","For women >55 years old: Have you had a hysterectomy","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX170701",,,,,,,,,,"",""
+"last_menstrual_period","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","If no, when was your last menstrual period?","UNDEFINED_CODE,>6 months ago|UNDEFINED_CODE_1,Within 6 months","PX170701",,,,,,,,,,"",""
+"pregnancy_test_required","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","Pregnancy Test Required?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX170701",,,,,,,,,,"",""
+"pregnancy_test_result","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","If yes, Result:","UNDEFINED_CODE,Positive|UNDEFINED_CODE_1,Negative","PX170701",,,,,,,,,,"",""
+"intercourse_in_last_week","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","Have you had sexual intercourse in the past seven days?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX170701",,,,,,,,,,"",""
+"birth_control","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","D. Participants Enter Bone Room","radio","Did you use  birth control each time you had sexual intercourse in the past seven days?","UNDEFINED_CODE, Yes | UNDEFINED_CODE_1, No","PX170701",,,,,,,,,,"",""
+"px170701_sectione","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","E. Hip and AP DXA Scan Procedures","descriptive","DXA scan acquisition
+
+The technician asks the participant whether he or she has had hip implant/replacement to determine which hip to scan. If both hips have been replaced, the hip scan is not performed. The spine scan is completed regardless of any implants.
+
+
+Prepare the participant for scan
+
+The participant lies in middle of scanning table. The technician measures the participant's waist thickness at the belly button and hip thickness at the inferior iliac spine. The technician records the participant's name, ID, birth date, height, weight, gender, and ethnicity and notes any conditions that may affect DXA scan results.
+
+Femur Scan
+
+The technician makes sure that the participant is correctly positioned in the middle of the table and that the participant's pelvis is flat and that the spine is straight. The technician then correctly positions the leg and stabilizes it with a foot brace and tissue equivalent bags.
+
+The technician monitors the scan image to make sure that the participant is properly positioned. If the scan is too high or too low, the scan is aborted and started again with a new start position. A correct femur image will show the greater trochanter, the femoral neck, and the ischium.
+
+Spine Scan
+
+The technician removes the foot brace and tissue equivalent bags and positions the participant for the spine scan. The technician uses a support block to elevate the participant's legs.
+
+The technician monitors the scan image to make sure that the participant is properly positioned. If the scan is too high or too low, the scan is aborted and started again with a new start position. The technician notes any artifacts seen in the scan. A correct spine image will show the spine in the center, include all of L4, the top of L5 and approximately half of T12.",,"PX170701",,,,,,,,,,"",""
+"dxa_machine_name","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","E. Hip and AP DXA Scan Procedures","text","Dual-energy x-ray absorptiometry (DXA) machine name",,"PX170701",,,,,,,,,,"",""
+"dxa_machine_manufacturer","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","E. Hip and AP DXA Scan Procedures","text","Dual-energy x-ray absorptiometry (DXA) manufacturer",,"PX170701",,,,,,,,,,"",""
+"px170701_sectiondxa","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","DXA scan analysis","descriptive","Femur scan
+
+The technician adjusts the image so that the bone edges can be clearly seen and makes sure that the bone and tissue are correctly identified by the analysis software. The technician ensures the region of interest is correctly positioned as follows:
+
+The Neck Region of Interest (ROI) does not include any portion of the greater trochanter
+Soft tissue is contained in both ends of the Neck Region of Interest
+The Neck Region of Interest (ROI) is perpendicular to the femoral neck.
+The Neck Region of Interest (ROI), ideally, does not contain any portion of the ischium. If the ischium is include in the Neck Region of Interest (ROI), the program automatically types the bone as Neutral.
+Spine Scan
+
+The technician adjusts the image so that the bone edges can be clearly seen and makes sure that the bone and tissue are correctly identified by the analysis software. The technician ensures the region of interest is correctly positioned as follows:
+
+Make sure the intervertebral markers are between the vertebral bodies
+Make sure the intervertebral markers are located at the lowest point of the bone density as indicated on the bone profile.
+GE Lunar DXA systems and related software, such as enCORE, are under copyright. <U+00A9>2010 General Electric Company. All rights reserved. GE and GE Monogram are trademarks of General Electric Company. GE Healthcare is a division of General Electric Company.",,"PX170701",,,,,,,,,,"",""
+"femur_scan_id","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","DXA scan analysis","text","Femur scan image name (ID)",,"PX170701",,,,,,,,,,"",""
+"spine_scan_id","px170701_PX170701_spine_and_femur_bone_density_by_dual_energy_x_ray_absorptiometry","DXA scan analysis","text","Spine scan image name (ID)",,"PX170701",,,,,,,,,,"",""

@@ -1,0 +1,4 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"record_id","px860401_px860401",,"text","Record ID",,"PX860401",,,,,,,,,,"",""
+"pain_intensity_adolescent_and_adult_descriptive","px860401_px860401",,"descriptive","Please respond to the question by marking one box.",,"PX860401",,,,,,,,,,"",""
+"pain_intensity_adolescent_and_adult_rate","px860401_px860401",,"radio","In the past 7 days... How would you rate your pain on average?","0, No pain | 1,  | 2,  | 3,  | 4,  | 5,  | 6,  | 7,  | 8,  | 9,  | 10, Worst imaginable pain","PX860401",,,,,,,,,,"",""

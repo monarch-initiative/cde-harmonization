@@ -1,0 +1,7 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_dry_mouth_record_id","px080401_phenx_dry_mouth",,"text","Record ID",,"PX080401",,,,,,,,,,"",
+"mouth_dry_frequently","px080401_phenx_dry_mouth",,"radio","Does your mouth frequently feel dry?","0 , No|1 , Yes","PX080401",,,,,,,,,,"",""
+"mouth_dry_when_eating","px080401_phenx_dry_mouth",,"radio","Does your mouth feel dry when eating?","0 , No|1 , Yes","PX080401",,,,,,,,,,"",""
+"mouth_saliva_amount","px080401_phenx_dry_mouth",,"radio","Does the amount of saliva in your mouth seem to be:","0 , Too little|1 , Too much|2 , Don't notice it","PX080401",,,,,,,,,,"",""
+"sip_liquids_keep_mouth_moist","px080401_phenx_dry_mouth",,"radio","Do you sip liquids frequently during the day to keep your mouth moist?","0 , No|1 , Yes|2 , Not sure","PX080401",,,,,,,,,,"",""
+"difficulty_swallow_without_addition_fluids","px080401_phenx_dry_mouth",,"radio","Do you have difficulties swallowing food if you eat without additional fluids?","0 , No|1 , Yes|2 , Not sure","PX080401",,,,,,,,,,"",""

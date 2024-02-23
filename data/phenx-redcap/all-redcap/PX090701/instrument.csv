@@ -1,0 +1,8 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_immunoglobulin_e_total_and_specific_record_id","px090701_phenx_immunoglobulin_e_total_and_specific",,"text","Record ID",,"PX090701",,,,,,,,,,"",
+"instructions_090701","px090701_phenx_immunoglobulin_e_total_and_specific",,"descriptive","Draw 2-4 cc of blood into one 5 ml SST gold top Vacutainer® tube for IgE. The tube should be allowed to sit at room temperature for 30 minutes to clot. The sample should then be spun at 2,000 rpm (room temperature: 20-24oC) for 10 minutes to separate off the serum.
+
+The serum should be aliquoted in 1.8 ml screw-top cryogenic microcontainer tubes (0.5 cc minimum per tube).
+
+The IgE can be processed immediately or kept frozen (-20oC to -70oC) and processed in batches.",,"PX090701",,,,,,,,,,"",""
+"ige_concentration","px090701_phenx_immunoglobulin_e_total_and_specific",,"text","Concentration of Immunoglobulin E",,"PX090701","number",,,,,,,,,"",""

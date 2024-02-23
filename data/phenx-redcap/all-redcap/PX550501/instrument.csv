@@ -1,0 +1,103 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"treatment_availability_level_care_record_id","px550501_phenx_treatment_availability_and_level_of_care",,"text","Record ID",,"PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_age_admission","px550501_phenx_treatment_availability_and_level_of_care",,"dropdown","Calculated from date of birth and date of admission and categorized.","1, 12","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_education","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Specifies the highest school grade (number of school years) completed by the client.","1,  8 years or less|2, 9","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_employment_status_admission","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Designates the client's employment status at the time of admission:
+","1, Full-time|2, Part-time|3, Unemployed|4, Not in labor force|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_hispanic_latino_origin","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Identifies client's specific Hispanic or Latino origin, if applicable.
+","1,  Puerto Rican|2, Mexican|3, Cuban or other specific Hispanic|4, Not of Hispanic or Latino origin|5, Hispanic or Latino, specific origin not specified|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_frequency_use_admission_primary_substance","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Specifies the frequency of use of the primary substance (SUB1).","1,  No use in the past month|2, Some use|3, Daily use|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_frequency_use_admission_secondary_substance","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Specifies the frequency of use of the secondary substance (SUB2).","1, No use in the past month|2, Some use|3, Daily use|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_frequency_use_admission_tertiary_substance","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Specifies the frequency of use of the tertiary substance (SUB3).","1,  No use in the past month|2, Some use|3, Daily use|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_age_first_use_primary_substance","px550501_phenx_treatment_availability_and_level_of_care",,"radio","For alcohol use, this is the age of first intoxication. For drugs other than alcohol, this field identifies the age at which the
+client first used the substance identified as the primary substance (SUB1).","1, 11 years and under|2, 12","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_age_first_use_secondary_substance","px550501_phenx_treatment_availability_and_level_of_care",,"radio","For alcohol use, this is the age of first intoxication. For drugs other than alcohol, this field identifies the age at which the
+client first used the substance identified as the secondary substance (SUB2).","1, 11 years and under|2, 12","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_age_first_use_tertiary_substance","px550501_phenx_treatment_availability_and_level_of_care",,"radio","For alcohol use, this is the age of first intoxication. For drugs other than alcohol, this field identifies the age at which the
+client first used the substance identified as the tertiary substance (SUB3).","1, 11 years and under|2, 12","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_biologic_sex","px550501_phenx_treatment_availability_and_level_of_care",,"radio","This field identifies the client's biologic sex.","1, Male|2,  Female|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_planned_medication_opioid","px550501_phenx_treatment_availability_and_level_of_care",,"radio","This field identifies whether the use of opioid medications such as methadone, buprenorphine, or naltrexone will be part of
+the client's treatment plan.","1,  Yes|2, No|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_number_previous_substance_treatment_episodes","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Indicates the number of previous treatment episodes the client has received in any drug or alcohol program. Changes in
+service for the same episode (transfers) should not be counted as separate prior episodes.","0, No prior treatment episodes|1, One prior treatment episode|2, Two prior treatment episodes|3, Three prior treatment episodes|4, Four prior treatment episodes|5, Five or more prior treatment episodes|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_treatment_referral_source","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Describes the person or agency referring the client to the alcohol or drug use treatment program:
+","1, Individual (includes self-referral)|2, Alcohol/drug use care provider|3, Other health care provider|4, School (educational)|5, Employer/EAP|6, Other community referral| 7, Court/criminal justice referral/DUI/DWI|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_race","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Specifies the client's race:
+","1, Alaska Native (Aleut, Eskimo, Indian)|2, American Indian (other than Alaska Native)|3, Asian or Pacific Islander|4, Black or African American|5, White|6, Asian|7, Other single race|8, Two or more races|9, Native Hawaiian or Other Pacific Islander|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_usual_route_administration_primary","px550501_phenx_treatment_availability_and_level_of_care",,"radio","This field identifies the usual route of administration of the primary substance (SUB1).","1, Oral|2, Smoking|3, Inhalation|4, Injection (IV or intramuscular)|5, Other|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_usual_route_administration_secondary","px550501_phenx_treatment_availability_and_level_of_care",,"radio","This field identifies the usual route of administration of the secondary substance (SUB2).","1, Oral|2, Smoking|3, Inhalation|4, Injection (IV or intramuscular)|5, Other|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_usual_route_administration_tertiary","px550501_phenx_treatment_availability_and_level_of_care",,"radio","This field identifies the usual route of administration of the tertiary substance (SUB3).","1, Oral|2, Smoking|3, Inhalation|4, Injection (IV or intramuscular)|5, Other|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_service_setting_admission","px550501_phenx_treatment_availability_and_level_of_care",,"radio","Describes the type of service and treatment setting in which the client is placed at the time of admission or transfer.
+","1, Detox, 24-hour, hospital inpatient|2, Detox, 24-hour, free-standing residential|3, Rehab/residential, hospital (non-detox) |4, Rehab/residential, short term (30 days or fewer)|5, Rehab/residential, long term (more than 30 days) |6, Ambulatory, intensive outpatient|7, Ambulatory, non-intensive outpatient|8, Ambulatory, detoxification","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_substance_use_admission_primary","px550501_phenx_treatment_availability_and_level_of_care",,"dropdown","This field identifies the client's primary substance use.
+(1) None
+(2) Alcohol
+(3) Cocaine/crack
+(4) Marijuana/hashish: Includes THC and any other cannabis sativa preparations.
+(5) Heroin
+(6) Non-prescription methadone
+(7) Other opiates and synthetics: Includes buprenorphine, codeine, hydrocodone, hydromorphone, meperidine, morphine,
+opium, oxycodone, pentazocine, propoxyphene, tramadol, and any other drug with morphine-like effects.
+(8) PCP: Phencyclidine
+(9) Other hallucinogens: Includes LSD, DMT, STP, hallucinogens, mescaline, peyote, psilocybin, etc.
+(10) Methamphetamine
+(11) Other amphetamines: Includes amphetamines, MDMA, phenmetrazine, and other unspecified amines and related drugs.
+(12) Other stimulants: Includes methylphenidate and any other stimulants.
+(13) Benzodiazepines: Includes alprazolam, chlordiazepoxide, clonazepam, clorazepate, diazepam, flunitrazepam,
+flurazepam, halazepam, lorazepam, oxazepam, prazepam, temazepam, triazolam, and other unspecified benzodiazepines.
+(14) Other non-benzodiazepine tranquilizers: Includes meprobamate, tranquilizers, etc.
+(15) Barbiturates: Includes amobarbital, pentobarbital, phenobarbital, secobarbital, etc.
+(16) Other non-barbiturate sedatives or hypnotics: Includes chloral hydrate, ethchlorvynol, glutethimide, methaqualone,
+sedatives/hypnotics, etc.
+(17) Inhalants: Includes chloroform, ether, gasoline, glue, nitrous oxide, paint thinner, etc.
+(18) Over-the-counter medications: Includes aspirin, cough syrup, diphenhydramine and other anti-histamines, sleep aids,
+and any other legally obtained non-prescription medication.
+(19) Other: Includes diphenylhydantoin/phenytoin, GHB/GBL, ketamine, etc.","1, None|2, Alcohol|3, Cocaine/crack|4, Marijuana/hashish|5, Heroin|6, Non-prescription methadone|7, Other opiates and synthetics|8, PCP|9, Other hallucinogens|10, Methamphetamine|11, Other amphetamines|12, Other stimulants|13, Benzodiazepines|14, Other non-benzodiazepine tranquilizers|15, Barbiturates|16, Other non-barbiturate sedatives or hypnotics|17, Inhalants|18, Over-the-counter medications|19, Other|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_substance_use_admission_secondary","px550501_phenx_treatment_availability_and_level_of_care",,"dropdown","This field identifies the client's secondary substance use.
+(1) None
+(2) Alcohol
+(3) Cocaine/crack
+(4) Marijuana/hashish: Includes THC and any other cannabis sativa preparations.
+(5) Heroin
+(6) Non-prescription methadone
+(7) Other opiates and synthetics: Includes buprenorphine, codeine, hydrocodone, hydromorphone, meperidine, morphine,
+opium, oxycodone, pentazocine, propoxyphene, tramadol, and any other drug with morphine-like effects.
+(8) PCP: Phencyclidine
+(9) Other hallucinogens: Includes LSD, DMT, STP, hallucinogens, mescaline, peyote, psilocybin, etc.
+(10) Methamphetamine
+(11) Other amphetamines: Includes amphetamines, MDMA, phenmetrazine, and other unspecified amines and related drugs.
+(12) Other stimulants: Includes methylphenidate and any other stimulants.
+(13) Benzodiazepines: Includes alprazolam, chlordiazepoxide, clonazepam, clorazepate, diazepam, flunitrazepam,
+flurazepam, halazepam, lorazepam, oxazepam, prazepam, temazepam, triazolam, and other unspecified benzodiazepines.
+(14) Other non-benzodiazepine tranquilizers: Includes meprobamate, tranquilizers, etc.
+(15) Barbiturates: Includes amobarbital, pentobarbital, phenobarbital, secobarbital, etc.
+(16) Other non-barbiturate sedatives or hypnotics: Includes chloral hydrate, ethchlorvynol, glutethimide, methaqualone,
+sedatives/hypnotics, etc.
+(17) Inhalants: Includes chloroform, ether, gasoline, glue, nitrous oxide, paint thinner, etc.
+(18) Over-the-counter medications: Includes aspirin, cough syrup, diphenhydramine and other anti-histamines, sleep aids,
+and any other legally obtained non-prescription medication.
+(19) Other: Includes diphenylhydantoin/phenytoin, GHB/GBL, ketamine, etc.","1, None|2, Alcohol|3, Cocaine/crack|4, Marijuana/hashish|5, Heroin|6, Non-prescription methadone|7, Other opiates and synthetics|8, PCP|9, Other hallucinogens|10, Methamphetamine|11, Other amphetamines|12, Other stimulants|13, Benzodiazepines|14, Other non-benzodiazepine tranquilizers|15, Barbiturates|16, Other non-barbiturate sedatives or hypnotics|17, Inhalants|18, Over-the-counter medications|19, Other|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""
+"treatment_availability_level_care_substance_use_admission_tertiary","px550501_phenx_treatment_availability_and_level_of_care",,"dropdown","This field identifies the client's tertiary substance use.
+(1) None
+(2) Alcohol
+(3) Cocaine/crack
+(4) Marijuana/hashish: Includes THC and any other cannabis sativa preparations.
+(5) Heroin
+(6) Non-prescription methadone
+(7) Other opiates and synthetics: Includes buprenorphine, codeine, hydrocodone, hydromorphone, meperidine, morphine,
+opium, oxycodone, pentazocine, propoxyphene, tramadol, and any other drug with morphine-like effects.
+(8) PCP: Phencyclidine
+(9) Other hallucinogens: Includes LSD, DMT, STP, hallucinogens, mescaline, peyote, psilocybin, etc.
+(10) Methamphetamine
+(11) Other amphetamines: Includes amphetamines, MDMA, phenmetrazine, and other unspecified amines and related drugs.
+(12) Other stimulants: Includes methylphenidate and any other stimulants.
+(13) Benzodiazepines: Includes alprazolam, chlordiazepoxide, clonazepam, clorazepate, diazepam, flunitrazepam,
+flurazepam, halazepam, lorazepam, oxazepam, prazepam, temazepam, triazolam, and other unspecified benzodiazepines.
+(14) Other non-benzodiazepine tranquilizers: Includes meprobamate, tranquilizers, etc.
+(15) Barbiturates: Includes amobarbital, pentobarbital, phenobarbital, secobarbital, etc.
+(16) Other non-barbiturate sedatives or hypnotics: Includes chloral hydrate, ethchlorvynol, glutethimide, methaqualone,
+sedatives/hypnotics, etc.
+(17) Inhalants: Includes chloroform, ether, gasoline, glue, nitrous oxide, paint thinner, etc.
+(18) Over-the-counter medications: Includes aspirin, cough syrup, diphenhydramine and other anti-histamines, sleep aids,
+and any other legally obtained non-prescription medication.
+(19) Other: Includes diphenylhydantoin/phenytoin, GHB/GBL, ketamine, etc.","1, None|2, Alcohol|3, Cocaine/crack|4, Marijuana/hashish|5, Heroin|6, Non-prescription methadone|7, Other opiates and synthetics|8, PCP|9, Other hallucinogens|10, Methamphetamine|11, Other amphetamines|12, Other stimulants|13, Benzodiazepines|14, Other non-benzodiazepine tranquilizers|15, Barbiturates|16, Other non-barbiturate sedatives or hypnotics|17, Inhalants|18, Over-the-counter medications|19, Other|-9, Missing/unknown/not collected/invalid","PX550501",,,,,,,,,,"",""

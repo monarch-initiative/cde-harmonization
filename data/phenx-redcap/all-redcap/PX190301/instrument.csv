@@ -1,0 +1,26 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_celiac_sprue_assay_record_id","px190301_phenx_celiac_sprue_assay",,"text","Record ID",,"PX190301",,,,,,,,,,"",
+"pxt190301_hemophilia","px190301_phenx_celiac_sprue_assay",,"radio","Do you have hemophilia?","1 , Yes|2 , No|7 , Refused|9 , Don't Know","PX190301",,,,,,,,,,"",""
+"pxt190301_chemotherapy","px190301_phenx_celiac_sprue_assay",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?","1 , Yes|2 , No|7 , Refused|9 , Don't Know","PX190301",,,,,,,,,,"",""
+"pxt190301_exclusion_criteria","px190301_phenx_celiac_sprue_assay",,"radio","Exclusion Criteria","UNDEFINED_CODE, Hemophilia | UNDEFINED_CODE_1, Received cancer chemotherapy in the last 4 weeks | UNDEFINED_CODE_2, None - proceed with blood draw","PX190301",,,,,,,,,,"",""
+"venip_proc_celiac","px190301_phenx_celiac_sprue_assay",,"descriptive","Venipuncture Procedures:
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+For a full description of phlebotomy procedures, please refer to Chapter 4 in the downloadable PDF of the 2009-2010 National Health and Nutrition Examination Survey (NHANES) Laboratory Procedures Manual available here: NHANES 2009-2010 Lab Manual",,"PX190301",,,,,,,,,,"",""
+"pxt190301_blood_draw_done","px190301_phenx_celiac_sprue_assay",,"radio","Was blood drawn?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX190301",,,,,,,,,,"",""
+"pxt190301_blood_draw_sample","px190301_phenx_celiac_sprue_assay",,"radio","Was full sample obtained?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No","PX190301",,,,,,,,,,"",""
+"pxt190301_blood_draw_comments","px190301_phenx_celiac_sprue_assay",,"text","Record any comments about the blood draw, including any reasons for the tube not being drawn according to the protocol.",,"PX190301",,,,,,,,,,"",""
+"pxt190301_sample_comments","px190301_phenx_celiac_sprue_assay",,"text","Record any comments about the sample during processing.",,"PX190301",,,,,,,,,,"",""
+"assay_type_ttg","px190301_phenx_celiac_sprue_assay",,"text","Record the type of assay used to perform the determination of tissue transglutaminase antibody.",,"PX190301",,,,,,,,,,"",""
+"equipment_make_ttg","px190301_phenx_celiac_sprue_assay",,"text","Make of the equipment used to perform the determination of tissue transglutaminase antibody",,"PX190301",,,,,,,,,,"",""
+"equipment_manufacturer_ttg","px190301_phenx_celiac_sprue_assay",,"text","Manufacturer of the equipment used to perform the determination of tissue transglutaminase antibody.",,"PX190301",,,,,,,,,,"",""
+"assay_repeatability_ttg","px190301_phenx_celiac_sprue_assay",,"text","Repeatability of the assay for tissue transglutaminase antibody",,"PX190301",,,,,,,,,,"",""
+"coefficient_of_variation_ttg","px190301_phenx_celiac_sprue_assay",,"text","Coefficient of variation for the assay for tissue transglutaminase antibody",,"PX190301",,,,,,,,,,"",""
+"ttg_assay_results","px190301_phenx_celiac_sprue_assay",,"text","Results of tissue transglutaminase antibody assay",,"PX190301",,,,,,,,,,"",""
+"assay_type_ema","px190301_phenx_celiac_sprue_assay",,"text","Record the type of assay used to perform the determination of endomysial antibody titer",,"PX190301",,,,,,,,,,"",""
+"equipment_make_ema","px190301_phenx_celiac_sprue_assay",,"text","Make of the equipment used to perform the determination of endomysial antibody antibody titer",,"PX190301",,,,,,,,,,"",""
+"equipment_manufacturer_ema","px190301_phenx_celiac_sprue_assay",,"text","Manufacturer of the equipment used to perform the determination of endomysial antibody antibody titer",,"PX190301",,,,,,,,,,"",""
+"assay_repeatability_ema","px190301_phenx_celiac_sprue_assay",,"text","Repeatability of the assay for endomysial antibody titer",,"PX190301",,,,,,,,,,"",""
+"coefficient_of_variation_ema","px190301_phenx_celiac_sprue_assay",,"text","Coefficient of variation for the assay for endomysial antibody titer",,"PX190301",,,,,,,,,,"",""
+"ema_assay_results","px190301_phenx_celiac_sprue_assay",,"text","Results of endomysial antibody antibody titer",,"PX190301",,,,,,,,,,"",""

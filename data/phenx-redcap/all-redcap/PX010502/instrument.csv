@@ -1,0 +1,35 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_ethnicity_record_id","px010502_phenx_ethnicity",,"text","Record ID",,"PX010502",,,,,,,,,,"",
+"ethnicity_self_identification","px010502_phenx_ethnicity",,"radio","Do you consider yourself to be Hispanic, Latino, or of Spanish origin?","1, YES | 2, NO | 7, REFUSED | 9, DON'T KNOW","PX010502",,,,,,,,,,"",""
+"ethnicity_self_identification_ancestry","px010502_phenx_ethnicity",,"radio","READ IF NECESSARY: Where do your ancestors come from?","UNDEFINED_CODE, Puerto Rican | UNDEFINED_CODE_1, Cuban/Cuban American | UNDEFINED_CODE_2, Dominican Republic | UNDEFINED_CODE_3, Mexican/Mexican American | UNDEFINED_CODE_4, Central/South American | UNDEFINED_CODE_5, Other Latin American | UNDEFINED_CODE_6, Other Hispanic or Latino","PX010502",,,,,,,,,,"",""
+"ethnicity_ancestry_description","px010502_phenx_ethnicity",,"descriptive","HELP SCREEN:
+SPANISH, HISPANIC OR LATINO PEOPLE MAY BE OF ANY RACE.  LISTED BELOW ARE HISPANIC OR LATINO CATEGORIES/COUNTRIES.  
+
+MEXICAN
+PUERTO RICAN
+CUBAN
+DOMINICAN REPUBLIC
+CENTRAL AMERICAN:
+   COSTA RICAN
+   GUATEMALAN
+   HONDURAN
+   NICARAGUAN
+   PANAMANIAN
+   SALVADORAN
+   OTHER CENTRAL AMERICAN
+SOUTH AMERICAN:
+   ARGENTINIAN
+   BOLIVIAN
+   CHILEAN
+   COLUMBIAN
+   ECUADORIAN
+   PARAGUAYAN
+   PERUVIAN
+   URUGUAYAN
+   VENEZUELAN
+   OTHER SOUTH AMERICAN
+OTHER HISPANIC OR LATINO:
+SPANIARD
+SPANISH
+SPANISH AMERICAN",,"PX010502",,,,,,,,,,"",""
+"ethnicity_ancestry","px010502_phenx_ethnicity",,"radio","Where do your ancestors come from?","10, MEXICAN | 11, PUERTO RICAN | 12, CUBAN | 13, DOMINICAN REPUBLIC | 14, COSTA RICAN | 15, GUATEMALAN | 16, HONDURAN | 17, NICARAGUAN | 18, PANAMANIAN | 19, SALVADORAN | 20, OTHER CENTRAL AMERICAN | 21, ARGENTINEAN | 22, BOLIVIAN | 23, CHILEAN | 24, COLOMBIAN | 25, ECUADORIAN | 26, PARAGUAYAN | 27, PERUVIAN | 28, URUGUAYAN | 29, VENEZUELAN | 30, OTHER SOUTH AMERICAN | 31, FILIPINO | 32, SPANIARD | 33, SPANISH | 34, SPANISH AMERICAN | 35, HISPANO/HISPANA | 36, HISPANIC/LATINO | 40, OTHER HISPANIC/LATINO (SPECIFY) | 41, CHICANO | 77, REFUSED | 99, DON'T KNOW","PX010502",,,,,"[ethnicity_self_identification] = '1'",,,,,"",""

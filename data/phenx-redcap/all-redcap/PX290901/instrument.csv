@@ -1,0 +1,8 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+minimum_wage_record_id,px290901_minimum_wage,,text,"Record ID",,PX290901,,,,,,,,,,,
+minimum_wage_state,px290901_minimum_wage,,text,State,,PX290901,,,,,,,,,,,
+minimum_wage_measure_type,px290901_minimum_wage,,radio,"Was a dichotomous or continuous measure used to assess the state minimum wage law?","UNDEFINED_CODE, Dichotomous|UNDEFINED_CODE_1, Continuous",PX290901,,,,,,,,,,,
+minimum_wage_dichotomous_higher_lower_federal_present,px290901_minimum_wage,,radio,"Is the state's minimum wage higher or lower than the federal minimum wage?","1, Higher|0, Lower",PX290901,,,,,"[minimum_wage_measure_type] = 'UNDEFINED_CODE'",,,,,,
+minimum_wage_dichotomous_higher_lower_federal_past_ever,px290901_minimum_wage,,radio,"Did the state ever have a minimum wage higher than the federal minimum wage?","1, Yes|0, No",PX290901,,,,,"[minimum_wage_measure_type] = 'UNDEFINED_CODE'",,,,,,
+minimum_wage_continuous_more_than_one_within_year,px290901_minimum_wage,,radio,"Did the state have more than one minimum wage within a year?","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No",PX290901,,,,,"[minimum_wage_measure_type] = 'UNDEFINED_CODE_1'",,,,,,
+minimum_wage_actual,px290901_minimum_wage,,text,"What is the actual minimum wage?",,PX290901,number,,,,,,,,,,

@@ -1,0 +1,60 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_reticulocyte_count_record_id","px810601_phenx_reticulocyte_count",,"text","Record ID",,"PX810601",,,,,,,,,,"",
+"info_810601","px810601_phenx_reticulocyte_count",,"descriptive","The following is a summary version of the full National Health and Nutrition Examination Survey 2011-2012 protocol.
+
+Exclusion Criteria
+
+Persons will be excluded from this component if they:
+
+Report that they have hemophilia; or
+Report that they have received cancer chemotherapy in the last 4 weeks
+
+SP = Sample Person.",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_hemophilia","px810601_phenx_reticulocyte_count",,"radio","Do you have hemophilia?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX810601",,,,,,,,,,"",""
+"hemo_blooddraw_810601","px810601_phenx_reticulocyte_count",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_chemo","px810601_phenx_reticulocyte_count",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four week?","1, Yes - (Then exclude from blood draw) | 2, No | 7, Refused | 9, Don't Know","PX810601",,,,,,,,,,"",""
+"chemo_blooddraw_810601","px810601_phenx_reticulocyte_count",,"descriptive","If the SP answers ""Yes,"" the SP is excluded from the blood draw.
+
+If SP answers ""No"" or ""Don't Know,"" blood is drawn from the SP",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_age","px810601_phenx_reticulocyte_count",,"text","Age",,"PX810601","number",,,,,,,,,"",""
+"reticulocyte_amount","px810601_phenx_reticulocyte_count",,"text","Number of reticulocytes",,"PX810601","number",,,,,,,,,"",""
+"reticulocyte_assay_repeatability","px810601_phenx_reticulocyte_count",,"text","Repeatability of the reticulocyte count assay.",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_blood_draw_results","px810601_phenx_reticulocyte_count",,"text","Record the results of the blood draw.",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_blood_draw_tube_deviation","px810601_phenx_reticulocyte_count",,"text","Record reasons for a tube not being drawn according to the protocol.",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_chemotheraphy_4weeks","px810601_phenx_reticulocyte_count",,"radio","Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?","1 , Yes|2 , No|7 , Refused|9 , Don't Know","PX810601",,1,9,,,,,,,"",""
+"reticulocyte_coefficients_variation_assay","px810601_phenx_reticulocyte_count",,"text","Coefficients of variation of the reticulocyte count assay.",,"PX810601","number",,,,,,,,,"",""
+"reticulocyte_equipment_make","px810601_phenx_reticulocyte_count",,"text","Make of the equipment used to perform the reticulocyte count assay.",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_equipment_manufacturer","px810601_phenx_reticulocyte_count",,"text","Manufacturer of the equipment used to perform the reticulocyte count assay.",,"PX810601",,,,,,,,,,"",""
+"reticulocyte_venipuncture_comments","px810601_phenx_reticulocyte_count",,"text","Record any comments about the venipuncture.",,"PX810601",,,,,,,,,,"",""
+"venipuncture_810601","px810601_phenx_reticulocyte_count",,"descriptive","Venipuncture Procedures
+
+Editor's Note: Please review chapter 4 of the Laboratory Procedures Manual from the 2011-2012 National Health and Nutrition Examination Survey (NHANES) for a full description of phlebotomy procedures. This manual is posted here, and is also available at the NHANES website: 2011-2012 NHANES Laboratory Procedures Manual
+
+Venipuncture should generally be performed using the median cubital, cephalic, or basilic veins in the left arm unless this arm is unsuitable. If the veins in the left arm are unsuitable, look for suitable veins on the right arm. If the veins in the antecubital space on both arms are not suitable, then look for veins in the forearm or dorsal side of the hand on the left arm/hand and then the right arm/hand.
+
+
+Recording the Results of the Venipuncture Procedure
+
+Immediately after completing the venipuncture, record the results of the blood draw, the reasons for a tube not being drawn according to the protocol, and any comments about the venipuncture.",,"PX810601",,,,,,,,,,"",""
+"processing_810601","px810601_phenx_reticulocyte_count",,"descriptive","Blood Processing
+
+Please review chapter 8 of the Laboratory Procedures Manual from the National Health and Nutrition Examination Survey 2011-2012 for a full description of blood processing procedures: 2011-2012 NHANES Laboratory Procedures Manual (http://www.cdc.gov/nchs/data/nhanes/nhanes_11_12/2011-12_Laboratory_Procedures_Manual.pdf)
+
+Fill a 3 or 4 ml K3 EDTA tube with blood.",,"PX810601",,,,,,,,,,"",""
+"lab_assay_810601","px810601_phenx_reticulocyte_count",,"descriptive","Laboratory Assay for Reticulocyte Count
+
+The Sickle Cell Disease Cardiovascular, Pulmonary, and Renal Working Group notes that there are a number of different assays and instruments that are appropriate to measure the reticulocyte count from serum. Once an assay is chosen for a particular study, the Working Group recommends that no changes in the protocol be made over the course of the study. To aid comparability, the Working Group recommends that the investigator record the make and manufacturer of equipment used and the repeatability and coefficients of variation for the assay.",,"PX810601",,,,,,,,,,"",""
+"ranges_810601","px810601_phenx_reticulocyte_count",,"descriptive","Reference Ranges for Reticulocyte Count:
+
+Children: 3 - 6%
+
+Adults: 0.5 - 1.5%
+
+
+Percentage of reticulocytes and absolute reticulocyte counts (ARC) are given by the following formulas:
+
+Reticulocyte Percentage = [Number of Reticulocytes (thousands/킠) x RBC count (millions/킠)] X 100
+
+Absolute reticulocyte count (thousands/킠) = reticulocyte % x RBC count (millions/킠) x 10",,"PX810601",,,,,,,,,,"",""

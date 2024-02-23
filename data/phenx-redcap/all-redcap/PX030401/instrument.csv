@@ -1,0 +1,13 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_alcohol_maximum_drinks_in_24_hours_record_id","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"text","Record ID",,"PX030401",,,,,,,,,,"",
+"alcohol_max_drinks_1day","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"text","The next question is about drinking alcohol. This includes coolers, beer, wine, champagne, liquor such as whiskey, rum, gin, vodka, scotch, or liqueurs, and also any other type of alcohol.  What was the LARGEST number of drinks that you ever drank in a single day?",,"PX030401","number",,,,,,,,,"",""
+"max_desc_1","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 1",,"PX030401",,,,,,,,,,"",""
+"max_desc_2","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 2",,"PX030401",,,,,,,,,,"",""
+"max_desc_3","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 3",,"PX030401",,,,,,,,,,"",""
+"max_desc_4","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 4",,"PX030401",,,,,,,,,,"",""
+"max_desc_5","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 5",,"PX030401",,,,,,,,,,"",""
+"max_desc_6","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 6",,"PX030401",,,,,,,,,,"",""
+"max_desc_7","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 7",,"PX030401",,,,,,,,,,"",""
+"max_desc_8","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 8",,"PX030401",,,,,,,,,,"",""
+"max_desc_9","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"descriptive","Cooler ounce - image 9",,"PX030401",,,,,,,,,,"",""
+"alcohol_max_drinks_1day_coded","px030401_phenx_alcohol_maximum_drinks_in_24_hours",,"radio","The next question is about drinking alcohol. This includes coolers, beer, wine, champagne, liquor such as whiskey, rum, gin, vodka, scotch, or liqueurs, and also any other type of alcohol.  What was the LARGEST number of drinks that you ever drank in a single day?","96 , Never drank|97 , Refused|99 , Don't know","PX030401",,,,,,,,,,"",""

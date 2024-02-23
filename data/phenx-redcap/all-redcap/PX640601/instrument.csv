@@ -1,0 +1,33 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_hopelessness_adolescent_record_id","px640601_phenx_hopelessness_adolescent",,"text","Record ID",,"PX640601",,,,,,,,,,"",
+"instructions_640601","px640601_phenx_hopelessness_adolescent",,"descriptive","Hopelessness Scale for Children (HSC)
+
+Instructions to be read to the child: These sentences are about how some kids feel about their lives. Your answers let us know about how kids feel about things.
+
+""I am going to read each sentence to you. I'd like you to tell me if the sentence is true for you or false for you. If the sentence is how you feel, you would say it is like you or true. If the sentence is not how you think you feel, you would say it is not like you or false.
+
+""There is no right or wrong answers. Just tell me if the sentence is like you or not like you - true or false,""",,"PX640601",,,,,,,,,,"",""
+"life_grow_up_better","px640601_phenx_hopelessness_adolescent",,"radio","1. I want to grow up because I think things will be better.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_give_up","px640601_phenx_hopelessness_adolescent",,"radio","2. I might as well give up because I can't make things better for myself.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_going_badly","px640601_phenx_hopelessness_adolescent",,"radio","3. When things are going badly, I know they won't be as bad all of the time.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"imagine_life_grown_up","px640601_phenx_hopelessness_adolescent",,"radio","4. I can imagine what my life will be like when I'm grown up.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_enough_time","px640601_phenx_hopelessness_adolescent",,"radio","5. I have enough time to finish the things I really want to do.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_someday_good","px640601_phenx_hopelessness_adolescent",,"radio","6. Someday, I will be good at doing the things that I really care about.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_more_good_things","px640601_phenx_hopelessness_adolescent",,"radio","7. I will get more of the good things in life than most other kids.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_no_good_luck","px640601_phenx_hopelessness_adolescent",,"radio","8. I don't have good luck and there's no reason to think I will when I grow up.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_see_badthings_ahead_nogood","px640601_phenx_hopelessness_adolescent",,"radio","9. All I can see ahead of me are bad things, not good things.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_dont_get_what_reallywant","px640601_phenx_hopelessness_adolescent",,"radio","10. I don't think I will get what I really want.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_growup_happier","px640601_phenx_hopelessness_adolescent",,"radio","11. When I grow up, I think I will be happier than I am now.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_wont_work_out","px640601_phenx_hopelessness_adolescent",,"radio","12. Things just won't work out the way I want them to.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_never_get_desires_dumb_towant","px640601_phenx_hopelessness_adolescent",,"radio","13. I never get what I want, so it's dumb to want anything.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_no_real_fun_when_growup","px640601_phenx_hopelessness_adolescent",,"radio","14. I don't think I will have any real fun when I grow up.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_tomorrow_unclear_confusing","px640601_phenx_hopelessness_adolescent",,"radio","15. Tomorrow seems unclear and confusing to me.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_more_good_than_bad","px640601_phenx_hopelessness_adolescent",,"radio","16. I will have more good times than bad times.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"life_no_use_trying","px640601_phenx_hopelessness_adolescent",,"radio","17. There's no use in really trying to get something I want because I probably won't get it.","UNDEFINED_CODE, TRUE | UNDEFINED_CODE_1, FALSE","PX640601",,,,,,,,,,"",""
+"scoring_640601","px640601_phenx_hopelessness_adolescent",,"descriptive","Scoring
+
+""True"" responses to the following items are scored as ""1""- #2, 8, 9, 10, 12, 13, 14, 15, 17
+
+""False"" responses to the following items are scored as ""1"" - 1, 3, 4, 5, 6, 7, 11, 16
+
+The higher the score, the greater the hopelessness for the future.",,"PX640601",,,,,,,,,,"",""

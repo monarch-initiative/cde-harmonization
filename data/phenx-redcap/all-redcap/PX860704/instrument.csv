@@ -1,0 +1,9 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+pain_quality_descriptors_neuropathic_adult_record_id,px860704_pain_quality_descriptors_neuropathic_adult,,text,"Record ID",,PX860704,,,,,,,,,,,
+pain_quality_descriptors_neuropathic_adult_pins_needles,px860704_pain_quality_descriptors_neuropathic_adult,"Please respond to each question or statement by marking one box per row.
+
+In the past 7 days...",radio,"Did your pain feel like pins and needles?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
+pain_quality_descriptors_neuropathic_adult_tingly,px860704_pain_quality_descriptors_neuropathic_adult,,radio,"Did your pain feel tingly?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
+pain_quality_descriptors_neuropathic_adult_stinging,px860704_pain_quality_descriptors_neuropathic_adult,,radio,"Did your pain feel stinging?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
+pain_quality_descriptors_neuropathic_adult_electrical,px860704_pain_quality_descriptors_neuropathic_adult,,radio,"Did your pain feel electrical?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
+pain_quality_descriptors_neuropathic_adult_numb,px860704_pain_quality_descriptors_neuropathic_adult,,radio,"Did your pain feel numb?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,

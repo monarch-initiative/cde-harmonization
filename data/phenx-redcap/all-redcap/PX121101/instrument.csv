@@ -1,0 +1,73 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"phenx_personality_traits_record_id","px121101_phenx_personality_traits",,"text","Record ID",,"PX121101",,,,,,,,,,"",
+"instr1_0121101","px121101_phenx_personality_traits",,"descriptive","The following statements concern your perception about yourself in a variety of situations. Your task is to indicate the strength of your agreement with each statement, utilizing a scale in which 1 denotes strong disagreement, 5 denotes strong agreement, and 2, 3, and 4 represent intermediate judgments. In the boxes after each statement, write a number from 1 to 5 from the following scale:
+
+       1. Strongly disagree
+       2. Disagree
+       3. Neither disagree nor agree
+       4. Agree
+       5. Strongly agree
+
+Select the number that most closely reflects you on each statement.",,"PX121101",,,,,,,,,,"",""
+"talkative","px121101_phenx_personality_traits","I see myself as someone who...","radio","1. Is talkative","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"finds_fault","px121101_phenx_personality_traits",,"radio","2. Tends to find fault with others","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"thorough_job","px121101_phenx_personality_traits",,"radio","3. Does a thorough job","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"depressed","px121101_phenx_personality_traits",,"radio","4.  Is depressed, blue","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"original","px121101_phenx_personality_traits",,"radio","5. Is original, comes up with new ideas","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"reserved","px121101_phenx_personality_traits",,"radio","6. Is reserved","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"helpful","px121101_phenx_personality_traits",,"radio","7.  Is helpful and unselfish with others","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"somewhat_careless","px121101_phenx_personality_traits",,"radio","8. Can be somewhat careless","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"relaxed","px121101_phenx_personality_traits",,"radio","9.  Is relaxed, handles stress well","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"curious","px121101_phenx_personality_traits",,"radio","10. Is curious about many different things","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"energetic","px121101_phenx_personality_traits",,"radio","11. Is full of energy","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"starts_quarrels","px121101_phenx_personality_traits",,"radio","12. Starts quarrels with others","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"reliable_worker","px121101_phenx_personality_traits",,"radio","13. Is a reliable worker","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"tense","px121101_phenx_personality_traits",,"radio","14.  Can be tense","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"ingenious","px121101_phenx_personality_traits",,"radio","15. Is ingenious, a deep thinker","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"generates_enthusiasm","px121101_phenx_personality_traits",,"radio","16. Generates a lot of enthusiasm","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"forgiving","px121101_phenx_personality_traits",,"radio","17. Has a forgiving nature","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"disorganized","px121101_phenx_personality_traits",,"radio","18. Tends to be disorganized","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"worries","px121101_phenx_personality_traits",,"radio","19.  Worries a lot","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"active_imagination","px121101_phenx_personality_traits",,"radio","20. Has an active imagination","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"pxt121101_quiet","px121101_phenx_personality_traits",,"radio","21. Tends to be quiet","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"trusting","px121101_phenx_personality_traits",,"radio","22. Is generally trusting","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"lazy","px121101_phenx_personality_traits",,"radio","23. Tends to be lazy","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"emotionally_stable","px121101_phenx_personality_traits",,"radio","24. Is emotionally stable, not easily upset","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"inventive","px121101_phenx_personality_traits",,"radio","25. Is inventive","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"assertive","px121101_phenx_personality_traits",,"radio","26. Has an assertive personality","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"aloof","px121101_phenx_personality_traits",,"radio","27. Can be cold and aloof","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"persevere","px121101_phenx_personality_traits",,"radio","28. Perseveres until the task is finished","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"moody","px121101_phenx_personality_traits",,"radio","29. Can be moody","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"artistic_experiences","px121101_phenx_personality_traits",,"radio","30. Values artistic, aesthetic experiences","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"shy_inhibited","px121101_phenx_personality_traits",,"radio","31. Is sometimes shy, inhibited","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"considerate","px121101_phenx_personality_traits",,"radio","32. Is considerate, kind to almost everyone","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"efficient","px121101_phenx_personality_traits",,"radio","33.  Does things efficiently","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"remains_calm","px121101_phenx_personality_traits",,"radio","34. Remains calm in tense situations","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"prefers_routine","px121101_phenx_personality_traits",,"radio","35. Prefers work that is routine","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"outgoing","px121101_phenx_personality_traits",,"radio","36. Is outgoing, sociable","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"rude_to_others","px121101_phenx_personality_traits",,"radio","37.  Is sometimes rude to others","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"follows_through_on_plans","px121101_phenx_personality_traits",,"radio","38. Makes plans and follows through on them","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"gets_nervous","px121101_phenx_personality_traits",,"radio","39. Gets nervous easily","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"reflective","px121101_phenx_personality_traits",,"radio","40. Likes to reflect, play with ideas","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"few_artistic_interests","px121101_phenx_personality_traits",,"radio","41. Has few artistic interests","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"cooperates_with_others","px121101_phenx_personality_traits",,"radio","42. Likes to cooperate with others","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"easily_distracted","px121101_phenx_personality_traits",,"radio","43.  Is easily distracted","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"sophisticated_art_music_literature","px121101_phenx_personality_traits",,"radio","44. Is sophisticated in art, music or literature","1, Strongly disagree | 2, Disagree | 3, Neither disagree nor agree | 4, Agree | 5, Strongly agree","PX121101",,,,,,,,,,"",""
+"scoringinst_0121101","px121101_phenx_personality_traits","SCORING INSTRUCTIONS","descriptive","Reverse-score the following items:
+
+Extraversion: 6, 21, 31
+Agreeableness: 2, 12, 27, 37
+Conscientiousness: 8, 18, 23, 43
+Neuroticism: 9, 24, 34
+Openness: 35, 41
+Next, create scale scores for each domain by averaging the following items (where R indicates using the reverse-scored item).
+
+Extraversion: 1, 6R 11, 16, 21R, 26, 31R, 36
+Agreeableness: 2R, 7, 12R, 17, 22, 27R, 32, 37R
+Conscientiousness: 3, 8R, 13, 18R, 23R, 28, 33, 38, 43R
+Neuroticism: 4, 9R, 14, 19, 24R, 29, 34R, 39
+Openness: 5, 10, 15, 20, 25, 30, 35R, 40, 41R, 44
+
+Optional items:
+
+Liking: 45, 46",,"PX121101",,,,,,,,,,"",""
