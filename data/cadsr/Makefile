@@ -13,8 +13,17 @@ all_contexts: $(patsubst %,from-api/context-%.json,$(CONTEXTS))
 from-api/crdc.json:
 	curl -X GET $(CRDCList) -H "accept: application/json" > $@
 
-from-api/de-%.json:
-	curl -X GET $(DE)/$* -H "accept: application/json" > $@
+cde-json/de-%.json:
+	curl -X GET $(DE)/$* -H "accept: application/json" > $@.tmp && mv $@.tmp $@
 
 from-api/context-%.json:
-	curl -X GET "$(DE)/query/Context?contextName=$*" -H "accept: application/json" > $@
+	curl -X GET "$(DE)/query/Context?contextName=$*" -H "accept: application/json" > $@.tmp && mv $@.tmp $@
+
+# NOTE: API doesn't do errors right. Do this:
+# grep '^{"$errorDump"' cde-json/de-[0-5]*json | cut -f1 -d : | perl -npe 's@@rm @'
+
+all-cde-ids.txt:
+	jq -r '.DataElementQueryResults[].publicId' from-api/context-* > $@.tmp && mv $@.tmp $@
+
+all-cdes: all-cde-ids.txt
+	while read -r id; do make "cde-json/de-$$id.json"; done < $<
