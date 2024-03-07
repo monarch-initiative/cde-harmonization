@@ -20,7 +20,6 @@ Feed to chat gpt to make classifications.csv
       * Adverse Event (ObjectClass)
           * Adverse Event (NCIT)
       * Therapies (ConceptualDomain)
-   * ValueDomain: Cytarabine OR...
 
 vs
 
