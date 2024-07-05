@@ -28,6 +28,14 @@ The dataset is provided in a tab-separated values (TSV) file, with each row repr
 
 This was created from the view defined in [cadsr-views.sql](cadsr-views.sql)
 
+
+Below are some basic statistics for each column:
+
+- Count and Uniqueness: The data has a total of 74,244 rows with a varying count of unique values across columns. For example, preferredName has 72,481 unique values out of 74,168 non-null entries, indicating a high diversity in this field.
+- Most Frequent Values: The context column frequently contains "NCIP", found in 24,136 out of 74,244 rows. Another example is the cc_longName column, where "Patient" is the most common value, appearing 4,090 times.
+Primary Indicators: Columns such as cc_primaryIndicator and pc_primaryIndicator have a single unique value ("Yes"), suggesting they might be indicating the presence or applicability of certain conditions or categories.
+
+
 ## Usage
 This dataset can be used for various purposes, including but not limited to, facilitating data standardization across cancer research projects, enhancing data interoperability, and supporting the development of research databases and applications requiring standardized data elements.
 

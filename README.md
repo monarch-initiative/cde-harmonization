@@ -5,6 +5,8 @@ in their native format.
 
 Additional context in these slides from Chris: https://docs.google.com/presentation/d/1Kt-7fwYNh2fJru-Psk73XciokeHSkbqmsR-C6VUHLUQ/edit#slide=id.p
 
+Note: files that are too big for github go in the monarch google cloud bucket [here](https://console.cloud.google.com/storage/browser/cde-harmonization;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
+
 THIS REPO SHOULD REMAIN PRIVATE
 
 # Use Cases
