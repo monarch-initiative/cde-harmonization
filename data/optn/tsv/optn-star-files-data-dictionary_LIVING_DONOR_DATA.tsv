@@ -1,0 +1,189 @@
+"STAR Table Name: LIVING_DONOR_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ABO	Donor ABO	LDR	1987-10-01 00:00:00		Donor Information	CHAR(3)	ABO	
+AGE_DON	Donor Age in Years	CALC	1987-10-01 00:00:00		Calculated	NUM		
+ARRHYTHMIA	Arrhythmia Requiring Therapy	LDR	2004-06-30 00:00:00		Lung Surgical Information	NUM	ARRHYTH	
+ARRHYTHMIA_POSTOP	Arrhythmia Requiring Therapy Post-Op	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	NUM	ARRHYTH	
+BILIARY_COMP	Biliary Complications	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+BILIARY_COMP_GRADE	If Biliary Complications, give grade	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM	BILICOMP	
+BIOPSY_LI	Liver Biopsy? (Y/N)	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	CHAR(1)		
+BP_POSTOP_DIAST	Post-Operative Blood Pressure Diastolic	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+BP_POSTOP_SYST	Post-Operative Blood Pressure Systolic	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+BP_PREOP_DIAST	Preoperative Blood Pressure Diastolic	LDR	1999-10-25 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	NUM		
+BP_PREOP_SYST	Preoperative Blood Pressure Systolic	LDR	1999-10-25 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	NUM		
+CANCER_FREE	Cancer Free Interval if History of Cancer	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	NUM		
+CITIZEN_COUNTRY	Donor Country of Permanent Residence 	LDR	2015-03-31 00:00:00		Donor Information	CHAR(3)	CTRY	
+CITIZENSHIP	Donor Citizenship	LDR	1987-10-01 00:00:00		Donor Information	NUM	CITIZEN	
+CMV_IGG	CMV IgG Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+CMV_IGM	CMV IgM Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+CMV_NUCLEIC	CMV Nucleic Acid Testing Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+CMV_TOTAL	CMV Total 	LDR	2015-03-31 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+COD	Donor Cause of Death	LDR	1999-10-25 00:00:00		Post-Operative Information	NUM	LDONCOD	
+COMPOSITE_DEATH_DATE_LIV_DON	COMPOSITE DONOR DEATH DATE FROM OPTN OR VERIFIED FROM EXTERNAL SOURCES	CALCULATED						
+CONVERT_OPEN_KI	Conversion from Laparoscopic to Open (Y/N)	LDR	2004-06-30 00:00:00		Kidney Surgical Information	CHAR(1)		
+CONVERT_OPEN_LU	Conversion from Laparoscopic to Open (Y,N)	LDR	2004-06-30 00:00:00		Lung Surgical Information	CHAR(1)		
+DBW4	Donor BW4 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DBW6	Donor BW6 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DC1	Donor C1 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	CWHLA	
+DC2	Donor C2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	CWHLA	
+DDP1	Donor DPB1 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DPHLA	
+DDP2	Donor DPB2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DPHLA	
+DDPA1	Donor DPA1 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DPAHLA	
+DDPA2	Donor DPA2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DPAHLA	
+DDQ1	Donor DQB1 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DQHLA	
+DDQ2	Donor DQB2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DQHLA	
+DDQA1	Donor DQA1 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DQAHLA	
+DDQA2	Donor DQA2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	DQAHLA	
+DDR51	Donor DR51 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DDR51_2	Donor DR51_2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DDR52	Donor DR52 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DDR52_2	Donor DR52_2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DDR53	Donor DR53 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DDR53_2	Donor DR53_2 ANTIGEN	LDR	1987-10-01 00:00:00			NUM	WKGRPHLA	
+DEATH_DT	Date Last Seen or Death(NOTE: Prior to 3/1/2008 only population if patient reported to have died!)	LDR	1999-10-25 00:00:00		Post-Operative Information	NUM		NOTE: Prior to 3/1/2008 only population if patient reported to have died!
+DIABETES	Diabetes (Y/N/U)	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(1)		
+DON_DATE	Date Organ Recovered - Calculated Value	CALC	1987-10-01 00:00:00		Calculated	NUM		
+DON_ORG	Organ Transplanted 	CALC	1987-10-01 00:00:00		Calculated	CHAR(4)	DONORGL	
+DON_ORG2	Second Organ Transplanted	CALC	1987-10-01 00:00:00		Calculated	CHAR(4)	DONORGL	
+DONOR_ID	Encrypted Donor ID	CALC	1987-10-01 00:00:00		Calculated	NUM		
+DUR_ABSTINENCE	If History of Cigarette Use, Duration of Abstinence	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	NUM	CIGDURAB	
+EBV_IGG	EBV IgG Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+EBV_IGM	EBV IgM Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+EBV_TOTAL	EBV Total	LDR	2015-03-31 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+EDUCATION	Donor Highest Education Level	LDR	1999-10-25 00:00:00		Donor Information	NUM		
+ETHCAT_DON	Donor Race/Ethnicity Category	CALC	1987-10-01 00:00:00		Calculated	NUM	ETHCAT	
+ETHNICITY	Donor Ethnicity		2023-09-14 00:00:00			NUM	ETHN_UNET	
+FFP_UNITS	Number of FFP Units	LDR	2004-06-30 00:00:00		Post-Operative Information	NUM		
+FUNC_STAT	Functional Status Pre-Donation	LDR	2004-06-30 00:00:00		Donor Information	NUM	FUNCSTAT	
+GENDER	Donor Gender	LDR	1987-10-01 00:00:00		Donor Information	CHAR(1)	SEX	
+HBV_CORE	HBV Core Antibody Result	LDR	2004-04-01 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HBV_DNA	HBV DNA Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HBV_SUR_ANTIGEN	HBV Surface Antigen Result	LDR	1990-10-01 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HCV_ANTIBODY	HCV Antibody Result	LDR	1994-04-01 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HCV_RIBA	HCV RIBA Result	LDR	1994-04-01 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HCV_RNA	HCV RNA Result	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HEALTH_INS	Did Donor Have Health Insurance? (Pre-Donation)	LDR	2004-06-30 00:00:00		Donor Information	CHAR(1)		
+HIST_CANCER	Donor History of Cancer and Site	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	NUM	HISTCAN	
+HIST_CIG	History of Cigarette Use? (Y/N)	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(1)		
+HIST_HYPER	History of Hypertension	LDR	2004-06-30 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	NUM	HISTHYPE	
+HOME_STATE	Home State	LDR	1987-10-01 00:00:00		Donor Information	CHAR(2)		
+HYPER_DIET	Hypertension Method of Control - Diet? (Y/N/U)	LDR	2004-06-30 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	CHAR(1)		
+HYPER_DIUR	Hypertension Method of Control - Diuretcis? (Y/N/U)	LDR	2004-06-30 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	CHAR(1)		
+HYPER_MEDS	Hypertension Method of Control - Other Meds? (Y/N/U)	LDR	2004-06-30 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	CHAR(1)		
+HYPERTENSION	Donor Developed Hypertension Requiring Medication(Y/N/U)	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	CHAR(1)		
+INIT_DISCHARGE_DT	Date of Initial Discharge	LDR	2004-06-30 00:00:00		Post-Operative Information	NUM		
+INTRAOP_COMP	Intra-operative Complications (Y/N)	LDR	2004-06-30 00:00:00		Lung Surgical Information	CHAR(1)		
+INTRAOP_COMP_REASON	Intra-operative Complication Specified	LDR	2004-06-30 00:00:00		Lung Surgical Information	NUM	IOCOMP	Format IOCOMP is a multi-valued lookup that HAS NOT been expanded out for all combinations.
+KI_CREAT_POSTOP	Post-Operative Serum Creatinine 	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+KI_CREAT_PREOP	Pre-Operative Serum Creatinine	LDR	1999-10-25 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	NUM		
+KI_PROC_TY	Kidney Intended Procedure Type	LDR	1999-10-25 00:00:00		Kidney Surgical Information	NUM	KIPROCTY	
+KIDNEY_RECOV	KIDNEY RECOVERED FOR TRANSPLANT (1=YES)	CALC				NUM		
+LI_PROC_TY	Liver Procedure Type	LDR	2004-06-30 00:00:00		Liver Surgical Information	NUM	LDLIPROC	
+LIV_DON_TY	Donor Relationship to Recipient	LDR	1987-10-01 00:00:00		Donor Information	NUM	LDONREL	See Main Documentation tab for more information about Living Donor Lung Transplants
+LIVER_RECOV	LIVER RECOVERED FOR TRANSPLANT (1=YES)	CALC				NUM		
+LU_COMP	Post-operative Complications during initial hospitalization (Y/N)	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		Base format is listed for single selection only. Multiples can be calculated from Base.
+LU_COMP_REASON	Post-operative Complication Specified	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	NUM	POCOMP	Format POCOMP is a multi-valued lookup that HAS NOT been expanded out for all combinations.
+LU_PROC_TY	Lung Procedure Type	LDR	2004-06-30 00:00:00		Lung Surgical Information	NUM	LUPROCTY	
+LUNG_RECOV	LUNG RECOVERED FOR TRANSPLANT (1=YES)	CALC				NUM		
+MACRO_FAT	% Macro vesicular Fat	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+MARITAL_STAT	Marital Status at Time of Donation	LDR	2004-06-30 00:00:00		Donor Information	NUM	MARISTAT	
+MICRO_FAT	% Micro vesicular Fat	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+NON_AUTO_BLOOD	Non-Autologous Blood Administration? (Y/N)	LDR	2004-06-30 00:00:00		Post-Operative Information	CHAR(1)		
+ORG_RECOVERY_DT	Organ Recovery Date	LDR	1987-10-01 00:00:00		Organ Recovery	NUM		
+OTH_COMP_KI	Other Complications Requiring Intervention (Y/N/U)	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+OTH_COMP_KI_INTER	If Other Complication Requiring Intervention, Specify Type	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM	OTHCOMP	Base format is listed for single selection only. Multiples can be calculated from Base.
+OTH_COMP_LI	Other Complications Requiring Intervention (Y/N)	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+OTH_COMP_LI_INTER	If Other Complication Requiring Intervention, Specify Type	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM	OTHCOMP	
+OTH_INTER_PROC_KI	Other Interventional Procedure? (Y/N/U)	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+OTH_INTER_PROC_KI_DT	If Other Interventional Procedure, Indicate Date	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+OTH_INTER_PROC_LI	Other Interventional Procedure? (Y/N/U)	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+OTH_INTER_PROC_LI_DT	If Other Interventional Procedure, Indicate Date	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+PACK_YRS	If History of Cigarette Use, Number of Pack Years	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	NUM	CIGYRS	
+PHYSICAL_CAPACITY	Physical Capacity (Pre-Donation)	LDR	2004-06-30 00:00:00		Donor Information	NUM	PHYSCAP	
+PLATELETS_UNITS	Number Platelets Units	LDR	2004-06-30 00:00:00		Post-Operative Information	NUM		
+POSTOP_ALBUM	Post-op Serum Albumin g/dl	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_ALK_PHOS	Post-op Alkaline Phosphatase in units/L	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_BILI	Post-op Total Bilirubin in mg/dl	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_CREAT_LI	Post-op Serum Creatinine in mg/dl	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_INR	Post-op INR	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_SGOT_AST	Post-op SGOT/AST in U/L	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_SGPT_ALT	Post-op SGPT/ALT in U/L	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_TEST_DT	Most Recent Date of Post-Op Tests	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+POSTOP_URINE_PROTEIN	Post-Operative Urine Protein	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM	URINPROT	
+POSTOP_URINE_RATIO	Post-Operative Protein-Creatinine Ratio	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+PRBC_UNITS	Number PRBC Units	LDR	2004-06-30 00:00:00		Post-Operative Information	NUM		
+PREDON_HGT	Pre-Donation Height in cm	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	NUM		
+PREDON_WGT	Pre-Donation Weight in kg	LDR	1999-10-25 00:00:00		Pre-Donation CLINICAL INFORMATION	NUM		
+PREOP_ALBUM	Pre-Donation Serum Albumin g/dl	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_ALK_PHOS	Pre-Donation Alkaline Phosphatase units/L	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_BILI	Pre-Donation Total Bilirubin mg/dl	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_CREAT_LI	Pre-Donation Serum Creatinine mg/dl	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_FEF_AFTER	FEF(25-75%) %predicted after Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_FEF_BEFORE	FEF(25-75%) %predicted before Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_FEV1_AFTER	FEV1 % predicted after Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_FEV1_BEFORE	FEV1 % predicted before Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_FVC_AFTER	FVC % predicted after Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_FVC_BEFORE	FVC % predicted before Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_INR	Pre-Donation INR	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_LUNG_CAP	Diffusing Lung Capacity for Alveolar volume	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_PAO2	PaO2 on Room Air (mm/Hg)	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_SGOT_AST	Pre-Donation SGOT/AST U/L	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_SGPT_ALT	Pre-Donation SGPT/ALT U/L	LDR	2004-06-30 00:00:00		Pre-Donation Liver CLINICAL INFORMATION	NUM		
+PREOP_TLC_AFTER	TLC % predicted after Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_TLC_BEFORE	TLC % predicted before Bronchodilators	LDR	2004-06-30 00:00:00		Pre-Donation Lung CLINICAL INFORMATION	NUM		
+PREOP_URINE_PROTEIN	Pre-Donation Urine Protein	LDR	2004-06-30 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	NUM	URINPROT	
+PREOP_URINE_RATIO	Pre-Donation Protein-Creatinine Ratio	LDR	2004-06-30 00:00:00		Pre-Donation Kidney CLINICAL INFORMATION	NUM		
+PX_STAT	Most Recent Donor Status (ONLY SINCE 3/1/2008!)	LDR	2008-03-01 00:00:00		Post-Operative Information	CHAR(1)	PXSTAT	
+READMISSION_KI	Any Readmission After Initial Discharge?  (First Six Weeks)	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+READMISSION_KI_DT	If Readmission, Specify Date of First Readmission	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+READMISSION_KI_REASON	If Readmission, Reason for Readmission	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM	READMIT	Base format is listed for single selection only. Multiples can be calculated from Base.
+READMISSION_LI	Any Readmission After Initial Discharge?  (First Six Weeks)	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+READMISSION_LI_DT	If Readmission, Specify Date of First Readmission	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+READMISSION_LI_REASON	If Readmission, Reason for Readmission	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM	READMITLI	
+READMISSION_LU	Any Readmission After Initial Discharge?  (First Six Weeks) (Y/N/U)	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+READMISSION_LU_DT	If Readmission, Specify Date of First Readmission	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	NUM		
+READMISSION_LU_REASON	If Readmission, Reason for Readmission	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	NUM	READMIT	Base format is listed for single selection only. Multiples can be calculated from Base.
+RECOV_FACILITY_CODE	Encrypted Recovery Facility Center	CALC				CHAR(7)		
+REGION	REGION OF DONOR RECOVERY	CALC				NUM		
+REOP_BILIARY	Reoperation for Biliary Complications? 	LDR	2004-06-30 00:00:00	2007-02-06 00:00:00	Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BILIARY_DT	Date of Reoperation for Biliary Complications	LDR	2004-06-30 00:00:00	2007-02-06 00:00:00	Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BLEED_KI	If Reoperation, for Bleeding Complications?	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BLEED_KI_DT	If Reoperation for Bleeding, date 	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BLEED_LI	If Reoperation, for Bleeding Complications?	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BLEED_LI_DT	If Reoperation for Bleeding, date 	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BOWEL_KI	If Reoperation, for Bowel Obstruction?	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BOWEL_KI_DT	If Reoperation for Bowel Obstruction, Date	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BOWEL_LI	If Reoperation, for Bowel Obstruction?	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_BOWEL_LI_DT	If Reoperation for Bowel Obstruction, Date	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_HERNIA_KI	If Reoperation, for Hernia Repair?	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_HERNIA_KI_DT	If Reoperation for Hernia Repair, Date	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_HERNIA_LI	If Reoperation, for Hernia Repair?	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_HERNIA_LI_DT	If Reoperation for Hernia Repair, Date	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_LI_FAIL	If Reoperation, for Liver Failure?	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_LI_FAIL_DT	If Reoperation for Liver Failure, Date	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_OTH_KI	If Reoperation, For Other Reason?	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_OTH_KI_DT	If Reoperation for Other Reason, Date	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_OTH_LI	If Reoperation, For Other Reason?	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_OTH_LI_DT	If Reoperation for Other Reason, Date	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_VASC_KI	If Reoperation, for Vascular Complications?	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_VASC_KI_DT	If Reoperation for Vascular Complications, Date	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_VASC_LI	If Reoperation, for Vascular Complications?	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOP_VASC_LI_DT	If Reoperation for Vascular Complications, Date	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM		
+REOPERATION_KI	Reoperation? (Y/N/U)	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+REOPERATION_LI	Reoperation? (Y/N/U)	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+SACRIFICE_LOBE	Sacrifice of Second Lobe, Specify	LDR	2004-06-30 00:00:00		Lung Surgical Information	NUM		
+STATUS_LDR	LDR Form Status	LDR				CHAR(1)	FRMSTAT	
+THORAC_TUBES	Placement of Additional Thoracostomy Tube(s), Indication	LDR	2004-06-30 00:00:00		Lung Related Post-Operative Complications (First 6 Weeks)	NUM	TUBES	
+TOBACCO_USE	History of Other Tobacco Use?	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(1)		
+VAL_DT_LDR	LDR Validation Date	LDR				NUM		
+VASC_COMP_KI	Vascular Complications Requiring Intervention (Y/N/U)	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+VASC_COMP_KI_INTER	If Vascular Complications Requring Intervention, Specify Type	LDR	2004-06-30 00:00:00		Kidney Related Post-Operative Complications (First 6 Weeks)	NUM	VASCCOMPKI	Base format is listed for single selection only. Multiples can be calculated from Base.
+VASC_COMP_LI	Vascular Complications Requiring Intervention (Y/N)	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	CHAR(1)		
+VASC_COMP_LI_INTER	If Vascular Complications Requring Intervention, Specify Type	LDR	2004-06-30 00:00:00		Liver Related Post-Operative Complications (First 6 Weeks)	NUM	VASCCOMPLI                      	
+VIRUSES_TESTED	Have any (HIV/CMV/HBV/HCV/EBV) been tested for?	LDR	2004-06-30 00:00:00		Pre-Donation CLINICAL INFORMATION	CHAR(1)		
+WGT_KG	Post-op Weight (kg)	LDR	2004-06-30 00:00:00		Post-Operative CLINICAL INFORMATION (Within 6 weeks)	NUM		
+WORK_INCOME	Working for Income? (Pre-Donation)	LDR	2004-06-30 00:00:00		Donor Information	CHAR(1)		
+YR_ENTRY_US	Year of Entry to U.S. for Non-Resident Alien Donor	LDR	2004-06-30 00:00:00		Donor Information	NUM		

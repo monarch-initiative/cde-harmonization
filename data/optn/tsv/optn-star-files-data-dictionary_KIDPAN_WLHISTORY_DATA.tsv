@@ -1,0 +1,72 @@
+"STAR Table Name: KIDPAN_WLHISTORY_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ACPT_ORGAN_PROC_OTHTEAM	Accept Organ if Procured by Another Team	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+ANTIBODY_TESTED	CANDIDATE TESTED FOR ANTI HLA ANTIBODIES	WL	2014-03-20 00:00:00			CHAR(2)	HLATEST	
+CHG_DATE	DATE OF WAITING LIST MODIFICATION	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	NUM		
+CHG_TIME	TIME OF WAITING LIST MODIFICATION	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	NUM		
+CHG_TY	TYPE OF HISTORY RECORD: A=ADD, M=MODIFY, D=DELETE	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	CHAR(1)	CHGTY	
+CPRA	CPRA	WAITING LIST DATA			WAITING LIST DATA	NUM		
+CURRENT_PRA	Current PRA	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_ACPT_DCD	Donor Criteria - Accept DCD donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_ACPT_DCD_IMPORT	Donor Criteria - Accept DCD donor - Import	WAITING LIST DATA		2023-03-02 00:00:00	WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HBCOREPOS	Donor Criteria - Accept Hep B Core Positive Donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HBV_NAT_POS	Donor Criteria - Accept an HBV NAT positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HCV_NAT_POS	Donor Criteria - Accept an HCV NAT positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HCVPOS	Donor Criteria - Accept HCV Positive Donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HIST_DIABETES	Donor Criteria - Accept Donor with History of Diabetes	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HIST_HYPERTENSION	Donor Criteria - History of Hypertension	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HTLV_POS	Donor Criteria - Accept an HTLV I/II antibody positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_FINAL_CREAT	Donor Criteria - Maximum Acceptable Final Creatinine (mg/dl) - Local	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_FINAL_CREAT_IMPORT	Donor Criteria - Maximum Acceptable Final Creatinine (mg/dl) - Import	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_AGE	Donor Criteria - Maximum Acceptable Donor Age (months)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_MAX_AGE_IMPORT	Donor Criteria - Maximum Acceptable Donor Age (months) - Import	WAITING LIST DATA		2023-03-02 00:00:00	WAITING LIST DATA	NUM		
+DONCRIT_MAX_BMI	Donor Criteria - Maximum Acceptable Donor BMI	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_COLD_TIME	Donor Criteria - Maximum acceptable cold ischemic time	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_MILE	Donor Criteria - Maximum miles the organ or recovery team will travel	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PCT_SCLER_10PLGL	Donor Criteria - Max Accept % Glomeruli > 10 Observed - Local	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PCT_SCLER_10PLGL_IMP	Donor Criteria - Max Accept % Glomeruli > 10 Observed - Import	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PCT_SCLER_LT10GL	Donor Criteria - Max Accept % Glomeruli < 10 Observed - Local	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PCT_SCLER_LT10GL_IMP	Donor Criteria - Max Accept % Glomeruli < 10 Observed - Import	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_AMYLASE	Donor Criteria - Maximum Acceptable Peak Serum Amylase (u/L)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_LIPASE	Donor Criteria - Maximum Acceptable Peak Serum Lipase (u/L)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_WARM_TIME	Donor Criteria - Maximum Acceptable Warm Ischemic Time (mins)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_WGT	Donor Criteria - Maximum Acceptable Donor Weight (kg)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_MIN_AGE	Donor Criteria - Minimum Acceptable Donor Age (months)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_MIN_AGE_IMPORT	Donor Criteria - Minimum Acceptable Donor Age (months) - Import	WAITING LIST DATA		2023-03-02 00:00:00	WAITING LIST DATA	NUM		
+DONCRIT_MIN_WGT	Donor Criteria - Minimum Acceptable Donor Weight (kg)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_PEAK_CREAT	Donor Criteria - Maximum Acceptable Peak Creatinine (mg/dl) - Local	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_PEAK_CREAT_IMPORT	Donor Criteria - Maximum Acceptable Peak Creatinine (mg/dl) - Import	WAITING LIST DATA			WAITING LIST DATA	NUM		
+INACT_REASON_CD	REASON FOR INACTIVE STATUS	WAITING LIST DATA	2006-05-24 00:00:00		WAITING LIST DATA	NUM	INACTREA	
+MAX_EXPANDED_MISMATCH_A	Maximum Number for local ECD of Acceptable A Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_EXPANDED_MISMATCH_AB	Maximum Number for local ECD of Acceptable AB Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_EXPANDED_MISMATCH_ABDR	Maximum Number for local ECD of Acceptable ABDR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_EXPANDED_MISMATCH_ADR	Maximum Number for local ECD of Acceptable ADR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_EXPANDED_MISMATCH_B	Maximum Number for local ECD of Acceptable B Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_EXPANDED_MISMATCH_BDR	Maximum Number for local ECD of Acceptable BDR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_EXPANDED_MISMATCH_DR	Maximum Number for local ECD of Acceptable DR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_A	Maximum Number for imported ECD of Acceptable A Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_AB	Maximum Number for imported ECD of Acceptable AB Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_ABDR	Maximum Number for imported ECD of Acceptable ABDR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_ADR	Maximum Number for imported ECD of Acceptable ADR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_B	Maximum Number for imported ECD of Acceptable B Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_BDR	Maximum Number for imported ECD of Acceptable BDR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_IEXPANDED_MISMATCH_DR	Maximum Number for imported ECD of Acceptable DR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_A	Maximum Number of Acceptable A Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_AB	Maximum Number of Acceptable AB Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_ABDR	Maximum Number of Acceptable ABDR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_ADR	Maximum Number of Acceptable ADR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_B	Maximum Number of Acceptable B Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_BDR	Maximum Number of Acceptable BDR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+MAX_MISMATCH_DR	Maximum Number of Acceptable DR Mismatches	WAITING LIST DATA			WAITING LIST DATA	NUM		
+ON_EXPAND_DONOR	Will accept Local Expanded Criteria Donor Kidney(s)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+ON_IEXPAND_DONOR	Will accept Imported Expanded Criteria Donor Kidney(s)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+PEAK_PRA	Peak PRA	WAITING LIST DATA			WAITING LIST DATA	NUM		
+PRELIM_XMATCH_REQ	Preliminary Crossmatch Required	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+PRIORLIVINGDONOR	Prior living donor	WAITING LIST DATA	2022-11-08 00:00:00				YN	
+UNOS_CAND_STAT_CD	STATUS CODE	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	NUM	STAT	
+USE_WHICH_PRA	Use Peak or Current PRA for Allocation Scoring	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+WL_ID_CODE	ENCRYPTED REGISTRATION IDENTIFIER	CALCULATED	1987-10-01 00:00:00		WAITING LIST DATA	NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID For Linkage to Other Data	CALCULATED	1987-10-01 00:00:00		WAITING LIST DATA	NUM		
