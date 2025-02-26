@@ -39,7 +39,8 @@ def process_nih_nlm_json(input_folder, output_file):
             'schema': 'http://schema.org/',
             'xsd': 'http://www.w3.org/2001/XMLSchema#',
             'NCIT': 'http://purl.obolibrary.org/obo/NCIT_',
-            'nlmcde': 'http://example.org/nlmcde/'
+            'nlmcde': 'http://example.org/nlmcde/',
+            'UMLS': 'http://purl.bioontology.org/ontology/UMLS/'
         },
         'classes': {},
         'slots': {},
@@ -137,7 +138,9 @@ def process_nih_nlm_json(input_folder, output_file):
                             **({'description': pv['valueMeaningDefinition']} if pv.get(
                                 'valueMeaningDefinition') not in [None, ''] else {}),
                             **({'meaning': f"NCIT:{pv['conceptId']}"} if pv.get(
-                                'conceptSource') == 'NCI Thesaurus' and pv.get('conceptId') else {})
+                                'conceptSource') == 'NCI Thesaurus' and pv.get('conceptId') else {}),
+                            **({'meaning': f"UMLS:{pv['conceptId']}"} if pv.get(
+                                'conceptSource') == 'UMLS' and pv.get('conceptId') else {})
                         } for pv in permissible_values
                     }
                 }
