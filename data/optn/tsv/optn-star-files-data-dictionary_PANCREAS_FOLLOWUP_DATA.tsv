@@ -1,0 +1,84 @@
+"STAR Table Name: PANCREAS_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT	ALSO COLLECTED POST-5 YRS?
+ACADEMIC_LEVEL	RECIPIENT ACADEMIC ACTIVITY LEVEL (FOR RECIP. AGE <19)	PAF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADLVLKI		
+ACADEMIC_PRG	RECIPIENT ACDEMIC PROGRESS (FOR RECIP. AGE <19)	PAF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADPRG		
+ACUTE_REJ_EPI	EPISODES OF ACUTE REJECTION	PAF	2004-06-30 00:00:00		Clinical Information	NUM	REJEPIKI		
+ANAST_LK	Contributory Cause of Pancreas Graft Failure --- Anastomotic Leak	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+BIOP_ISLET	Contributory Cause of Pancreas Graft Failure --- Biopsy Proven Isletitis	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+BLEED	Contributory Cause of Pancreas Graft Failure --- Bleeding	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+BLOOD_SUGAR_DIET	PATIENT USING DIET TO CONTROL BLOOD SUGAR	TRR/TRF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+BLOOD_SUGAR_MED_RESUMED_DT	DATE MEDICATIONS RESUMED	TRR/TRF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM			
+BLOOD_SUGAR_MED_RESUMED_DT_I	DATE MEDICATIONS RESUMED ST=	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+BLOOD_SUGAR_MEDICATION	PATIENT ON ORAL MEDICATION TO CONTROL BLOOD SUGAR	TRR/TRF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+BMI	Recipient BMI (AVAILABLE FOR PEDS ONLY SINCE 1/1/2007)	PAF	2004-06-30 00:00:00	2007-01-01 00:00:00	Clinical Information	NUM		AVAILABLE FOR PEDS ONLY SINCE 1/1/2007	YES (FOR PEDS)
+C_PEPTIDE	C-PEPTIDE VALUE	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	NUM			
+C_PEPTIDE_I	C-PEPTIDE VALUE ST=	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+CARE_PROVIDED_BY	Follow-Up Care Provided By	PAF	1999-10-25 00:00:00		Provider Information	NUM	FOLCAREP		YES
+COD	Recipient Cause of Death	PAF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		YES
+COD2	Recipient Contributory Cause of Death	PAF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COD3	Recipient Contributory Cause of Death	PAF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COGNITIVE_DEV	COGNITIVE DEVELOPMENT (PEDS ONLY)	PAF	2008-03-01 00:00:00		Patient Status at Time of Follow-Up	NUM	COGNITIVE_DEV		YES (FOR PEDS)
+COMPL_ABSC	Pancreas Transplant Complications Occurred during Follow-Up Period - Abcess or Local Infection	PAF	1990-03-30 00:00:00		Clinical Information	CHAR(1)			
+COMPL_ANASLK	Pancreas Transplant Complications Occurred during Follow-Up Period - Anastomotic Leak	PAF	1990-03-30 00:00:00		Clinical Information	CHAR(1)			
+COMPL_PANCREA	Pancreas Transplant Complications Occurred during Follow-Up Period - Pancreatitis	PAF	1990-03-30 00:00:00		Clinical Information	CHAR(1)			
+CORART	Coronary Artery Disease at the time of Follow-up	PAF	2008-03-01 00:00:00		Clinical Information	CHAR(1)			YES (FOR PEDS)
+CREAT	Most Recent Serum Creatinine	PAF	2008-03-01 00:00:00		Clinical Information	NUM			YES
+DIABETES_DURING	Recipient Diabetes During Followup Period?	KIF	2004-06-30 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+ENTERIC_DRAIN	Conversion From Bladder to Enteric Drainage Performed	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			
+ENTERIC_DRAIN_DATE	Date of Conversion From Bladder to Enteric Drainage Performed	PAF	1994-04-01 00:00:00		Clinical Information	NUM			
+FOL_CD	Follow-up Code	PAF				NUM	FOLCD		
+FOL_CTR_CODE	Follow-up Center - Encrypted	PAF				CHAR(7)			
+FUNC_STAT	Functional Status at Follow-Up	PAF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	NUM	FUNCSTAT		YES (FOR PEDS)
+GRF_FAIL_CAUSE_TY	Primary Cause of Pancreas Graft Failure	PAF	1987-10-01 00:00:00		Clinical Information	NUM	GRFAILPA		YES
+GRF_FAIL_DATE	Date of Pancreas Graft Failure	PAF	1987-10-01 00:00:00		Clinical Information	NUM			YES
+GRF_STAT	Pancreas Graft Status at Time of Follow-Up (Y=Functioning; P=Partial Function; N=Failed)	PAF	1987-10-01 00:00:00		Clinical Information	CHAR(1)	GRFSTAT		YES
+GRF_VASC_THROMB	Contributory Cause of Pancreas Graft Failure --- Graft/Vascular Thrombosis	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+HBA1C	HBA1C	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	NUM			
+HBA1C_I	HBA1C ST=	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+HBSAG	Recipient Serology Result at the Follow-Up --- HbsAg	PAF	2015-03-31 00:00:00		Clinical Information	CHAR(2)	SERSTAT		
+HBV_CORE	Recipient Serology Result at the Follow-Up --- HBV CORE ANTIBODY	PAF	2015-03-31 00:00:00		Clinical Information	CHAR(2)	SERSTAT		
+HBV_DNA	Recipient Serology Result at the Follow-Up --- HBV DNA	PAF	2015-03-31 00:00:00		Clinical Information	CHAR(2)	SERSTAT		
+HCV_NAT	Recipient Serology Result at the Follow-Up --- HCV NAT	PAF	2015-03-31 00:00:00		Clinical Information	CHAR(2)	SERSTAT		
+HCV_SEROLOGY	Recipient Serology Result at the Follow-Up --- HCV SEROLOGY	PAF	2015-03-31 00:00:00		Clinical Information	CHAR(2)	SERSTAT		
+HGT_CM	Recipient Height in Centimeters at Follow-Up (COLLECTED ON PEDS ONLY SINCE 1/1/2007)	PAF	1987-10-01 00:00:00	2007-01-01 00:00:00	Clinical Information	NUM			YES (FOR PEDS)
+HIV_NAT	HIV_NAT	PAF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HIV_SEROLOGY	HIV_SEROLOGY	PAF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HOSP	Hospitalizations during Follow-Up Period	PAF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)		"04/01/1994-Now: This field was collected as ""Transplant related hospitalization since last Follow-up"" between 4/1/95 to 10/25/99."	
+IMMUNO_MAINT_MED	Any Medications Given during follow-up for Maintenance or Anti-Rejection?	PAF	1999-10-25 00:00:00		Treatment	NUM	IMMUNOMAINTMED		
+INFECT	Contributory Cause of Pancreas Graft Failure --- Infection	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+INSULIN	PATIENT ON INSULIN	TRR/TRF	2004-06-30 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+INSULIN_DEPENDENT	Diabetes-Insulin Dependent	PAF	1994-04-01 00:00:00	2004-06-29 00:00:00	CLINICAL INFORMATION	CHAR(1)			
+INSULIN_DOSAGE	TOTAL INSULIN DOSAGE UNITS	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	NUM			
+INSULIN_DOSAGE_I	TOTAL INSULIN DOSAGE UNITS ST=	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+INSULIN_DURATION	INSULIN DURATION OF USE	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	NUM			
+INSULIN_DURATION_I	INSULIN DURATION OF USE ST=	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+INSULIN_RESUMED	DATE INSULIN RESUMED	TRR/TRF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM			
+INSULIN_RESUMED_I	DATE INSULIN RESUMED ST=	TRR/TRF	2018-02-28 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+MEASUREMENT_DATE	Date of Weight and Height Measurment (PEDS ONLY)	PAF	2008-03-08 00:00:00		Clinical Information	NUM			YES (FOR PEDS)
+MEASUREMENT_DT_HT	Date of Height Measurment (PEDS ONLY)	PAF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MEASUREMENT_DT_WT	Date of Weight Measurment (PEDS ONLY)	PAF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MEDICATION_RES_DATE	Date Medication Resumed	PAF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM			
+METHOD_BLOOD_SUGAR_CONTROL	PATIENT USING ANY METHOD OF BLOOD SUGAR CONTROL	TRR/TRF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+MOTOR_DEV	Motor Development (PEDS only)	PAF	2008-03-08 00:00:00		Patient Status	NUM	MOTOR_DEV		YES (FOR PEDS)
+PANCREATIT	Contributory Cause of Pancreas Graft Failure --- Pancreatitis	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+PERM_STATE	Recipient Permanent Residential State	PAF	2003-01-27 00:00:00		Recipient Information	CHAR(2)	STATE		YES
+PRI_PAYMENT	RECIPIENT PRIMARY SOURCE OF PAYMENT	PAF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	PRIMPAY		
+PRI_PAYMENT_CTRY	RECIPIENT FOREIGN GOV'T AS SECONDARY PAYMENT SOURCE	PAF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(3)			
+PT_CODE	ENCRYPTED RECIPIENT IDENTIFIER	CALCULATED				NUM			
+PX_NON_COMPL	Recipient Noncompliant as Contributory Cause of Graft Failure	PAF	2004-06-30 00:00:00		Clinical Information	CHAR(1)			YES
+PX_STAT	Recipient Status at Time of Follow-Up(Died; ReTX; Lost; Not Seen; Alive)	PAF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)	PXSTAT		YES
+PX_STAT_DATE	Recipient Status Date at Time of Follow-Up	PAF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM			YES
+REJ_ACUTE	Contributory Cause of Pancreas Graft Failure --- Acute Rejection	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+REJ_CHRONIC	Contributory Cause of Pancreas Graft Failure --- Chronic Rejection	PAF	1994-04-01 00:00:00		Clinical Information	CHAR(1)			YES
+RETXDATE_PA	Date of Retransplant	CALCULATED				NUM			
+STATUS_TRF	TRF Form Status	PAF				CHAR(1)	FRMSTAT		
+TRR_FOL_ID_CODE	ENCRYPTED FOLLOW-UP IDENTIFIER	CALCULATED				CHAR(15)			
+TRR_ID_CODE	ENCRYPTED TRANSPLANT IDENTIFIER	CALCULATED				CHAR(15)			
+TRT_REJ	Patient Treated for Rejection (Y/N/U) during Follow-Up Period	PAF	2003-01-27 00:00:00	2004-06-30 00:00:00	Clinical Information	CHAR(1)			
+TRT_REJ_NUM	Number of Rejection Events during Follow-Up Period	PAF	2003-01-27 00:00:00	2004-06-30 00:00:00	Clinical Information	NUM			
+VAL_DT_TRF	TRF Validation Date	PAF				NUM			
+WGT_KG	Recipient Weight in Kilograms at Follow-Up	PAF	1987-10-01 00:00:00	2007-01-01 00:00:00	Clinical Information	NUM			YES (FOR PEDS)
+WORK_INCOME	RECIPIENT WORK FOR INCOME?	PAF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)			

@@ -1,0 +1,35 @@
+"STAR Table Name: THORACIC_STAT1A
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+AGE_GROUP	Age Group					CHAR(9)		
+CHD	Congenital heart disease reported for Ped criteria 4		2016-03-22 00:00:00			NUM		
+CONT_INFUS	Continuous infusion of a single high-dose intravenous inotrope (D)					NUM		
+DEV_MALFUNCT	Device Malfunction (B3)					NUM		
+DEVICE_INFECT	Device infection (B2)					NUM		
+EMO	Extracorporeal membrane oxygenator (A4)					NUM		
+EXCEPTION	The patient does not meet any of the criteria specified above, but is an inpatient at the listing transplant center hospital and has a life expectancy without a heart transplant of less than x days (Adult E / Ped F)					NUM		
+IAB_PUMP	Intra-aortic balloon pump (A3)					NUM		
+LESS_6M_HRT_DISEASE	The patient is less than 6 months old with congenital or acquired heart disease exhibiting reactive pulmonary hypertension at greater than 50% of systemic levels (Ped D)					NUM		
+LIFE_THREAT_VENT_ARRHY	Life threatening ventricular arrhythmias (B4)					NUM		
+MECH_CIRC_30DAYS	Mechanical circulatory support for more than 30 days with objective medical evidence (B)					NUM		
+MECH_CIRC_ACUTE	Mechanical circulatory support for acute hemodynamic decompensation (A)					NUM		
+MECH_CIRC_ACUTE_VAD	Left and/or right ventricular assist device implanted(A1)					NUM		
+MECH_VENT	Mechanical ventilation (C)					NUM		
+OTHER_DEV_THERAPY	Other (B5)					NUM		
+REQ_BALLON_PUMP	Requires assistance with a balloon pump (Ped C)					NUM		
+REQ_INF_INOTROPE	Requires infusion of a single high-dose intravenous inotrope (Ped E)					NUM		
+REQ_MECH_ASSIST_DEV	Requires assistance with a mechanical assist device (Ped B)					NUM		
+REQ_VENTILATOR	Requires assistance with a ventilator (Ped A)					NUM		
+REQ1_CONTINUOUS_VENTILATION	Continuous mechanical ventilation (Ped 1A criteria 1)		2016-03-22 00:00:00			NUM		
+REQ2_BALLOONPUMP	Intra-aortic balloon pump (Ped 1A criteria 2)		2016-03-22 00:00:00			NUM		
+REQ3_DUCTAL_DEPENDENCY	Ductal dependent pulmonary or systemic circulation plus stent or prostaglandin (Ped 1A criteria 3)		2016-03-22 00:00:00			NUM		
+REQ4_CHD_DIAGNOSIS	Congential heart disease and IV inotropes (Ped 1A criteria 4)		2016-03-22 00:00:00			NUM		
+REQ5_CIRCULATORY_DEVICE	Mechanical ciruclatory support device (Ped 1A criteria 5)		2016-03-22 00:00:00			NUM		
+REQ6_CRITERIA_NOT_MET	Does not meet criteria for Status 1A but is admitted to listing hospital and has an urgency and potential for benefit comparable to other status 1A candidates   (Ped 1A exception)		2016-03-22 00:00:00			NUM		
+TAH	Total artificial heart (A2)					NUM		
+THROMB	Thromboembolism (B1)					NUM		
+UPGRADE_EXTDATE	Upgrade/Extension Date					NUM		
+WL_ID_CODE	ENCRYPTED WL_ID					NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID For Linkage to Other Data					NUM		

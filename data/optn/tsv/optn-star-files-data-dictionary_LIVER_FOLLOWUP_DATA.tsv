@@ -1,0 +1,66 @@
+"STAR Table Name: LIVER_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT	ALSO COLLECTED POST-5 YRS?
+ACADEMIC_LEVEL	RECIPIENT ACADEMIC ACTIVITY LEVEL  (FOR RECIP. AGE <19)	LIF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADLVLKI		
+ACADEMIC_PRG	RECIPIENT ACDEMIC PROGRESS  (FOR RECIP. AGE <19)	LIF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADPRG		
+ACUTE_REJ_EPI	EPISODES OF ACUTE REJECTION	LIF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM	REJEPIKI		
+BMI	Recipient BMI (AVAILABLE FOR PEDS ONLY SINCE 1/1/2007)	LIF	2004-06-30 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+CARE_PROVIDED_BY	Follow-Up Care Provided By	LIF	1999-10-25 00:00:00		Provider Information	NUM	FOLCAREP		YES
+COD	Recipient Cause of Death	LIF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		YES
+COD2	Recipient Contributory Cause of Death	LIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COD3	Recipient Contributory Cause of Death	LIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COGNITIVE_DEV	COGNITIVE DEVELOPMENT (PEDS ONLY)	LIF	2008-03-01 00:00:00		Patient Status at Time of Follow-Up	NUM	COGNITIVE_DEV		YES (FOR PEDS)
+CORART	Coronary Artery Disease since last Follow-up	LIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			YES (FOR PEDS)
+CREAT	Recipient Most Recent Lab during the Follow-up Period --- Serum Creatinine (mg/dl)	LIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM			YES
+DIABETES_DURING	Recipient Diabetes During Followup Period?	LIF	2004-06-30 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+FOL_CD	Follow-up Code	LIF				NUM	FOLCD		
+FOL_CTR_CODE	Follow-up Center - Encrypted	LIF				CHAR(7)			
+FUNC_STAT	Functional Status at Follow-Up	LIF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	NUM	FUNCSTAT		YES (FOR PEDS)
+GRF_DC	Contributory Cause of Graft Failure ---DIFFUSE CHOLANGIOPATHY	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+GRF_FAIL_DATE	Date of Graft Failure	LIF	1999-10-25 00:00:00		CLINICAL INFORMATION	NUM		Not collected 04/01/1994 through 10/25/1999.	YES
+GRF_NF	Contributory Cause of Graft Failure --- PRIMARY NON-FUNCTION	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+GRF_OVT	Contributory Cause of Graft Failure --- OTHER VASCULAR THROMBOSIS	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+GRF_STAT	Graft Status at Time of Follow-Up (Y=Functioning, N=Failed)	LIF	1987-10-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	GRFSTAT		YES
+HBSAG	Recipient Serology Result at the Follow-Up --- HbsAg	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HBV_CORE	Recipient Serology Result at the Follow-Up --- HBV CORE ANTIBODY	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HBV_DNA	Recipient Serology Result at the Follow-Up --- HBV DNA	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HCV_NAT	Recipient Serology Result at the Follow-Up --- HCV NAT	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HCV_SEROLOGY	Recipient Serology Result at the Follow-Up --- HCV SEROLOGY	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HEP_DENOVO	Contributory Cause of Graft Failure --- Hepatitis DeNovo	LIF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+HEP_RECUR	Contributory Cause of Graft Failure --- Hepatitis Recurrent	LIF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+HEPATIC_ART_THROM	Hepatic Arterial Thrombosis (adult since 3/31/2015)	LIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+HEPATIC_OUT_OBS	Hepatic Outflow Obstruction: Ped	LIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+HGT_CM	Recipient Height in Centimeters at Follow-Up (COLLECTED ON PEDS ONLY SINCE 1/1/2007)	LIF	1987-10-01 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+HIV_NAT	HIV_NAT	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HIV_SEROLOGY	HIV_SEROLOGY	LIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HOSP	Hospitalizations during Follow-Up Period	LIF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)		"This field was collected as ""Transplant related hospitalization since last Follow-up"" between 4/1/95 to 10/25/99."	
+IMMUNO_MAINT_MED	Any Medications Given during follow-up for Maintenance or Anti-Rejection?	LIF	1999-10-25 00:00:00		Treatment	NUM	IMMUNOMAINTMED		
+INFECT	Contributory Cause of Graft Failure --- Infection	LIF	1987-10-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+INSULIN_DEPENDENT	Diabetes-Insulin Dependent	LIF	2004-06-30 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+LAB_DATE	Recipient Most Recent Lab Date during the Follow-up Period	LIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM			
+MEASUREMENT_DATE	Date of Weight and Height Measurment (PEDS ONLY)	LIF	2008-03-08 00:00:00		CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+MEASUREMENT_DT_HT	Date of Height Measurment (PEDS ONLY)	LIF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MEASUREMENT_DT_WT	Date of Weight Measurment (PEDS ONLY)	LIF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MOTOR_DEV	Motor Development (PEDS only)	LIF	2008-03-08 00:00:00		Patient Status	NUM	MOTOR_DEV		YES (FOR PEDS)
+PERM_STATE	Recipient Permanent Residential State	LIF	2003-01-27 00:00:00		Recipient Information	CHAR(2)	STATE		YES
+PORTAL_VEIN_THROM	Portal Vein Thrombosis: Ped	LIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+PRI_PAYMENT	RECIPIENT PRIMARY SOURCE OF PAYMENT	LIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	PRIMPAY		
+PRI_PAYMENT_CTRY	RECIPIENT FOREIGN GOV'T AS SECONDARY PAYMENT SOURCE	LIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(3)			
+PT_CODE	ENCRYPTED RECIPIENT IDENTIFIER	CALCULATED				NUM			
+PX_STAT	Recipient Status at Time of Follow-Up(Died, ReTX, Lost, Not Seen, Alive)	LIF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)	PXSTAT		YES
+PX_STAT_DATE	Recipient Status Date at Time of Follow-Up	LIF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM			YES
+RECUR_DISEASE	Contributory Cause of Graft Failure --- Recurrent Disease, Non-Hepatitis	LIF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+REJ_ACUTE	Contributory Cause of Graft Failure --- Acute Rejection	LIF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		"The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+REJ_CHRONIC	Contributory Cause of Graft Failure --- Chronic Rejection	LIF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		"Before 4/1/94, collected as REJECTION., all data prior to that date converted to chronic rejection , The user is asked to check as many contributing causes of failure as apply, there is no ""primary"" cause of failure"	YES
+RETXDATE	Date of Retransplant	CALCULATED				NUM			
+STATUS_TRF	TRF Form Status	LIF				CHAR(1)	FRMSTAT		
+TBILI	Recipient Most Recent Lab during the Follow-up Period --- Total Bilirubin (mg/dl)	LIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM			
+TRR_FOL_ID_CODE	ENCRYPTED FOLLOW-UP IDENTIFIER	CALCULATED				CHAR(15)			
+TRR_ID_CODE	ENCRYPTED TRANSPLANT IDENTIFIER	CALCULATED				CHAR(15)			
+TRT_REJ	Patient Treated for Rejection (Y/N/U) during Follow-Up Period	LIF	2003-01-27 00:00:00	2004-06-30 00:00:00	CLINICAL INFORMATION	CHAR(1)			
+TRT_REJ_NUM	Number of Rejection Events during Follow-Up Period	LIF	2003-01-27 00:00:00	2004-06-30 00:00:00	CLINICAL INFORMATION	NUM			
+VAL_DT_TRF	TRF Validation Date	LIF				NUM			
+WGT_KG	Recipient Weight in Kilograms at Follow-Up (COLLECTED FOR PEDS ONLY SINCE 1/1/2007)	LIF	1987-10-01 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+WORK_INCOME	RECIPIENT WORK FOR INCOME?	LIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)			

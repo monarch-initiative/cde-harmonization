@@ -1,0 +1,86 @@
+"STAR Table Name: THORACIC_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT	ALSO COLLECTED POST-5 YRS?
+ACADEMIC_LEVEL	RECIPIENT ACADEMIC ACTIVITY LEVEL (FOR RECIP.AGE<19)	THF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADLVLKI		
+ACADEMIC_PRG	RECIPIENT ACDEMIC PROGRESS (FOR RECIP.AGE<19)	THF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADPRG		
+ACUTE_REJ_EPI	EPISODES OF ACUTE REJECTION	THF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM	REJEPIKI		
+BMI	Recipient BMI (AVAILABLE FOR PEDS ONLY SINCE 1/1/2007)	THF	2004-06-30 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+BRONC_OBLIT	Lung Graft Status --- Bronchiolitis Obliterans since Last Follow-up	THF	1994-04-01 00:00:00	2020-06-30 00:00:00	CLINICAL INFORMATION	NUM		Variable is dropped from collection since 6/30/2020. New variables for CLAD are being collected 	
+BRONC_STRIC	Lung Graft Status --- Bronchial Stricture since Last Follow-up	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	BRNCHSTR		
+CARE_PROVIDED_BY	Follow-Up Care Provided By	THF	1999-10-25 00:00:00		Provider Information	NUM	FOLCAREP		YES
+CHRONIC_DIAL	Post Transplant Events since Last Follow-up --- If Renal Dysfunction, Chronic Dialysis?	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+COD	Recipient Cause of Death	THF	1990-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		YES
+COD2	Recipient Contributory Cause of Death	THF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COD3	Recipient Contributory Cause of Death	THF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COGNITIVE_DEV	COGNITIVE DEVELOPMENT (PEDS ONLY)	THF	2008-03-01 00:00:00		Patient Status at Time of Follow-Up	NUM	COGNITIVE_DEV		YES (FOR PEDS)
+CORART	Heart Graft Status --- Coronary Artery Disease at the time of Follow-up	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			YES (FOR PEDS)
+CREAT	Most Recent Serum Creatinine	THF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			YES (ONLY ON POST-5 YRS)
+CURRENTO2REQUIREMENTSYN	Current Supplemental O2 Requirements at Rest and/or Exercise	THF			CLINICAL INFORMATION	CHAR(1)			
+DIAB	Post Transplant Events since Last Follow-up --- Diabetes	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+DIAB_INSULIN_DEP	Post Transplant Events since Last Follow-up --- If Diabetes, Insulin Dependent?	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+EJFRAC	Heart Graft Status --- Most Recent Ejection Fraction	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	NUM			
+FEF25_1	Graft Function - FEF25-75 (L/sec)	THF			CLINICAL INFORMATION	NUM			
+FEF25_2	Graft Function - FEF25-75 (L/sec)	THF			CLINICAL INFORMATION	NUM			
+FEF25_3	Graft Function - FEF25-75 (L/sec)	THF			CLINICAL INFORMATION	NUM			
+FEV	Lung Graft Status --- Most Recent Value Available for Forced Expiratory Volume at one second (%)	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	NUM			
+FEV_1	Graft Function - FEV1 (L)	THF			CLINICAL INFORMATION	NUM			
+FEV_2	Graft Function - FEV1 (L)	THF			CLINICAL INFORMATION	NUM			
+FEV_3	Graft Function - FEV1 (L)	THF			CLINICAL INFORMATION	NUM			
+FEVTESTDATE_1	Graft Functon - Date Test Performed	THF			CLINICAL INFORMATION	NUM			
+FEVTESTDATE_2	Graft Functon - Date Test Performed	THF			CLINICAL INFORMATION	NUM			
+FEVTESTDATE_3	Graft Functon - Date Test Performed	THF			CLINICAL INFORMATION	NUM			
+FIO2REQEXERCISE	FiO2 with Exercise (%)	THF			CLINICAL INFORMATION	NUM			
+FIO2REQREST	FiO2 at Rest (%)	THF			CLINICAL INFORMATION	NUM			
+FLOWREQEXERCISE	Flow Rate with Exercise (L/min)	THF			CLINICAL INFORMATION	NUM			
+FLOWREQREST	Flow Rate at Rest (L/min)	THF			CLINICAL INFORMATION	NUM			
+FOL_CD	Follow-up Code	THF				NUM	FOLCD		
+FOL_CTR_CODE	Follow-up Center - Encrypted	THF				CHAR(7)			
+FUNC_STAT	Functional Status at Follow-Up	THF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	NUM	FUNCSTAT		YES (FOR PEDS)
+FVC_1	Graft Function - FVC (L)				CLINICAL INFORMATION	NUM			
+FVC_2	Graft Function - FVC (L)				CLINICAL INFORMATION	NUM			
+FVC_3	Graft Function - FVC (L)				CLINICAL INFORMATION	NUM			
+GRF_FAIL_DATE	Date of Graft Failure	THF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM			YES
+GRF_STAT	Graft Status at Time of Follow-Up (Y=Functioning, N=Failed)	THF	2004-06-30 00:00:00		CLINICAL INFORMATION	CHAR(1)	GRFSTAT		YES
+GRF_STAT_CAUSE	Cause of Graft Failure	THF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM	PRIGFAIL		YES
+HBSAG	Recipient Serology Result at the Follow-Up --- HbsAg	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HBV_CORE	Recipient Serology Result at the Follow-Up --- HBV CORE ANTIBODY	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HBV_DNA	Recipient Serology Result at the Follow-Up --- HBV DNA	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HCV_NAT	Recipient Serology Result at the Follow-Up --- HCV NAT	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HCV_SEROLOGY	Recipient Serology Result at the Follow-Up --- HCV SEROLOGY	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HGT_CM	Recipient Height in Centimeters at Follow-Up (COLLECTED FOR PEDS ONLY SINCE 1/1/2007)	THF	1990-10-01 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+HIV_NAT	HIV_NAT	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HIV_SEROLOGY	HIV_SEROLOGY	THF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HOSP	Hospitalizations during Follow-Up Period	THF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)		"04/01/1994-Now: This field was collected as ""Transplant related hospitalization since last Follow-up"" between 4/1/95 to 10/25/99."	
+HOSP_INF	Hospitalized for Infection during Follow-up Period	THF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)			
+HOSP_REJ	Hospitalized for Rejection during Follow-up Period	THF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)			
+IMMUNO_MAINT_MED	Any Medications Given during follow-up for Maintenance or Anti-Rejection?	THF	1999-10-25 00:00:00		Treatment	NUM	IMMUNOMAINTMED		
+MEASUREMENT_DATE	Date of Weight and Height Measurment (PEDS only)	THF	2008-03-08 00:00:00		CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+MEASUREMENT_DT_HT	Date of Height Measurment (PEDS ONLY)	THF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MEASUREMENT_DT_WT	Date of Weight Measurment (PEDS ONLY)	THF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MOTOR_DEV	Motor Development (PEDS only)	THF	2008-03-08 00:00:00		Patient Status	NUM	MOTOR_DEV		YES (FOR PEDS)
+O2_REQ	Lung Graft Status --- Oxygen Requirement (L/min) at rest at the time of Follow-up	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	NUM			
+PACE	Heart Graft Status --- Permanent Pacemaker Inserted since Last Follow-up	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+PERM_STATE	Recipient Permanent Residential State	THF	2003-01-27 00:00:00		Recipient Information	CHAR(2)	STATE		YES
+PRI_PAYMENT	RECIPIENT PRIMARY SOURCE OF PAYMENT	THF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	PRIMPAY		
+PRI_PAYMENT_CTRY	RECIPIENT FOREIGN GOV'T AS SECONDARY PAYMENT SOURCE	THF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(3)			
+PT_CODE	ENCRYPTED RECIPIENT IDENTIFIER	CALCULATED				NUM			
+PX_STAT	Recipient Status at Time of Follow-Up(Died, ReTX, Lost, Not Seen, Alive)	THF	1990-10-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)	PXSTAT		YES
+PX_STAT_DATE	Recipient Status Date at Time of Follow-Up	THF	1990-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM			YES
+RENAL_TX	Post Transplant Events since Last Follow-up --- If Renal Dysfunction, Renal Transplant since Thoracic Transplant?	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+RETXDATE	DATE OF RE-TRANSPLANT	CALCULATED	1987-10-01 00:00:00			NUM			
+SHFRAC	Shortening Fraction	THF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM			
+STATUS_TRF	TRF Form Status	THF				CHAR(1)	FRMSTAT		
+STENT	Lung Graft Status --- If Bronchial Stricture since Last Follow-up, Stent inserted?	THF	1994-04-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+TITERA	TRR/TRF PEDIATRIC POST-TRANSPLANT MOST RECENT ANTI-A TITER	TRR/TRF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+TITERA_DATE	TRR/TRF SAMPLE DATE OF PEDIATRIC POST-TRANSPLANT MOST RECENT ANTI-A TITER	TRR/TRF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+TITERB	TRR/TRF PEDIATRIC POST-TRANSPLANT MOST RECENT ANTI-B TITER	TRR/TRF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+TITERB_DATE	TRR/TRF SAMPLE DATE OF PEDIATRIC POST-TRANSPLANT MOST RECENT ANTI-B TITER	TRR/TRF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+TRR_FOL_ID_CODE	ENCRYPTED FOLLOW-UP IDENTIFIER	CALCULATED				CHAR(15)			
+TRR_ID_CODE	ENCRYPTED TRANSPLANT IDENTIFIER	CALCULATED				CHAR(15)			
+TRT_REJ	Patient Treated for Rejection (Y/N/U) during Follow-Up Period	THF	2003-01-27 00:00:00	2004-06-30 00:00:00	CLINICAL INFORMATION	CHAR(1)			
+TRT_REJ_NUM	Number of Rejection Events during Follow-Up Period	THF	2003-01-27 00:00:00	2004-06-30 00:00:00	CLINICAL INFORMATION	NUM			
+VAL_DT_TRF	TRF Validation Date	THF				NUM			
+WGT_KG	Recipient Weight in Kilograms at Follow-Up (COLLECTED FOR PEDS ONLY SINCE 1/1/2007)	THF	1990-10-01 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+WORK_INCOME	RECIPIENT WORK FOR INCOME?	THF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)			

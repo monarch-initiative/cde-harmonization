@@ -1,0 +1,67 @@
+"STAR Table Name: KIDNEY_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT	ALSO COLLECTED POST-5 YRS?
+ACADEMIC_LEVEL	RECIPIENT ACADEMIC ACTIVITY LEVEL (FOR RECIP. AGE <19)	KIF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADLVLKI		
+ACADEMIC_PRG	RECIPIENT ACDEMIC PROGRESS (FOR RECIP. AGE <19)	KIF	2004-06-30 00:00:00	2015-03-30 00:00:00	Patient Status	NUM	ACADPRG		
+ACUTE_REJ_EPI	EPISODES OF ACUTE REJECTION	KIF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM	REJEPIKI		
+AVN	Avascular Necrosis (PEDS Only)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+BMI	Recipient BMI	KIF	2004-06-30 00:00:00		CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+CARE_PROVIDED_BY	Follow-Up Care Provided By	KIF	1999-10-25 00:00:00		Provider Information	NUM	FOLCAREP		YES
+CMV_IGG	Recipient Serology Result at the Follow-Up --- CMV IgG (1 and 2 years post-transplant only)	KIF	1999-10-25 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+CMV_IGM	Recipient Serology Result at the Follow-Up --- CMV IgM (1 and 2 years post-transplant only)	KIF	1999-10-25 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+COD	Recipient Cause of Death	KIF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		YES
+COD2	Recipient Contributory Cause of Death	KIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COD3	Recipient Contributory Cause of Death	KIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	ALL_COD		
+COGNITIVE_DEV	COGNITIVE DEVELOPMENT (PEDS ONLY)	KIF	2008-03-01 00:00:00		Patient Status at Time of Follow-Up	NUM	COGNITIVE_DEV		YES (FOR PEDS)
+CORART	Coronary Artery Disease at the time of Follow-up	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			YES (FOR PEDS)
+CREAT	If Graft Functioning/ Most Recent Serum Creatinine(mg/dl)	KIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM			YES
+DIABETES_DURING	Recipient Diabetes During Followup Period?	KIF	2004-06-30 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+DIAL_TY	Any Dialysis Since Last Follow-Up	KIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM	MNTDIAL	10/01/1987-04/01/1994: Only Resumed Dialysis and Date collected before 4/1/94.	
+FOL_CD	Follow-up Code	KIF				NUM	FOLCD		
+FOL_CTR_CODE	Follow-up Center - Encrypted	KIF				CHAR(7)			
+FRAC_EXTREM	Specify Location and Number of Fractures (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+FRAC_EXTREM_NUM	Extremity Number of Fractures (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+FRAC_OTHER	Specify Location and Number of Fractures Other (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+FRAC_OTHER_NUM	Other Number of Fractures (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+FRAC_PASTYR	Fracture in past year or since last followup (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+FRAC_SPINE	Specify Location and Number of Fractures Spine-compression (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+FRAC_SPINE_NUM	Spine Compression Number of Fractures (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	NUM			
+FUNC_STAT	Functional Status at Follow-Up	KIF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	NUM	FUNCSTAT		YES (FOR PEDS)
+GRF_FAIL_CAUSE_TY	Primary Cause of Graft Failure	KIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM	GRFAILKI		YES
+GRF_FAIL_DATE	Date of Graft Failure	KIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM			YES
+GRF_STAT	Graft Status at Time of Follow-Up (Y=Functioning; N=Failed)	KIF	1987-10-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	GRFSTAT		YES
+GROWTH_HORMONE	Is Growth hormone therapy used during this followup period (PEDS ONLY)	KIF	2008-03-01 00:00:00		CLINICAL INFORMATION	CHAR(1)			
+HBSAG	Recipient Serology Result at the Follow-Up --- HbsAg	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HBV_CORE	Recipient Serology Result at the Follow-Up --- HBV CORE ANTIBODY	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HBV_DNA	Recipient Serology Result at the Follow-Up --- HBV DNA	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HCV_NAT	Recipient Serology Result at the Follow-Up --- HCV NAT	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HCV_SEROLOGY	Recipient Serology Result at the Follow-Up --- HCV SEROLOGY	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HGT_CM	Recipient Height in Centimeters at Follow-Up (COLLECTED ON PEDS ONLY SINCE 1/1/2007)	KIF	1987-10-01 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM		COLLECTED ON PEDS ONLY SINCE 1/1/2007	YES (FOR PEDS)
+HIV_NAT	HIV_NAT	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HIV_SEROLOGY	HIV_SEROLOGY	KIF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT		
+HOSP	Hospitalizations during Follow-Up Period	KIF	1994-04-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)		"04/01/1994-Now: This field was collected as ""Transplant related hospitalization since last Follow-up"" between 4/1/95 to 10/25/99."	
+IMMUNO_MAINT_MED	Any Medications Given during follow-up for Maintenance or Anti-Rejection?	KIF	1999-10-25 00:00:00		Treatment	NUM	IMMUNOMAINTMED		
+INSULIN_DEPENDENT	Diabetes-Insulin Dependent	KIF	1994-04-01 00:00:00	2004-06-29 00:00:00	CLINICAL INFORMATION	CHAR(1)			
+MEASUREMENT_DATE	Date of Weight and Height Measurment (PEDS ONLY)	KIF	2008-03-08 00:00:00		CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+MEASUREMENT_DT_HT	Date of Height Measurment (PEDS ONLY)	KIF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MEASUREMENT_DT_WT	Date of Weight Measurment (PEDS ONLY)	KIF	2022-08-30 00:00:00		CLINICAL INFORMATION				YES (FOR PEDS)
+MOTOR_DEV	Motor Development (PEDS only)	KIF	2008-03-08 00:00:00		Patient Status	NUM	MOTOR_DEV		YES (FOR PEDS)
+PERM_STATE	Recipient Permanent Residential State	KIF	2003-01-27 00:00:00		Recipient Information	CHAR(2)	STATE		YES
+PRI_PAYMENT	RECIPIENT PRIMARY SOURCE OF PAYMENT	KIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	NUM	PRIMPAY		
+PRI_PAYMENT_CTRY	RECIPIENT FOREIGN GOV'T AS SECONDARY PAYMENT SOURCE	KIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(3)			
+PT_CODE	ENCRYPTED RECIPIENT IDENTIFIER	CALCULATED				NUM			
+PX_STAT	Recipient Status at Time of Follow-Up(Died; ReTX; Lost; Not Seen; Alive)	KIF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)	PXSTAT		YES
+PX_STAT_DATE	Recipient Status Date at Time of Follow-Up	KIF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM			YES
+RECURRED_ORIG_DGN	Disease Recurrence	KIF	2004-06-30 00:00:00		Patient Status	NUM	DISRECUR		
+RESUM_MAINT_DIAL_DATE	Date Maintenance Dialysis Resumed	KIF	1987-10-01 00:00:00		CLINICAL INFORMATION	NUM			
+RETXDATE_KI	Date of Retransplant	calculated				NUM			
+STATUS_TRF	TRF Form Status	KIF				CHAR(1)	FRMSTAT		
+TRR_FOL_ID_CODE	ENCRYPTED FOLLOW-UP IDENTIFIER	CALCULATED				CHAR(15)			
+TRR_ID_CODE	ENCRYPTED TRANSPLANT IDENTIFIER	CALCULATED				CHAR(15)			
+TRT_REJ	Patient Treated for Rejection (Y/N/U) during Follow-Up Period	KIF	2003-01-27 00:00:00	2004-06-30 00:00:00	CLINICAL INFORMATION	CHAR(1)			
+TRT_REJ_NUM	Number of Rejection Events during Follow-Up Period	KIF	2003-01-27 00:00:00	2004-06-30 00:00:00	CLINICAL INFORMATION	NUM			
+VAL_DT_TRF	TRF Validation Date	KIF				NUM			
+WGT_KG	Recipient Weight in Kilograms at Follow-Up (COLLECTED FOR PEDS ONLY SINCE 1/1/2007)	KIF	1987-10-01 00:00:00	2007-01-01 00:00:00	CLINICAL INFORMATION	NUM			YES (FOR PEDS)
+WORK_INCOME	RECIPIENT WORK FOR INCOME?	KIF	2004-06-30 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)			

@@ -1,0 +1,64 @@
+"STAR Table Name: THORACIC_STAT4
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ADMITTEDTOHOSPITAL	Is the Candidate Currently Admitted to the Listing Center?	Adult Heart Status 4 Justification Form				NUM		
+CARDIOAMYLOIDOSIS	Candidate is Diagnosed with Amyloidosis	Adult Heart Status 4 Justification Form				NUM		
+CARDIOHYPERTROPHIC	Candidate is Diagnosed with Hypertrophic Cardiomyopathy	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYCANADIAN	Candidate has Canadian Cardiovascular Society Grade IV Angina Pectoris that cannot be Controlled by Medical Therapy	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYNYHA	Candidate has Class III-IV Symptoms as Classified by the New York Heart Association with Cardiac Index Less than 2.2 L/min/m2 or Pulmonary Capillary Wedge Pressure Greater than 20 mmHg	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYNYHACDX	Candidate has Class III-IV Symptoms as Classified by the New York Heart Association with Cardiac Index Less than 2.2 L/min/m2	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYNYHAPCWP	Candidate has Class III-IV Symptoms as Classified by the New York Heart Association with Pulmonary Capillary Wedge Pressure Greater than 20 mmHg	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYSUDDENDEATH	Candidate had Sudden Cardiac Death	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYVENARR	Candidate has Ventricular Arrhythmia Requiring Electrical Cardioversion	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYVENFIB	Candidate has Ventricular Fibrillation	Adult Heart Status 4 Justification Form				NUM		
+CARDIOMYOPATHYVENTACHY	Candidate has Ventricular Tachycardia Lasting at least 30 Seconds	Adult Heart Status 4 Justification Form				NUM		
+CARDIORESTRICT	Candidate is Diagnosed with Restrictive Cardiomyopathy	Adult Heart Status 4 Justification Form				NUM		
+CRITERIACARDIOMYOPATHY	Candidate is Diagnosed with Amyloidosis or Hypertrophic or Restrictive Cardiomyopathy	Adult Heart Status 4 Justification Form				NUM		
+CRITERIAHEARTDISEASE	Candidate is Diagnosed with a Hemodynamically Significant Congenital Heart Disease	Adult Heart Status 4 Justification Form				NUM		
+CRITERIAINOTROPESUPPORT	Candidate is Admitted to the Listing Center and is on Multiple Inotropes or a Single High Dose Inotrope and Hemodynamic Monitoring	Adult Heart Status 4 Justification Form				NUM		
+CRITERIAISCHEMICHEART	Candidate is Diagnosed with Ischemic Heart Disease and has Intractable Angina	Adult Heart Status 4 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIALVADSUPPORT	Candidate is Supported by a Dischargeable LVAD	Adult Heart Status 4 Justification Form				NUM		
+CRITERIARETRANSPLANT	Candidate has had a Previous Heart Retransplant and there is Evidence of ISLHT Coronary Allograft Vasculopathy (CAV) Grade 2-3, or NYHA Class III-IV Heart Failure Symptoms	Adult Heart Status 4 Justification Form				NUM		
+DEVICERECALLEXCEPTION	Exception Request Specifically Related to a Device Recall	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+EXCEPTION	Candidate Does not Meet any of the Criteria but is Admitted to the Listing Center and has an Urgency and Potential for Benefit Comparable to that of Other Candidates at this Status	Adult Heart Status 4 Justification Form				NUM		
+EXTENSIONNUMBER	Applies to Criteria 2 (Inotropes with Hemodynamic Monitoring)					NUM		
+EXTINOTROPEDOBUTAMINE	Applies to Criteria 2 (Inotropes with Hemodynamic Monitoring)	Adult Heart Status 4 Justification Form				NUM		
+EXTINOTROPEDOPAMINE	Applies to Criteria 2 (Inotropes with Hemodynamic Monitoring)	Adult Heart Status 4 Justification Form				NUM		
+EXTINOTROPEEPINEPHRINE	Applies to Criteria 2 (Inotropes with Hemodynamic Monitoring)	Adult Heart Status 4 Justification Form				NUM		
+EXTINOTROPEMILRINONE	Applies to Criteria 2 (Inotropes with Hemodynamic Monitoring)	Adult Heart Status 4 Justification Form				NUM		
+FORMEFFECTIVEDT	Form Effective Date	Adult Heart Status 4 Justification Form				NUM		
+FORMSTATUS	Description of justification form status	" 
+Adult Heart Status 4 Justification Form"	2018-09-19 00:00:00					
+HEARTDISEASEVALUES	Congenital Heart Disease Diagnosis	Adult Heart Status 4 Justification Form				NUM	CHDMULT	
+INOTROPECARDIACINDEX	Inotropes without Hemodynamic Monitoring - Cardiac Index (L/min/m2)	Adult Heart Status 4 Justification Form				NUM		
+INOTROPECARDIACINDEXDT	Inotropes without Hemodynamic Monitoring - Cardiac Index Test Date	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEDOBUTAMINE	Inotropes without Hemodynamic Monitoring - Dobutamine (mcg/kg/min)	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEDOBUTAMINEDT	Inotropes without Hemodynamic Monitoring - Dobutamine Date of Initiation	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEDOPAMINE	Inotropes without Hemodynamic Monitoring - Dopamine (mcg/kg/min)	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEDOPAMINEDT	Inotropes without Hemodynamic Monitoring -  Dopamine Date of Initiation	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEEPINEPHRINE	Inotropes without Hemodynamic Monitoring - Epinephrine (mcg/kg/min)	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEEPINEPHRINEDT	Inotropes without Hemodynamic Monitoring - Epinephrine  Date of initiation	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEMILRINONE	Inotropes without Hemodynamic Monitoring - Milrinone (mcg/kg/min)	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEMILRINONEDT	Inotropes without Hemodynamic Monitoring - Milrinone Date of Initiation	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEPCWP	Inotropes without Hemodynamic Monitoring - Pulmonary Capillary Wedge Pressure (mmHg)	Adult Heart Status 4 Justification Form				NUM		
+INOTROPEPCWPDT	Inotropes without Hemodynamic Monitoring - Pulmonary Capillary Wedge Pressure Test Date	Adult Heart Status 4 Justification Form				NUM		
+JUSTCRITERIAINFOID	Justification Form Criteria ID		2023-03-09 00:00:00			NUM	JUSTCRITERIAINFO	
+PRIM_DEVICETYPEID	Primary Device	Adult Heart Status 4 Justification Form				NUM	VADDEVTY	
+PRIM_IMPLANTDT	Primary Device - Date of Implant/Initiation	Adult Heart Status 4 Justification Form				NUM		
+PRIM_IMPLANTTIME	Primary Device - Time of Implant/Initiation	Adult Heart Status 4 Justification Form				CHAR(5)		
+PRIM_PERCUBRANDID	Primary Device - Device Brand - Percutaneous Brand	Adult Heart Status 4 Justification Form				NUM	VADBRAND	
+PRIM_TAHBRANDID	Primary Device - Device Brand - TAH Brand	Adult Heart Status 4 Justification Form				NUM	VADBRAND	
+PRIM_VADBRANDID	Primary Device - Device Brand - VAD Brand	Adult Heart Status 4 Justification Form				NUM	VADBRAND	
+PRIM_VENTRICULARSUPPORTID	Primary Device - Ventricle Support	Adult Heart Status 4 Justification Form				NUM	VENTRIC	
+SEC_DEVICETYPEID	Secondary Device	Adult Heart Status 4 Justification Form				NUM	VADDEVTY	
+SEC_IMPLANTDT	Secondary Device - Date of Implant/Initiation	Adult Heart Status 4 Justification Form				NUM		
+SEC_PERCUBRANDID	Secondary Device - Device Brand - Percutaneous Brand	Adult Heart Status 4 Justification Form				NUM	VADBRAND	
+SEC_TAHBRANDID	Secondary Device - Device Brand - TAH Brand	Adult Heart Status 4 Justification Form				NUM	VADBRAND	
+SEC_VADBRANDID	Secondary Device - Device Brand - VAD Brand	Adult Heart Status 4 Justification Form				NUM	VADBRAND	
+SEC_VENTRICULARSUPPORTID	Secondary Device - Ventricle Support	Adult Heart Status 4 Justification Form				NUM	VENTRIC	
+UNOS_CAND_STAT_CD	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1	Adult Heart Status 4 Justification Form				NUM	STAT	
+UNOS_CAND_STAT_DT	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1 Date	Adult Heart Status 4 Justification Form				NUM		
+WL_ID_CODE	Encrypted Registration Identifier	Adult Heart Status 4 Justification Form				NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID for Linkage to Other Data	Adult Heart Status 4 Justification Form				NUM		
