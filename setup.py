@@ -12,7 +12,9 @@ setup(
         "pandas",    # DataFrame processing
         "openpyxl",  # Reading HEAL .xlsx files
         "requests",  # HTTP data fetching
-    ],
+        "curategpt",
+        "psutil",
+    ],  # Dependencies for the project
     entry_points={
         "console_scripts": [
             "cde2linkml = cde2linkml.cli:main",
