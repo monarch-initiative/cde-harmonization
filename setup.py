@@ -12,6 +12,8 @@ setup(
         "pyyaml",  # For working with YAML files
         "pandas",  # For working with dataframes
         "requests",  # If you're fetching data via HTTP
+        "curategpt",  # Install from PyPI
+        "psutil",
     ],  # Dependencies for the project
     entry_points={
         "console_scripts": [
