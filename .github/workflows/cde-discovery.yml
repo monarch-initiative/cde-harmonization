@@ -1,0 +1,25 @@
+name: AI CDE Discovery
+description: "Automatically discover relevant CDEs using Claude AI"
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  discover-cdes:
+    if: contains(github.event.issue.labels.*.name, 'cde-discovery')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run CDE Discovery
+        uses: ./.github/actions/cde-discovery-action
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          cborg_api_key: ${{ secrets.CBORG_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
