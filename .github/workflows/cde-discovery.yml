@@ -1,5 +1,4 @@
 name: AI CDE Discovery
-description: "Automatically discover relevant CDEs using Claude AI"
 
 on:
   issues:
@@ -11,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: write
-      issues: write
-      pull-requests: write
+      contents: read          # read is enough for repo files
+      issues: write           # needed to post comments
+      pull-requests: write    # optional; handy if you later comment on PRs
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,4 +22,4 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           cborg_api_key: ${{ secrets.CBORG_API_KEY }}
-          github_token: ${{ secrets.PAT_FOR_PR }}
+          github_token: ${{ github.token }}   # use the job-scoped token with the permissions above
