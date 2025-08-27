@@ -66,12 +66,9 @@ runs:
             "-i",
             "--rm",
             "-e",
-            "GITHUB_PERSONAL_ACCESS_TOKEN",
+            "GITHUB_PERSONAL_ACCESS_TOKEN=${{ inputs.github_token }}",
             "ghcr.io/github/github-mcp-server:sha-ff3036d"
-          ],
-          "env": {
-            "GITHUB_PERSONAL_ACCESS_TOKEN": "${{ inputs.github_token }}"
-          }
+          ]
         }'
 
     - name: Install ARTL MCP Server
