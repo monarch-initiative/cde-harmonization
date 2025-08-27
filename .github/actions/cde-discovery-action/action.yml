@@ -101,7 +101,7 @@ runs:
       uses: ./.github/actions/claude-code-action
       with:
         prompt_file: /tmp/claude-prompts/cde-discovery-prompt.txt
-        allowed_tools: "mcp__github__get_issue,mcp__github__create_issue_comment,Grep,Read,LS,Glob"
+        allowed_tools: "mcp__github__get_issue,mcp__github__add_issue_comment,mcp__github__create_issue_comment,Grep,Read,LS,Glob"
         install_github_mcp: "true"
         timeout_minutes: ${{ inputs.timeout_minutes }}
         anthropic_api_key: ${{ inputs.anthropic_api_key }}
