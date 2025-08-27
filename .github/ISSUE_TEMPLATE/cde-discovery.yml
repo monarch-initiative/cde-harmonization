@@ -80,7 +80,6 @@ body:
         - "Other electronic data capture"
         - "Paper forms"
         - "Not specified"
-      default: 0
 
   - type: textarea
     id: additional_context
@@ -113,4 +112,3 @@ body:
         - label: "Suggest population-specific alternatives (adult vs pediatric)"
         - label: "Compare question wording and response options"
         - label: "Recommend best practices for data collection"
-      default: 0

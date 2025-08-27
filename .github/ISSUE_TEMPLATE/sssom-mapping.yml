@@ -58,7 +58,6 @@ body:
         - label: "NIH/NLM"
         - label: "CADSR"
         - label: "RADx-UP"
-      default: 0
 
   - type: dropdown
     id: mapping_precision
@@ -71,6 +70,31 @@ body:
         - "Related matches (medium confidence)"
         - "Broad matches (include loosely related)"
       default: 1
+
+  - type: textarea
+    id: mapping_criteria
+    attributes:
+      label: Specific Mapping Criteria
+      description: Any specific criteria or constraints for the mappings?
+      placeholder: |
+        e.g.,
+        - Must have compatible response scales
+        - Same target population (adult vs pediatric)
+        - Similar measurement precision
+        - Compatible with longitudinal studies
+
+  - type: checkboxes
+    id: mapping_analysis
+    attributes:
+      label: Analysis Focus
+      description: What aspects should the AI analyze when creating mappings?
+      options:
+        - label: "Question text similarity"
+        - label: "Response option compatibility"
+        - label: "Population target alignment"
+        - label: "Clinical concept equivalence"
+        - label: "Measurement scale comparability"
+        - label: "Temporal aspects (current vs historical)"
 
   - type: textarea
     id: use_case
