@@ -9,12 +9,6 @@ body:
         ## AI-Generated SSSOM Mappings
         
         This template will trigger our AI system to generate SSSOM (Simple Standard for Sharing Ontological Mappings) mappings between CDEs.
-        
-        The AI will:
-        - Analyze semantic relationships between specified CDEs
-        - Generate SSSOM-compliant mapping files
-        - Provide confidence scores and detailed justifications
-        - Create a pull request with the mapping for human review
 
   - type: dropdown
     id: mapping_type
@@ -26,7 +20,6 @@ body:
         - "CDE to domain/concept mapping"
         - "Cross-source harmonization (find all related CDEs)"
         - "Validation of existing mapping"
-      default: 0
     validations:
       required: true
 
@@ -40,7 +33,6 @@ body:
         - PX030604 (PhenX adult smoking status)
         - "Do you now smoke cigarettes?" (NIH/NLM)
         - Multiple CDEs: PX030603, PX030604, PX030701
-      value: ""
     validations:
       required: true
 
@@ -76,7 +68,6 @@ body:
         - "Close matches (high confidence)"
         - "Related matches (medium confidence)"
         - "Broad matches (include loosely related)"
-      default: 1
 
   - type: textarea
     id: mapping_criteria
@@ -107,37 +98,12 @@ body:
     id: use_case
     attributes:
       label: Use Case Context
-      description: How will these mappings be used? This helps the AI prioritize different aspects.
+      description: How will these mappings be used?
       placeholder: |
         e.g.,
         - Data harmonization across multiple studies
         - Converting between data collection platforms
         - Meta-analysis preparation
-        - Standard development
-        - Regulatory submission
-
-  - type: dropdown
-    id: output_format
-    attributes:
-      label: Preferred Output Format
-      description: What format would you like for the mapping results?
-      options:
-        - "SSSOM TSV file (standard)"
-        - "SSSOM + human-readable summary"
-        - "LinkML mapping schema"
-        - "All formats"
-      default: 1
-
-  - type: checkboxes
-    id: validation_requests
-    attributes:
-      label: Validation and Review
-      description: What type of validation would you like?
-      options:
-        - label: "Request domain expert review"
-        - label: "Compare with existing mappings"
-        - label: "Cross-validate with multiple AI passes"
-        - label: "Generate mapping confidence metrics"
 
   - type: textarea
     id: additional_notes
@@ -149,4 +115,3 @@ body:
         - Known issues with certain CDEs
         - Previous mapping attempts
         - Specific regulatory requirements
-        - Integration constraints
