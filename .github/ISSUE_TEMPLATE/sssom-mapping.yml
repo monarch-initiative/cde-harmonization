@@ -65,7 +65,6 @@ body:
         - label: "NIH/NLM"
         - label: "CADSR"
         - label: "RADx-UP"
-      default: 0
 
   - type: dropdown
     id: mapping_precision
@@ -103,7 +102,6 @@ body:
         - label: "Clinical concept equivalence"
         - label: "Measurement scale comparability"
         - label: "Temporal aspects (current vs historical)"
-      default: 0
 
   - type: textarea
     id: use_case
