@@ -70,6 +70,31 @@ body:
         - "Broad matches (include loosely related)"
 
   - type: textarea
+    id: mapping_criteria
+    attributes:
+      label: Specific Mapping Criteria
+      description: Any specific criteria or constraints for the mappings?
+      placeholder: |
+        e.g.,
+        - Must have compatible response scales
+        - Same target population (adult vs pediatric)
+        - Similar measurement precision
+        - Compatible with longitudinal studies
+
+  - type: checkboxes
+    id: mapping_analysis
+    attributes:
+      label: Analysis Focus
+      description: What aspects should the AI analyze when creating mappings?
+      options:
+        - label: "Question text similarity"
+        - label: "Response option compatibility"
+        - label: "Population target alignment"
+        - label: "Clinical concept equivalence"
+        - label: "Measurement scale comparability"
+        - label: "Temporal aspects (current vs historical)"
+
+  - type: textarea
     id: use_case
     attributes:
       label: Use Case Context
