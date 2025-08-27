@@ -124,30 +124,22 @@ runs:
       shell: bash
       id: run_claude
       run: |
-        ALLOWED_TOOLS_ARG=""
-        if [ ! -z "${{ inputs.allowed_tools }}" ]; then
-          ALLOWED_TOOLS_ARG="--allowedTools ${{ inputs.allowed_tools }}"
-        fi
-
         # Set a timeout to ensure the command doesn't run indefinitely
         timeout_seconds=$((${{ inputs.timeout_minutes }} * 60))
 
+        # Build the claude command
+        CLAUDE_CMD="claude -p --verbose --output-format stream-json"
+        
+        if [ ! -z "${{ inputs.allowed_tools }}" ]; then
+          CLAUDE_CMD="$CLAUDE_CMD --allowedTools \"${{ inputs.allowed_tools }}\""
+        fi
+
         if [ -z "${{ inputs.output_file }}" ]; then
           # Run Claude Code and output to console
-          timeout $timeout_seconds claude \
-            -p \
-            --verbose \
-            --output-format stream-json \
-            "$(cat ${{ env.PROMPT_PATH }})"
-            ${{ inputs.allowed_tools != '' && format('--allowedTools "{0}"', inputs.allowed_tools) || '' }}
+          eval "timeout $timeout_seconds $CLAUDE_CMD \"$(cat ${{ env.PROMPT_PATH }})\""
         else
           # Run Claude Code and tee output to console and file
-          timeout $timeout_seconds claude \
-            -p \
-            --verbose \
-            --output-format stream-json \
-            "$(cat ${{ env.PROMPT_PATH }})" \
-            ${{ inputs.allowed_tools != '' && format('--allowedTools "{0}"', inputs.allowed_tools) || '' }} | tee output.txt
+          eval "timeout $timeout_seconds $CLAUDE_CMD \"$(cat ${{ env.PROMPT_PATH }})\"" | tee output.txt
 
           # Process output.txt into JSON in a separate step
           jq -s '.' output.txt > output.json

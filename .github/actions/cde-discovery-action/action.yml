@@ -28,10 +28,10 @@ runs:
       shell: bash
       run: |
         mkdir -p /tmp/claude-prompts
-        cat > /tmp/claude-prompts/cde-discovery-prompt.txt << 'EOF'
+        cat > /tmp/claude-prompts/cde-discovery-prompt.txt << EOF
         You are a CDE (Common Data Element) discovery assistant for biomedical research data harmonization.
 
-        TASK: Analyze the user's GitHub issue and find relevant CDEs from the repository's data sources.
+        TASK: Analyze GitHub issue #${{ github.event.issue.number }} and find relevant CDEs from the repository's data sources.
 
         REPOSITORY CONTEXT:
         - This repo contains CDEs from multiple sources: PhenX-REDCap, NIH/NLM, CADSR, RADx-UP
