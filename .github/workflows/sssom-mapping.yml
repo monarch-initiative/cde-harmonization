@@ -1,0 +1,26 @@
+name: AI SSSOM Mapping
+description: "Generate SSSOM mappings between CDEs using Claude AI"
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  generate-mapping:
+    if: contains(github.event.issue.labels.*.name, 'sssom-mapping')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate SSSOM Mapping
+        uses: ./.github/actions/sssom-mapping-action
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          cborg_api_key: ${{ secrets.CBORG_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,116 @@
+name: 🔍 CDE Discovery Request
+description: Request AI to find CDEs matching your research needs
+title: "[CDE-DISCOVERY] "
+labels: ["cde-discovery", "ai-curation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## AI-Powered CDE Discovery
+        
+        This template will trigger our AI system to search across all CDE sources (PhenX, NIH/NLM, CADSR, RADx-UP) to find data elements matching your research needs.
+        
+        The AI will analyze your request and provide:
+        - Ranked list of relevant CDEs with confidence scores
+        - Detailed explanations of why each CDE matches your criteria
+        - File locations and LinkML schema references
+        - Suggestions for harmonization opportunities
+
+  - type: textarea
+    id: research_context
+    attributes:
+      label: Research Context
+      description: Describe your study, research question, or data collection needs
+      placeholder: "e.g., Investigating the relationship between smoking behavior and asthma severity in adolescents aged 12-18"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: variables_needed
+    attributes:
+      label: Variables/Concepts Needed
+      description: What specific data elements, clinical concepts, or measurements are you looking for?
+      placeholder: |
+        e.g., 
+        - Smoking initiation age
+        - Current smoking status (daily/occasional/never)
+        - Cigarettes per day
+        - Secondhand smoke exposure
+        - Quit attempts
+        - E-cigarette use
+      value: |
+        - 
+        - 
+        - 
+    validations:
+      required: true
+
+  - type: dropdown
+    id: population
+    attributes:
+      label: Target Population
+      description: What population will you be studying?
+      options:
+        - Adult (18+ years)
+        - Pediatric/Adolescent (<18 years)
+        - Both adult and pediatric
+        - Not specified/population-agnostic
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: sources
+    attributes:
+      label: Preferred CDE Sources
+      description: Which CDE sources would you prefer? (Select all that apply)
+      options:
+        - label: "PhenX Toolkit (standardized research protocols)"
+        - label: "NIH/NLM (National Library of Medicine)"
+        - label: "CADSR (Cancer Data Standards Registry)"
+        - label: "RADx-UP (COVID-19 research focus)"
+        - label: "Any/All sources (let AI decide)"
+
+  - type: dropdown
+    id: data_format
+    attributes:
+      label: Data Collection Platform
+      description: What platform will you use for data collection?
+      options:
+        - "REDCap"
+        - "Other electronic data capture"
+        - "Paper forms"
+        - "Not specified"
+      default: 0
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Requirements
+      description: Any other requirements, constraints, or context that would help find the right CDEs?
+      placeholder: |
+        e.g.,
+        - Must be validated instruments
+        - Need Spanish language versions
+        - Compatible with specific age ranges
+        - Integration with existing study protocols
+        - Regulatory requirements (FDA, IRB)
+
+  - type: textarea
+    id: existing_instruments
+    attributes:
+      label: Existing Instruments or CDEs
+      description: Are you already using any specific instruments or CDEs that new ones should be compatible with?
+      placeholder: "e.g., Already using PX030604 for adult smoking, need comparable pediatric version"
+
+  - type: checkboxes
+    id: ai_tasks
+    attributes:
+      label: AI Analysis Tasks
+      description: What would you like the AI to focus on?
+      options:
+        - label: "Find exact concept matches"
+        - label: "Identify harmonization opportunities across sources"
+        - label: "Suggest population-specific alternatives (adult vs pediatric)"
+        - label: "Compare question wording and response options"
+        - label: "Recommend best practices for data collection"
+      default: 0
