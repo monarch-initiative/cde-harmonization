@@ -138,7 +138,7 @@ runs:
             -p \
             --verbose \
             --output-format stream-json \
-            "$(cat ${{ env.PROMPT_PATH }})" \
+            "$(cat ${{ env.PROMPT_PATH }})"
             ${{ inputs.allowed_tools != '' && format('--allowedTools "{0}"', inputs.allowed_tools) || '' }}
         else
           # Run Claude Code and tee output to console and file
