@@ -165,5 +165,6 @@ runs:
         ANTHROPIC_API_KEY: "."
         ANTHROPIC_AUTH_TOKEN: ${{ inputs.cborg_api_key }}
         GITHUB_TOKEN: ${{ inputs.github_token }}
+        GITHUB_PERSONAL_ACCESS_TOKEN: ${{ inputs.github_token }}
         ANTHROPIC_BASE_URL: "https://api.cborg.lbl.gov"
         DISABLE_NON_ESSENTIAL_MODEL_CALLS: "1"
