@@ -28,10 +28,10 @@ runs:
       shell: bash
       run: |
         mkdir -p /tmp/claude-prompts
-        cat > /tmp/claude-prompts/sssom-mapping-prompt.txt << 'EOF'
+        cat > /tmp/claude-prompts/sssom-mapping-prompt.txt << EOF
         You are an SSSOM (Simple Standard for Sharing Ontological Mappings) mapping generator for CDE harmonization.
 
-        TASK: Generate SSSOM-compliant mappings between CDEs based on the GitHub issue request.
+        TASK: Generate SSSOM-compliant mappings between CDEs based on GitHub issue #${{ github.event.issue.number }}.
 
         REPOSITORY CONTEXT:
         - This repo contains CDEs from: PhenX-REDCap, NIH/NLM, CADSR, RADx-UP
