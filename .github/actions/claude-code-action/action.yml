@@ -130,30 +130,26 @@ runs:
         if [ -z "${{ inputs.output_file }}" ]; then
           # Run Claude Code and output to console
           if [ ! -z "${{ inputs.allowed_tools }}" ]; then
-            timeout $timeout_seconds claude \
+            cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
               --output-format stream-json \
-              --allowedTools "${{ inputs.allowed_tools }}" \
-              "$(cat ${{ env.PROMPT_PATH }})"
+              --allowedTools "${{ inputs.allowed_tools }}"
           else
-            timeout $timeout_seconds claude \
+            cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
-              --output-format stream-json \
-              "$(cat ${{ env.PROMPT_PATH }})"
+              --output-format stream-json
           fi
         else
           # Run Claude Code and tee output to console and file
           if [ ! -z "${{ inputs.allowed_tools }}" ]; then
-            timeout $timeout_seconds claude \
+            cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
               --output-format stream-json \
-              --allowedTools "${{ inputs.allowed_tools }}" \
-              "$(cat ${{ env.PROMPT_PATH }})" | tee output.txt
+              --allowedTools "${{ inputs.allowed_tools }}" | tee output.txt
           else
-            timeout $timeout_seconds claude \
+            cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
-              --output-format stream-json \
-              "$(cat ${{ env.PROMPT_PATH }})" | tee output.txt
+              --output-format stream-json | tee output.txt
           fi
 
           # Process output.txt into JSON in a separate step
