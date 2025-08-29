@@ -31,10 +31,6 @@ inputs:
     description: "Timeout in minutes for Claude Code execution"
     required: false
     default: "10"
-  install_github_mcp:
-    description: "Whether to install the GitHub MCP server"
-    required: false
-    default: "false"
   install_artl_mcp:
     description: "Whether to install the ARTL MCP server"
     required: false
@@ -55,21 +51,6 @@ runs:
       shell: bash
       run: npm install -g @anthropic-ai/claude-code
 
-    - name: Install GitHub MCP Server
-      if: inputs.install_github_mcp == 'true'
-      shell: bash
-      run: |
-        claude mcp add-json github '{
-          "command": "docker",
-          "args": [
-            "run",
-            "-i",
-            "--rm",
-            "-e",
-            "GITHUB_PERSONAL_ACCESS_TOKEN=${{ inputs.github_token }}",
-            "ghcr.io/github/github-mcp-server:sha-ff3036d"
-          ]
-        }'
 
     - name: Install ARTL MCP Server
       if: inputs.install_artl_mcp == 'true'
@@ -131,12 +112,10 @@ runs:
               --verbose \
               --output-format stream-json \
               --allowedTools "${{ inputs.allowed_tools }}" \
-              --permission-mode full
           else
             cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
               --output-format stream-json \
-              --permission-mode full
           fi
         else
           # Run Claude Code and tee output to console and file

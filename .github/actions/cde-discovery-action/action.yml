@@ -31,7 +31,13 @@ runs:
         cat > /tmp/claude-prompts/cde-discovery-prompt.txt << EOF
         You are a CDE (Common Data Element) discovery assistant for biomedical research data harmonization.
 
-        TASK: Analyze GitHub issue #${{ github.event.issue.number }} and find relevant CDEs from the repository's data sources.
+        TASK: Analyze the GitHub issue request below and find relevant CDEs from the repository's data sources.
+
+        ISSUE DETAILS:
+        - Issue Number: ${{ github.event.issue.number }}
+        - Title: ${{ github.event.issue.title }}
+        - Body: ${{ github.event.issue.body }}
+        - User: ${{ github.event.issue.user.login }}
 
         REPOSITORY CONTEXT:
         - This repo contains CDEs from multiple sources: PhenX-REDCap, NIH/NLM, CADSR, RADx-UP
@@ -46,7 +52,7 @@ runs:
           * linkml/radx_up_schema.yaml - Generated LinkML schema for RADx-UP
 
         STEPS:
-        1. Use mcp__github__get_issue to get the issue details and parse the user's request for:
+        1. The GitHub issue details are provided via environment variable. Parse the user's request for:
            - Clinical concepts/variables they need
            - Target population (adult/pediatric/both)
            - Preferred data sources
@@ -73,7 +79,7 @@ runs:
            - Tangentially related (30-60)
            - Population match (adult vs pediatric)
 
-        5. Format response as a detailed markdown comment including:
+        5. Format response as detailed markdown analysis including:
            - Summary of search criteria interpreted from issue
            - Top 5-10 most relevant CDEs with full details
            - For each CDE: ID, source, relevance score, rationale, file path, key variables
@@ -101,9 +107,38 @@ runs:
       uses: ./.github/actions/claude-code-action
       with:
         prompt_file: /tmp/claude-prompts/cde-discovery-prompt.txt
-        allowed_tools: "mcp__github__get_issue,mcp__github__add_issue_comment,mcp__github__create_issue_comment,Grep,Read,LS,Glob"
-        install_github_mcp: "true"
+        allowed_tools: "Grep,Read,LS,Glob"
         timeout_minutes: ${{ inputs.timeout_minutes }}
         anthropic_api_key: ${{ inputs.anthropic_api_key }}
         cborg_api_key: ${{ inputs.cborg_api_key }}
         github_token: ${{ inputs.github_token }}
+        output_file: /tmp/claude-output.txt
+
+    - name: Post CDE Discovery Results
+      shell: bash
+      run: |
+        # Check if Claude output exists and post as comment using gh CLI
+        if [ -f /tmp/claude-output.txt ]; then
+          echo "Posting Claude's CDE discovery results to issue #${{ github.event.issue.number }}"
+          
+          # Create formatted comment
+          cat > /tmp/issue-comment.md << 'EOF'
+# 🤖 AI CDE Discovery Results
+
+Claude AI has analyzed your CDE discovery request and found the following results:
+
+---
+
+EOF
+          
+          # Append Claude's analysis
+          cat /tmp/claude-output.txt >> /tmp/issue-comment.md
+          
+          # Post comment using GitHub CLI
+          gh issue comment ${{ github.event.issue.number }} --body-file /tmp/issue-comment.md
+        else
+          echo "Error: No Claude output found to post"
+          exit 1
+        fi
+      env:
+        GH_TOKEN: ${{ inputs.github_token }}
