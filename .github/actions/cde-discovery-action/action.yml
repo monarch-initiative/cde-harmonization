@@ -123,7 +123,7 @@ runs:
           
           # Create formatted comment
           cat > /tmp/issue-comment.md << 'EOF'
-# 🤖 AI CDE Discovery Results
+# AI CDE Discovery Results
 
 Claude AI has analyzed your CDE discovery request and found the following results:
 
