@@ -16,7 +16,7 @@ REPOSITORY CONTEXT:
   * data/radx-up/ - RADx-UP data
 
 STEPS:
-1. Parse the GitHub issue details provided via environment variables for the mapping request:
+1. Use mcp__github__get_issue to get issue details and parse the mapping request:
    - Source CDE(s) specified
    - Target CDE(s) or domain for mapping
    - Mapping scope and criteria
@@ -61,7 +61,15 @@ STEPS:
    - Harmonization recommendations
    - Potential issues or conflicts identified
 
-7. Save the SSSOM mapping file to generated-mappings/ directory and provide comprehensive analysis for manual PR creation
+7. Create a pull request with:
+   - New SSSOM mapping file in generated-mappings/
+   - Clear description of mappings and methodology
+   - Request for human review and validation
+
+8. Post a comment to the original issue with:
+   - Summary of mappings created
+   - Link to the pull request
+   - Key findings and recommendations
 
 SSSOM BEST PRACTICES:
 - Use standard mapping justification codes (lexical, logical, unspecified)
