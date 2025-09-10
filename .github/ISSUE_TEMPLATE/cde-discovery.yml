@@ -101,14 +101,3 @@ body:
       description: Are you already using any specific instruments or CDEs that new ones should be compatible with?
       placeholder: "e.g., Already using PX030604 for adult smoking, need comparable pediatric version"
 
-  - type: checkboxes
-    id: ai_tasks
-    attributes:
-      label: AI Analysis Tasks
-      description: What would you like the AI to focus on?
-      options:
-        - label: "Find exact concept matches"
-        - label: "Identify harmonization opportunities across sources"
-        - label: "Suggest population-specific alternatives (adult vs pediatric)"
-        - label: "Compare question wording and response options"
-        - label: "Recommend best practices for data collection"
