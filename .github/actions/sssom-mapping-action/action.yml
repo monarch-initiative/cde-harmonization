@@ -26,95 +26,15 @@ runs:
 
     - name: Create SSSOM Mapping Prompt
       shell: bash
-      run: |
-        mkdir -p /tmp/claude-prompts
-        cat > /tmp/claude-prompts/sssom-mapping-prompt.txt << EOF
-        You are an SSSOM (Simple Standard for Sharing Ontological Mappings) mapping generator for CDE harmonization.
-
-        TASK: Generate SSSOM-compliant mappings between CDEs based on GitHub issue #${{ github.event.issue.number }}.
-
-        REPOSITORY CONTEXT:
-        - This repo contains CDEs from: PhenX-REDCap, NIH/NLM, CADSR, RADx-UP
-        - Existing mappings in: generated-mappings/ directory
-        - Data sources:
-          * data/phenx-redcap/ - PhenX CDEs
-          * data/nlm/nlm-cdes.csv - NIH/NLM CDEs
-          * data/cadsr/ - CADSR CDEs
-          * data/radx-up/ - RADx-UP data
-
-        STEPS:
-        1. Use mcp__github__get_issue to get issue details and parse the mapping request:
-           - Source CDE(s) specified
-           - Target CDE(s) or domain for mapping
-           - Mapping scope and criteria
-
-        2. Analyze the specified CDEs by reading their data files:
-           - Extract question text, response options, metadata
-           - Understand clinical concepts and measurement approach
-           - Note population targets (adult/pediatric)
-           - Review existing descriptions and classifications
-
-        3. Generate semantic mappings by comparing:
-           - Question text similarity (exact, paraphrased, conceptually equivalent)
-           - Response value compatibility (same scale, convertible, incompatible)
-           - Population target alignment (adult/pediatric/both)
-           - Clinical concept equivalence (same construct being measured)
-           - Measurement precision and granularity
-
-        4. Assign appropriate SSSOM mapping predicates:
-           - skos:exactMatch: Identical concepts and compatible values
-           - skos:closeMatch: Very similar concepts, minor differences in wording/values
-           - skos:relatedMatch: Related concepts, different granularity or scope
-           - skos:broadMatch: Source is broader than target concept
-           - skos:narrowMatch: Source is narrower than target concept
-
-        5. Create SSSOM TSV file with required fields:
-           - subject_id: Source CDE identifier
-           - subject_label: Source CDE name/title
-           - predicate_id: Mapping relationship (skos:exactMatch, etc.)
-           - object_id: Target CDE identifier
-           - object_label: Target CDE name/title
-           - mapping_justification: Reason for mapping (lexical, logical, etc.)
-           - confidence: Confidence score (0.0-1.0)
-           - mapping_tool: "claude-ai-curation"
-           - mapping_date: Current date
-           - subject_source: Source system (PhenX, NIH/NLM, etc.)
-           - object_source: Target system
-           - comment: Detailed reasoning and notes
-
-        6. Generate comprehensive analysis including:
-           - Summary of mappings created
-           - Confidence assessment and reasoning
-           - Harmonization recommendations
-           - Potential issues or conflicts identified
-
-        7. Create a pull request with:
-           - New SSSOM mapping file in generated-mappings/
-           - Clear description of mappings and methodology
-           - Request for human review and validation
-
-        SSSOM BEST PRACTICES:
-        - Use standard mapping justification codes (lexical, logical, unspecified)
-        - Include detailed comments explaining mapping rationale
-        - Be conservative with exactMatch - require very high similarity
-        - Document any assumptions or limitations
-        - Suggest additional mappings that might be valuable
-
-        MAPPING QUALITY CRITERIA:
-        - Confidence 0.9-1.0: Near-identical questions and compatible responses
-        - Confidence 0.7-0.9: Similar concepts, minor wording differences
-        - Confidence 0.5-0.7: Related concepts, some differences in scope/precision
-        - Confidence <0.5: Weak relationships, flag for human review
-
-        Remember: The goal is to create high-quality, well-documented mappings that facilitate data harmonization while maintaining transparency about mapping decisions and limitations.
-        EOF
+      run: ./.github/actions/sssom-mapping-action/create-prompt.sh
+      env:
+        ISSUE_NUMBER: ${{ github.event.issue.number }}
 
     - name: Run Claude Code for SSSOM Mapping
       uses: ./.github/actions/claude-code-action
       with:
         prompt_file: /tmp/claude-prompts/sssom-mapping-prompt.txt
-        allowed_tools: "mcp__github__get_issue,mcp__github__create_issue_comment,mcp__github__create_pull_request,Read,Write,Grep,LS,Glob"
-        install_github_mcp: "true"
+        allowed_tools: "Read,Write,Grep,LS,Glob"
         timeout_minutes: ${{ inputs.timeout_minutes }}
         anthropic_api_key: ${{ inputs.anthropic_api_key }}
         cborg_api_key: ${{ inputs.cborg_api_key }}
