@@ -11,12 +11,17 @@ if [ -f /tmp/claude-output.txt ]; then
     head -5 /tmp/claude-output.txt
     
     echo "Posting Claude's CDE discovery results to issue #${ISSUE_NUMBER}"
+  echo "GitHub Actor: ${GITHUB_ACTOR}"
+  echo "GitHub Workflow: ${GITHUB_WORKFLOW}"
+  echo "GitHub Run ID: ${GITHUB_RUN_ID}"
     
-    # Create formatted comment
-    cat > /tmp/issue-comment.md << 'EOF'
+    # Create formatted comment with unique identifier
+    cat > /tmp/issue-comment.md << EOF
 # AI CDE Discovery Results
 
 Claude AI has analyzed your CDE discovery request and found the following results:
+
+*Run ID: ${GITHUB_RUN_ID} | Workflow: ${GITHUB_WORKFLOW} | Actor: ${GITHUB_ACTOR}*
 
 ---
 EOF
@@ -29,7 +34,7 @@ EOF
   else
     echo "Error: Claude output file is empty"
     echo "Creating comment about empty output..."
-    cat > /tmp/issue-comment.md << 'EOF'
+    cat > /tmp/issue-comment.md << EOF
 # AI CDE Discovery Results
 
 ⚠️ The AI analysis completed but produced no output. This might indicate:
@@ -38,6 +43,8 @@ EOF
 - The request needs to be more specific
 
 Please try rephrasing your request or adding more specific keywords.
+
+*Run ID: ${GITHUB_RUN_ID} | Workflow: ${GITHUB_WORKFLOW} | Actor: ${GITHUB_ACTOR}*
 EOF
     gh issue comment ${ISSUE_NUMBER} --body-file /tmp/issue-comment.md
   fi

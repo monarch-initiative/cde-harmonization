@@ -2,7 +2,7 @@ name: AI CDE Discovery
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 jobs:
   discover-cdes:
