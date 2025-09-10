@@ -45,18 +45,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: population
-    attributes:
-      label: Target Population
-      description: What population will you be studying?
-      options:
-        - Adult (18+ years)
-        - Pediatric/Adolescent (<18 years)
-        - Both adult and pediatric
-        - Not specified/population-agnostic
-    validations:
-      required: true
 
   - type: checkboxes
     id: sources

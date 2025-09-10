@@ -27,7 +27,7 @@ REPOSITORY CONTEXT:
 STEPS:
 1. The GitHub issue details are provided via environment variable. Parse the user's request for:
    - Clinical concepts/variables they need
-   - Target population (adult/pediatric/both)
+   - Target population (adult/pediatric/both) - extract from research context and variable descriptions
    - Preferred data sources
    - Any specific CDE IDs mentioned
 
