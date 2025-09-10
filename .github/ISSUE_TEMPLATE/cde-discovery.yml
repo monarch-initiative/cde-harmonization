@@ -57,6 +57,7 @@ body:
         - label: "CADSR (Cancer Data Standards Registry)"
         - label: "RADx-UP (COVID-19 research focus)"
         - label: "Any/All sources (let AI decide)"
+          required: true
 
   - type: dropdown
     id: data_format
