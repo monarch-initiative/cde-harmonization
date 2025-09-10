@@ -2,7 +2,7 @@
 
 # Check if Claude output exists and post as comment using gh CLI
 if [ -f /tmp/claude-output.txt ]; then
-  echo "Posting Claude's CDE discovery results to issue #${{ github.event.issue.number }}"
+  echo "Posting Claude's CDE discovery results to issue #${ISSUE_NUMBER}"
   
   # Create formatted comment
   cat > /tmp/issue-comment.md << 'EOF'
@@ -17,7 +17,7 @@ EOF
   cat /tmp/claude-output.txt >> /tmp/issue-comment.md
   
   # Post comment using GitHub CLI
-  gh issue comment ${{ github.event.issue.number }} --body-file /tmp/issue-comment.md
+  gh issue comment ${ISSUE_NUMBER} --body-file /tmp/issue-comment.md
 else
   echo "Error: No Claude output found to post"
   exit 1

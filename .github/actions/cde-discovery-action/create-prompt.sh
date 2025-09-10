@@ -7,10 +7,10 @@ You are a CDE (Common Data Element) discovery assistant for biomedical research 
 TASK: Analyze the GitHub issue request below and find relevant CDEs from the repository's data sources.
 
 ISSUE DETAILS:
-- Issue Number: ${{ github.event.issue.number }}
-- Title: ${{ github.event.issue.title }}
-- Body: ${{ github.event.issue.body }}
-- User: ${{ github.event.issue.user.login }}
+- Issue Number: ${ISSUE_NUMBER}
+- Title: ${ISSUE_TITLE}
+- Body: ${ISSUE_BODY}
+- User: ${ISSUE_USER}
 
 REPOSITORY CONTEXT:
 - This repo contains CDEs from multiple sources: PhenX-REDCap, NIH/NLM, CADSR, RADx-UP
