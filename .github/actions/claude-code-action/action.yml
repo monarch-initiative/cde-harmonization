@@ -111,11 +111,11 @@ runs:
             cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
               --output-format stream-json \
-              --allowedTools "${{ inputs.allowed_tools }}" \
+              --allowedTools "${{ inputs.allowed_tools }}"
           else
             cat ${{ env.PROMPT_PATH }} | timeout $timeout_seconds claude \
               --verbose \
-              --output-format stream-json \
+              --output-format stream-json
           fi
         else
           # Run Claude Code and tee output to console and file
