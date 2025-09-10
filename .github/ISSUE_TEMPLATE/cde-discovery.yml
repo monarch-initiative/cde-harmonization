@@ -51,12 +51,12 @@ body:
     attributes:
       label: Preferred CDE Sources
       description: Which CDE sources would you prefer? (Select all that apply)
-      value: |
-        - [ ] PhenX Toolkit (standardized research protocols)
-        - [ ] NIH/NLM (National Library of Medicine)
-        - [ ] CADSR (Cancer Data Standards Registry)
-        - [ ] RADx-UP (COVID-19 research focus)
-        - [x] Any/All sources (let AI decide)
+      options:
+        - label: "PhenX Toolkit (standardized research protocols)"
+        - label: "NIH/NLM (National Library of Medicine)"
+        - label: "CADSR (Cancer Data Standards Registry)"
+        - label: "RADx-UP (COVID-19 research focus)"
+        - label: "Any/All sources (let AI decide)"
 
   - type: dropdown
     id: data_format
