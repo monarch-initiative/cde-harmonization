@@ -34,7 +34,8 @@ runs:
       uses: ./.github/actions/claude-code-action
       with:
         prompt_file: /tmp/claude-prompts/sssom-mapping-prompt.txt
-        allowed_tools: "Read,Write,Grep,LS,Glob"
+        allowed_tools: "mcp__github__get_issue,mcp__github__create_issue_comment,mcp__github__create_pull_request,Read,Write,Grep,LS,Glob"
+        install_artl_mcp: "true"
         timeout_minutes: ${{ inputs.timeout_minutes }}
         anthropic_api_key: ${{ inputs.anthropic_api_key }}
         cborg_api_key: ${{ inputs.cborg_api_key }}
