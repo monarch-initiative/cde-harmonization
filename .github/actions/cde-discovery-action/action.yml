@@ -27,6 +27,11 @@ runs:
     - name: Create CDE Discovery Prompt
       shell: bash
       run: ./.github/actions/cde-discovery-action/create-prompt.sh
+      env:
+        ISSUE_NUMBER: ${{ github.event.issue.number }}
+        ISSUE_TITLE: ${{ github.event.issue.title }}
+        ISSUE_BODY: ${{ github.event.issue.body }}
+        ISSUE_USER: ${{ github.event.issue.user.login }}
 
     - name: Run Claude Code for CDE Discovery
       uses: ./.github/actions/claude-code-action
@@ -44,4 +49,5 @@ runs:
       run: ./.github/actions/cde-discovery-action/post-results.sh
       env:
         GH_TOKEN: ${{ inputs.github_token }}
+        ISSUE_NUMBER: ${{ github.event.issue.number }}
 
