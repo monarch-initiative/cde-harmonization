@@ -1,9 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"phenx_current_address_record_id","px010801_phenx_current_address",,"text","Record ID",,"PX010801",,,,,,,,,,"",
-"current_street_number","px010801_phenx_current_address",,"text","I would like to verify your address. Please give me your complete address. STREET Number",,"PX010801","number",1,99999,,,,,,,"",""
-"current_street_name","px010801_phenx_current_address",,"text","I would like to verify your address. Please give me your complete address. STREET NAME",,"PX010801",,,,,,,,,,"",""
-"current_apartment_number","px010801_phenx_current_address",,"text","I would like to verify your address. Please give me your complete address. Apartment Number",,"PX010801",,1,9999,,,,,,,"",""
-"current_city","px010801_phenx_current_address",,"text","I would like to verify your address. Please give me your complete address. CITY",,"PX010801",,,,,,,,,,"",""
-"current_state","px010801_phenx_current_address",,"text","I would like to verify your address. Please give me your complete address. STATE",,"PX010801",,,,,,,,,,"",""
-"zip_code","px010801_phenx_current_address",,"text","I would like to verify your address. Please give me your complete address.  Zip Code",,"PX010801","number",,,,,,,,,"",""
-"address_refused_enum","px010801_phenx_current_address",,"checkbox","I would like to verify your address. Please give me your complete address.","|UNDEFINED_CODE_9,  Don't Know|UNDEFINED_CODE_10,  Refused","PX010801",,,,,,,,,,"",""

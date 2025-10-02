@@ -1,4 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"phenx_pulse_oximetry_rest_record_id","px091101_phenx_pulse_oximetry_rest",,"text","Record ID",,"PX091101",,,,,,,,,,"",
-"pxt91101_spo2","px091101_phenx_pulse_oximetry_rest",,"text","Saturation of oxyhemoglobin (SpO2)",,"PX091101",,,,,,,,,,"",""
-"spa2","px091101_phenx_pulse_oximetry_rest",,"text","Arterial oxyhemoglobin saturation (SaO2)",,"PX091101",,,,,,,,,,"",""

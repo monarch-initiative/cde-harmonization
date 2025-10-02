@@ -1,9 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"phenx_selfreported_height_record_id","px020704_phenx_selfreported_height",,"text","Record ID",,"PX020704",,,,,,,,,,"",
-"self_reported_height_coded","px020704_phenx_selfreported_height",,"radio","How tall {are you/is [participant]Ê} without shoes?
-ENTER HEIGHT IN FEET AND INCHES OR METERS AND CENTIMETERS","1, FEET AND INCHES | 2, METERS AND CENTIMETERS | 7777, REFUSED | 9999, DON'T KNOW","PX020704",,,,,,,,,,"",""
-"self_reported_height_feet","px020704_phenx_selfreported_height",,"text","Feet",,"PX020704","integer",0,,,"[self_reported_height_coded] = '1'",,,,,"",""
-"self_reported_height_inches","px020704_phenx_selfreported_height",,"text","Inches",,"PX020704","integer",0,,,"[self_reported_height_coded] = '1'",,,,,"",""
-"self_reported_height_meters","px020704_phenx_selfreported_height",,"text","Meters",,"PX020704","integer",0,,,"[self_reported_height_coded] = '2'",,,,,"",""
-"self_reported_height_centimeters","px020704_phenx_selfreported_height",,"text","Centimeters",,"PX020704","integer",0,,,"[self_reported_height_coded] = '2'",,,,,"",""
-"self_reported_height_proxy_name","px020704_phenx_selfreported_height",,"text","Proxy Name",,"PX020704",,,,,,,,,,"",""

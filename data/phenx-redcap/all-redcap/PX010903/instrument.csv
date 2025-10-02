@@ -1,3 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"phenx_marital_status_record_id","px010903_phenx_marital_status",,"text","Record ID",,"PX010903",,,,,,,,,,"",
-"current_marital_status","px010903_phenx_marital_status",,"radio","What best describes your current marital status?","1,Married|2,Divorced|3,Widowed|4,Separated|5,Never married|6,A member of an unmarried couple|9,Refused","PX010903",,,,,,,,,,"",""

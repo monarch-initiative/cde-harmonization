@@ -1,12 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"gout_flare_record_id","px171401_PX171401_gout_flare",,"text","Record ID",,"PX171401",,,,,,,,,,"",""
-"gout_flare_attack_today","px171401_PX171401_gout_flare","Patient","radio","Are you having a gout attack (flare) today?","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No","PX171401",,,,,,,,,,"",""
-"gout_flare_joints_swollen","px171401_PX171401_gout_flare","Patient","radio","Are any of your joints swollen?","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No","PX171401",,,,,,,,,,"",""
-"gout_flare_joints_warm_touch","px171401_PX171401_gout_flare","Patient","radio","Are any of your joints warm to touch?","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No","PX171401",,,,,,,,,,"",""
-"gout_flare_pain_level_past_week","px171401_PX171401_gout_flare","Patient","dropdown","Considering pain from your gout over the last 1 week when you are resting (for example, in bed or sitting quietly), please circle the number indicating the level of pain when it was at its worst:
-","0, 0, No pain | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5, Moderate Pain | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10, Worst Possible Pain","PX171401",,,,,,,,,,"",""
-"gout_flare_patient_believe_attack_today","px171401_PX171401_gout_flare","Provider","radio","Do you believe the patient is having a gout attack (flare) today?","UNDEFINED_CODE, Yes|UNDEFINED_CODE_1, No","PX171401",,,,,,,,,,"",""
-"gout_flare_patient_global_assessment_score","px171401_PX171401_gout_flare","Provider","dropdown","Patient's global assessment score:","0, 0, No pain | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5, Moderate Pain | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10, Worst Possible Pain","PX171401",,,,,,,,,,"",""
-"gout_flare_location_swollen_warm_joints","px171401_PX171401_gout_flare","Provider","text","Anatomic location of swollen and warm joints:",,"PX171401",,,,,,,,,,"",""
-"gout_flare_duration","px171401_PX171401_gout_flare","Provider","text","Duration of the gout flare (if present):",,"PX171401",,,,,,,,,,"",""
-"gout_flare_medication_used","px171401_PX171401_gout_flare","Provider","text","Gout medications used:",,"PX171401",,,,,,,,,,"",""

@@ -1,60 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"PX170301_eczema_record_id","px170301_PX170301_eczema",,"text","Record ID",,"PX170301",,,,,,,,,,"",
-"eczema_index","px170301_PX170301_eczema",,"descriptive","The Eczema Area and Severity Index<U+00A9>
-
-Intensity
-
-A representative area of eczema is selected for each body region. The intensity of redness (erythema), thickness (induration, papulation, oedema), scratching (excoriation) and lichenification (lined skin) of the eczema is assessed as none/absent (0), mild (1), moderate (2), and severe (3). Half scores are allowed.",,"PX170301",,,,,,,,,,"",""
-"eczema_sev_scoring","px170301_PX170301_eczema",,"descriptive","Eczema: severity scoring",,"PX170301",,,,,,,,,,"",""
-"head_and_neck_redness_score","px170301_PX170301_eczema",,"radio","Head and neck redness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"head_and_neck_thickness_score","px170301_PX170301_eczema",,"radio","Head and neck thickness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"head_and_neck_scratching_score","px170301_PX170301_eczema",,"radio","Head and neck scratching score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"head_and_neck_lichenification_score","px170301_PX170301_eczema",,"radio","Head and neck lichenification score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"head_and_neck_area_affected","px170301_PX170301_eczema",,"radio","Head and neck percentage area affected by eczema","0 , none|1 , 1-9%|2 , 10-29%|3 , 30-49%|4 , 50-69%|5 , 70-89%|6 , 90-100%","PX170301",,,,,,,,,,"",""
-"upper_limbs_redness_score","px170301_PX170301_eczema",,"radio","Upper limbs redness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"upper_limbs_thickness_score","px170301_PX170301_eczema",,"radio","Upper limbs thickness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"upper_limbs_scratching_score","px170301_PX170301_eczema",,"radio","Upper limbs scratching score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"upper_limbs_lichenification_score","px170301_PX170301_eczema",,"radio","Upper limbs lichenification score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"upper_limbs_area_affected","px170301_PX170301_eczema",,"radio","Upper limbs percentage area affected by eczema","0 , none|1 , 1-9%|2 , 10-29%|3 , 30-49%|4 , 50-69%|5 , 70-89%|6 , 90-100%","PX170301",,,,,,,,,,"",""
-"trunk_redness_score","px170301_PX170301_eczema",,"radio","Trunk redness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"trunk_thickness_score","px170301_PX170301_eczema",,"radio","Trunk thickness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"trunk_scratching_score","px170301_PX170301_eczema",,"radio","Trunk scratching score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"trunk_lichenification_score","px170301_PX170301_eczema",,"radio","Trunk lichenification score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"trunk_area_affected","px170301_PX170301_eczema",,"radio","Trunk percentage area affected by eczema","0 , none|1 , 1-9%|2 , 10-29%|3 , 30-49%|4 , 50-69%|5 , 70-89%|6 , 90-100%","PX170301",,,,,,,,,,"",""
-"lower_limbs_redness_score","px170301_PX170301_eczema",,"radio","Lower limbs redness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"lower_limbs_thickness_score","px170301_PX170301_eczema",,"radio","Lower limbs thickness score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"lower_limbs_scratching_score","px170301_PX170301_eczema",,"radio","Lower limbs scratching score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"lower_limbs_lichenification_score","px170301_PX170301_eczema",,"radio","Lower limbs lichenification score","0 , Absent|UNDEFINED_CODE_1,0.5|1 , Mild|UNDEFINED_CODE_3,1.5|2 , Moderate|UNDEFINED_CODE_5,2.5|3 , Severe","PX170301",,,,,,,,,,"",""
-"lower_limbs_area_affected","px170301_PX170301_eczema",,"radio","Lower limbs percentage area affected by eczema","0 , none|1 , 1-9%|2 , 10-29%|3 , 30-49%|4 , 50-69%|5 , 70-89%|6 , 90-100%","PX170301",,,,,,,,,,"",""
-"calculation_170301","px170301_PX170301_eczema",,"descriptive","Calculation for intensity
-
-The four intensity scores are added up for each of the four body regions to give subtotals A1, A2, A3, A4.
-
-Each subtotal is multiplied by the body surface area represented by that region.
-
-A1 x 0.1 gives B1 (in children 0-7 years, A1 x 0.2 gives B1)
-A2 x 0.2 gives B2
-A3 x 0.3 gives B3
-A4 x 0.5 gives B4 (in children 0-7 years, A1 x 0.3 gives B1)",,"PX170301",,,,,,,,,,"",""
-"area_170301","px170301_PX170301_eczema",,"descriptive","Area
-
-The percentage area affected by eczema is evaluated in the four regions of the body. In each region, the area is expressed as nil (0), 1%-9% (1), 10%-29% (2), 30%-49% (3), 50%-69% (4), 70%-89% (5), or 90%-100% (6).
-
-Head and neck
-Upper limbs
-Trunk
-Lower limbs",,"PX170301",,,,,,,,,,"",""
-"calculations_area","px170301_PX170301_eczema",,"descriptive","Calculations for area
-
-Each of the body area scores is multiplied by the area affected.
-
-B1 x (0 to 6) = C1
-B2 x (0 to 6) = C2
-B3 x (0 to 6) = C3
-B4 x (0 to 6) = C4
-",,"PX170301",,,,,,,,,,"",""
-"total_score_170301","px170301_PX170301_eczema",,"descriptive","Total score
-
-The EASI<U+00A9> score is C1 + C2 + C3 + C4.
-
-The Eczema Area and Severity Index <U+00A9>2010 the New Zealand Dermatological Society Incorporated (NZDSI). All rights reserved.",,"PX170301",,,,,,,,,,"",""

@@ -1,154 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"PX170901_fracture_history_record_id","px170901_PX170901_fracture_history",,"text","Record ID",,"PX170901",,,,,,,,,,"",
-"family_hist_broken","px170901_PX170901_fracture_history",,"descriptive","Part I: Study of Osteoporotic Fractures (SOF) Fractures and Falls History: History of Fractures Questionnaire",,"PX170901",,,,,,,,,,"",""
-"doctor_diagnosed_fractured_bone","px170901_PX170901_fracture_history",,"radio","Has a doctor ever said that you had a broken or fractured bone? (MARK ONE BOX.)","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No|UNDEFINED_CODE_2,Don't Know","PX170901",,,,,,,,,,"",""
-"broken_bone_1","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Broken Bone""",,"PX170901",,,,,,,,,,"",""
-"age_when_broken_1","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Age When Broken""",,"PX170901",,,,,,,,,,"",""
-"broken_bone_2","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Broken Bone""",,"PX170901",,,,,,,,,,"",""
-"age_when_broken_2","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Age When Broken""",,"PX170901",,,,,,,,,,"",""
-"broken_bone_3","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Broken Bone""",,"PX170901",,,,,,,,,,"",""
-"age_when_broken_3","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Age When Broken""",,"PX170901",,,,,,,,,,"",""
-"broken_bone_4","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Broken Bone""",,"PX170901",,,,,,,,,,"",""
-"age_when_broken_4","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Age When Broken""",,"PX170901",,,,,,,,,,"",""
-"broken_bone_5","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Broken Bone""",,"PX170901",,,,,,,,,,"",""
-"age_when_broken_5","px170901_PX170901_fracture_history",,"text","IF YES, please write down the names of all the bones you have broken (for example, wrist"" or ""spine"") and your age when you broke that bone.  Age When Broken""",,"PX170901",,,,,,,,,,"",""
-"osteoporosis","px170901_PX170901_fracture_history",,"radio","HAS A DOCTOR EVER TOLD YOU THAT YOU HAD:  Osteoporosis, sometimes called thin or brittle bones?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No|UNDEFINED_CODE_2,Don't Know","PX170901",,,,,,,,,,"",""
-"osteoporosis_age","px170901_PX170901_fracture_history",,"text","IF YES, how old were you when a doctor first told you this?  I was___years old.",,"PX170901","number",,,,,,,,,"",""
-"fractured_spine_or_vertebrae","px170901_PX170901_fracture_history",,"radio","HAS A DOCTOR EVER TOLD YOU THAT YOU HAD:  Fracture of the spine or fracture of the vertebrae?","UNDEFINED_CODE,Yes|UNDEFINED_CODE_1,No|UNDEFINED_CODE_2,Don't Know","PX170901",,,,,,,,,,"",""
-"fractured_spine_or_vertebrae_age","px170901_PX170901_fracture_history",,"text","IF YES, how old were you when a doctor first told you this?  I was____years old.",,"PX170901","number",,,,,,,,,"",""
-"fracture_assess","px170901_PX170901_fracture_history",,"descriptive","Part II: Framingham Osteoporosis Study Fracture Assessment Form:",,"PX170901",,,,,,,,,,"",""
-"hip_fracture","px170901_PX170901_fracture_history",,"descriptive","HIP FRACTURE FORM:",,"PX170901",,,,,,,,,,"",""
-"date_hip_fracture_occurred_month","px170901_PX170901_fracture_history",,"text","DATE HIP FRACTURE OCCURRED - Month",,"PX170901","number",,,,,,,,,"",""
-"date_hip_fracture_occurred_day","px170901_PX170901_fracture_history",,"text","DATE HIP FRACTURE OCCURRED - Day",,"PX170901","number",,,,,,,,,"",""
-"date_hip_fracture_occurred_year","px170901_PX170901_fracture_history",,"text","DATE HIP FRACTURE OCCURRED - Year",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_confirmation_orthopedic_notes","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  Orthopedic notes","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_confirmation_xray_report","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  X-ray report","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_confirmation_discharge_summary","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  Discharge summary","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_confirmation_or_report","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  OR report","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_confirmation_er_notes","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  ER notes","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_confirmation_other","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  Other","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_confirmation_other_specify","px170901_PX170901_fracture_history",,"text","SOURCE(S) OF HIP FRACTURE CONFIRMATION:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"hip_facture_side","px170901_PX170901_fracture_history",,"radio","HIP FACTURE SIDE:","1 , Right|2 , Left|9 , Unknown","PX170901",,,,,,,,,,"",""
-"hip_fracture_location","px170901_PX170901_fracture_history",,"radio","HIP FRACTURE LOCATION:","1.0 , Unknown|1.1 , Intertrochanteric|1.2 , Femoral neck (subcapital)|1.3 , Other","PX170901",,,,,,,,,,"",""
-"hip_fracture_location_other_specify","px170901_PX170901_fracture_history",,"text","HIP FRACTURE LOCATION:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"hip_fracture_treatment","px170901_PX170901_fracture_history",,"radio","HIP FRACTURE TREATMENT:","1 , Open Reduction Internal Fixation (ORIF or pinning)|2 , Arthroplasty/hemiarthroplasty (femoral head replacement)|3 , Other|4 , Cast or other immobilization|5 , None|9 , Unknown","PX170901",,,,,,,,,,"",""
-"hip_fracture_treatment_other_specify","px170901_PX170901_fracture_history",,"text","HIP FRACTURE TREATMENT:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"hip_fracture_other_fracture","px170901_PX170901_fracture_history",,"radio","OTHER FRACTURE(S) OCCURED AT SAME TIME:","0 , No|1 , Yes|9 , Unknown","PX170901",,,,,,,,,,"",""
-"circumstances_of_hip_fracture","px170901_PX170901_fracture_history",,"radio","CIRCUMSTANCES OF HIP FRACTURE:","1 , Fall from standing height or less|2 , Motor vehicle accident or fall from greater than standing height|3 , Other|9 , Unknown","PX170901",,,,,,,,,,"",""
-"hip_fracture_location_fall_trauma","px170901_PX170901_fracture_history",,"radio","LOCATION OF FALL OR TRAUMA:","1 , Outside|2 , Inside|3 , Other|8 , n/a|9 , Unknown","PX170901",,,,,,,,,,"",""
-"hip_location_fall_trauma_specify","px170901_PX170901_fracture_history",,"text","LOCATION OF FALL OR TRAUMA: Other, specify",,"PX170901",,,,,,,,,,"",""
-"time_hip_fracture_occurred","px170901_PX170901_fracture_history",,"radio","TIME OF DAY FRACTURE OCCURRED:","1 , Daytime (6am-6pm)|2 , Night (6:01pm to 5:59am)|3 , Other|9 , Unknown","PX170901",,,,,,,,,,"",""
-"time_hip_fracture_occurred_specify","px170901_PX170901_fracture_history",,"text","TIME OF DAY FRACTURE OCCURRED:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"hip_fracture_death_during_hospitalization","px170901_PX170901_fracture_history",,"radio","DEATH OCCURED DURING HIP FRACTURE HOSPITALIZATION:","0 , No|1 , Yes|8 , n/a (no hospitalization)|9 , Unknown","PX170901",,,,,,,,,,"",""
-"detailed_circumstances_of_hip_fracture","px170901_PX170901_fracture_history",,"radio","DETAILED CIRCUMSTANCES OF HIP FRACTURE:","1 , Fall from standing height or less-includes most injuries due to tripping over something, slips in the shower or bathtub, or falling out of a chair or bed (unless standing on it), in which the participant lands on the surface at the same height as the surface he/she was standing on|2 , Falls on stairs, steps or curbs-includes all falls during change of level, such as stepping up or down stairs, steps, or curbs|3 , Fall from more than standing height, but NOT on stairs-includes falls from heights such as off a ladder or while standing on a table or chair, off a porch, out of a window, etc.|4 , Minimal trauma other than a fall-includes vertebral fractures associated with coughing, stepping down a step, etc., and rib or other fractures associated with turning over in bed, etc.|5 , Moderate trauma other than a fall-includes collisions with objects during normal activities (e.g. stub toe, hit hand against door frame, walking into door), twisting or turning ankle (or ankle fractures).|6 , Severe trauma other than a fall-includes motor vehicle accidents, struck by a car, hit by rapidly moving projectile (golf ball, golf club), assault|7 , Pathologic fracture-usually associated with cancer in bone|8 , Unknown/Don't know","PX170901",,,,,,,,,,"",""
-"hip_fracture_retrieval_completed_month","px170901_PX170901_fracture_history",,"text","DATE DATA RETRIEVAL COMPLETED: Month",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_retrieval_completed_day","px170901_PX170901_fracture_history",,"text","DATE DATA RETRIEVAL COMPLETED: Day",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_retrieval_completed_year","px170901_PX170901_fracture_history",,"text","DATE DATA RETRIEVAL COMPLETED: Year",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_date_adjudication_month","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY MD FRACTURE COORDINATOR: Month",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_date_adjudication_day","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY MD FRACTURE COORDINATOR: Day",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_date_adjudication_year","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY MD FRACTURE COORDINATOR: Year",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_final_adjudication_required","px170901_PX170901_fracture_history",,"radio","FINAL ADJUDICATION BY ENDPOINTS COMMITTEE REQUIRED:","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"hip_fracture_committee_ajudication_month","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY ENDPOINTS COMMITTEE: Month",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_committee_ajudication_day","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY ENDPOINTS COMMITTEE: Day",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_committee_ajudication_year","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY ENDPOINTS COMMITTEE: Year",,"PX170901","number",,,,,,,,,"",""
-"hip_fracture_comments","px170901_PX170901_fracture_history",,"text","Comments (not for data entry):",,"PX170901",,,,,,,,,,"",""
-"non_hip_fracture","px170901_PX170901_fracture_history",,"descriptive","NON-HIP FRACTURE FORM:",,"PX170901",,,,,,,,,,"",""
-"date_fracture_occurred_month","px170901_PX170901_fracture_history",,"text","DATE FRACTURE OCCURRED - Month",,"PX170901","number",,,,,,,,,"",""
-"date_fracture_occurred_day","px170901_PX170901_fracture_history",,"text","DATE FRACTURE OCCURRED - Day",,"PX170901","number",,,,,,,,,"",""
-"date_fracture_occurred_year","px170901_PX170901_fracture_history",,"text","DATE FRACTURE OCCURRED - Year",,"PX170901","number",,,,,,,,,"",""
-"fracture_confirmation_orthopedic_notes","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF FRACTURE CONFIRMATION:  Orthopedic notes","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_confirmation_xray_report","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF FRACTURE CONFIRMATION:  X-ray report","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_confirmation_discharge_summary","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF FRACTURE CONFIRMATION:  Discharge summary","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_confirmation_or_report","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF FRACTURE CONFIRMATION:  OR report","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_confirmation_er_notes","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF FRACTURE CONFIRMATION:  ER notes","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_confirmation_other","px170901_PX170901_fracture_history",,"radio","SOURCE(S) OF FRACTURE CONFIRMATION:  Other","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_confirmation_other_specify","px170901_PX170901_fracture_history",,"text","Other, specify",,"PX170901",,,,,,,,,,"",""
-"fracture_side","px170901_PX170901_fracture_history",,"radio","FRACTURE SIDE","1 , Right|2 , Left|3 , Axial (vertebral, pelvis, nasal, sacrum, sternum, skull)|9 , Unknown","PX170901",,,,,,,,,,"",""
-"fracture_location","px170901_PX170901_fracture_history",,"text","FRACTURE LOCATION: See fracture loacation codes below and enter here",,"PX170901",,,,,,,,,,"",""
-"fracture_treatment","px170901_PX170901_fracture_history",,"radio","FRACTURE TREATMENT:","1 , Open Reduction Internal Fixation (ORIF or pinning)|2 , Arthroplasty/hemiarthroplasty (femoral head replacement)|3 , Other|4 , Cast or other immobilization|5 , None|9 , Unknown","PX170901",,,,,,,,,,"",""
-"fracture_treatment_other_specify","px170901_PX170901_fracture_history",,"text","FRACTURE TREATMENT:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"other_fracture_occured_at_same_time","px170901_PX170901_fracture_history",,"radio","OTHER FRACTURE(S) OCCURED AT SAME TIME:","0 , No|1 , Yes|9 , Unknown","PX170901",,,,,,,,,,"",""
-"circumstances_of_fracture","px170901_PX170901_fracture_history",,"radio","CIRCUMSTANCES OF FRACTURE:","1 , Fall from standing height or less|2 , Motor vehicle accident or fall from greater than standing height|3 , Other|9 , Unknown","PX170901",,,,,,,,,,"",""
-"fracturelocation_fall_trauma","px170901_PX170901_fracture_history",,"radio","LOCATION OF FALL OR TRAUMA:","1 , Outside|2 , Inside|3 , Other|8 , n/a|9 , Unknown","PX170901",,,,,,,,,,"",""
-"fracture_location_fall_trauma_specify","px170901_PX170901_fracture_history",,"text","LOCATION OF FALL OR TRAUMA:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"time_fracture_occurred","px170901_PX170901_fracture_history",,"radio","TIME OF DAY FRACTURE OCCURRED:","1 , Daytime (6am-6pm)|2 , Night (6:01pm to 5:59am)|3 , Other|9 , Unknown","PX170901",,,,,,,,,,"",""
-"time_fracture_occurred_other_specify","px170901_PX170901_fracture_history",,"text","TIME OF DAY FRACTURE OCCURRED:  Other, specify",,"PX170901",,,,,,,,,,"",""
-"fracture_death_during_hospitalization","px170901_PX170901_fracture_history",,"radio","DEATH OCCURRED DURING FRACTURE HOSPITALIZATION:","0 , No|1 , Yes|8 , n/a (no hospitalization)|9 , Unknown","PX170901",,,,,,,,,,"",""
-"detailed_circumstances_of_fracture","px170901_PX170901_fracture_history",,"radio","DETAILED CIRCUMSTANCES OF FRACTURE:","1 , Fall from standing height or less-includes most injuries due to tripping over something, slips in the shower or bathtub, or falling out of a chair or bed (unless standing on it), in which the participant lands on the surface at the same height as the surface he/she was standing on|2 , Falls on stairs, steps or curbs-includes all falls during change of level, such as stepping up or down stairs, steps, or curbs|3 , Fall from more than standing height, but NOT on stairs-includes falls from heights such as off a ladder or while standing on a table or chair, off a porch, out of a window, etc.|4 , Minimal trauma other than a fall-includes vertebral fractures associated with coughing, stepping down a step, etc., and rib or other fractures associated with turning over in bed, etc.|5 , Moderate trauma other than a fall-includes collisions with objects during normal activities (e.g. stub toe, hit hand against door frame, walking into door), twisting or turning ankle (or ankle fractures).|6 , Severe trauma other than a fall-includes motor vehicle accidents, struck by a car, hit by rapidly moving projectile (golf ball, golf club), assault|7 , Pathologic fracture-usually associated with cancer in bone|8 , Unknown/Don't know","PX170901",,,,,,,,,,"",""
-"fracture_data_retrieval_completed_month","px170901_PX170901_fracture_history",,"text","DATE DATA RETRIEVAL COMPLETED: Month",,"PX170901","number",,,,,,,,,"",""
-"fracture_data_retrieval_completed_day","px170901_PX170901_fracture_history",,"text","DATE DATA RETRIEVAL COMPLETED: Day",,"PX170901","number",,,,,,,,,"",""
-"fracture_data_retrieval_completed_year","px170901_PX170901_fracture_history",,"text","DATE DATA RETRIEVAL COMPLETED: Year",,"PX170901","number",,,,,,,,,"",""
-"fracture_date_of_adjudication_month","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY MD FRACTURE COORDINATOR: Month",,"PX170901","number",,,,,,,,,"",""
-"fracture_date_of_adjudication_day","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY MD FRACTURE COORDINATOR: Day",,"PX170901","number",,,,,,,,,"",""
-"fracture_date_of_adjudication_year","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY MD FRACTURE COORDINATOR: Year",,"PX170901","number",,,,,,,,,"",""
-"fracture_final_adjudication_required","px170901_PX170901_fracture_history",,"radio","FINAL ADJUDICATION BY ENDPOINTS COMMITTEE REQUIRED:","0 , No|1 , Yes","PX170901",,,,,,,,,,"",""
-"fracture_date_committee_month","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY ENDPOINTS COMMITTEE: Month",,"PX170901","number",,,,,,,,,"",""
-"fracture_date_committee_day","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY ENDPOINTS COMMITTEE: Day",,"PX170901","number",,,,,,,,,"",""
-"fracture_date_committee_year","px170901_PX170901_fracture_history",,"text","DATE OF ADJUDICATION BY ENDPOINTS COMMITTEE: Year",,"PX170901","number",,,,,,,,,"",""
-"fracture_comments","px170901_PX170901_fracture_history",,"text","Comments (not for data entry):",,"PX170901",,,,,,,,,,"",""
-"fracture_codes","px170901_PX170901_fracture_history",,"text","FRACTURE LOCATION CODES
-
-1.0 - Hip (USE HIP FRACTURE FORM)
-  1.1 - femoral neck
-  1.2 - intertrochanteric
-  1.3 - other
-2.0 - Wrist (unspecified)
-  2.1 - distal radius (Colles'; Smith)
-  2.2 - distal ulna
-  2.3 - both distal radius and ulna
-3.0 - Skull
-4.0 - Facial bones (includes jaw, nose, cheek)
-5.0 - Neck
-  5.1 - first cervical vertebra
-  5.2 - second cervical vertebra
-  5.3 - thrid cervical vertebra
-  5.4 - fourth cervical vertebra
-  5.5 - fifth cervical vertebra
-  5.6 - sixth cervical vertebra
-  5.7 - seventh cervical vertebra
-  5.8 - multiple cervical vertebrae
-6.0 - Shoulder
-  6.1 - clavicle or collar bone
-  6.2 - scapula (shoulder blade)
-7.0 - Arm (unspecified)
-  7.1 - humerus (upper arm)
-  7.2 - elbow
-  7.3 - radius a/o ulna, proximal or mid shaft
-8.0 - Hand
-9.0 - Fingers
-10.0 - Other small bones in wrist
-11.0 - Ribs
-12.0 - Chest/Sternum
-13.0 - Thoracic Spine (unspecified)
-  13.1 - first thoracic vertebra
-  13.2 - second thoracic vertebra
-  13.3 - third thoracic vertebra
-  13.4 - fourth thoracic vertebra
-  13.5 - fifth thoracic vertebra
-  13.6 - sixth thoracic vertebra
-  13.7 - seventh thoracic vertebra
-  13.8 - eighth thoracic vertebra
-  13.9 - ninth thoracic vertebra
-  13.10 - tenth thoracic vertebra
-  13.11 - eleventh thoracic vertebra
-  13.12 - twelfth thoracic vertebra
-  13.13 - multiple thoracic vertebrae
-14.0 - Lumbar Spine (unspecified)
-  14.1 - first lumbar vertebra
-  14.2 - second lumbar vertebra
-  14.3 - third lumbar vertebra
-  14.4 - fourth lumbar vertebra
-  14.5 - fifth lumbar vertebra
-  14.6 - multiple lumbar vertebrae
-15.0 - Pelvis
-16.0 - Tailbone/Coccyx/Sacrum
-17.0 - Leg (unspecified)
-  17.1 - femur (not hip)
-  17.2 - patella
-  17.3 - tibia
-  17.4 - fibula
-  17.5 - both tibia/fibula
-18.0 - Ankle (includes distal tibia and fibula)
-19.0 - Foot/Metatarsal
-20.0 - Toes
-  21.0 - Heel/Os Calcis",,"PX170901",,,,,,,,,,"",""

@@ -1,65 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"psoriatic_arthritis_impact_of_disease_record_id","px172001_PX172001_psoriatic_arthritis_impact_disease",,"text","Record ID",,"PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_disease_intro","px172001_PX172001_psoriatic_arthritis_impact_disease",,"descriptive","We want you to indicate how much your psoriatic arthritis impacts your health.
-
-Please tell us how you have been feeling this last week.",,"PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_pain","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the pain you felt due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_fatigue","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the overall level of fatigue due to your psoriatic arthritis you have experienced during the last week:","0, 0, No fatigue|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Totally Exhausted","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_skin_problems","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the skin problems including itching you felt due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_work_leisure_activities","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the difficulties you had to participate fully in work and/or leisure activities due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_functional_capacity","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the difficulty you had in doing daily physical activities due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_discomfort","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the feeling of discomfort and annoyance with everyday tasks due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_sleep_disturbance","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the sleep difficulties (i.e., resting at night) you felt due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_coping","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Considering your psoriatic arthritis overall, how well did you cope (manage, deal, make do) with your psoriatic arthritis during the last week?","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_anxiety_fear_uncertainty","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the level of anxiety, fear, and uncertainty (for example, about the future, treatments, fear of loneliness) due to your psoriatic arthritis you have experienced during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_embarrassment_shame","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Considering your psoriatic arthritis overall, circle the number that best describes the level of embarrassment and/or shame due to your appearance experienced during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_social_participation","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the difficulties you had to participate fully in social activities (including relationships with family and/or people very close to you) due to your psoriatic arthritis during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatic_arthritis_impact_of_disease_depression","px172001_PX172001_psoriatic_arthritis_impact_disease",,"dropdown","Circle the number that best describes the level of depression due to your psoriatic arthritis you have experienced during the last week:","0, 0, None|1, 1|2, 2|3, 3|4, 4|5, 5|6, 6|7, 7|8, 8|9, 9|10, 10, Extreme","PX172001",,,,,,,,,,"",""
-"psoriatric_arthritis_impact_disease_score","px172001_PX172001_psoriatic_arthritis_impact_disease",,"text","Final Psoriatic Arthritis Impact of Disease (PsAID) out of 20: Add up the [     ] and divide by 10",,"PX172001","integer",0,,,,,,,,"",""
-"psoriatric_arthritis_impact_disease_outro","px172001_PX172001_psoriatic_arthritis_impact_disease",,"descriptive","Thank you for Answering This Questionnaire
-
-PsAID12 SCORING AND CALCULATION RULES
-
-The PsAID is calculated based on 12 Numerical rating scales (NRS) questions. Each NRS is assessed as a number between 0 and 10.
-
-Calculation
-
-PsAID final value =
-
- (PsAID1 (pain) NRS value (range 0-10) x 3)
-
-+ (PsAID2 (fatigue) NRS value (range 0-10) x 2)
-
-+ (PsAID3 (skin) NRS value (range 0-10) x 2)
-
-+ (PsAID4 (Work and/or leisure activities) NRS value (range 0-10) x 2)
-
-+ (PsAID5 (function) NRS value (range 0-10) x 2)
-
-+ (PsAID6 (discomfort) NRS value (range 0-10) x 2)
-
-+ (PsAID7 (sleep) NRS value (range 0-10) x 2)
-
-+ (PsAID8 (coping) NRS value (range 0-10) x 1)
-
-+ (PsAID9 (anxiety) NRS value (range 0-10) x 1)
-
-+ (PsAID10 (embarrassment) NRS value (range 0-10) x 1)
-
-+ (PsAID11 (social life) NRS value (range 0-10) x 1)
-
-+ (PsAID12 (depression) NRS value (range 0-10) x 1)
-
-The total is divided by 20.
-
-Thus, the range of the final PsAID value is 0-10 where higher figures indicate worse status.
-
-Missing data imputation
-
-If one of the 12 NRS values composing the PsAID is missing, the imputation is as follows:
-
-calculate the mean value of the 11 other (non-missing) NRS (range, 0-10) impute this value for the missing NRS.
-
-Then, calculate the PsAID as explained above.
-
-If 2 or more of the NRS are missing, the PsAID is considered as missing value (no imputation).",,"PX172001",,,,,,,,,,"",""

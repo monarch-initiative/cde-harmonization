@@ -1,7 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"PhenX_-_Frailty_record_id","px251001_PhenX_-_Frailty",,"text","Record ID",,"PX251001",,,,,,,,,,"",
-"Frailty_Weight_Three_Years_Ago","px251001_PhenX_-_Frailty",,"text","What was your weight 3 years ago? __ __ __ lbs",,"PX251001","number",,,,,,,,,"",""
-"Frailty_Weight_Today","px251001_PhenX_-_Frailty",,"text","What is your weight today? __ __ __ lbs",,"PX251001","number",,,,,,,,,"",""
-"Frailty_Weight_Loss_Percentage","px251001_PhenX_-_Frailty",,"text","[Interviewer/computer: calculate weight loss percentage] Change in weight (Q1-Q2)/weight 3 years ago (Q1) ___ __ % loss",,"PX251001","number",,,,,,,,,"",""
-"Frailty_Ability_Chair_Stands","px251001_PhenX_-_Frailty",,"radio","[Interviewer: Ask respondent to sit in chair, then rise up without using arms, repeat 4 more times.] Was respondent able to do chair stands without assistance?","UNDEFINED_1,Yes|UNDEFINED_2,No","PX251001",,,,,,,,,,"",""
-"Frailty_Energy_Level","px251001_PhenX_-_Frailty",,"radio","Do you feel full of energy?","UNDEFINED_1,Yes|UNDEFINED_2,No","PX251001",,,,,,,,,,"",""

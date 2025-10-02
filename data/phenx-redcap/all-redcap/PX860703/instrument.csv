@@ -1,9 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-pain_quality_descriptors_nociceptive_adult_record_id,px860703_pain_quality_descriptors_nociceptive_adult,,text,"Record ID",,PX860703,,,,,,,,,,,
-pain_quality_descriptors_nociceptive_adult_sore,px860703_pain_quality_descriptors_nociceptive_adult,"Please respond to each question or statement by marking one box per row.
-
-In the past 7 days...",radio,"Did your pain feel sore?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
-pain_quality_descriptors_nociceptive_adult_tender,px860703_pain_quality_descriptors_nociceptive_adult,,radio,"Did your pain feel tender?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
-pain_quality_descriptors_nociceptive_adult_achy,px860703_pain_quality_descriptors_nociceptive_adult,,radio,"Did your pain feel achy?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
-pain_quality_descriptors_nociceptive_adult_deep,px860703_pain_quality_descriptors_nociceptive_adult,,radio,"Did your pain feel deep?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,
-pain_quality_descriptors_nociceptive_adult_steady,px860703_pain_quality_descriptors_nociceptive_adult,,radio,"Did your pain feel steady?","1, Not at all | 2, A little bit | 3, Somewhat | 4, Quite a bit | 5, Very much",,,,,,,,,,pain,,

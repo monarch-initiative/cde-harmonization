@@ -1,38 +1,0 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max","Identifier?","Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
-"PX170801_balance_record_id","px170801_PX170801_balance",,"text","Record ID",,"PX170801",,,,,,,,,,"",
-"first_leg_stand","px170801_PX170801_balance",,"descriptive","One Leg Stand
-
-a) Describe the position.
-
-Script: ""I would like you to try to stand on one leg for 30 seconds. You may stand on either leg, whichever is more comfortable. I'll demonstrate.""
-
-b) Demonstrate the one leg stand by lifting the opposite leg so that the toes are about 2 inches off the floor. The knee should be flexed. While demonstrating say:
-
-Script: ""Try to hold your foot up until I say stop. If you lose your balance put your foot down.""
-
-c) Allow the participant to hold onto your arm to get balanced. Say:
-
-Script: ""Hold onto my arm while you get in position. When you are ready, let go.""
-
-Start timing when the participant lets go.
-
-Stop the stopwatch if they take a step or grab a support. Record to 0.01 second how long participant is able to hold this position.
-
-Say, ""STOP"" after 30 seconds.
-
-d) If the participant holds the position for 30 seconds, stop the exam. Otherwise, perform a second trial of the One Leg Stand.
-",,"PX170801",,,,,,,,,,"",""
-"leg_stand_1_time","px170801_PX170801_balance",,"text","Time participant holds position during first one leg stand",,"PX170801","number",,,,,,,,,"",""
-"second_leg_stand","px170801_PX170801_balance",,"descriptive","Script: ""Now, let's do the same thing one more time.""",,"PX170801",,,,,,,,,,"",""
-"leg_stand_1_time_coded","px170801_PX170801_balance",,"radio","Time participant holds position during first one leg stand","0 , Unable to attain position or cannot hold for at least one second|88 , Participant refused|99 , Not attempted, unable","PX170801",,,,,,,,,,"",""
-"leg_stand_2_time","px170801_PX170801_balance",,"text","Time participant holds position during second one leg stand",,"PX170801","number",,,,,,,,,"",""
-"leg_stand_2_time_coded","px170801_PX170801_balance",,"radio","Time participant holds position during second one leg stand","0 , Unable to attain position or cannot hold for at least one second|88 , Participant refused|99 , Not attempted, unable","PX170801",,,,,,,,,,"",""
-"scoring_170801","px170801_PX170801_balance",,"descriptive","Score as follows:
-
-If the participant refuses to do the test or cannot understand the instructions, score ""Participant refused.""
-
-If the examiner does not allow the participant to attempt a stand, score ""Not attempted, unable.""
-
-If the participant cannot attain the position at all or cannot hold it for at least one second, score ""Unable to attain position or cannot hold for at least one second.""
-
-Record to 0.01 second how long participant is able to hold each position.",,"PX170801",,,,,,,,,,"",""
