@@ -12,16 +12,6 @@ We're building tools to:
 - **Generate semantic mappings** using AI and human curation
 - **Enable data harmonization** across studies
 
-## Quick Start
-
-```bash
-# Install
-pip install -e .
-
-# Convert CDEs to LinkML
-cde2linkml --nih-nlm --input-folder data/nlm --output-folder linkml
-```
-
 ## Documentation
 
 **📖 Full documentation:** https://monarch-initiative.github.io/cde-harmonization/
@@ -37,18 +27,8 @@ cde2linkml --nih-nlm --input-folder data/nlm --output-folder linkml
 - `cde2linkml/` - Conversion tools
 - `docs/` - Documentation source
 
-Large files are in the [Monarch Google Cloud bucket](https://console.cloud.google.com/storage/browser/cde-harmonization).
-
 ## Technologies
 
 - **[LinkML](https://linkml.io)** - Schema modeling framework
 - **[SSSOM](https://github.com/mapping-commons/sssom)** - Mapping standard
 - **Ontologies** - LOINC, HPO, Mondo, NCIT, OBA
-
-## License
-
-[Specify license]
-
-## Citation
-
-[Add citation information]
