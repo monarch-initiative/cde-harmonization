@@ -32,5 +32,3 @@ We're building tools to:
 - **[LinkML](https://linkml.io)** - Schema modeling framework
 - **[SSSOM](https://github.com/mapping-commons/sssom)** - Mapping standard
 - **Ontologies** - LOINC, HPO, Mondo, NCIT, OBA
-
-
