@@ -1,0 +1,3651 @@
+id: https://example.org/schemas/connects_cde
+name: CONNECTS_CDESchema
+description: A schema representing NHLBI CONNECTS COVID-19 Therapeutic Trial Common
+  Data Elements (CDEs).
+version: 1.0.0
+default_range: string
+license: https://creativecommons.org/publicdomain/zero/1.0/
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  connects: https://nhlbi-connects.org/cde/
+default_prefix: connects
+classes:
+  Dm:
+    description: CDEs from CONNECTS tab 'DM'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - demographics_collection_date
+    - full_name
+    - date_of_birth
+    - city_of_birth
+    - country_of_birth
+    - street_address
+    - city_of_residence
+    - state_or_province_of_residence
+    - zip_code_of_residence
+    - country_of_residence
+    - age
+    - ethnicity
+    - race
+    - biological_sex
+    - gender_identity
+    - gender_identity_branching
+    - sexual_orientation
+    - sexual_orientation_branching
+    - health_insurance
+    - household_income
+    - household_size
+    - type_of_dwelling
+    - space_in_home_to_self_isolate
+    - able_to_get_food
+    - food_insecurity
+    - employment_status
+    - paid_leave
+    - work_from_home
+    - household_work_from_home
+    - prior_employment_status
+    - educational_attainment
+    - preferred_language
+    - english_proficiency_branching
+    - healthcare_access
+    - healthcare_access_branching
+    - has_own_transportation
+  Mh:
+    description: CDEs from CONNECTS tab 'MH'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identfier
+    - medical_history_collection_date
+    - copd
+    - asthma
+    - interstitial_lung_disease
+    - prior_to_current_illness_oxygen_support
+    - prior_to_current_illness_oxygen_support_frequency
+    - pregnancy
+    - obesity
+    - aids
+    - hiv
+    - immunosuppression
+    - leukemia
+    - lymphoma
+    - malignant_neoplasm
+    - metastatic_solid_tumor
+    - prior_organ_transplant
+    - liver_disease
+    - liver_disease_severity
+    - chronic_kidney_disease
+    - chronic_kidney_disease_severity
+    - chronic_kidney_disease_with_aki
+    - chronic_kidney_disease_with_dialysis_dependence
+    - chronic_neurological_disease
+    - seizures
+    - diabetes
+    - diabetes_type
+    - diabetes_end_organ_damage
+    - hemiplegia
+    - cerebrovascular_disease
+    - myocardial_infarction
+    - congestive_heart_failure
+    - hypertension
+    - coronary_artery_disease
+    - cardiomyopathy
+    - atrial_fibrillation
+    - atrial_flutter
+    - other_arrhythmia
+    - peripheral_vascular_disease
+    - dementia
+    - connective_tissue_disease
+    - ulcer_disease
+    - tuberculosis
+    - thromboembolic_disorder
+    - hemoglobin_disorders
+    - current_smoker
+    - former_smoker
+    - vaping
+    - alcohol_abuse
+    - cannabis_abuse
+    - cannabis_abuse_frequency
+    - cocaine_abuse
+    - cocaine_abuse_frequency
+    - opioid_abuse
+    - opioid_abuse_frequency
+    - sedative_abuse
+    - sedative_abuse_frequency
+    - other_substance_abuse
+    - other_substance_abuse_frequency
+    - major_depression
+    - anxiety_disorder
+    - bipolar_disorder
+    - schizophrenia
+    - covid_19_positive_qualifying_test
+    - date_of_symptom_onset
+    - symptomatic
+    - date_of_exposure
+    - antibacterial
+    - antiplatelet
+    - anticoagulant
+    - anti_covid
+    - anti_gout
+    - anti_parasitic
+    - antivirals
+    - immune_modulator
+    - antihypertensives
+    - raas_blockers
+    - vasopressors
+    - monoclonal_antibodies
+    - diabetic_medications
+    - statins
+    - systemic_steroids
+    - anti_rejection_medicine
+    - nsaids
+    - immunosuppressive
+    - antiretrovirals
+    - biomedicine
+    - cell_based_therapy
+    - convalescent_plasma
+    - ssri
+  Rsk:
+    description: CDEs from CONNECTS tab 'RSK'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - healthcare_worker
+    - worker_with_patient_contact
+    - medical_laboratory_worker
+    - other_health_care_worker
+    - worker_with_general_public
+    - positive_patient_contact
+    - travel_domestic
+    - travel_international
+  Org:
+    description: CDEs from CONNECTS tab 'ORG'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - completion_date
+    - planned_timepoint
+    - oxygen_support_status
+    - oxygen_support_category
+    - oxygen_support_type
+    - oxygenation_method_weaning
+    - renal_replacement_therapy
+    - new_rrt
+    - vasopressors
+  Sym:
+    description: CDEs from CONNECTS tab 'SYM'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - completion_date
+    - fatigue_rating
+    - dyspnea_rating
+    - fever
+    - cough
+    - chest_pain
+    - abdominal_pain
+    - nausea
+    - vomiting
+    - diarrhea
+    - muscle_or_body_aches
+    - chills
+    - headache
+    - sore_throat
+    - upper_respiratory_nosesinusthroat_congestion
+    - loss_of_sense_of_taste
+    - loss_of_sense_of_smell
+    - confusion_change_in_ability_to_think_change_inability_to_interact_with_other_people
+    - other_covid_related_symptom
+    - symptom_burden
+    - functional_status
+  Ae:
+    description: CDEs from CONNECTS tab 'AE'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - ae_identifier
+    - start_date
+    - start_time
+    - report_date
+    - report_time
+    - site_awareness_date
+    - site_awareness_time
+    - ongoing
+    - end_date
+    - end_time
+    - adverse_event_term
+    - adverse_event_code
+    - grade
+    - sae
+    - congenital_anomaly
+    - incapacity
+    - death_result
+    - hospitalization
+    - life_threatening
+    - other
+    - related_to_treatment
+    - expected_event
+    - action_taken
+    - outcome
+  Cm:
+    description: CDEs from CONNECTS tab 'CM'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - medication_category
+    - medication_name
+    - concomitant_medication_prespecification
+    - start_day
+    - start_month
+    - start_year
+    - start_time
+    - end_day
+    - end_month
+    - end_year
+    - end_time
+    - ongoing_concomitant_medication
+    - prior_concomitant_medication
+    - dose
+    - total_dose
+    - dose_unit
+    - dose_form
+    - dosing_frequency
+    - route_of_administration
+  Vs:
+    description: CDEs from CONNECTS tab 'VS'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - date_of_collection
+    - time_of_collection
+    - planned_timepoint
+    - vitals_performed
+    - vital_sign_many
+    - result_many
+    - unit_many
+    - vital_signs_position
+  VsPt2:
+    description: CDEs from CONNECTS tab 'VS_pt2'.
+    slots:
+    - avpu
+    - bmi
+    - capillary_refill
+    - diastolic_blood_pressure
+    - fio2
+    - set_fio2
+    - glasgow_coma_scale_eye_response
+    - glasgow_coma_scale_motor_response
+    - glasgow_coma_scale_total_score
+    - glasgow_coma_scale_verbal_response
+    - heart_rate
+    - height
+    - actual_inspiratoryexpiratory_ie_ratio
+    - set_inspiratoryexpiratory_ie_ratio
+    - set_inspiratory_pressure
+    - peak_inspiratory_pressure
+    - mean_arterial_pressure
+    - spo2
+    - set_positive_end_expiratory_pressure_peep
+    - plateau_pressure
+    - set_pressure_support
+    - richmond_agitation_sedation_scale
+    - respiratory_rate
+    - actualtotal_respiratory_rate
+    - set_respiratory_rate
+    - riker_sedation_agitation_scale
+    - systolic_blood_pressure
+    - temperature
+    - actual_tidal_volume
+    - set_tidal_volume
+    - total_minute_ventilation
+    - weight
+  Lb:
+    description: CDEs from CONNECTS tab 'LB'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - date_of_collection
+    - time_of_collection
+    - planned_timepoint
+    - labs_performed
+    - lab_fasting_status
+    - category_of_lab_test
+    - subcategory_of_lab_test
+    - lbtest_value_on_lb_pt2_tab
+    - many
+    - unit
+  LbPt2:
+    description: CDEs from CONNECTS tab 'LB_pt2'.
+    slots:
+    - white_blood_count
+    - lymphocyte_count
+    - neutrophil_count
+    - platelets
+    - hematocrit
+    - hemoglobin
+    - lactate
+    - glucose
+    - procalcitonin
+    - c_reactive_protein
+    - lactate_dehydrogenase
+    - total_bilirubin
+    - creatinine
+    - creatinine_phosphokinase
+    - bnp
+    - erythrocyte_sedimentation_rate
+    - d_dimer
+    - ferritin
+    - il_6
+    - sodium
+    - potassium
+    - chloride
+    - bicarbonate
+    - bun
+    - troponin_i
+    - aspartate_aminotransferase
+    - alanine_aminotransferase
+    - alkaline_phosphatase
+    - albumin
+    - partial_thromboplastin_time
+    - international_normalized_ratio
+    - prothrombin_time
+    - fibrinogen
+    - triglycerides
+    - co2
+    - egfr
+    - partial_pressure_oxygen
+    - ph
+    - partial_pressure_carbon_dioxide
+    - oxygen_saturation_pao2
+  Covid:
+    description: CDEs from CONNECTS tab 'COVID'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - date_of_covid_19_sample
+    - time_of_covid_19_sample
+    - date_of_covid_19_test
+    - time_of_covid_19_test
+    - methodology_of_covid_19_test
+    - sample_type_of_covid_19_test
+    - date_of_symptom_onset
+    - symptomatic
+    - date_of_exposure
+  Vcc:
+    description: CDEs from CONNECTS tab 'VCC'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - vaccination_type
+    - vaccination_type_specify
+    - covid_19_vaccine_manufacturer
+    - covid_19_vaccine_manufacturer_specify
+    - covid_19_vaccine_name_reported
+    - covid_19_vaccine_name_reported_specify
+    - covid_19_vaccine_name_standardized
+    - covid_19_vaccination_dose_sequence
+    - vaccine_dose_day
+    - vaccine_dose_month
+    - vaccine_dose_year
+    - covid_19_convalescing_vaccination
+    - covid_19_vaccination_dose
+    - covid_19_vaccine_dose_units
+    - covid_19_vaccination_route
+    - covid_19_vaccination_route_specify
+    - covid_19_vaccination_body_site
+    - covid_19_vaccination_body_site_specify
+    - covid_19_vaccination_expiration_date
+    - covid_19_vaccination_lot_number
+    - covid_19_country_of_vaccination
+  Ds:
+    description: CDEs from CONNECTS tab 'DS'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - consent_date
+    - consent_time
+    - screen_date
+    - enrollment_location
+    - randomization_date
+    - randomization_time
+    - study_discharge_date
+    - study_discharge_time
+    - study_discharge_status
+    - death_status
+    - death_date
+    - death_time
+    - age_at_death
+    - primary_cause_of_death
+    - secondary_cause_of_death
+    - location_of_death
+    - autopsy_indicator
+  Int:
+    description: CDEs from CONNECTS tab 'INT'.
+    slots:
+    - study_identifier
+    - study_site
+    - subject_identifier
+    - arm
+    - treatment
+    - treatment_occurrence
+    - treatment_occurrence_reason
+    - treatment_completed
+    - treatment_missed_doses
+    - treatment_incomplete_doses
+    - treatment_completed_reason
+    - dose_per_protocol
+    - dose_actual
+    - dose_units
+    - dose_form
+    - dose_route
+    - dose_frequency
+    - start_day
+    - start_month
+    - start_year
+    - start_time
+    - end_day
+    - end_month
+    - end_year
+    - end_time
+    - ongoing
+  Ho:
+    description: CDEs from CONNECTS tab 'HO'.
+    slots:
+    - study_identifier
+    - site_identifier
+    - subject_identifier
+    - encounter_type
+    - encounter_type_specify
+    - encounter_start_date
+    - encounter_end_date
+    - encounter_ongoing
+    - discharge_location
+slots:
+  study_identifier:
+    title: Study Identifier
+    description: ''
+    range: string
+    annotations:
+      variable: STUDYID
+      variable_label: Study Identifier
+      implementation_notes: DCC hard-code
+  study_site:
+    title: StudySite Identifier
+    description: ''
+    range: string
+    annotations:
+      variable: SITEID
+      variable_label: StudySite Identifier
+      implementation_notes: DCC hard-code
+  subject_identifier:
+    title: Subject Identifier for the Study
+    description: '[derive]'
+    range: string
+    annotations:
+      variable: SUBJID
+      variable_label: Subject Identifier for the Study
+  demographics_collection_date:
+    title: Demographics Collection Date
+    description: ''
+    range: string
+    annotations:
+      variable: DMDAT
+      variable_label: Demographics Collection Date
+  full_name:
+    title: full_name
+    description: What is the participant’s full legal name at birth (i.e., maiden
+      name if married)? Provide middle name or initial if possible
+    range: string
+    annotations:
+      variable: --
+      variable_label: full_name
+      implementation_notes: Use for optional GUID, do not submit to BDC
+  date_of_birth:
+    title: Birth Date
+    description: What is the participant’s date of birth?
+    range: string
+    annotations:
+      variable: --
+      variable_label: Birth Date
+      implementation_notes: Use for optional GUID, do not submit to BDC
+  city_of_birth:
+    title: Birth City
+    description: What is the participant’s city/municipality of birth?
+    range: string
+    annotations:
+      variable: --
+      variable_label: Birth City
+      implementation_notes: Use for optional GUID, do not submit to BDC
+  country_of_birth:
+    title: Birth Country
+    description: What is the participant’s country of birth?
+    range: string
+    annotations:
+      variable: --
+      variable_label: Birth Country
+      implementation_notes: Use for optional GUID, do not submit to BDC
+  street_address:
+    title: Street Address
+    description: What is the participant’s full street address for their residence?
+    range: string
+    annotations:
+      variable: --
+      variable_label: Street Address
+      implementation_notes: Use for 9-digit ZIP, do not submit to BDC
+  city_of_residence:
+    title: City of Residence
+    description: What is the city associated with the participant’s residential street
+      address?
+    range: string
+    annotations:
+      variable: --
+      variable_label: City of Residence
+      implementation_notes: Use for 9-digit ZIP, do not submit to BDC
+  state_or_province_of_residence:
+    title: State or Province of Residence
+    description: What is the state associated with the participant’s residential street
+      address?
+    range: string
+    annotations:
+      variable: --
+      variable_label: State or Province of Residence
+      implementation_notes: Use for 9-digit ZIP, do not submit to BDC
+  zip_code_of_residence:
+    title: ZIP Code of Residence
+    description: What is the participant's ZIP Code?
+    range: string
+    annotations:
+      variable: --
+      variable_label: ZIP Code of Residence
+      implementation_notes: Use for 9-digit ZIP, do not submit to BDC
+  country_of_residence:
+    title: Country of Residence
+    description: What is the participant's country of residence?
+    range: string
+    annotations:
+      variable: --
+      variable_label: Country of Residence
+      implementation_notes: Use for 9-digit ZIP, do not submit to BDC
+  age:
+    title: Age
+    description: '[derive]'
+    range: string
+    annotations:
+      variable: AGE
+      variable_label: Age
+      implementation_notes: If deriving Age from a partial DOB, impute missing day
+        to the first of the month and missing month to July
+  ethnicity:
+    title: Ethnicity
+    description: Does the participant consider themselves Hispanic/Latino/Spanish
+      or not Hispanic/Latino/Spanish?
+    range: EthnicityEnum
+    annotations:
+      variable: ETHNIC
+      variable_label: Ethnicity
+  race:
+    title: Race - AIAN
+    description: 'Which of the following racial designations best describes the participant?
+      More than one choice is acceptable: [American Indian or Alaska Native]'
+    range: RaceEnum
+    annotations:
+      variable: DMAIAN
+      variable_label: Race - AIAN
+      implementation_notes: CRF should present Race as a single question with ‘check
+        all that apply’
+  biological_sex:
+    title: Sex
+    description: What is the sex of the participant?
+    range: BiologicalSexEnum
+    annotations:
+      variable: SEX
+      variable_label: Sex
+  gender_identity:
+    title: Gender Identity
+    description: What terms best express how the participant describes their gender
+      identity?
+    range: GenderIdentityEnum
+    annotations:
+      variable: GENIDENT
+      variable_label: Gender Identity
+  gender_identity_branching:
+    title: Gender Identity, Detailed
+    description: Are any of these a closer description to the participant's gender
+      identity?
+    range: GenderIdentityBranchingEnum
+    annotations:
+      variable: GENIDDET
+      variable_label: Gender Identity, Detailed
+      implementation_notes: Recommended question language if response to GENIDENT
+        is "nonbinary", "transgender" or "none of these"
+  sexual_orientation:
+    title: Sexual Orientation
+    description: Which of the following best represents how the participant thinks
+      of themselves?
+    range: SexualOrientationEnum
+    annotations:
+      variable: SEXIDENT
+      variable_label: Sexual Orientation
+  sexual_orientation_branching:
+    title: Sexual Orientation, Detailed
+    description: Are any of these a closer description to how the participant thinks
+      of themselves?
+    range: SexualOrientationBranchingEnum
+    annotations:
+      variable: SEXIDDET
+      variable_label: Sexual Orientation, Detailed
+      implementation_notes: Recommended question language if repsonse to SEXIDENT
+        is "None of these describes me, and I'd like to see additional options"
+  health_insurance:
+    title: Health Insurance
+    description: What is the participant’s primary insurance?
+    range: HealthInsuranceEnum
+    annotations:
+      variable: HINSUR
+      variable_label: Health Insurance
+  household_income:
+    title: Household Income
+    description: What is the participant's best estimate of the total income of all
+      family members (related and living in the same household) from all sources,
+      before taxes, in the last calendar year?
+    range: string
+    annotations:
+      variable: HHINCOME
+      variable_label: Household Income
+  household_size:
+    title: Household Size
+    description: Approximately how many individuals (adult and children) live in the
+      household/place that the participant lives?
+    range: string
+    annotations:
+      variable: HHSIZE
+      variable_label: Household Size
+  type_of_dwelling:
+    title: Type of Dwelling
+    description: What type of dwelling does the participant live in?
+    range: TypeOfDwellingEnum
+    annotations:
+      variable: DWELLING
+      variable_label: Type of Dwelling
+  space_in_home_to_self_isolate:
+    title: Able to self-isolate
+    description: If it were necessary, could a member of the participant's household
+      isolate themselves from the rest of their household for as long as needed?
+    range: SpaceInHomeToSelfIsolateEnum
+    annotations:
+      variable: SELFISO
+      variable_label: Able to self-isolate
+  able_to_get_food:
+    title: Able to get food
+    description: Does the participant have a way to get food if they need to self-isolate?
+    range: SpaceInHomeToSelfIsolateEnum
+    annotations:
+      variable: FOODABLE
+      variable_label: Able to get food
+  food_insecurity:
+    title: Food Insecurity
+    description: Think of the statement ‘The food that (I/we) bought just didn’t last,
+      and (I/we) didn’t have money to get more.’ Was that often, sometimes, or never
+      true for (the participant/the participant's household) in the last 12 months?
+    range: FoodInsecurityEnum
+    annotations:
+      variable: FOODSEC
+      variable_label: Food Insecurity
+  employment_status:
+    title: Employee Job Class
+    description: Before they got sick with COVID-19 - was the participant working,
+      looking for work, retired, keeping house, a student, or something else?
+    range: EmploymentStatusEnum
+    annotations:
+      variable: JOBCLAS
+      variable_label: Employee Job Class
+  paid_leave:
+    title: Paid Leave
+    description: Does the participant's job offer paid leave if they get sick?
+    range: SpaceInHomeToSelfIsolateEnum
+    annotations:
+      variable: PAIDLV
+      variable_label: Paid Leave
+  work_from_home:
+    title: Work from home
+    description: Does the participant currently have the ability to work from home?
+    range: SpaceInHomeToSelfIsolateEnum
+    annotations:
+      variable: WFH
+      variable_label: Work from home
+  household_work_from_home:
+    title: Household work from home
+    description: Is anyone in the participant's household currently working outside
+      the home or physically attending school?
+    range: SpaceInHomeToSelfIsolateEnum
+    annotations:
+      variable: WFHHH
+      variable_label: Household work from home
+  prior_employment_status:
+    title: Prior Employment Status
+    description: What did the participant do before March 2020?
+    range: EmploymentStatusEnum
+    annotations:
+      variable: JOBPRIOR
+      variable_label: Prior Employment Status
+  educational_attainment:
+    title: Level of Education Attained
+    description: What is the highest level of education the participant has achieved
+      outside or in the United States? Grades roughly equivalent to years of school.
+    range: EducationalAttainmentEnum
+    annotations:
+      variable: EDULEVEL
+      variable_label: Level of Education Attained
+  preferred_language:
+    title: Preferred Langauge
+    description: What is the participant's preferred language to speak and write?
+    range: PreferredLanguageEnum
+    annotations:
+      variable: LANGPREF
+      variable_label: Preferred Langauge
+  english_proficiency_branching:
+    title: English Proficiency
+    description: Would the participant say they speak English…
+    range: EnglishProficiencyBranchingEnum
+    annotations:
+      variable: ENGLPROF
+      variable_label: English Proficiency
+      implementation_notes: Recommended question language if response to LANGPREF
+        is any option other than "English"
+  healthcare_access:
+    title: Healthcare Access
+    description: Is there a place that the participant USUALLY goes to when they are
+      sick or need health care?
+    range: HealthcareAccessEnum
+    annotations:
+      variable: HCAREACS
+      variable_label: Healthcare Access
+  healthcare_access_branching:
+    title: Healthcare Access Location
+    description: What kind of place is it that the participant goes to most often?
+    range: HealthcareAccessBranchingEnum
+    annotations:
+      variable: HCARELOC
+      variable_label: Healthcare Access Location
+      implementation_notes: Recommended question language if response to HCAREACS
+        is “Yes,” “More than one place,” or “Unknown”
+  has_own_transportation:
+    title: Personal Transportation
+    description: Does the participant have access to their own mode of transportation?
+    range: SpaceInHomeToSelfIsolateEnum
+    annotations:
+      variable: OWNTRNSP
+      variable_label: Personal Transportation
+  subject_identfier:
+    title: Subject Identifier for the Study
+    description: ''
+    range: string
+    annotations:
+      variable: SUBJID
+      variable_label: Subject Identifier for the Study
+  medical_history_collection_date:
+    title: Medical History Collection Date
+    description: ''
+    range: string
+    annotations:
+      variable: MHDAT
+      variable_label: Medical History Collection Date
+  copd:
+    title: COPD
+    description: Does the participant have a history of chronic obstructive pulmonary
+      disease?
+    range: CopdEnum
+    annotations:
+      variable: MHCOPD
+      variable_label: COPD
+  asthma:
+    title: Asthma
+    description: Does the participant have a history of asthma?
+    range: CopdEnum
+    annotations:
+      variable: MHASTH
+      variable_label: Asthma
+  interstitial_lung_disease:
+    title: Interstitial lung disease
+    description: Does the participant have interstitial lung disease?
+    range: CopdEnum
+    annotations:
+      variable: MHILD
+      variable_label: Interstitial lung disease
+  prior_to_current_illness_oxygen_support:
+    title: Prior (to current illness) oxygen support
+    description: Does the participant have a history of oxygen use (excluding sleep
+      apnea devices) prior to becoming sick?
+    range: CopdEnum
+    annotations:
+      variable: MHPRIORO2
+      variable_label: Prior (to current illness) oxygen support
+  prior_to_current_illness_oxygen_support_frequency:
+    title: Prior (to current illness) oxygen support, frequency
+    description: Was prior oxygen use intermittent or chronic (all the time)
+    range: PriorToCurrentIllnessOxygenSupportFrequencyEnum
+    annotations:
+      variable: MHPRIORO2FRQ
+      variable_label: Prior (to current illness) oxygen support, frequency
+      implementation_notes: 'Recommend gating: only ask if response to "Prior (to
+        current illness) oxygen support"="Yes"'
+  pregnancy:
+    title: Pregnancy
+    description: Is the participant currently pregnant?
+    range: CopdEnum
+    annotations:
+      variable: MHPREG
+      variable_label: Pregnancy
+  obesity:
+    title: Obesity
+    description: Is the participant obese (BMI ≥ 30.0)?
+    range: CopdEnum
+    annotations:
+      variable: MHOBES
+      variable_label: Obesity
+      implementation_notes: Can derive based on BMI if unknown
+  aids:
+    title: AIDS
+    description: Does the participant have AIDS (including definite or probable AIDS
+      or AIDS-related complex (ARC))?
+    range: CopdEnum
+    annotations:
+      variable: MHAIDS
+      variable_label: AIDS
+  hiv:
+    title: HIV
+    description: Is the participant HIV-positive without AIDS?
+    range: CopdEnum
+    annotations:
+      variable: MHHIV
+      variable_label: HIV
+  immunosuppression:
+    title: Immunosuppression
+    description: Does the participant have a condition causing them to be immunosuppressed?
+    range: CopdEnum
+    annotations:
+      variable: MHIMMUNOS
+      variable_label: Immunosuppression
+  leukemia:
+    title: Leukemia
+    description: Does the participant have leukemia (AML, CML, ALL, or multiple myeloma)?
+    range: CopdEnum
+    annotations:
+      variable: MHLEUK
+      variable_label: Leukemia
+  lymphoma:
+    title: Lymphoma
+    description: Does the participant have lymphoma (Hodgkin or Non-Hodgkin)?
+    range: CopdEnum
+    annotations:
+      variable: MHLYMPH
+      variable_label: Lymphoma
+  malignant_neoplasm:
+    title: Malignant Neoplasm
+    description: Does the participant have a malignant neoplasm (at enrollment or
+      diagnosed within 1 year prior to enrollment)?
+    range: CopdEnum
+    annotations:
+      variable: MHMNEOPL
+      variable_label: Malignant Neoplasm
+  metastatic_solid_tumor:
+    title: Metastatic solid tumor
+    description: Does the participant have a history of metastatic cancer from primary
+      solid tumor?
+    range: CopdEnum
+    annotations:
+      variable: MHMSTUMOR
+      variable_label: Metastatic solid tumor
+  prior_organ_transplant:
+    title: Prior organ transplant
+    description: Has the participant previously received a solid organ transplant?
+    range: CopdEnum
+    annotations:
+      variable: MHTRANSPLANT
+      variable_label: Prior organ transplant
+  liver_disease:
+    title: Liver Disease
+    description: Does the participant have a history of Chronic Liver Disease?
+    range: CopdEnum
+    annotations:
+      variable: MHLIVER
+      variable_label: Liver Disease
+  liver_disease_severity:
+    title: Liver Disease Severity
+    description: 'What severity is the Chronic Liver Disease?
+
+      Mild = cirrhosis without portal hypertension, chronic hepatitis; Moderate/Severe=
+      cirrhosis and portal hypertension.'
+    range: LiverDiseaseSeverityEnum
+    annotations:
+      variable: MHLIVERSEV
+      variable_label: Liver Disease Severity
+      implementation_notes: 'Recommend gating: only ask if response to "Liver Disease"="Yes"'
+  chronic_kidney_disease:
+    title: Chronic Kidney Disease
+    description: Does the participant have a history of chronic kidney disease, or
+      abnormal BUN and/or creatinine suggesting chronic kidney disease?
+    range: CopdEnum
+    annotations:
+      variable: MHCKD
+      variable_label: Chronic Kidney Disease
+  chronic_kidney_disease_severity:
+    title: Chronic Kidney Disease Severity
+    description: 'What severity is the Chronic Kidney Disease?
+
+      Mild = abnormal BUN (> 40mg/dL) and creatinine greater than 2.0; Moderate/Severe=
+      creatinine > 3.0 or subjects with uremia or those with kidney transplant'
+    range: LiverDiseaseSeverityEnum
+    annotations:
+      variable: MHCKDSEV
+      variable_label: Chronic Kidney Disease Severity
+      implementation_notes: 'Recommend gating: only ask if response to "Chronic Kidney
+        Disease"="Yes"'
+  chronic_kidney_disease_with_aki:
+    title: Chronic Kidney Disease with AKI
+    description: Does the participant have a history of chronic kidney disease with
+      AKI (such as an increased creatinine above baseline in a person with a history
+      of CKD)?
+    range: CopdEnum
+    annotations:
+      variable: MHCKDAKI
+      variable_label: Chronic Kidney Disease with AKI
+      implementation_notes: 'Recommend gating: only ask if response to "Chronic Kidney
+        Disease"="Yes"'
+  chronic_kidney_disease_with_dialysis_dependence:
+    title: Chronic Kidney Disease with Dialysis Dependence
+    description: Does the participant have a history of chronic kidney disease with
+      dialysis dependence?
+    range: CopdEnum
+    annotations:
+      variable: MHCKDDIAL
+      variable_label: Chronic Kidney Disease with Dialysis Dependence
+      implementation_notes: 'Recommend gating: only ask if response to "Chronic Kidney
+        Disease"="Yes"'
+  chronic_neurological_disease:
+    title: Chronic Neurological Disease
+    description: Does the participant have a chronic neurological disease (such as
+      Parkinson's disease, Huntington's disease, ALS, or other neurodegenerative diseases
+      not including dementia)?
+    range: CopdEnum
+    annotations:
+      variable: MHNEURO
+      variable_label: Chronic Neurological Disease
+  seizures:
+    title: Seizures
+    description: Does the participant have a history of any seizure disorder requiring
+      anti-epileptic drug therapy?
+    range: CopdEnum
+    annotations:
+      variable: MHSEIZ
+      variable_label: Seizures
+  diabetes:
+    title: Diabetes
+    description: Does the participant have diabetes?
+    range: CopdEnum
+    annotations:
+      variable: MHDIAB
+      variable_label: Diabetes
+  diabetes_type:
+    title: Diabetes Type
+    description: Does the participant have Type I or Type 2 diabetes?
+    range: DiabetesTypeEnum
+    annotations:
+      variable: MHDIABTYPE
+      variable_label: Diabetes Type
+      implementation_notes: 'Recommend gating: only ask if response to "Diabetes"="Yes"'
+  diabetes_end_organ_damage:
+    title: Diabetes End Organ Damage
+    description: Does the participant have diabetes with end-organ damage (proliferative
+      retinopathy, nephropathy, neuropathy, or cardiomyopathy?
+    range: CopdEnum
+    annotations:
+      variable: MHDIABORGAN
+      variable_label: Diabetes End Organ Damage
+      implementation_notes: 'Recommend gating: only ask if response to "Diabetes"="Yes"'
+  hemiplegia:
+    title: Hemiplegia
+    description: Does the participant have hemiplegia from any cause?
+    range: CopdEnum
+    annotations:
+      variable: MHHEMI
+      variable_label: Hemiplegia
+  cerebrovascular_disease:
+    title: Cerebrovascular disease
+    description: Does the participant have cerebrovascular disease (such as TIA, hemorrhagic
+      or ischemic stroke)?
+    range: CopdEnum
+    annotations:
+      variable: MHCEREBRO
+      variable_label: Cerebrovascular disease
+  myocardial_infarction:
+    title: Myocardial infarction
+    description: Has the participant previously had a myocardial infarction (including
+      ECG or enzyme changes indicative of a heart attack)?
+    range: CopdEnum
+    annotations:
+      variable: MHMI
+      variable_label: Myocardial infarction
+  congestive_heart_failure:
+    title: Congestive heart failure
+    description: Does the participant have congestive heart failure characterized
+      by exertional or paroxysmal nocturnal dyspnea and has responded to digitalis, diruetics,
+      or afterload reducing agents (including cardiomyopathy, systolic or diastolic
+      ventricular dysfunction, or ejection fraction < 40%)?
+    range: CopdEnum
+    annotations:
+      variable: MHCHF
+      variable_label: Congestive heart failure
+  hypertension:
+    title: Hypertension
+    description: Does the participant have a history of hypertension?
+    range: CopdEnum
+    annotations:
+      variable: MHHYPERTENS
+      variable_label: Hypertension
+  coronary_artery_disease:
+    title: Coronary artery disease
+    description: Does the participant have coronary artery disease?
+    range: CopdEnum
+    annotations:
+      variable: MHCAD
+      variable_label: Coronary artery disease
+  cardiomyopathy:
+    title: Cardiomyopathy
+    description: Does the patient have a history of cardiomyopathy (including any
+      disease of the heart muscle, including ischemic and non-ischemic, restrictive,
+      dilated, hypertrophic, or arrhythmogenic disease of the heart muscle)?
+    range: CopdEnum
+    annotations:
+      variable: MHCARDIOMY
+      variable_label: Cardiomyopathy
+  atrial_fibrillation:
+    title: Atrial fibrillation
+    description: Does the participant have atrial fibrillation?
+    range: CopdEnum
+    annotations:
+      variable: MHAFIB
+      variable_label: Atrial fibrillation
+  atrial_flutter:
+    title: Atrial flutter
+    description: Does the participant have atrial flutter?
+    range: CopdEnum
+    annotations:
+      variable: MHAFLUT
+      variable_label: Atrial flutter
+  other_arrhythmia:
+    title: Other arrhythmia
+    description: Does the participant have other non-atrial arrhythmia (including
+      ventricular tachycardia non-sustained, ventricular tachycardia sustained, ventricular
+      fibrillation, other)
+    range: CopdEnum
+    annotations:
+      variable: MHARRHYTH
+      variable_label: Other arrhythmia
+  peripheral_vascular_disease:
+    title: Peripheral vascular disease
+    description: Does the participant have peripheral vascular disease (including
+      intermittent claudication, acute arterial insufficiency with or without gangrene,
+      those with lower extremity bypass or untreated thoracic or abdominal aneurysms
+      measuring 6 cm or more)?
+    range: CopdEnum
+    annotations:
+      variable: MHPVD
+      variable_label: Peripheral vascular disease
+  dementia:
+    title: Dementia
+    description: Does the participant have dementia (including Alzheimer’s Disease,
+      Organic Brain Syndrome, Lewy Body Disease, Vascular Dementia, and other rare
+      forms such as Pick’s Disease)?
+    range: CopdEnum
+    annotations:
+      variable: MHDEMENTIA
+      variable_label: Dementia
+  connective_tissue_disease:
+    title: Connective tissue disease
+    description: Does the participant have a connective tissue disease (including
+      rheumatologic disorders such as SLE, polymyositis, mixed connective tissue disease,
+      polymyalgia rheumatic, and moderate to severe rheumatoid arthritis)?
+    range: CopdEnum
+    annotations:
+      variable: MHCTISSUED
+      variable_label: Connective tissue disease
+  ulcer_disease:
+    title: Ulcer disease
+    description: Does the participant have ulcer disease (including peptic and gastric
+      ulcer disease; GERD is not included)?
+    range: CopdEnum
+    annotations:
+      variable: MHULCER
+      variable_label: Ulcer disease
+  tuberculosis:
+    title: Tuberculosis
+    description: Has the participant ever had tuberculosis?
+    range: CopdEnum
+    annotations:
+      variable: MHTB
+      variable_label: Tuberculosis
+  thromboembolic_disorder:
+    title: Thromboembolic Disorder
+    description: Does the participant have a thromboembolic disorder?
+    range: CopdEnum
+    annotations:
+      variable: MHTHROMBO
+      variable_label: Thromboembolic Disorder
+  hemoglobin_disorders:
+    title: Hemoglobin disorders
+    description: Does the participant have any hemoglobin disorders (e.g., Sickle
+      Cell Disease, Thalassemia)?
+    range: CopdEnum
+    annotations:
+      variable: MHHEMOG
+      variable_label: Hemoglobin disorders
+  current_smoker:
+    title: Current smoker
+    description: Is the participant a current smoker (at least 100 cigarettes in their
+      lifetime and currently smokes at least occasionally)?
+    range: CopdEnum
+    annotations:
+      variable: MHSMOKCUR
+      variable_label: Current smoker
+  former_smoker:
+    title: Former smoker
+    description: Is the participant a former smoker (at least 100 cigarettes in their
+      lifetime but no longer smokes)?
+    range: CopdEnum
+    annotations:
+      variable: MHSMOKFOR
+      variable_label: Former smoker
+  vaping:
+    title: Vaping
+    description: Does the participant vape (using an electronic cigarette or comparable
+      device)?
+    range: CopdEnum
+    annotations:
+      variable: MHVAPE
+      variable_label: Vaping
+  alcohol_abuse:
+    title: Alcohol abuse
+    description: 'Does the participant engage in alcohol abuse (binge drinking or
+      regular excessive alcohol consumption (Binge drinking: for women having 4 or
+      more drinks during a single occasion, for men having 5 or more drinks during
+      a single occasion. Excessive drinking is defined as consuming 8 or more drinks
+      per week for women or 15 or more drinks per week for men)?'
+    range: CopdEnum
+    annotations:
+      variable: MHABUSALC
+      variable_label: Alcohol abuse
+  cannabis_abuse:
+    title: Cannabis Abuse
+    description: Does the participant engage in substance abuse (use of illegal drugs
+      or prescription drugs in non-intended uses or doses) of cannabis?
+    range: CopdEnum
+    annotations:
+      variable: MHABUSCAN
+      variable_label: Cannabis Abuse
+  cannabis_abuse_frequency:
+    title: Cannabis Abuse Frequency
+    description: Indicate estimated frequency of cannabis substance abuse
+    range: CannabisAbuseFrequencyEnum
+    annotations:
+      variable: MHABUSCANFRQ
+      variable_label: Cannabis Abuse Frequency
+      implementation_notes: Only ask if "Cannabis Abuse"="Yes"
+  cocaine_abuse:
+    title: Cocaine Abuse
+    description: Does the participant engage in substance abuse (use of illegal drugs
+      or prescription drugs in non-intended uses or doses) of cocaine?
+    range: CopdEnum
+    annotations:
+      variable: MHABUSCOC
+      variable_label: Cocaine Abuse
+  cocaine_abuse_frequency:
+    title: Cocaine Abuse Frequency
+    description: Indicate estimated frequency of cocaine substance abuse
+    range: CannabisAbuseFrequencyEnum
+    annotations:
+      variable: MHABUSCOCFRQ
+      variable_label: Cocaine Abuse Frequency
+      implementation_notes: Only ask if "Cocaine Abuse"="Yes"
+  opioid_abuse:
+    title: Opioid Abuse
+    description: Does the participant engage in substance abuse (use of illegal drugs
+      or prescription drugs in non-intended uses or doses) of opioids?
+    range: CopdEnum
+    annotations:
+      variable: MHABUSOPI
+      variable_label: Opioid Abuse
+  opioid_abuse_frequency:
+    title: Opioid Abuse Frequency
+    description: Indicate estimated frequency of opioid abuse
+    range: CannabisAbuseFrequencyEnum
+    annotations:
+      variable: MHABUSOPIFRQ
+      variable_label: Opioid Abuse Frequency
+      implementation_notes: Only ask if "Opioid Abuse"="Yes"
+  sedative_abuse:
+    title: Sedative Abuse
+    description: Does the participant engage in substance abuse (use of illegal drugs
+      or prescription drugs in non-intended uses or doses) of sedatives?
+    range: CopdEnum
+    annotations:
+      variable: MHABUSSED
+      variable_label: Sedative Abuse
+  sedative_abuse_frequency:
+    title: Sedative Abuse Frequency
+    description: Indicate estimated frequency of sedative abuse
+    range: CannabisAbuseFrequencyEnum
+    annotations:
+      variable: MHABUSSEDFRQ
+      variable_label: Sedative Abuse Frequency
+      implementation_notes: Only ask if "Sedative Abuse"="Yes"
+  other_substance_abuse:
+    title: Other substance Abuse
+    description: Does the participant engage in substance abuse (use of illegal drugs
+      or prescription drugs in non-intended uses or doses) of other substances?
+    range: CopdEnum
+    annotations:
+      variable: MHABUSOTH
+      variable_label: Other substance Abuse
+  other_substance_abuse_frequency:
+    title: Other substance Abuse frequency
+    description: Indicate estimated frequency of other substance abuse
+    range: CannabisAbuseFrequencyEnum
+    annotations:
+      variable: MHABUSOTHFRQ
+      variable_label: Other substance Abuse frequency
+      implementation_notes: Only ask if "Other substance abuse"="Yes"
+  major_depression:
+    title: Major depression
+    description: Does the participant have a history of major depression?
+    range: CopdEnum
+    annotations:
+      variable: MHDEPRESS
+      variable_label: Major depression
+  anxiety_disorder:
+    title: Anxiety Disorder
+    description: Does the participant have a history of anxiety disorder?
+    range: CopdEnum
+    annotations:
+      variable: MHANXIETY
+      variable_label: Anxiety Disorder
+  bipolar_disorder:
+    title: Bipolar Disorder
+    description: Does the participant have a history of bipolar disorder?
+    range: CopdEnum
+    annotations:
+      variable: MHBIPOLAR
+      variable_label: Bipolar Disorder
+  schizophrenia:
+    title: Schizophrenia
+    description: Does the participant have schizophrenia?
+    range: CopdEnum
+    annotations:
+      variable: MHSCHIZOP
+      variable_label: Schizophrenia
+  covid_19_positive_qualifying_test:
+    title: COVID-19 Positive Qualifying Test
+    description: Has the participant had a qualifying positive test for COVID-19?
+    range: CopdEnum
+    annotations:
+      variable: MHCOVIDQUAL
+      variable_label: COVID-19 Positive Qualifying Test
+      implementation_notes: If "Yes", complete COVID testing form for the positive
+        qualifying test. If studies wish to capture additional positive test data,
+        repeat form.
+  date_of_symptom_onset:
+    title: Date of symptom onset
+    description: What is the estimated date of COVID-19 symptom onset?
+    range: string
+    annotations:
+      variable: MHCOVIDDAT
+      variable_label: Date of symptom onset
+  symptomatic:
+    title: Symptomatic
+    description: Was the participant symptomatic at the time or enrollment?
+    range: SymptomaticEnum
+    annotations:
+      variable: MHCOVIDSYM
+      variable_label: Symptomatic
+  date_of_exposure:
+    title: Date of exposure
+    description: What is the date of known COVID-19 exposure?
+    range: string
+    annotations:
+      variable: MHCOVIDEXPDT
+      variable_label: Date of exposure
+  antibacterial:
+    title: Antibacterial
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any antibacterial medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIBAC
+      variable_label: Antibacterial
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  antiplatelet:
+    title: Antiplatelet
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any antiplatelet medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIPLAT
+      variable_label: Antiplatelet
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  anticoagulant:
+    title: Anticoagulant
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any anticoagulant medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTICOAG
+      variable_label: Anticoagulant
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  anti_covid:
+    title: Anti-COVID
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any other medications specifically against COVID-19 not otherwise listed?
+    range: CopdEnum
+    annotations:
+      variable: MHANTICOVID
+      variable_label: Anti-COVID
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  anti_gout:
+    title: Anti-Gout
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any anti-gout medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIGOUT
+      variable_label: Anti-Gout
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  anti_parasitic:
+    title: Anti-parasitic
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any anti-parasitic medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIPAR
+      variable_label: Anti-parasitic
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  antivirals:
+    title: Antivirals
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any antiviral medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIVIRAL
+      variable_label: Antivirals
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  immune_modulator:
+    title: Immune Modulator
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any immunomodulators?
+    range: CopdEnum
+    annotations:
+      variable: MHIMMUNMOD
+      variable_label: Immune Modulator
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  antihypertensives:
+    title: Antihypertensives
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any antihypertensive medications?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIHYP
+      variable_label: Antihypertensives
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  raas_blockers:
+    title: RAAS Blockers
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any RAAS blockers?
+    range: CopdEnum
+    annotations:
+      variable: MHRAAS
+      variable_label: RAAS Blockers
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  vasopressors:
+    title: Vasopressors
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any vasopressors?
+    range: CopdEnum
+    annotations:
+      variable: MHVASOP
+      variable_label: Vasopressors
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  monoclonal_antibodies:
+    title: Monoclonal Antibodies
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any monoclonal antibodies?
+    range: CopdEnum
+    annotations:
+      variable: MHMONOCLON
+      variable_label: Monoclonal Antibodies
+      implementation_notes: If "Yes", direct to assessment of specific drugs included
+        in CM_pt2 for this category and complete concomitant medication assessment
+        at baseline
+  diabetic_medications:
+    title: Diabetic medications
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any diabetic medications?
+    range: CopdEnum
+    annotations:
+      variable: MHDIABMED
+      variable_label: Diabetic medications
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  statins:
+    title: Statins
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any statins?
+    range: CopdEnum
+    annotations:
+      variable: MHSTATIN
+      variable_label: Statins
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  systemic_steroids:
+    title: Systemic steroids
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any systemic steroids?
+    range: CopdEnum
+    annotations:
+      variable: MHSTEROID
+      variable_label: Systemic steroids
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  anti_rejection_medicine:
+    title: Anti-rejection medicine
+    description: Is the participant currently (within the last 3 weeks) receiving
+      anti-rejection medicines following solid organ or stem cell transplant?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIREJ
+      variable_label: Anti-rejection medicine
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  nsaids:
+    title: NSAIDS
+    description: Is the participant currently (within the last 3 weeks) receiving
+      NSAIDS, other than aspirin?
+    range: CopdEnum
+    annotations:
+      variable: MHNSAID
+      variable_label: NSAIDS
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  immunosuppressive:
+    title: Immunosuppressive
+    description: Is the participant currently (within the last 3 weeks) taking any
+      immunosuppressive medication, not including steroids?
+    range: CopdEnum
+    annotations:
+      variable: MHIMMUNOSMED
+      variable_label: Immunosuppressive
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  antiretrovirals:
+    title: Antiretrovirals
+    description: Is the participant currently (within the last 3 weeks) taking ART/HAART
+      for HIV/AIDS?
+    range: CopdEnum
+    annotations:
+      variable: MHANTIRETROV
+      variable_label: Antiretrovirals
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  biomedicine:
+    title: Biomedicine
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any biological medicines to treat autoimmune disease or cancer?
+    range: CopdEnum
+    annotations:
+      variable: MHBIOMED
+      variable_label: Biomedicine
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  cell_based_therapy:
+    title: Cell-based therapy
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any cell-based therapies?
+    range: CopdEnum
+    annotations:
+      variable: MHCELLBASED
+      variable_label: Cell-based therapy
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  convalescent_plasma:
+    title: Convalescent Plasma
+    description: Is the participant currently (within the last 3 weeks) receiving
+      any convalenscent plasma-based treatments?
+    range: CopdEnum
+    annotations:
+      variable: MHCPLASMA
+      variable_label: Convalescent Plasma
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  ssri:
+    title: SSRI
+    description: Is the participant currently (within the last 3 weeks) taking any
+      Selective serotonin reuptake inhibitors (SSRIs)?
+    range: CopdEnum
+    annotations:
+      variable: MHSSRI
+      variable_label: SSRI
+      implementation_notes: If "Yes", complete concomitant medication assessment at
+        baseline
+  healthcare_worker:
+    title: Healthcare worker
+    description: Is the participant a healthcare worker?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKHCW
+      variable_label: Healthcare worker
+  worker_with_patient_contact:
+    title: Worker with patient contact
+    description: Is the participant employed in healthcare and has direct patient
+      contact?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKPAT
+      variable_label: Worker with patient contact
+  medical_laboratory_worker:
+    title: Medical laboratory worker
+    description: Does the participant work in a medical lab?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKMLW
+      variable_label: Medical laboratory worker
+  other_health_care_worker:
+    title: Other health care worker
+    description: Does the participant work in a hospital setting, but not necessarily
+      with patients (technologist, environmental services, cafeteria, etc.)?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKOHW
+      variable_label: Other health care worker
+  worker_with_general_public:
+    title: Worker with general public
+    description: Does the participant work where they have frequent/close contact
+      with the general public (including schools, high population density work environments,
+      high-volume retail settings)?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKGPW
+      variable_label: Worker with general public
+  positive_patient_contact:
+    title: Positive patient contact
+    description: Has the participant had contact with persons suspected or formally
+      diagnosed with COVID-19 in the past 14 days prior to symptom onset?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKPOSC
+      variable_label: Positive patient contact
+  travel_domestic:
+    title: Travel
+    description: Has the participant traveled domestically within 14 days of symptom
+      onset?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKTRVLDOM
+      variable_label: Travel
+  travel_international:
+    title: Travel
+    description: Has the participant traveled internationally within 14 days of symptom
+      onset?
+    range: SymptomaticEnum
+    annotations:
+      variable: RSKTRVLINTL
+      variable_label: Travel
+  completion_date:
+    title: Organ Support Completion Date
+    description: Date of organ support assessment.
+    range: string
+    annotations:
+      variable: ORGCMPDAT
+      variable_label: Organ Support Completion Date
+  planned_timepoint:
+    title: Inpatient Outcomes  Planned Time Point Name
+    description: What was the planned time point of the inpatient measurement?
+    range: PlannedTimepointEnum
+    annotations:
+      variable: IPTPT
+      variable_label: Inpatient Outcomes  Planned Time Point Name
+      implementation_notes: Hard-code in the eCRF or assign post-collection.
+  oxygen_support_status:
+    title: Oxygen Support Status
+    description: Was the participant receiving oxygen support on this day?
+    range: OxygenSupportStatusEnum
+    annotations:
+      variable: O2STAT
+      variable_label: Oxygen Support Status
+  oxygen_support_category:
+    title: Oxygen Support Category
+    description: Was the oxygen support received invasive or non-invasive?
+    range: OxygenSupportCategoryEnum
+    annotations:
+      variable: O2CAT
+      variable_label: Oxygen Support Category
+  oxygen_support_type:
+    title: Oxygen Support Type
+    description: What was the highest level of oxygen support the participant received
+      on this day?
+    range: OxygenSupportTypeEnum
+    annotations:
+      variable: O2TYPE
+      variable_label: Oxygen Support Type
+  oxygenation_method_weaning:
+    title: Oxygen Support Weaning
+    description: Was a spontaneous breathing trial (SBT) or other documented effort
+      to wean the level of respiratory support/oxygen performed at any time on this
+      day?
+    range: OxygenSupportStatusEnum
+    annotations:
+      variable: O2WEAN
+      variable_label: Oxygen Support Weaning
+  renal_replacement_therapy:
+    title: Renal Replacement Therapy Status
+    description: Did the participant require renal replacement therapy on this day?
+    range: OxygenSupportStatusEnum
+    annotations:
+      variable: RRTSTAT
+      variable_label: Renal Replacement Therapy Status
+  new_rrt:
+    title: New RRT
+    description: Is the participant on new RRT since prior to illness?
+    range: OxygenSupportStatusEnum
+    annotations:
+      variable: NEWRRT
+      variable_label: New RRT
+  fatigue_rating:
+    title: Fatigue Rating
+    description: What is the worst the participant’s fatigue has been on this day?
+    range: FatigueRatingEnum
+    annotations:
+      variable: SYMFATIGUE
+      variable_label: Fatigue Rating
+  dyspnea_rating:
+    title: Dyspnea Rating
+    description: What is the worst the participant’s dyspnea has been on this day?
+    range: DyspneaRatingEnum
+    annotations:
+      variable: SYMDYSP
+      variable_label: Dyspnea Rating
+  fever:
+    title: Symptom Fever
+    description: Has the participant had a fever or was the participant feeling feverish
+      today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMFEVER
+      variable_label: Symptom Fever
+  cough:
+    title: Symptom Cough
+    description: Has the participant had a cough today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMCOUGH
+      variable_label: Symptom Cough
+  chest_pain:
+    title: Symptom Chest Pain
+    description: Has the participant had chest pain today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMCHEST
+      variable_label: Symptom Chest Pain
+  abdominal_pain:
+    title: Symptom Abdominal Pain
+    description: Has the participant had abdominal pain today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMABD
+      variable_label: Symptom Abdominal Pain
+  nausea:
+    title: Symptom Nausea
+    description: Has the participant had nausea today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMNAUS
+      variable_label: Symptom Nausea
+  vomiting:
+    title: Symptom Vomiting
+    description: Has the participant experienced vomiting today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMVOM
+      variable_label: Symptom Vomiting
+  diarrhea:
+    title: Symptom Diarrhea
+    description: Has the participant experienced diarrhea or loose stools today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMDIAR
+      variable_label: Symptom Diarrhea
+  muscle_or_body_aches:
+    title: Symptom Muscle or body aches
+    description: Has the participant had muscle or body aches today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMACHE
+      variable_label: Symptom Muscle or body aches
+  chills:
+    title: Symptom chills
+    description: Has the participant had chills today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMCHILL
+      variable_label: Symptom chills
+  headache:
+    title: Symptom Headache
+    description: Has the participant had a headache today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMHEAD
+      variable_label: Symptom Headache
+  sore_throat:
+    title: Symptom sore throat
+    description: Has the participant had a sore throat today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMTHROAT
+      variable_label: Symptom sore throat
+  upper_respiratory_nosesinusthroat_congestion:
+    title: Symptom upper respiratory congestion
+    description: Has the participant been had any upper respiratory (nose/sinus/throat)
+      congestion today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMRESP
+      variable_label: Symptom upper respiratory congestion
+  loss_of_sense_of_taste:
+    title: Symptom loss of sense of taste
+    description: Has the participant had a new loss of their sense of taste today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMTASTE
+      variable_label: Symptom loss of sense of taste
+  loss_of_sense_of_smell:
+    title: Symptom loss of sense of smell
+    description: Has the participant had a loss of their sense of smell today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMSMELL
+      variable_label: Symptom loss of sense of smell
+  confusion_change_in_ability_to_think_change_inability_to_interact_with_other_people:
+    title: Symptom confusion
+    description: Has the participant experienced any confusion (such as change in
+      ability to think or interact with other people) today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMCONF
+      variable_label: Symptom confusion
+  other_covid_related_symptom:
+    title: Symptom other
+    description: Has the participant been experiencing any other COVID-related symptoms
+      today?
+    range: SymptomaticEnum
+    annotations:
+      variable: SYMOTHER
+      variable_label: Symptom other
+  symptom_burden:
+    title: Symptom burden
+    description: How many symptoms of COVID-19 did the patient have on this day?
+    range: SymptomBurdenEnum
+    annotations:
+      variable: SYMBURD
+      variable_label: Symptom burden
+  functional_status:
+    title: Functional Status
+    description: What was the participant’s functional status on this day?
+    range: FunctionalStatusEnum
+    annotations:
+      variable: SYMFUNC
+      variable_label: Functional Status
+  ae_identifier:
+    title: AE Sponsor-Defined Identifier
+    description: ''
+    range: string
+    annotations:
+      variable: AESPID
+      variable_label: AE Sponsor-Defined Identifier
+  start_date:
+    title: Adverse Event Start Date
+    description: What is the adverse event start date?
+    range: string
+    annotations:
+      variable: AESTDAT
+      variable_label: Adverse Event Start Date
+  start_time:
+    title: Start Time of Adverse Event
+    description: What is the adverse event start time?
+    range: string
+    annotations:
+      variable: AESTTIM
+      variable_label: Start Time of Adverse Event
+  report_date:
+    title: Adverse Event Reported Date
+    description: What is the date the adverse event was recorded by the study team?
+    range: string
+    annotations:
+      variable: AERPDAT
+      variable_label: Adverse Event Reported Date
+  report_time:
+    title: Report Time of Adverse Event
+    description: What is the time the adverse event was recorded by the study team?
+    range: string
+    annotations:
+      variable: AERPTIM
+      variable_label: Report Time of Adverse Event
+  site_awareness_date:
+    title: Adverse Event Site Aware Date
+    description: What is the site awareness date for the adverse event?
+    range: string
+    annotations:
+      variable: AEAWDAT
+      variable_label: Adverse Event Site Aware Date
+  site_awareness_time:
+    title: Site Aware Time of Adverse Event
+    description: What is the site awareness time for the adverse event?
+    range: string
+    annotations:
+      variable: AEAWTIM
+      variable_label: Site Aware Time of Adverse Event
+  ongoing:
+    title: Ongoing Adverse Event
+    description: Is the adverse event ongoing at end of study?
+    range: SymptomaticEnum
+    annotations:
+      variable: AEONGO
+      variable_label: Ongoing Adverse Event
+  end_date:
+    title: Adverse Event End Date
+    description: What is the adverse event end date?
+    range: string
+    annotations:
+      variable: AEENDAT
+      variable_label: Adverse Event End Date
+  end_time:
+    title: End Time of Adverse Event
+    description: What is the adverse event end time?
+    range: string
+    annotations:
+      variable: AENTIM
+      variable_label: End Time of Adverse Event
+  adverse_event_term:
+    title: Adverse Event Term
+    description: What is the adverse event term (uncoded)?
+    range: string
+    annotations:
+      variable: AETERM
+      variable_label: Adverse Event Term
+  adverse_event_code:
+    title: Adverse event code
+    description: Select the MedDRA term describing the adverse event.
+    range: string
+    annotations:
+      variable: AEDECOD
+      variable_label: Adverse event code
+  grade:
+    title: AE Standard Toxicity Grade
+    description: What was the NCI CTCAE grade of the adverse event?
+    range: GradeEnum
+    annotations:
+      variable: AETOXGR
+      variable_label: AE Standard Toxicity Grade
+  sae:
+    title: AE Serious Event
+    description: Was the adverse event serious?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESER
+      variable_label: AE Serious Event
+  congenital_anomaly:
+    title: Congenital Anomaly or Birth Defect
+    description: Was the adverse event associated with a congenital anomoly or birth
+      defect?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESCONG
+      variable_label: Congenital Anomaly or Birth Defect
+  incapacity:
+    title: Persist or Signif Disability/Incapacity
+    description: Did the adverse event result in disability or permanent damage?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESDISAB
+      variable_label: Persist or Signif Disability/Incapacity
+  death_result:
+    title: Results in Death
+    description: Did the adverse event result in death?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESDTH
+      variable_label: Results in Death
+  hospitalization:
+    title: Requires or Prolongs Hospitalization
+    description: Did the adverse event result in initial or prolonged hospitalization
+      of the participant?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESHOSP
+      variable_label: Requires or Prolongs Hospitalization
+  life_threatening:
+    title: Life Threatening
+    description: Was the adverse event life threatening?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESLIFE
+      variable_label: Life Threatening
+  other:
+    title: Other Medically Important Serious Event
+    description: Was the adverse event a medically important event not covered by
+      other serious criteria?
+    range: SymptomaticEnum
+    annotations:
+      variable: AESMIE
+      variable_label: Other Medically Important Serious Event
+  related_to_treatment:
+    title: AE Causality
+    description: Was this adverse event related to study treatment?
+    range: SymptomaticEnum
+    annotations:
+      variable: AEREL
+      variable_label: AE Causality
+  expected_event:
+    title: AE Expected
+    description: Was the event expected, i.e. included in the brochure or protocol?
+    range: SymptomaticEnum
+    annotations:
+      variable: AEEXP
+      variable_label: AE Expected
+  action_taken:
+    title: Action Taken with Study Treatment
+    description: What action was taken with study treatment?
+    range: ActionTakenEnum
+    annotations:
+      variable: AEACN
+      variable_label: Action Taken with Study Treatment
+  outcome:
+    title: Outcome of Adverse Event
+    description: What is the outcome of the adverse event?
+    range: OutcomeEnum
+    annotations:
+      variable: AEOUT
+      variable_label: Outcome of Adverse Event
+  medication_category:
+    title: Category for Medication
+    description: CM medication category.
+    range: string
+    annotations:
+      variable: CMCAT
+      variable_label: Category for Medication
+      implementation_notes: Hard-code in the eCRF. Either gate question that presents
+        CMTRT options, or assign behind the scenes based on CMTRT.
+  medication_name:
+    title: Reported Name of Drug, Med, or Therapy
+    description: CM medication name.
+    range: string
+    annotations:
+      variable: CMTRT
+      variable_label: Reported Name of Drug, Med, or Therapy
+      implementation_notes: Hard-code in the eCRF. Only provide medication free text
+        name if "OTHER, [SPECIFY]" option is needed on CM_pt2 tab.
+  concomitant_medication_prespecification:
+    title: CM Pre-Specified
+    description: ''
+    range: ConcomitantMedicationPrespecificationEnum
+    annotations:
+      variable: CMPRESP
+      variable_label: CM Pre-Specified
+      implementation_notes: Hard-code in the eCRF or assign post-collection.
+  start_day:
+    title: Concomitant Meds Start Date, Day
+    description: What was the [selected medication] start day?
+    range: string
+    annotations:
+      variable: CMSTDD
+      variable_label: Concomitant Meds Start Date, Day
+      implementation_notes: Repeat for all medications selected
+  start_month:
+    title: Concomitant Meds Start Date, Month
+    description: What was the [selected medication] start month?
+    range: string
+    annotations:
+      variable: CMSTMO
+      variable_label: Concomitant Meds Start Date, Month
+      implementation_notes: Repeat for all medications selected
+  start_year:
+    title: Concomitant Meds Start Date, Year
+    description: What was the [selected medication] start year?
+    range: string
+    annotations:
+      variable: CMSTYY
+      variable_label: Concomitant Meds Start Date, Year
+      implementation_notes: Repeat for all medications selected
+  end_day:
+    title: Concomitant Meds End Date, Day
+    description: What was the [selected medication] end day?
+    range: string
+    annotations:
+      variable: CMENDD
+      variable_label: Concomitant Meds End Date, Day
+      implementation_notes: Repeat for all medications selected
+  end_month:
+    title: Concomitant Meds End Date, Month
+    description: What was the [selected medication] end month?
+    range: string
+    annotations:
+      variable: CMENMO
+      variable_label: Concomitant Meds End Date, Month
+      implementation_notes: Repeat for all medications selected
+  end_year:
+    title: Concomitant Meds End Date, Year
+    description: What was the [selected medication] end year?
+    range: string
+    annotations:
+      variable: CMENYY
+      variable_label: Concomitant Meds End Date, Year
+      implementation_notes: Repeat for all medications selected
+  ongoing_concomitant_medication:
+    title: Ongoing Concomitant Meds
+    description: Is the participant currently taking [selected medication]?
+    range: SymptomaticEnum
+    annotations:
+      variable: CMONGO
+      variable_label: Ongoing Concomitant Meds
+      implementation_notes: Repeat for all medications selected
+  prior_concomitant_medication:
+    title: Prior Concomitant Meds
+    description: Was the [concomitant medication/therapy] taken prior to study start?
+    range: SymptomaticEnum
+    annotations:
+      variable: CMPRIOR
+      variable_label: Prior Concomitant Meds
+      implementation_notes: Repeat for all medications selected
+  dose:
+    title: CM Dose per Administration
+    description: What was the individual dose of [selected medication] per administration?
+    range: string
+    annotations:
+      variable: CMDOSE
+      variable_label: CM Dose per Administration
+      implementation_notes: Ex. One 200 mg gelatin capsule twice a day... this element
+        would be "200." Repeat for all medications selected.
+  total_dose:
+    title: CM Total Daily Dose
+    description: What was the total daily dose of [selected medication]?
+    range: string
+    annotations:
+      variable: CMDOSTOT
+      variable_label: CM Total Daily Dose
+      implementation_notes: Ex. One 200 mg gelatin capsule twice a day... this element
+        would be "400." Repeat for all medications selected.
+  dose_unit:
+    title: CM Dose units
+    description: What is the unit for the dose of [selected medication]?
+    range: string
+    annotations:
+      variable: CMDOSU
+      variable_label: CM Dose units
+      implementation_notes: "This field is case sensitive. \n\nPlease use the CDASH\
+        \ “Concomitant Medication Dose Unit” code list C78417 controlled terminology.\n\
+        \nExamples:  CAPSULE, g, IU, mg, ml, PUFF, TABLET, ug\n\nRepeat for all medications\
+        \ selected."
+  dose_form:
+    title: CM Dose Form
+    description: What was the dose form of [selected medication]?
+    range: string
+    annotations:
+      variable: CMDOSFRM
+      variable_label: CM Dose Form
+      implementation_notes: 'Please use the CDASH “Concomitant Medication Dose Form”
+        code list C78418 controlled terminology.
+
+
+        Examples:  AEROSOL, CAPSULE, CREAM, GAS, GEL, OINTMENT, PATCH, POWDER, SPRAY,
+        SUPPOSITORY, SUSPENSION, TABLET
+
+
+        Repeat for all medications selected.'
+  dosing_frequency:
+    title: CM Dosing Frequency per Interval
+    description: What was the frequency of [selected medication]?
+    range: string
+    annotations:
+      variable: CMDOSFRQ
+      variable_label: CM Dosing Frequency per Interval
+      implementation_notes: 'Please use the CDASH “Concomitant Medication Dose Frequency
+        per Interval” code list C78419 controlled terminology.
+
+
+        Examples:  BID, PRN, QD, QID, QM, QOD, TID
+
+
+        Repeat for all medications selected.'
+  route_of_administration:
+    title: CM Route of Administration
+    description: What was the route of administration of [selected medication]?
+    range: string
+    annotations:
+      variable: CMROUTE
+      variable_label: CM Route of Administration
+      implementation_notes: 'Please use the CDASH “Concomitant Medication Dose Route
+        of Administration” code list C78420 controlled terminology.
+
+
+        Examples:  INTRALESIONAL, INTRAMUSCULAR, INTRAOCULAR, INTRAPERITONEAL, NASAL,
+        ORAL, RECTAL, RESPIRATORY (INHALATION), SUBCUTANEOUS, TOPICAL, TRANSDERMAL,
+        VAGINAL
+
+
+        Repeat for all medications selected.'
+  date_of_collection:
+    title: Vital Signs Date
+    description: What was the date of the vital sign measurement?
+    range: string
+    annotations:
+      variable: VSDAT
+      variable_label: Vital Signs Date
+  time_of_collection:
+    title: Vital Signs Time
+    description: What was the (start) time of the  vital sign measurement?
+    range: string
+    annotations:
+      variable: VSTIM
+      variable_label: Vital Signs Time
+  vitals_performed:
+    title: Vital Signs Performed
+    description: Were the protocol-defined testing conditions met?
+    range: SymptomaticEnum
+    annotations:
+      variable: VSPERF
+      variable_label: Vital Signs Performed
+  vital_sign_many:
+    title: Vital Signs Test Name
+    description: What was the vital sign?
+    range: string
+    annotations:
+      variable: VSTEST
+      variable_label: Vital Signs Test Name
+  result_many:
+    title: VS Result or Finding in Original Units
+    description: What was the result of the vital sign measurement?
+    range: string
+    annotations:
+      variable: VSORRES
+      variable_label: VS Result or Finding in Original Units
+  unit_many:
+    title: VS Original Units
+    description: What were the units of the vital sign measurement?
+    range: string
+    annotations:
+      variable: VSORRESU
+      variable_label: VS Original Units
+      implementation_notes: This field is case sensitive.
+  vital_signs_position:
+    title: Vital Signs Position of Subject
+    description: What was the participant's position at the time of the vital sign
+      measurement?
+    range: VitalSignsPositionEnum
+    annotations:
+      variable: VSPOS
+      variable_label: Vital Signs Position of Subject
+      implementation_notes: This variable is optional for all Vital Signs, however,
+        it is recommended for Systolic and Diastolic Blood Pressure.
+  avpu:
+    title: AVPU
+    description: ''
+    range: string
+    annotations:
+      variable_label: AVPU
+  bmi:
+    title: BMI
+    description: ''
+    range: string
+    annotations:
+      variable_label: BMI
+  capillary_refill:
+    title: Capillary refill
+    description: ''
+    range: string
+    annotations:
+      variable_label: Capillary refill
+  diastolic_blood_pressure:
+    title: Diastolic blood pressure
+    description: ''
+    range: string
+    annotations:
+      variable_label: Diastolic blood pressure
+  fio2:
+    title: FiO2
+    description: ''
+    range: string
+    annotations:
+      variable_label: FiO2
+  set_fio2:
+    title: Set FiO2
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set FiO2
+  glasgow_coma_scale_eye_response:
+    title: Glasgow Coma Scale - Eye Response
+    description: ''
+    range: string
+    annotations:
+      variable_label: Glasgow Coma Scale - Eye Response
+  glasgow_coma_scale_motor_response:
+    title: Glasgow Coma Scale - Motor Response
+    description: ''
+    range: string
+    annotations:
+      variable_label: Glasgow Coma Scale - Motor Response
+  glasgow_coma_scale_total_score:
+    title: Glasgow Coma Scale – Total Score
+    description: ''
+    range: string
+    annotations:
+      variable_label: Glasgow Coma Scale – Total Score
+  glasgow_coma_scale_verbal_response:
+    title: Glasgow Coma Scale - Verbal Response
+    description: ''
+    range: string
+    annotations:
+      variable_label: Glasgow Coma Scale - Verbal Response
+  heart_rate:
+    title: Heart Rate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Heart Rate
+  height:
+    title: Height
+    description: ''
+    range: string
+    annotations:
+      variable_label: Height
+  actual_inspiratoryexpiratory_ie_ratio:
+    title: Actual Inspiratory:Expiratory (I:E) ratio
+    description: ''
+    range: string
+    annotations:
+      variable_label: Actual Inspiratory:Expiratory (I:E) ratio
+  set_inspiratoryexpiratory_ie_ratio:
+    title: Set Inspiratory:Expiratory (I:E) ratio
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set Inspiratory:Expiratory (I:E) ratio
+  set_inspiratory_pressure:
+    title: Set inspiratory pressure
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set inspiratory pressure
+  peak_inspiratory_pressure:
+    title: Peak inspiratory pressure
+    description: ''
+    range: string
+    annotations:
+      variable_label: Peak inspiratory pressure
+  mean_arterial_pressure:
+    title: Mean arterial pressure
+    description: ''
+    range: string
+    annotations:
+      variable_label: Mean arterial pressure
+  spo2:
+    title: SpO2
+    description: ''
+    range: string
+    annotations:
+      variable_label: SpO2
+  set_positive_end_expiratory_pressure_peep:
+    title: Set positive end-expiratory pressure (PEEP)
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set positive end-expiratory pressure (PEEP)
+  plateau_pressure:
+    title: Plateau pressure
+    description: ''
+    range: string
+    annotations:
+      variable_label: Plateau pressure
+  set_pressure_support:
+    title: Set pressure support
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set pressure support
+  richmond_agitation_sedation_scale:
+    title: Richmond Agitation-Sedation Scale
+    description: ''
+    range: string
+    annotations:
+      variable_label: Richmond Agitation-Sedation Scale
+  respiratory_rate:
+    title: Respiratory rate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Respiratory rate
+  actualtotal_respiratory_rate:
+    title: Actual/total respiratory rate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Actual/total respiratory rate
+  set_respiratory_rate:
+    title: Set respiratory rate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set respiratory rate
+  riker_sedation_agitation_scale:
+    title: Riker Sedation-Agitation Scale
+    description: ''
+    range: string
+    annotations:
+      variable_label: Riker Sedation-Agitation Scale
+  systolic_blood_pressure:
+    title: Systolic blood pressure
+    description: ''
+    range: string
+    annotations:
+      variable_label: Systolic blood pressure
+  temperature:
+    title: Temperature
+    description: ''
+    range: string
+    annotations:
+      variable_label: Temperature
+  actual_tidal_volume:
+    title: Actual tidal volume
+    description: ''
+    range: string
+    annotations:
+      variable_label: Actual tidal volume
+  set_tidal_volume:
+    title: Set tidal volume
+    description: ''
+    range: string
+    annotations:
+      variable_label: Set tidal volume
+  total_minute_ventilation:
+    title: Total minute ventilation
+    description: ''
+    range: string
+    annotations:
+      variable_label: Total minute ventilation
+  weight:
+    title: Weight
+    description: ''
+    range: string
+    annotations:
+      variable_label: Weight
+  labs_performed:
+    title: Lab Performed
+    description: Were the protocol-defined testing conditions met?
+    range: SymptomaticEnum
+    annotations:
+      variable: LBPERF
+      variable_label: Lab Performed
+  lab_fasting_status:
+    title: Lab Fasting Status
+    description: Was the participant fasting?
+    range: SymptomaticEnum
+    annotations:
+      variable: LBFAST
+      variable_label: Lab Fasting Status
+  category_of_lab_test:
+    title: Category of Lab Test
+    description: What was the category of lab test?
+    range: string
+    annotations:
+      variable: LBCAT
+      variable_label: Category of Lab Test
+      implementation_notes: Hard-code in the eCRF or assign post-collection.
+  subcategory_of_lab_test:
+    title: Subcategory of Lab Test
+    description: What was the sub-category of lab test?
+    range: string
+    annotations:
+      variable: LBSCAT
+      variable_label: Subcategory of Lab Test
+      implementation_notes: Hard-code in the eCRF or assign post-collection.
+  lbtest_value_on_lb_pt2_tab:
+    title: Lab Test or Examination Name
+    description: What was the lab test?
+    range: string
+    annotations:
+      variable: LBTEST
+      variable_label: Lab Test or Examination Name
+  many:
+    title: Lab Result or Finding
+    description: What was the result of the lab test?
+    range: string
+    annotations:
+      variable: LBORRES
+      variable_label: Lab Result or Finding
+      implementation_notes: Results allowed if within one order of magnitude of the
+        numeric format specified for the test.
+  unit:
+    title: Units associated with Lab Result or Finding
+    description: ''
+    range: string
+    annotations:
+      variable: LBORRESU
+      variable_label: Units associated with Lab Result or Finding
+      implementation_notes: 'This field is case sensitive. It is preferred that lab
+        results be reported in the units listed on LB_pt2. If that is not possible,
+        report the test with units outlined in CDASH controlled terminology "Units
+        for Exposure" (C78423) to report the Protocol-Specific text response options.
+        Examples: G, MG, ML, UG'
+  white_blood_count:
+    title: White blood count
+    description: ''
+    range: string
+    annotations:
+      variable_label: White blood count
+  lymphocyte_count:
+    title: Lymphocyte count
+    description: ''
+    range: string
+    annotations:
+      variable_label: Lymphocyte count
+  neutrophil_count:
+    title: Neutrophil count
+    description: ''
+    range: string
+    annotations:
+      variable_label: Neutrophil count
+  platelets:
+    title: Platelets
+    description: ''
+    range: string
+    annotations:
+      variable_label: Platelets
+  hematocrit:
+    title: Hematocrit
+    description: ''
+    range: string
+    annotations:
+      variable_label: Hematocrit
+  hemoglobin:
+    title: Hemoglobin
+    description: ''
+    range: string
+    annotations:
+      variable_label: Hemoglobin
+  lactate:
+    title: Lactate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Lactate
+  glucose:
+    title: Glucose
+    description: ''
+    range: string
+    annotations:
+      variable_label: Glucose
+  procalcitonin:
+    title: Procalcitonin
+    description: ''
+    range: string
+    annotations:
+      variable_label: Procalcitonin
+  c_reactive_protein:
+    title: C-Reactive Protein
+    description: ''
+    range: string
+    annotations:
+      variable_label: C-Reactive Protein
+  lactate_dehydrogenase:
+    title: Lactate Dehydrogenase
+    description: ''
+    range: string
+    annotations:
+      variable_label: Lactate Dehydrogenase
+  total_bilirubin:
+    title: Total Bilirubin
+    description: ''
+    range: string
+    annotations:
+      variable_label: Total Bilirubin
+  creatinine:
+    title: Creatinine
+    description: ''
+    range: string
+    annotations:
+      variable_label: Creatinine
+  creatinine_phosphokinase:
+    title: Creatinine phosphokinase
+    description: ''
+    range: string
+    annotations:
+      variable_label: Creatinine phosphokinase
+  bnp:
+    title: BNP
+    description: ''
+    range: string
+    annotations:
+      variable_label: BNP
+  erythrocyte_sedimentation_rate:
+    title: Erythrocyte sedimentation rate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Erythrocyte sedimentation rate
+  d_dimer:
+    title: D-dimer
+    description: ''
+    range: string
+    annotations:
+      variable_label: D-dimer
+  ferritin:
+    title: Ferritin
+    description: ''
+    range: string
+    annotations:
+      variable_label: Ferritin
+  il_6:
+    title: IL-6
+    description: ''
+    range: string
+    annotations:
+      variable_label: IL-6
+  sodium:
+    title: Sodium
+    description: ''
+    range: string
+    annotations:
+      variable_label: Sodium
+  potassium:
+    title: Potassium
+    description: ''
+    range: string
+    annotations:
+      variable_label: Potassium
+  chloride:
+    title: Chloride
+    description: ''
+    range: string
+    annotations:
+      variable_label: Chloride
+  bicarbonate:
+    title: Bicarbonate
+    description: ''
+    range: string
+    annotations:
+      variable_label: Bicarbonate
+  bun:
+    title: BUN
+    description: ''
+    range: string
+    annotations:
+      variable_label: BUN
+  troponin_i:
+    title: Troponin I
+    description: ''
+    range: string
+    annotations:
+      variable_label: Troponin I
+  aspartate_aminotransferase:
+    title: Aspartate aminotransferase
+    description: ''
+    range: string
+    annotations:
+      variable_label: Aspartate aminotransferase
+  alanine_aminotransferase:
+    title: Alanine aminotransferase
+    description: ''
+    range: string
+    annotations:
+      variable_label: Alanine aminotransferase
+  alkaline_phosphatase:
+    title: Alkaline phosphatase
+    description: ''
+    range: string
+    annotations:
+      variable_label: Alkaline phosphatase
+  albumin:
+    title: Albumin
+    description: ''
+    range: string
+    annotations:
+      variable_label: Albumin
+  partial_thromboplastin_time:
+    title: Partial Thromboplastin Time
+    description: ''
+    range: string
+    annotations:
+      variable_label: Partial Thromboplastin Time
+  international_normalized_ratio:
+    title: International normalized ratio
+    description: ''
+    range: string
+    annotations:
+      variable_label: International normalized ratio
+  prothrombin_time:
+    title: Prothrombin time
+    description: ''
+    range: string
+    annotations:
+      variable_label: Prothrombin time
+  fibrinogen:
+    title: Fibrinogen
+    description: ''
+    range: string
+    annotations:
+      variable_label: Fibrinogen
+  triglycerides:
+    title: Triglycerides
+    description: ''
+    range: string
+    annotations:
+      variable_label: Triglycerides
+  co2:
+    title: CO2
+    description: ''
+    range: string
+    annotations:
+      variable_label: CO2
+  egfr:
+    title: eGFR
+    description: ''
+    range: string
+    annotations:
+      variable_label: eGFR
+  partial_pressure_oxygen:
+    title: Partial Pressure Oxygen
+    description: ''
+    range: string
+    annotations:
+      variable_label: Partial Pressure Oxygen
+  ph:
+    title: pH
+    description: ''
+    range: string
+    annotations:
+      variable_label: pH
+  partial_pressure_carbon_dioxide:
+    title: Partial Pressure Carbon Dioxide
+    description: ''
+    range: string
+    annotations:
+      variable_label: Partial Pressure Carbon Dioxide
+  oxygen_saturation_pao2:
+    title: Oxygen Saturation (PaO2)
+    description: ''
+    range: string
+    annotations:
+      variable_label: Oxygen Saturation (PaO2)
+  date_of_covid_19_sample:
+    title: COVID-19 Test Date
+    description: What was the sample collection date for the positive COVID-19 test?
+    range: string
+    annotations:
+      variable: C19TDAT
+      variable_label: COVID-19 Test Date
+  time_of_covid_19_sample:
+    title: COVID-19 Test Time
+    description: What was the sample collection time for the positive COVID-19 test?
+    range: string
+    annotations:
+      variable: C19TTIM
+      variable_label: COVID-19 Test Time
+  date_of_covid_19_test:
+    title: COVID-19 Results Date
+    description: What was the date of the positive COVID-19 test result?
+    range: string
+    annotations:
+      variable: C19RDAT
+      variable_label: COVID-19 Results Date
+  time_of_covid_19_test:
+    title: COVID-19 Results Time
+    description: What was the time of the positive COVID-19 test result?
+    range: string
+    annotations:
+      variable: C19RTIM
+      variable_label: COVID-19 Results Time
+  methodology_of_covid_19_test:
+    title: COVID-19 Test Method
+    description: What type of testing was done for COVID-19?
+    range: MethodologyOfCovid19TestEnum
+    annotations:
+      variable: C19MTH
+      variable_label: COVID-19 Test Method
+  sample_type_of_covid_19_test:
+    title: COVID-19 Prior Sample Type
+    description: What sample was used for COVID-19 testing?
+    range: SampleTypeOfCovid19TestEnum
+    annotations:
+      variable: C19TYP
+      variable_label: COVID-19 Prior Sample Type
+  vaccination_type:
+    title: Vaccination Type
+    description: What type of vaccination was administered?
+    range: VaccinationTypeEnum
+    annotations:
+      variable: VCCTYPE
+      variable_label: Vaccination Type
+  vaccination_type_specify:
+    title: Vaccination Type Specify
+    description: Specify what type of vaccine was administered
+    range: string
+    annotations:
+      variable: VCCTYPESP
+      variable_label: Vaccination Type Specify
+      implementation_notes: If VCCTYPE="OTHER (SPECIFY)"
+  covid_19_vaccine_manufacturer:
+    title: COVID-19 Vaccine Manufacturer
+    description: Which COVID-19 vaccine brand/type was administered to the participant?
+    range: Covid19VaccineManufacturerEnum
+    annotations:
+      variable: VCC19MNFAC
+      variable_label: COVID-19 Vaccine Manufacturer
+  covid_19_vaccine_manufacturer_specify:
+    title: COVID-19 Vaccine Manufacturer, Specify
+    description: ''
+    range: string
+    annotations:
+      variable: VCC19MNFACSP
+      variable_label: COVID-19 Vaccine Manufacturer, Specify
+      implementation_notes: If VCC19MNFAC="OTHER (SPECIFY)"
+  covid_19_vaccine_name_reported:
+    title: Vaccine name, reported
+    description: What is the reported name of the vaccine administered?
+    range: Covid19VaccineNameReportedEnum
+    annotations:
+      variable: VCC19TRT
+      variable_label: Vaccine name, reported
+  covid_19_vaccine_name_reported_specify:
+    title: Vaccine Name Reported, Specify
+    description: Specify the reported name of the vaccine administered
+    range: string
+    annotations:
+      variable: VCC19TRTSP
+      variable_label: Vaccine Name Reported, Specify
+      implementation_notes: If VCC19TRT="OTHER (SPECIFY)"
+  covid_19_vaccine_name_standardized:
+    title: Vaccine name, standardized
+    description: What is the standardized name of the vaccine administered?
+    range: Covid19VaccineNameStandardizedEnum
+    annotations:
+      variable: VCC19DECOD
+      variable_label: Vaccine name, standardized
+      implementation_notes: To be derived based on VCC19TRT
+  covid_19_vaccination_dose_sequence:
+    title: COVID-19 Vaccine Sequence
+    description: Including this vaccination, how many doses of COVID-19 vaccine have
+      been administered?
+    range: string
+    annotations:
+      variable: VCC19SEQ
+      variable_label: COVID-19 Vaccine Sequence
+  vaccine_dose_day:
+    title: Vaccine Date, Day
+    description: What was the [selected vaccination] day of administration?
+    range: string
+    annotations:
+      variable: VCCDAY
+      variable_label: Vaccine Date, Day
+  vaccine_dose_month:
+    title: Vaccine Date, Month
+    description: What was the [selected vaccination] month of administration?
+    range: string
+    annotations:
+      variable: VCCMONTH
+      variable_label: Vaccine Date, Month
+  vaccine_dose_year:
+    title: Vaccine Date, Year
+    description: What was the [selected vaccination] year of administration?
+    range: string
+    annotations:
+      variable: VCCYEAR
+      variable_label: Vaccine Date, Year
+  covid_19_convalescing_vaccination:
+    title: COVID-19 Vaccine Convalescing
+    description: Was this COVID-19 vaccine dose administered to the participant following
+      or while recovering from an active COVID-19 infection?
+    range: OxygenSupportStatusEnum
+    annotations:
+      variable: VCC19CONV
+      variable_label: COVID-19 Vaccine Convalescing
+  covid_19_vaccination_dose:
+    title: COVID-19 Vaccine Dose
+    description: What was the dose of the [specify vaccine] vaccine the administered
+      to the participant?
+    range: string
+    annotations:
+      variable: VCC19DOSE
+      variable_label: COVID-19 Vaccine Dose
+      implementation_notes: Value in whole integer. Repeat for all vaccines received,
+        specifying COVID-19 first dose or second dose.
+  covid_19_vaccine_dose_units:
+    title: COVID-19 Vaccine Dose Units
+    description: ''
+    range: string
+    annotations:
+      variable: VCC19DOSEU
+      variable_label: COVID-19 Vaccine Dose Units
+      implementation_notes: This field is case sensitive.  Hard-code in the eCRF or
+        assign post-collection.
+  covid_19_vaccination_route:
+    title: COVID-19 Vaccine Route
+    description: What was the route of administration for the [specify vaccine] vaccine
+      the participant received?
+    range: Covid19VaccinationRouteEnum
+    annotations:
+      variable: VCC19ROUTE
+      variable_label: COVID-19 Vaccine Route
+      implementation_notes: Repeat for all vaccines received, specifying COVID-19
+        first dose or  second dose.
+  covid_19_vaccination_route_specify:
+    title: COVID-19 Vaccine Route, Specify
+    description: ''
+    range: string
+    annotations:
+      variable: VCC19RTSP
+      variable_label: COVID-19 Vaccine Route, Specify
+      implementation_notes: If VCC19ROUTE="Other (specify)"
+  covid_19_vaccination_body_site:
+    title: COVID-19 Vaccine Body Site
+    description: What was the body site in which the [specify vaccine] was delievered?
+    range: Covid19VaccinationBodySiteEnum
+    annotations:
+      variable: VCC19BSITE
+      variable_label: COVID-19 Vaccine Body Site
+  covid_19_vaccination_body_site_specify:
+    title: COVID-19 Vaccine Body Site, Specify
+    description: ''
+    range: string
+    annotations:
+      variable: VCC19BSTSP
+      variable_label: COVID-19 Vaccine Body Site, Specify
+      implementation_notes: If VCC19BSITE="Other (specify)"
+  covid_19_vaccination_expiration_date:
+    title: COVID-19 Vaccine Expiration Date
+    description: What was the expiration date for the [specify vaccine] vaccine?
+    range: string
+    annotations:
+      variable: VCC19EXDAT
+      variable_label: COVID-19 Vaccine Expiration Date
+  covid_19_vaccination_lot_number:
+    title: COVID-19 Vaccine Lot Number
+    description: What was the lot number for this COVID-19 vaccine dose?
+    range: string
+    annotations:
+      variable: VCC19LOT
+      variable_label: COVID-19 Vaccine Lot Number
+  covid_19_country_of_vaccination:
+    title: Country of Vaccination
+    description: In which country was this COVID-19 vaccine dose administered?
+    range: string
+    annotations:
+      variable: VCCCNTRY
+      variable_label: Country of Vaccination
+  consent_date:
+    title: Consent Date
+    description: Date of consent
+    range: string
+    annotations:
+      variable: DSCNSDAT
+      variable_label: Consent Date
+  consent_time:
+    title: Consent Time
+    description: Time of consent
+    range: string
+    annotations:
+      variable: DSCNSTIM
+      variable_label: Consent Time
+      implementation_notes: Only for studies without randomization.
+  screen_date:
+    title: Screen Date
+    description: Date of screening
+    range: string
+    annotations:
+      variable: DSSCRDAT
+      variable_label: Screen Date
+  enrollment_location:
+    title: Enrollment Location
+    description: What was the participant’s location at enrollment?
+    range: EnrollmentLocationEnum
+    annotations:
+      variable: DSENRLOC
+      variable_label: Enrollment Location
+  randomization_date:
+    title: Randomization Date
+    description: Date of randomization
+    range: string
+    annotations:
+      variable: DSRNDDAT
+      variable_label: Randomization Date
+  randomization_time:
+    title: Randomization Time
+    description: Time of randomization
+    range: string
+    annotations:
+      variable: DSRNDTIM
+      variable_label: Randomization Time
+      implementation_notes: Mandatory for studies with randomization.
+  study_discharge_date:
+    title: Discharge Date
+    description: Date of discharge from the study
+    range: string
+    annotations:
+      variable: DSEOSDAT
+      variable_label: Discharge Date
+  study_discharge_time:
+    title: Discharge Time
+    description: Time of study discharge
+    range: string
+    annotations:
+      variable: DSEOSTIM
+      variable_label: Discharge Time
+  study_discharge_status:
+    title: Discharge Status
+    description: Participant status at study discharge
+    range: StudyDischargeStatusEnum
+    annotations:
+      variable: DSEOSSTAT
+      variable_label: Discharge Status
+  death_status:
+    title: Death Indicator
+    description: Did the patient die?
+    range: SymptomaticEnum
+    annotations:
+      variable: DTHIND
+      variable_label: Death Indicator
+  death_date:
+    title: Death Date
+    description: Participant's date of death
+    range: string
+    annotations:
+      variable: DTHDAT
+      variable_label: Death Date
+  death_time:
+    title: Death Time
+    description: Partrticipant's time of death
+    range: string
+    annotations:
+      variable: DTHTIM
+      variable_label: Death Time
+  age_at_death:
+    title: Age at Death
+    description: Participant's age at death
+    range: string
+    annotations:
+      variable: AGEDTH
+      variable_label: Age at Death
+  primary_cause_of_death:
+    title: Primary Cause of Death
+    description: Primary Cause of Death
+    range: string
+    annotations:
+      variable: PRCDTH
+      variable_label: Primary Cause of Death
+  secondary_cause_of_death:
+    title: Secondary Cause of Death
+    description: Secondary Cause of Death
+    range: string
+    annotations:
+      variable: SECDTH
+      variable_label: Secondary Cause of Death
+  location_of_death:
+    title: Location of Death
+    description: Physical location at which the participant ceased to live
+    range: LocationOfDeathEnum
+    annotations:
+      variable: LOCDTH
+      variable_label: Location of Death
+  autopsy_indicator:
+    title: Autopsy Indicator
+    description: Was an autopsy performed?
+    range: SymptomaticEnum
+    annotations:
+      variable: AUTOPIND
+      variable_label: Autopsy Indicator
+  arm:
+    title: Name of the study arm
+    description: What was study treatment name?
+    range: string
+    annotations:
+      variable: INTCAT
+      variable_label: Name of the study arm
+      implementation_notes: This variable is meant to capture the general arm of an
+        intervention - in some cases this may be a specific drug name, and identical
+        to INTTRT. In others, this may be a broader encompassing term to refer to
+        an arm (e.g., a general treatment type). This element may be a masked response
+        (e.g. "TREATMENT A" or a treatment verification code) that can be unmasked
+        by the EDC. Please submit the unmasked version to BDC.
+  treatment:
+    title: Name of the treatment
+    description: What was the name of the treatment administered?
+    range: string
+    annotations:
+      variable: INTTRT
+      variable_label: Name of the treatment
+      implementation_notes: The CRF should collect some element that can be used to
+        determine actual treatment received, since randomized arm may not be the arm
+        actually received. This variable is meant to capture the specific treatment
+        within an arm - this could be either a specific drug, a specific dosage, or
+        other study-specific method meant to distinguish treatments within an arm.
+        This element may be a masked response (e.g. "TREATMENT A" or a treatment verification
+        code) that can be unmasked by the EDC. Please submit the unmasked version
+        to BDC.
+  treatment_occurrence:
+    title: Exposure Occurrence
+    description: Was [study treatment/dose] administered?
+    range: SymptomaticEnum
+    annotations:
+      variable: INTOCCUR
+      variable_label: Exposure Occurrence
+      implementation_notes: 'The CRF should collect this element directly. It may
+        be possible to derive this variable from other known variables (e.g. start
+        date), but depending on EDC logic it may be difficult to differentiate missing
+        start date vs. not-started.
+
+        *If "NO", capture Occurrence specify (Reason). Refer to the CDE Manual for
+        guidance on the remaining INT CDEs when Exposure is ''No''.'
+  treatment_occurrence_reason:
+    title: Exposure Reason for No Occurrence
+    description: What was the reason that [study treatment/dose] did not occur?
+    range: TreatmentOccurrenceReasonEnum
+    annotations:
+      variable: INTREASOC
+      variable_label: Exposure Reason for No Occurrence
+      implementation_notes: '*Only applicable when ECOCCUR="No".'
+  treatment_completed:
+    title: Exposure Completed
+    description: Did the subject complete the full course of [study treatment/dose]?
+    range: SymptomaticEnum
+    annotations:
+      variable: INTTRTCMP
+      variable_label: Exposure Completed
+      implementation_notes: This variable is often used to capture full dose per protocol
+        and is recommended for raw data capture. Some studies may be able to derive
+        post-collection based on other raw data elements. Study Protocol should define
+        what constitutes the full, protocol dose.
+  treatment_missed_doses:
+    title: Number of Planned Doses that were Missed
+    description: How many planned exposures were missed during the dosing interval?
+    range: string
+    annotations:
+      variable: INTDOSMIS
+      variable_label: Number of Planned Doses that were Missed
+      implementation_notes: "A missed dose is, at minimum, a scheduled exposure in\
+        \ which no intervention was administered within the exposure window. \nSome\
+        \ studies may have stricter definitions of 'missed dose' (e.g. a partial dose\
+        \ within the exposure window may be considered missed). Study Protocol should\
+        \ determine thresholds for missed dose vs. an incomplete dose vs. a complete\
+        \ dose."
+  treatment_incomplete_doses:
+    title: Number of Planned Doses that were Partial but Incomplete
+    description: How many planned exposures were administered at a partial dose during
+      dosing interval?
+    range: string
+    annotations:
+      variable: INTDOSINC
+      variable_label: Number of Planned Doses that were Partial but Incomplete
+      implementation_notes: An incomplete/partial dose is a scheduled exposure in
+        which only a portion of the planned intervention was administered. Study Protocol
+        should determine thresholds for missed dose vs. an incomplete dose vs. a complete
+        dose. Depending on these thresholds, exposures may only be complete or missed,
+        making this variable non-applicable.
+  treatment_completed_reason:
+    title: Exposure Reason for Not Completed
+    description: What was the reason that the full course of [study treatment/dose]
+      was not completed?
+    range: TreatmentCompletedReasonEnum
+    annotations:
+      variable: INTREACMP
+      variable_label: Exposure Reason for Not Completed
+      implementation_notes: '*Only applicable when INTTRTCMP="No".'
+  dose_per_protocol:
+    title: Treatment Dose, Planned
+    description: What was the planned dose per administration of [study treatment/dose]?
+    range: string
+    annotations:
+      variable: INTDOSPLN
+      variable_label: Treatment Dose, Planned
+      implementation_notes: Not for CRF; derive post-collection.
+  dose_actual:
+    title: Treatment Dose, Actual
+    description: What was the actual dose per administration of [study treatment/dose]?
+    range: string
+    annotations:
+      variable: INTDOSACT
+      variable_label: Treatment Dose, Actual
+      implementation_notes: Not applicable for "Full Course" intervals, recommended
+        for "Per Exposure" intervals. Please be aware that some studies may need this
+        variable for CDISC submission.
+  dose_units:
+    title: Dose Units
+    description: What were the units for the dose?
+    range: string
+    annotations:
+      variable: INTDOSU
+      variable_label: Dose Units
+      implementation_notes: This field is case sensitive. Not for CRF; derive post-collection.
+        This unit is associated with the value of INTDOSPLN (and INTDOSACT, where
+        included).
+  dose_route:
+    title: Dose Route of Administration
+    description: What was the route of administration of [study treatment/dose]?
+    range: string
+    annotations:
+      variable: INTDOSROUTE
+      variable_label: Dose Route of Administration
+      implementation_notes: Not for CRF; derive post-collection.
+  dose_frequency:
+    title: Dose Frequency
+    description: What was the frequency of [study treatment/dose] dosing?
+    range: string
+    annotations:
+      variable: INTDOSFRQ
+      variable_label: Dose Frequency
+      implementation_notes: 'Not for CRF; derive post-collection.
+
+        This element is core since "Full Course" intervals are possible in this domain.'
+  site_identifier:
+    title: StudySite Identifier
+    description: ''
+    range: string
+    annotations:
+      variable: SITEID
+      variable_label: StudySite Identifier
+  encounter_type:
+    title: Reported Term for Healthcare Encounter
+    description: Term to describe healthcare encounter
+    range: EncounterTypeEnum
+    annotations:
+      variable: HOTERM
+      variable_label: Reported Term for Healthcare Encounter
+  encounter_type_specify:
+    title: Reported Term for Healthcare Encounter, Specify
+    description: ''
+    range: string
+    annotations:
+      variable: HOTERMSP
+      variable_label: Reported Term for Healthcare Encounter, Specify
+      implementation_notes: If HOOTERM="Other (specify)"
+  encounter_start_date:
+    title: Healthcare Encounter Start Date
+    description: Date on which encounter began
+    range: string
+    annotations:
+      variable: HOSTDAT
+      variable_label: Healthcare Encounter Start Date
+  encounter_end_date:
+    title: Healthcare Encounter End Date
+    description: Date on which encounter ended
+    range: string
+    annotations:
+      variable: HOENDAT
+      variable_label: Healthcare Encounter End Date
+  encounter_ongoing:
+    title: Ongoing Healthcare Encounter
+    description: Was the encounter ongoing at the time of study discharge?
+    range: SymptomaticEnum
+    annotations:
+      variable: HOONGO
+      variable_label: Ongoing Healthcare Encounter
+  discharge_location:
+    title: Inpatient Healthcare Encounter Discharge Location
+    description: Participant's discharge location if discharged alive
+    range: DischargeLocationEnum
+    annotations:
+      variable: HODSCLOC
+      variable_label: Inpatient Healthcare Encounter Discharge Location
+      implementation_notes: Ask if HOISTAT = "Yes"
+enums:
+  EthnicityEnum:
+    permissible_values:
+      HISPANIC, LATINO, OR SPANISH:
+      NOT HISPANIC, LATINO, OR SPANISH:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  RaceEnum:
+    permissible_values:
+      'NO':
+      'YES':
+  BiologicalSexEnum:
+    permissible_values:
+      FEMALE:
+      MALE:
+      UNDIFFERENTIATED:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  GenderIdentityEnum:
+    permissible_values:
+      MAN:
+      WOMAN:
+      NON-BINARY:
+      TRANSGENDER:
+      NONE OF THESE DESCRIBE ME, AND I’D LIKE TO CONSIDER ADDITIONAL OPTIONS:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  GenderIdentityBranchingEnum:
+    permissible_values:
+      TRANS MAN/TRANSGENDER MAN/FTM:
+      TRANS WOMAN/TRANSGENDER WOMAN/MTF:
+      GENDERQUEER:
+      GENDERFLUID:
+      GENDER VARIANT:
+      QUESTIONING OR UNSURE OF YOUR GENDER IDENTITY:
+      NONE OF THESE DESCRIBE ME:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  SexualOrientationEnum:
+    permissible_values:
+      GAY:
+      LESBIAN:
+      STRAIGHT:
+      THAT IS, NOT GAY OR LESBIAN, ETC.:
+      BISEXUAL:
+      NONE OF THESE DESCRIBE ME, AND I’D LIKE TO SEE ADDITIONAL OPTIONS:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  SexualOrientationBranchingEnum:
+    permissible_values:
+      QUEER:
+      POLYSEXUAL, OMNISEXUAL, SAPIOSEXUAL, OR PANSEXUAL:
+      ASEXUAL:
+      TWO-SPIRIT:
+      HAVE NOT FIGURED OUT OR ARE IN THE PROCESS OF FIGURING OUT YOUR SEXUALITY:
+      MOSTLY STRAIGHT, BUT SOMETIMES ATTRACTED TO PEOPLE OF YOUR OWN SEX:
+      DO NOT THINK OF YOURSELF AS HAVING SEXUALITY:
+      DO NOT USE LABELS TO IDENTIFY YOURSELF:
+      DON’T KNOW THE ANSWER:
+      NO, I MEAN SOMETHING ELSE:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  HealthInsuranceEnum:
+    permissible_values:
+      PUBLIC (MEDICARE, MEDICAID, TRICARE):
+      PRIVATE (PURCHASED DIRECTLY OR THROUGH EMPLOYMENT):
+      UNINSURED:
+      UNKNOWN:
+      PREFERRED NOT TO ANSWER:
+  TypeOfDwellingEnum:
+    permissible_values:
+      DETACHED HOUSE:
+      DUPLEX/TRIPLEX:
+      ROW HOUSE:
+      APARTMENT BUILDING:
+      MOBILE HOME/TRAILER:
+      COLLEGE CAMPUS HOUSING:
+      MOTEL/HOTEL:
+      HOSPITAL, REHABILITATION CENTER, OR OTHER TEMPORARY INSTITUTION:
+      GROUP HOME, NURSING HOME, OR OTHER RESIDENTIAL FACILITY:
+      TRANSITIONAL HOUSING:
+      EMERGENCY SHELTER OR HOMELESS SHELTER:
+      ANYWHERE OUTSIDE (E.G., STREET, VEHICLE, ABANDONED BUILDING):
+      OTHER:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  SpaceInHomeToSelfIsolateEnum:
+    permissible_values:
+      'YES':
+      'NO':
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  FoodInsecurityEnum:
+    permissible_values:
+      OFTEN TRUE:
+      SOMETIMES TRUE:
+      NEVER TRUE:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  EmploymentStatusEnum:
+    permissible_values:
+      WORKING WITHOUT PAY:
+      EMPLOYED FULL-TIME:
+      EMPLOYED PART-TIME:
+      NOT EMPLOYED AND NOT LOOKING FOR WORK:
+      ONLY TEMPORARILY LAID OFF, SICK LEAVE, OR MATERNITY LEAVE:
+      LOOKING FOR WORK, UNEMPLOYED:
+      RETIRED:
+      DISABLED, PERMANENT OR TEMPORARILY:
+      RAISING CHILDREN FULL-TIME OR KEEPING HOUSE:
+      STUDENT:
+      OTHER:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  EducationalAttainmentEnum:
+    permissible_values:
+      HAVE NEVER GONE TO SCHOOL:
+      5TH GRADE OR LESS:
+      6TH TO 8TH GRADE:
+      9TH TO 12TH GRADE, NO DIPLOMA:
+      HIGH SCHOOL GRADUATE OR GED COMPLETED:
+      SOME COLLEGE LEVEL/TECHNICAL/VOCATIONAL DEGREE:
+      BACHELOR'S DEGREE:
+      OTHER ADVANCED DEGREE (MASTER'S, DOCTORAL DEGREE):
+      PREFER NOT TO ANSWER:
+      DON'T KNOW:
+  PreferredLanguageEnum:
+    permissible_values:
+      ENGLISH:
+      SPANISH:
+      CHINESE (MANDARIN OR CANTONESE):
+      TAGALOG:
+      VIETNAMESE:
+      ARABIC:
+      FRENCH:
+      OTHER:
+  EnglishProficiencyBranchingEnum:
+    permissible_values:
+      VERY WELL:
+      WELL:
+      NOT WELL:
+      NOT AT ALL:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  HealthcareAccessEnum:
+    permissible_values:
+      'YES':
+      THERE IS NO PLACE:
+      THERE IS MORE THAN ONE PLACE:
+      UNKNOWN:
+      PREFER NOT TO ANSWER:
+  HealthcareAccessBranchingEnum:
+    permissible_values:
+      A DOCTOR’S OFFICE OR HEALTH CENTER:
+      WALK-IN CLINIC, URGENT CARE CENTER, OR RETAIL CLINIC IN A PHARMACY OR GROCERY STORE:
+      EMERGENCY ROOM:
+      A VA MEDICAL CENTER OR VA OUTPATIENT CLINIC:
+      SOME OTHER PLACE:
+      DOES NOT GO TO ONE PLACE MOST OFTEN:
+      REFUSED:
+      DON’T KNOW:
+  CopdEnum:
+    permissible_values:
+      'NO':
+      'YES':
+      UNKNOWN:
+  PriorToCurrentIllnessOxygenSupportFrequencyEnum:
+    permissible_values:
+      CHRONIC:
+      INTERMITTENT:
+      UNKNOWN:
+  LiverDiseaseSeverityEnum:
+    permissible_values:
+      MILD:
+      MODERATE/SEVERE:
+  DiabetesTypeEnum:
+    permissible_values:
+      TYPE 1:
+      TYPE 2:
+  CannabisAbuseFrequencyEnum:
+    permissible_values:
+      DAILY:
+      EVERY WEEK:
+      EVERY MONTH:
+      NOT EVER:
+      UNKNOWN:
+  SymptomaticEnum:
+    permissible_values:
+      'YES':
+      'NO':
+  PlannedTimepointEnum:
+    permissible_values:
+      DAILY:
+      WORST:
+      OTHER:
+  OxygenSupportStatusEnum:
+    permissible_values:
+      'YES':
+      'NO':
+      UNKNOWN:
+  OxygenSupportCategoryEnum:
+    permissible_values:
+      INVASIVE:
+      NON-INVASIVE:
+      UNKNOWN/UNCERTAIN:
+      NOT ASSESSED:
+  OxygenSupportTypeEnum:
+    permissible_values:
+      NO O2 THERAPY:
+      O2 BY MASK:
+      O2 BY NASAL PRONGS:
+      O2 BY NIV (INCLUDING BIPAP OR CPAP):
+      O2 BY HIGH FLOW:
+      MECHANICAL VENTILATION:
+      ECMO:
+      UNKNOWN/UNCERTAIN:
+      NOT ASSESSED:
+  FatigueRatingEnum:
+    permissible_values:
+      AS FULLY ALERT AND WIDE AWAKE AS I WAS BEFORE BECOMING SICK:
+      A LITTLE TIRED, LET DOWN:
+      MODERATELY TO EXTREMELY TIRED, VERY DIFFICULT TO CONCENTRATE:
+      COMPLETELY EXHAUSTED, UNABLE TO FUNCTION EFFECTIVELY:
+  DyspneaRatingEnum:
+    permissible_values:
+      NONE OR I ONLY GET BREATHLESS WITH STRENUOUS EXERCISE, WHEN HURRYING ON LEVEL GROUND OR WALKING UP A SLIGHT HILL:
+      ? ON LEVEL GROUND, I WALK SLOWER THAN PEOPLE OF THE SAME AGE BECAUSE OF BREATHLESSNESS,
+        OR I HAVE TO STOP FOR BREATH WHEN WALKING AT MY OWN PACE ON LEVEL GROUND
+      :
+      I STOP FOR BREATH AFTER WALKING ABOUT 100 YARDS OR AFTER A FEW MINUTES ON LEVEL GROUND:
+      I AM TOO BREATHLESS TO LEAVE THE HOUSE OR I AM BREATHLESS WHEN DRESSING:
+  SymptomBurdenEnum:
+    permissible_values:
+      '"NO SYMPTOMS DUE TO MY COVID-19 DIAGNOSIS" IF COUNT(OF ALL SYMXXXX )=0':
+        annotations:
+          code: '[DERIVE'
+      '"I HAVE EXPERIENCED MORE THAN 1 BUT LESS THAN 5 SYMPTOMS OF COVID-19" IF COUNT(OF ALL SYMXXXX )= 1, 2, 3, 4':
+      = "I AM EXPERIENCING BETWEEN 5 TO 9 SYMPTOMS OF COVID-19" IF COUNT(OF ALL SYMXXXX )= 5, 6, 7, 8, 9:
+      = "I HAVE 10 OR MORE SYMPTOMS OF COVID-19" IF COUNT(OF ALL SYMXXXX ) >= 10]:
+  FunctionalStatusEnum:
+    permissible_values:
+      ABLE TO CARRY OUT ALL USUAL ACTIVITIES WITHOUT HELP:
+      ABLE TO LOOK AFTER OWN AFFAIRS WITHOUT ASSISTANCE BUT UNABLE TO CARRY OUT ALL PREVIOUS ACTIVITIES:
+      REQUIRES HELP BUT CAN WALK WITHOUT ASSISTANCE:
+      UNABLE TO WALK WITHOUT ASSISTANCE AND UNABLE TO TAKE CARE OF OWN BODILY NEEDS WITHOUT ASSISTANCE:
+  GradeEnum:
+    permissible_values:
+      GRADE 1:
+      GRADE 2:
+      GRADE 3:
+      GRADE 4:
+      GRADE 5:
+  ActionTakenEnum:
+    permissible_values:
+      DOSE INCREASED:
+      DOSE NOT CHANGED:
+      DOSE REDUCED:
+      DOSE RATE REDUCED:
+      DRUG INTERRUPTED:
+      DRUG WITHDRAWN:
+      NOT APPLICABLE:
+      UNKNOWN:
+  OutcomeEnum:
+    permissible_values:
+      FATAL:
+      NOT RECOVERED/NOT RESOLVED:
+      RECOVERED/RESOLVED:
+      RECOVERED/RESOLVED WITH SEQUELAE:
+      RECOVERING/RESOLVING:
+      UNKNOWN:
+  ConcomitantMedicationPrespecificationEnum:
+    permissible_values:
+      '"Y" FOR CMTRT ALL DRUGS WITH EXCEPTION OF "OTHER (SPECIFY)" AND PROTOCOL-SPECIFIC CMS OF INTEREST':
+        annotations:
+          code: '[DERIVE'
+      '"N" FOR "OTHER (SPECIFY)"]':
+  VitalSignsPositionEnum:
+    permissible_values:
+      SITTING:
+      STANDING:
+      SUPINE:
+      UNKNOWN:
+  ManyEnum:
+    permissible_values:
+      '"NORMAL" for LBORNRLO <= LBORRES <= LBORNRHI':
+        annotations:
+          code: '[DERIVE'
+      '"ABNORMAL" for LBORRES < LBORNRLO or LBORNRHI < LBORRES':
+      '"HIGH" for LBORNRHI < LBORRES':
+      '"LOW" for LBORRES < LBORNRLO]':
+  MethodologyOfCovid19TestEnum:
+    permissible_values:
+      RT-PCR:
+      ANTIBODY TEST:
+      ANTIGEN TEST:
+      OTHER (SPECIFY):
+  SampleTypeOfCovid19TestEnum:
+    permissible_values:
+      NASOPHARYNGEAL SWAB:
+      ORAL SWAB:
+      SPUTUM:
+      TRACHEAL ASPIRATE:
+      BRONCHOALVEOLAR LAVAGE:
+      FECAL:
+      OTHER (SPECIFY):
+  VaccinationTypeEnum:
+    permissible_values:
+      COVID-19:
+      INFLUENZA:
+      OTHER (SPECIFY):
+  Covid19VaccineManufacturerEnum:
+    permissible_values:
+      PFIZER:
+      MODERNA:
+      ASTRAZENECA:
+      JOHNSON & JOHNSON:
+      CANSINO:
+      NOVAVAX:
+      SINOVAC:
+      UNKNOWN:
+      OTHER (SPECIFY):
+  Covid19VaccineNameReportedEnum:
+    permissible_values:
+      COMIRNATY:
+      SPIKEVAX:
+      VAXZEVRIA:
+      NUVAXOVID/COVOVAX:
+      CONVIDECIA:
+      CORONAVAC:
+      VIDPREVTYN:
+      OTHER (SPECIFY):
+  Covid19VaccineNameStandardizedEnum:
+    permissible_values:
+      COVID-19 MRNA VACCINE:
+      COVID-19 VIRAL VECTOR VACCINE:
+      COVID-19 PROTEIN SUBUNIT VACCINE:
+      COVID-19 VACCINE (UNSPECIFIED):
+  Covid19VaccinationRouteEnum:
+    permissible_values:
+      INJECTION, INTRAMUSCULAR:
+      INHALATION, NASAL:
+      INJECTION, SUBCUTANEOUS:
+      TRANSDERMAL:
+      OTHER (SPECIFY):
+  Covid19VaccinationBodySiteEnum:
+    permissible_values:
+      RIGHT ARM:
+      LEFT ARM:
+      OTHER (SPECIFY):
+  EnrollmentLocationEnum:
+    permissible_values:
+      ED:
+      INPATIENT WARD:
+      ICU:
+      CLINIC OR OTHER OUTPATIENT SETTING:
+      ENROLLED REMOTELY:
+      OTHER:
+  StudyDischargeStatusEnum:
+    permissible_values:
+      COMPLETED:
+      LOST TO FOLLOW-UP:
+      WITHDRAWAL BY SUBJECT:
+      WITHDRAWAL BY PHYSICIAN:
+      STUDY TERMINATED:
+      DEATH:
+      OTHER:
+  LocationOfDeathEnum:
+    permissible_values:
+      HOME:
+      HOSPITAL:
+      NURSING HOME/FACILITY:
+      REHAB/IMMEDIATE CARE FACILITY:
+      LONG-TERM ACUTE CARE HOSPITAL:
+      ADULT FAMILY HOME OR OTHER NON-MEDICAL INSTITUTION:
+      IN-PATIENT REHAB UNIT:
+      ANOTHER ACUTE CARE HOSPITAL:
+      PSYCHIATRIC HOSPITAL OR DISTINCT HOSPITAL UNIT:
+      HOSPICE:
+      OTHER:
+  TreatmentOccurrenceReasonEnum:
+    permissible_values:
+      PARTICIPANT ENDED STUDY PRIOR TO ADMINISTRATION:
+      INTERVENTION LOGISTICS:
+      OUTPATIENT NON-COMPLIANCE:
+      SAFETY CONCERNS:
+      CLINICAL DETERIORATION:
+      OTHER:
+  TreatmentCompletedReasonEnum:
+    permissible_values:
+      PARTICIPANT ENDED STUDY EARLY:
+      INTERVENTION LOGISTICS:
+      OUTPATIENT NON-COMPLIANCE:
+      SAFETY CONCERNS:
+      CLINICAL DETERIORATION:
+      OTHER:
+  EncounterTypeEnum:
+    permissible_values:
+      ICU:
+      GENERAL INPATIENT HOSPITALIZATION:
+      OUTPATIENT ER VISIT:
+      PRIMARY CARE PROVIDER VISIT:
+      URGENT CARE VISIT:
+      OTHER (SPECIFY):
+  DischargeLocationEnum:
+    permissible_values:
+      INPATIENT CARE:
+      OUTPATIENT CARE:
+      HOME/NO ADDITIONAL CARE:
+      UNKNOWN:
+      NA:

@@ -5,12 +5,14 @@ from cde2linkml.radxup2linkml import process_radxup_csv
 from cde2linkml.nlm2linkml import process_nih_nlm_json
 from cde2linkml.phenx2linkml import process_phenx_folder
 from cde2linkml.heal2linkml import process_heal_folder
+from cde2linkml.connects2linkml import process_connects_file
 
 DEFAULT_INPUTS = {
-    "radx-up": "data/cde-radx-up",
+    "radx-up":  "data/cde-radx-up",
     "nih-nlm":  "data/cde-nlm",
     "phenx":    "data/cde-phenx",
     "heal":     "data/cde-heal",
+    "connects": "data/cde-connects",
 }
 
 
@@ -19,10 +21,11 @@ def check_and_prompt_folder(folder_path, download_message):
     if not os.path.exists(folder_path):
         print(f"Error: Folder '{folder_path}' does not exist.")
         print("Please download the data by running 'make' commands as follows:")
-        print("  make download-radx-up-cde   # For RADx-UP data")
-        print("  make download-nlm-cde       # For NIH NLM data")
-        print("  make download-phenx-cde     # For PhenX data")
-        print("  make download-heal-cde      # For HEAL data")
+        print("  make download-radx-up-cde    # For RADx-UP data")
+        print("  make download-nlm-cde        # For NIH NLM data")
+        print("  make download-phenx-cde      # For PhenX data")
+        print("  make download-heal-cde       # For HEAL data")
+        print("  make download-connects-cde   # For CONNECTS data")
         print(download_message)
         return False
     return True
@@ -55,22 +58,28 @@ def process_command(command, input_folder, output_folder):
             return
         process_heal_folder(input_folder, os.path.join(output_folder, "heal_schema.yaml"))
 
+    elif command == "connects":
+        if not check_and_prompt_folder(input_folder, "Download CONNECTS data to 'data/cde-connects'."):
+            return
+        process_connects_file(input_folder, os.path.join(output_folder, "connects_schema.yaml"))
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate LinkML schemas from CDE data.")
 
-    parser.add_argument('--radx-up',  action='store_true', help="Process RADx-UP CDE data")
-    parser.add_argument('--nih-nlm',  action='store_true', help="Process NIH NLM CDE data")
-    parser.add_argument('--phenx',    action='store_true', help="Process PhenX CDE data")
-    parser.add_argument('--heal',     action='store_true', help="Process HEAL CDE data")
+    parser.add_argument('--radx-up',   action='store_true', help="Process RADx-UP CDE data")
+    parser.add_argument('--nih-nlm',   action='store_true', help="Process NIH NLM CDE data")
+    parser.add_argument('--phenx',     action='store_true', help="Process PhenX CDE data")
+    parser.add_argument('--heal',      action='store_true', help="Process HEAL CDE data")
+    parser.add_argument('--connects',  action='store_true', help="Process NHLBI CONNECTS CDE data")
 
     parser.add_argument('--input-folder',  type=str, default=None,    help="Input folder (overrides default)")
     parser.add_argument('--output-folder', type=str, default="linkml", help="Output folder (default: linkml/)")
 
     args = parser.parse_args()
 
-    if not any([args.radx_up, args.nih_nlm, args.phenx, args.heal]):
-        print("Error: No dataset flag provided. Use '--radx-up', '--nih-nlm', '--phenx', or '--heal'.")
+    if not any([args.radx_up, args.nih_nlm, args.phenx, args.heal, args.connects]):
+        print("Error: No dataset flag provided. Use '--radx-up', '--nih-nlm', '--phenx', '--heal', or '--connects'.")
         parser.print_help()
         return
 
@@ -87,6 +96,9 @@ def main():
 
     if args.heal:
         process_command("heal", args.input_folder or DEFAULT_INPUTS["heal"], args.output_folder)
+
+    if args.connects:
+        process_command("connects", args.input_folder or DEFAULT_INPUTS["connects"], args.output_folder)
 
 
 if __name__ == "__main__":

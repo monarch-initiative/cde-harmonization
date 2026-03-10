@@ -1,8 +1,10 @@
-RADX_DIR  = data/cde-radx-up
-NLM_DIR   = data/cde-nlm
-PHENX_ZIP = ALL_DD_CSV_Files.zip
-PHENX_DIR = data/cde-phenx
-HEAL_DIR  = data/cde-heal
+RADX_DIR     = data/cde-radx-up
+NLM_DIR      = data/cde-nlm
+PHENX_ZIP    = ALL_DD_CSV_Files.zip
+PHENX_DIR    = data/cde-phenx
+HEAL_DIR     = data/cde-heal
+CONNECTS_DIR = data/cde-connects
+CONNECTS_URL = https://nhlbi-connects.org/data/documents/public/cde_cdes/CONNECTS_DD_V1.3.xlsx
 
 # --------------------------
 # Download
@@ -32,7 +34,11 @@ download-heal-cde:
 	mkdir -p $(HEAL_DIR)
 	python3 utils/download_heal_cdes.py $(HEAL_DIR)
 
-download-all: download-radx-up-cde download-nlm-cde download-phenx-cde download-heal-cde
+download-connects-cde:
+	mkdir -p $(CONNECTS_DIR)
+	curl -L -o $(CONNECTS_DIR)/CONNECTS_DD_V1.3.xlsx $(CONNECTS_URL)
+
+download-all: download-radx-up-cde download-nlm-cde download-phenx-cde download-heal-cde download-connects-cde
 
 # --------------------------
 # Cleanup
@@ -50,8 +56,11 @@ clean-phenx-cde:
 clean-heal-cde:
 	rm -rf $(HEAL_DIR)
 
+clean-connects-cde:
+	rm -rf $(CONNECTS_DIR)
+
 clean-all:
-	rm -rf $(RADX_DIR) $(NLM_DIR) $(PHENX_DIR) $(HEAL_DIR)
+	rm -rf $(RADX_DIR) $(NLM_DIR) $(PHENX_DIR) $(HEAL_DIR) $(CONNECTS_DIR)
 
 # --------------------------
 # Post-processing

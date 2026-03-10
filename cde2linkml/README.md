@@ -4,7 +4,7 @@ This package standardizes Common Data Elements (CDEs) into the [LinkML](https://
 
 ## Features
 
-- Converts RADx-UP, NLM, PhenX, and HEAL CDE data into **LinkML-compatible schemas**.
+- Converts RADx-UP, NLM, PhenX, HEAL, and NHLBI CONNECTS CDE data into **LinkML-compatible schemas**.
 - Provides a command-line interface (**CLI**) for easy data transformation.
 - Includes automated **data download** scripts via `make` commands for all CDE sources.
 
@@ -39,6 +39,7 @@ pip install -e .
 pip install -r requirements.txt
 ```
 
+> `openpyxl` is required for reading HEAL `.xlsx` files and is included in `requirements.txt`.
 
 To deactivate the virtual environment when done:
 
@@ -52,12 +53,13 @@ deactivate
 
 Makefile commands fetch data from all supported sources into their respective directories under `data/`.
 
-| Directory         | Source     |
-|-------------------|------------|
-| `data/cde-radx-up` | RADx-UP   |
-| `data/cde-nlm`     | NIH NLM   |
-| `data/cde-phenx`   | PhenX     |
-| `data/cde-heal`    | NIH HEAL  |
+| Directory            | Source          |
+|----------------------|-----------------|
+| `data/cde-radx-up`  | RADx-UP         |
+| `data/cde-nlm`      | NIH NLM         |
+| `data/cde-phenx`    | PhenX           |
+| `data/cde-heal`     | NIH HEAL        |
+| `data/cde-connects` | NHLBI CONNECTS  |
 
 ### Download all sources
 
@@ -72,6 +74,7 @@ make download-radx-up-cde   # RADx-UP
 make download-nlm-cde        # NIH NLM
 make download-phenx-cde      # PhenX
 make download-heal-cde       # NIH HEAL (scrapes all 14 pages of the HEAL CDE Repository)
+make download-connects-cde   # NHLBI CONNECTS (single Excel file, multiple tabs)
 ```
 
 ### Clean downloaded data
@@ -82,6 +85,7 @@ make clean-radx-up-cde
 make clean-nlm-cde
 make clean-phenx-cde
 make clean-heal-cde
+make clean-connects-cde
 ```
 
 ---
@@ -96,12 +100,13 @@ cde2linkml [--radx-up] [--nih-nlm] [--phenx] [--heal] [options]
 
 ### Commands
 
-| Flag        | Description                                      | Output file               |
-|-------------|--------------------------------------------------|---------------------------|
-| `--radx-up` | Convert RADx-UP CDE data to LinkML               | `linkml/radx_up_schema.yaml` |
-| `--nih-nlm` | Convert NIH NLM CDE data to LinkML               | `linkml/nih_nlm_schema.yaml` |
-| `--phenx`   | Convert PhenX CDE data to LinkML                 | `linkml/phenx_schema.yaml`   |
-| `--heal`    | Convert NIH HEAL CDE `.xlsx` files to LinkML     | `linkml/heal_schema.yaml`    |
+| Flag          | Description                                           | Output file                    |
+|---------------|-------------------------------------------------------|--------------------------------|
+| `--radx-up`   | Convert RADx-UP CDE data to LinkML                    | `linkml/radx_up_schema.yaml`   |
+| `--nih-nlm`   | Convert NIH NLM CDE data to LinkML                    | `linkml/nih_nlm_schema.yaml`   |
+| `--phenx`     | Convert PhenX CDE data to LinkML                      | `linkml/phenx_schema.yaml`     |
+| `--heal`      | Convert NIH HEAL CDE `.xlsx` files to LinkML          | `linkml/heal_schema.yaml`      |
+| `--connects`  | Convert NHLBI CONNECTS CDE Excel tabs to LinkML       | `linkml/connects_schema.yaml`  |
 
 Multiple flags can be combined in a single run:
 
@@ -127,7 +132,7 @@ cde2linkml --heal
 Convert all sources at once:
 
 ```bash
-cde2linkml --radx-up --nih-nlm --phenx --heal
+cde2linkml --radx-up --nih-nlm --phenx --heal --connects
 ```
 
 Use a custom input and output directory:
@@ -142,4 +147,4 @@ Show help:
 cde2linkml -h
 ```
 
----
+
