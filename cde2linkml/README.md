@@ -146,5 +146,38 @@ Show help:
 ```bash
 cde2linkml -h
 ```
+### LinkML Naming Conventions
 
+| Element               | Convention                           | Example                              |
+|-----------------------|--------------------------------------|--------------------------------------|
+| Classes               | `PascalCase`                         | `Phq4`, `PromisGlobalHealth`         |
+| Slots                 | `snake_case`                         | `pain_intensity`, `phq4_item1`       |
+| Enums                 | `PascalCase` + `Enum` suffix         | `FrequencyRatingEnum`                |
+| Permissible values    | Human-readable text (spaces allowed) | `Never true`, `Always true`          |
 
+### Source Column Mapping
+
+| LinkML Fields    | HEAL                                       | CONNECTS                                                                           | NIH NLM                                                     | RADx-UP                                | PhenX                         |
+|------------------|--------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------|-------------------------------|
+| `class.name`     | Filename minus `-cde`                      | Tab name                                                                           | `steward`                                                   | `Form Name`                            | Filename minus extension      |
+| `slot.key`       | `Variable Name`                            | `Element`                                                                          | `designations[0].designation`                               | `Variable / Field Name`                | `VARNAME`                     |
+| `slot.title`     | `CDE Name`                                 | `Variable Label`                                                                   | `designations[0].designation`                               | `Variable / Field Name` (human-readable) | —                             |
+| `slot.description` | `Definition`                               | `Question`                                                                         | `definitions[0].definition`                                 | `Field Label`                          | `VARDESC`                     |
+| `slot.range`     | `Data Type`                                | `Variable Type`                                                                    | `valueDomain.datatype`                                      | `Text Validation Type OR Show Slider Number` | `TYPE`                        |
+| `slot.minimum_value` | —                                          | —                                                                                  | —                                                           | `Text Validation Min`                  | `MIN`                         |
+| `slot.maximum_value` | —                                          | —                                                                                  | —                                                           | `Text Validation Max`                  | `MAX`                         |
+| `slot_uri`       | —                                          | —                                                                                  | `tinyId`                                                    | —                                      | —                             |
+| `slot.annotations` | `Additional Notes (Question Text)`         | `Variable`, `Variable Label`, `Implementation Notes`                               | `designations[*]` tag `Preferred Question Text`, `registrationState.registrationStatus`, `registrationState.administrativeStatus`, `copyrightStatus`, `nihEndorsed`, `properties[Tags/Keywords]`, `stewardOrg.name`, `sources[*].sourceName`, `classification[*].elements[*].name`, `partOfBundles`, `created` | — | `VARIABLE_SOURCE`, `SOURCE_VARIABLE_ID`, `COMMENT1` |
+| `enum.permissible_values` | `PV Description` (`;`-separated, `1 = Label; 2 = Label`) | `Response Options / Derivation` (`\|`-separated, auto-detected regardless of `Variable Type`) | `valueDomain.permissibleValues` (with `meaning` from `conceptSource`) | `Choices, Calculations, OR Slider Labels` (`\|`-separated, `1, Label` format) | `VALUES` + columns to right (`\|`-separated) |
+| **Not mapped**   | `CRF Question #`, `Short Description`, `Permissible Values`, `Disease Specific Instructions`, `Disease Specific References`, `Population`, `Classification`, `CRF Name`, `External Id CDISC`, `Notes` | `IP`, `OP`, `D`, `N`, `Length`, `BDC ID`, `CDISC Mapping` | `createdBy`, `dataElementConcept`, `objectClass`, `ids`, `attachments`, `history`, `views`, `referenceDocuments`, `dataSets`, `derivationRules`, `changeNote`, `archived`, `cdeTinyIds` | `Section Header`, `Field Type`, `Field Note`, `Identifier`, `Branching Logic`, `Required Field`, `Custom Alignment`, `Question Number`, `Matrix Group Name`, `Matrix Ranking`, `Field Annotation` | `DOCFILE`, `UNITS`, `RESOLUTION`, `COMMENT2`, `VARIABLE_MAPPING`, `UNIQUEKEY`, `COLLINTERVAL`, `ORDER` |
+
+### Schema Statistics
+
+| Source   | Classes | Slots  | Enums | Data Downloaded | Schema Generated |
+|----------|---------|--------|-------|-----------------|------------------|
+| NIH NLM  | 19      | 22,215 | 3,432 | 03-27-2026      | 03-27-2026       |
+| PhenX    | 848     | 30,659 | 2,362 | 03-27-2026      | 03-27-2026       |
+| HEAL     | 264     | 5,224  | 386   | 03-27-2026      | 03-27-2026       |
+| CONNECTS | 16      | 356    | 52    | 03-27-2026      | 03-27-2026       |
+| RADx-UP  | 30      | 1,097  | 150   | 2025            | 2025                |
+| **Total**| **1,177** | **59,551** | **6,382** |                 |                  |
