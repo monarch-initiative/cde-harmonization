@@ -72,3 +72,78 @@ db/cadsr-de_flat_slim.csv:
 
 db/cadsr-de_flat_slim_primary.csv:
 	sqlite3 -header -separator $$'\t' db/cadsr.db "SELECT * FROM de_flat_slim_primary" > $@
+
+# ---------------------------------
+# Embedding with CurateGPT (Ontologies, CDEs)
+# ---------------------------------
+
+RUN =
+CURATE = curategpt
+DB_PATH = db
+
+# CurateGPT Embedding Generation for CDE schemas
+embed-nih-cde:
+	$(CURATE) view index \
+		--view linkml_schema \
+		-c cde_nih \
+		-m openai: \
+		--source-locator linkml/nih_nlm_schema.yaml \
+		-p $(DB_PATH)
+
+embed-phenx-cde:
+	$(CURATE) view index \
+		--view linkml_schema \
+		-c cde_phenx \
+		-m openai: \
+		--source-locator linkml/phenx_schema.yaml \
+		-p $(DB_PATH)
+
+embed-radx-up-cde:
+	$(CURATE) view index \
+		--view linkml_schema \
+		-c cde_radx_up \
+		-m openai: \
+		--source-locator linkml/radx_up_schema.yaml \
+		-p $(DB_PATH)
+
+embed-heal-cde:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c cde_heal \
+	   -m openai: \
+	   --source-locator linkml/heal_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-connects-cde:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c cde_connects \
+	   -m openai: \
+	   --source-locator linkml/connects_schema.yaml \
+	   -p $(DB_PATH)
+
+# CurateGPT Embedding Generation for OBO Ontologies
+embed-hp-ontology:
+	$(CURATE) ontology index \
+		--index-fields label,definition,relationships \
+		-p $(DB_PATH) \
+		-c ont_hp \
+		-m openai: \
+		sqlite:obo:hp
+
+embed-mondo-ontology:
+	$(CURATE) ontology index \
+		--index-fields label,definition,relationships \
+		-p $(DB_PATH) \
+		-c ont_mondo \
+		-m openai: \
+		sqlite:obo:mondo
+
+embed-cl-ontology:
+	$(CURATE) ontology index \
+		--index-fields label,definition,relationships \
+		-p $(DB_PATH) \
+		-c ont_cl \
+		-m openai: \
+		sqlite:obo:cl
+
