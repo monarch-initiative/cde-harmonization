@@ -27,62 +27,31 @@ Use the Makefile to index any supported ontology or schema:
 
 ### 🔹 Embed CDE Schemas
 
-| Make Target           | Description                                       |
-|----------------------|-------------------------------------------------|
-| `make embed-nih-cde`    | Embed NIH/NLM CDE schema from `linkml/nih_nlm_schema.yaml`      |
-| `make embed-phenx-cde`  | Embed PhenX CDE schema from `linkml/phenx_schema.yaml`          |
-| `make embed-radx-up-cde`| Embed RADx-UP CDE schema from `linkml/radx_up_schema.yaml`      |
+| Make Target              | Description                                                      |
+|--------------------------|------------------------------------------------------------------|
+| `make embed-nih-cde`     | Embed NIH/NLM CDE schema from `linkml/nih_nlm_schema.yaml`      |
+| `make embed-phenx-cde`   | Embed PhenX CDE schema from `linkml/phenx_schema.yaml`          |
+| `make embed-radx-up-cde` | Embed RADx-UP CDE schema from `linkml/radx_up_schema.yaml`      |
+| `make embed-heal-cde`    | Embed HEAL CDE schema from `linkml/heal_schema.yaml`            |
+| `make embed-connects-cde`| Embed CONNECTS CDE schema from `linkml/connects_schema.yaml`    |
 
-### 🔹 Embed Ontologies
+### 🔹 Search Examples
 
-| Make Target              | Description                  |
-|-------------------------|------------------------------|
-| `make embed-hp-ontology`    | Embed HPO (Human Phenotype Ontology)    |
-| `make embed-mondo-ontology` | Embed MONDO Disease Ontology             |
-| `make embed-cl-ontology`    | Embed CL (Cell Ontology)                  |
+#### Search the HEAL CDE Schema (`cde_heal`)
+```bash
+curategpt search -p db -c cde_heal "pain intensity numeric rating"
+```
+
+#### Search the CONNECTS CDE Schema (`cde_connects`)
+```bash
+curategpt search -p db -c cde_connects "COVID-19 symptom severity"
+```
 
 ---
 
 # Vector Store Location
 
-Embeddings for the following CDE Schemas and Ontologies will be generated and stored in the `db` folder , which is the **ChromaDB vector database**.
+Embeddings for the following CDE Schemas and Ontologies will be generated and stored at location `TBD`  , which is the **ChromaDB vector database**.
 
-## 📂 View Indexed Collections
-
-To list all collections currently embedded in your database, run:
-
-```bash
-curategpt collections list -p db
-```
----
-
-# 🔍 Search Embedded CDEs and Ontologies
-
-Once embeddings are generated and stored in the vector DB (`db/`), you can use CurateGPT to run semantic search queries across any indexed collection.
-
-## Basic Search Command
-
-```bash
-curategpt search \
-  -p db \
-  -c <collection_name> \
-  "<your search query>"
-```
-- `-p db`: path to your ChromaDB folder  
-- `-c <collection_name>`: name of the collection to search (e.g., `ont_hp`, `cde_phenx`)  
-- `"..."`: your natural language or keyword-based query  
-
-## 🔎 Examples
-
-### 🔹 Search the Human Phenotype Ontology (`ont_hp`)
-
-```bash
-curategpt search -p db -c ont_hp "symptom involving hearing loss"
-```
-### 🔹 Search the RADx-UP CDE Schema (`cde_radx_up`)
-
-```bash
-curategpt search -p db -c cde_radx_up "participant's COVID-19 test history"
-```
 ---
 

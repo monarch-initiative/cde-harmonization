@@ -106,6 +106,22 @@ embed-radx-up-cde:
 		--source-locator linkml/radx_up_schema.yaml \
 		-p $(DB_PATH)
 
+embed-heal-cde:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c cde_heal \
+	   -m openai: \
+	   --source-locator linkml/heal_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-connects-cde:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c cde_connects \
+	   -m openai: \
+	   --source-locator linkml/connects_schema.yaml \
+	   -p $(DB_PATH)
+
 # CurateGPT Embedding Generation for OBO Ontologies
 embed-hp-ontology:
 	$(CURATE) ontology index \
@@ -130,4 +146,4 @@ embed-cl-ontology:
 		-c ont_cl \
 		-m openai: \
 		sqlite:obo:cl
->>>>>>> 7be7fdb70 (cde2vec initial)
+
