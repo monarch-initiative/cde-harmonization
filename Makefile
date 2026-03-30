@@ -19,11 +19,9 @@ download-nlm-cde:
 	mkdir -p $(NLM_DIR)
 	curl -X POST "https://cde.nlm.nih.gov/server/de/searchExport" \
 	   -H "accept: application/json, text/plain, */*" \
-	   -H "accept-encoding: gzip, deflate, br, zstd" \
 	   -H "accept-language: en-US,en;q=0.9" \
 	   -H "content-type: application/json" \
-	   --output $(NLM_DIR)/SearchExport.json \
-	   --compressed
+	   --output $(NLM_DIR)/SearchExport.json
 
 download-phenx-cde:
 	curl -L -o $(PHENX_ZIP) "https://www.phenxtoolkit.org/toolkit_content/documents/data_dictionary/ALL_DD_CSV_Files.zip"

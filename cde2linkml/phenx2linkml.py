@@ -1,161 +1,253 @@
+"""
+Convert PhenX CDE CSV/TSV files to a LinkML YAML schema.
+
+Naming conventions (per https://linkml.io/linkml/schemas/models.html):
+  - Classes:  PascalCase            e.g.  PhysicalActivity, Demographics
+  - Slots:    snake_case            e.g.  bmi, age_at_enrollment
+  - Enums:    PascalCase + 'Enum'   e.g.  SmokingStatusEnum
+  - PVs:      human-readable text   e.g.  'Never', 'Current', 'Former'
+
+CSV/TSV column mapping:
+  Filename (minus extension)  -> class name (PascalCase)
+  VARNAME                     -> slot key (snake_case)
+  VARDESC                     -> slot.description
+  TYPE                        -> slot.range
+  MIN                         -> slot.minimum_value
+  MAX                         -> slot.maximum_value
+  VALUES (+ columns to right) -> enum.permissible_values (pipe-separated)
+"""
+
 import os
-import pandas as pd
+import re
 import yaml
+import pandas as pd
 
-def get_enum_name(slot_name, choices, encountered_enum_sets):
-    """Generate or retrieve an enum name based on permissible values."""
-    choices_tuple = tuple(choices)
-    if choices_tuple not in encountered_enum_sets:
-        enum_name = f"{slot_name.replace('_', '')}Enum"
-        encountered_enum_sets[choices_tuple] = enum_name
-    else:
-        enum_name = encountered_enum_sets[choices_tuple]
-    return enum_name
 
-def process_phenx_folder(input_folder, output_file):
-    """Process the PhenX CDE files from the input folder and generate LinkML schema."""
+# --------------------------------------------------------------------------- #
+# Naming helpers
+# --------------------------------------------------------------------------- #
+
+def _to_pascal_case(text: str) -> str:
+    text = re.sub(r'[^a-zA-Z0-9]+', ' ', str(text)).strip()
+    return ''.join(w.capitalize() for w in text.split())
+
+
+def _to_snake_case(text: str) -> str:
+    text = str(text).strip()
+    text = re.sub(r'[\s\-\.]+', '_', text)
+    text = re.sub(r'[^a-zA-Z0-9_]', '', text)
+    text = re.sub(r'_+', '_', text).strip('_')
+    return text.lower()
+
+
+def _enum_name_from_slot(slot_key: str) -> str:
+    return _to_pascal_case(slot_key) + 'Enum'
+
+
+# --------------------------------------------------------------------------- #
+# Type mapping
+# --------------------------------------------------------------------------- #
+
+_TYPE_MAP = {
+    'integer':        'integer',
+    'int':            'integer',
+    'float':          'float',
+    'double':         'float',
+    'date':           'date',
+    'datetime':       'datetime',
+    'boolean':        'boolean',
+    'string':         'string',
+    'text':           'string',
+    'encoded values': 'string',  # overridden to enum when VALUES present
+}
+
+
+def _map_datatype(raw) -> str:
+    if not isinstance(raw, str):
+        return 'string'
+    return _TYPE_MAP.get(raw.strip().lower(), 'string')
+
+
+# --------------------------------------------------------------------------- #
+# Main processor
+# --------------------------------------------------------------------------- #
+
+def process_phenx_folder(input_folder: str, output_file: str) -> None:
+    """
+    Read every .csv/.tsv PhenX CDE file from *input_folder* and emit a
+    single LinkML YAML schema to *output_file*.
+    """
+
     linkml_schema = {
-        'id': 'https://example.org/schemas/phenx_cde',
-        'name': 'PhenX_CDESchema',
-        'description': 'A schema representing PhenX Common Data Elements (CDEs).',
-        'version': '1.0.0',
+        'id':            'https://example.org/schemas/phenx_cde',
+        'name':          'PhenX_CDESchema',
+        'description':   'A schema representing PhenX Common Data Elements (CDEs).',
+        'version':       '1.0.0',
         'default_range': 'string',
-        'source': 'https://example.org/source_of_the_cde',
-        'imports': ['https://w3id.org/linkml/types'],
+        'license':       'https://creativecommons.org/publicdomain/zero/1.0/',
+        'imports':       ['linkml:types'],
         'prefixes': {
             'linkml': 'https://w3id.org/linkml/',
             'schema': 'http://schema.org/',
-            'xsd': 'http://www.w3.org/2001/XMLSchema#'
+            'xsd':    'http://www.w3.org/2001/XMLSchema#',
+            'phenx':  'https://www.phenxtoolkit.org/cde/',
         },
-        'classes': {},
-        'slots': {},
-        'enums': {}
+        'default_prefix': 'phenx',
+        'classes':  {},
+        'slots':    {},
+        'enums':    {},
     }
 
-    encountered_enum_sets = {}
+    # dedup enums across files: choices_tuple -> enum_name
+    _enum_registry: dict[tuple, str] = {}
 
-    # Counters for processed, multi-indexed files, and files without slots
-    processed_files_count = 0
-    multi_indexed_files_count = 0
-    no_slot_files_count = 0
+    processed = skipped_multiindex = skipped_empty = 0
 
-    for file_name in os.listdir(input_folder):
+    for file_name in sorted(os.listdir(input_folder)):
+        if not file_name.endswith(('.csv', '.tsv')):
+            continue
+
         file_path = os.path.join(input_folder, file_name)
-        if file_name.endswith(('.csv', '.tsv')):
-            delimiter = ',' if file_name.endswith('.csv') else '\t'
+        delimiter = ',' if file_name.endswith('.csv') else '\t'
 
-            # Handle encoding errors by using 'latin1' or 'ignore'
-            try:
-                df = pd.read_csv(file_path, delimiter=delimiter, encoding='utf-8', on_bad_lines='skip', quotechar='"')
-            except UnicodeDecodeError:
-                df = pd.read_csv(file_path, delimiter=delimiter, encoding='latin1', on_bad_lines='skip')
+        try:
+            df = pd.read_csv(
+                file_path, delimiter=delimiter,
+                encoding='utf-8', on_bad_lines='skip', quotechar='"'
+            )
+        except UnicodeDecodeError:
+            df = pd.read_csv(
+                file_path, delimiter=delimiter,
+                encoding='latin1', on_bad_lines='skip'
+            )
+        except Exception as e:
+            print(f"WARNING: could not read {file_name}: {e}")
+            continue
 
-            # Check if the dataframe is multi-indexed and ignore if true
-            if isinstance(df.index, pd.MultiIndex):
-                multi_indexed_files_count += 1
-                continue  # Skip this file if it's multi-indexed
+        if isinstance(df.index, pd.MultiIndex):
+            skipped_multiindex += 1
+            continue
 
-            class_name = os.path.splitext(file_name)[0]
+        if 'VARNAME' not in df.columns:
+            continue
 
-            linkml_schema['classes'][class_name] = {
-                'description': f'{class_name} class generated from PhenX CDE file.',
-                'slots': []
+        # class name from filename (PascalCase)
+        class_name = _to_pascal_case(os.path.splitext(file_name)[0])
+        slots_for_class: list[str] = []
+
+        for _, row in df.iterrows():
+            varname     = row.get('VARNAME')
+            if pd.isna(varname) or not str(varname).strip():
+                continue
+
+            slot_key    = _to_snake_case(str(varname))
+            vardesc     = row.get('VARDESC', '')
+            var_type    = row.get('TYPE', 'string')
+            min_value   = row.get('MIN', None)
+            max_value   = row.get('MAX', None)
+            source      = row.get('VARIABLE_SOURCE', None)
+            source_id   = row.get('SOURCE_VARIABLE_ID', None)
+            comment     = row.get('COMMENT1', None)
+
+            range_val = _map_datatype(var_type)
+
+            slot: dict = {
+                'description': str(vardesc).strip() if pd.notna(vardesc) else '',
+                'range':       range_val,
             }
 
-            # Flag to check if any slots are added for this class
-            has_slots = False
+            # --- annotations: source, source_variable_id, comment ---
+            annotations: dict = {}
+            if pd.notna(source) and str(source).strip():
+                annotations['source'] = str(source).strip()
+            if pd.notna(source_id) and str(source_id).strip():
+                annotations['source_variable_id'] = str(source_id).strip()
+            if pd.notna(comment) and str(comment).strip():
+                annotations['comment'] = str(comment).strip()
+            if annotations:
+                slot['annotations'] = annotations
 
-            for _, row in df.iterrows():
-                varname = row.get('VARNAME')
-                vardesc = row.get('VARDESC', '')
-                var_type = row.get('TYPE', 'string')
-                max_value = row.get('MAX', None)
-                min_value = row.get('MIN', None)
-                choices = []
+            # min / max constraints
+            if range_val in ('integer', 'float'):
+                if pd.notna(min_value):
+                    slot['minimum_value'] = min_value
+                if pd.notna(max_value):
+                    slot['maximum_value'] = max_value
 
-                value = row.get('VALUES', None)
-
-                # Check if the value is a string and concatenate with values to the right
+            # --- collect choices from VALUES + columns to the right ---
+            choices: list[str] = []
+            if 'VALUES' in df.columns:
+                value = row.get('VALUES')
                 if isinstance(value, str) and pd.notna(value):
-                    concatenated_value = value  # Start with the VALUE column
+                    concatenated = value
+                    val_idx = df.columns.get_loc('VALUES') + 1
+                    for col in df.columns[val_idx:]:
+                        extra = row.get(col)
+                        if pd.notna(extra):
+                            concatenated += f"|{extra}"
+                    choices = [c.strip() for c in concatenated.split('|') if c.strip()]
+                    choices = list(dict.fromkeys(choices))  # dedup preserving order
 
-                    # Concatenate with the values to the right of 'VALUE'
-                    value_start_idx = df.columns.get_loc('VALUES') + 1  # Get the index of the first column after 'VALUE'
-                    for col in df.columns[value_start_idx:]:
-                        value_right = row.get(col)
-                        if pd.notna(value_right):
-                            concatenated_value += f"|{str(value_right)}"
-
-                    # Split the concatenated string by '|' and add choices
-                    choices.extend(concatenated_value.split('|'))
-
-                choices = list(set(choices))  # Remove duplicates if any
-
-                # Skip row if 'VARNAME' is missing
-                if pd.isna(varname):
-                    continue
-
-                # Ensure var_type is a string before calling .lower()
-                if isinstance(var_type, str):
-                    var_type = var_type.lower() if var_type.lower() in ['integer', 'float', 'string', 'date'] else 'string'
+            if choices:
+                choices_key = tuple(choices)
+                if choices_key not in _enum_registry:
+                    enum_name = _enum_name_from_slot(slot_key)
+                    existing  = set(_enum_registry.values())
+                    base, n   = enum_name, 1
+                    while enum_name in existing:
+                        enum_name = f"{base}{n}"; n += 1
+                    _enum_registry[choices_key] = enum_name
                 else:
-                    var_type = 'string'
+                    enum_name = _enum_registry[choices_key]
 
-                # Create the slot entry (Only for VARNAME)
-                slot = {
-                    'description': vardesc,
-                    'range': var_type,
-                }
+                if enum_name not in linkml_schema['enums']:
+                    linkml_schema['enums'][enum_name] = {
+                        'permissible_values': {c: None for c in choices}
+                    }
+                slot['range'] = enum_name
 
-                # Set min and max constraints if provided
-                if var_type in ['integer', 'float']:
-                    if pd.notna(min_value):
-                        slot['minimum_value'] = min_value
-                    if pd.notna(max_value):
-                        slot['maximum_value'] = max_value
+            # first definition wins across files
+            if slot_key not in linkml_schema['slots']:
+                linkml_schema['slots'][slot_key] = slot
 
-                # If choices exist, add an enum
-                if choices:
-                    enum_name = get_enum_name(varname, choices, encountered_enum_sets)
-                    if enum_name not in linkml_schema['enums']:
-                        linkml_schema['enums'][enum_name] = {
-                            'permissible_values': {choice: None for choice in choices}
-                        }
-                    slot['range'] = enum_name
+            if slot_key not in slots_for_class:
+                slots_for_class.append(slot_key)
 
-                # Add the slot to the schema
-                linkml_schema['slots'][varname] = slot
-                linkml_schema['classes'][class_name]['slots'].append(varname)
+        if slots_for_class:
+            linkml_schema['classes'][class_name] = {
+                'description': f'CDEs from PhenX file {file_name}.',
+                'slots':       slots_for_class,
+            }
+            processed += 1
+        else:
+            skipped_empty += 1
 
-                # Mark as having slots
-                has_slots = True
+    # ----------------------------------------------------------------------- #
+    # YAML serialisation
+    # ----------------------------------------------------------------------- #
 
-            # If no slots, increment the counter and discard this class
-            if not has_slots:
-                no_slot_files_count += 1
-                del linkml_schema['classes'][class_name]  # Discard the class with no slots
-            else:
-                processed_files_count += 1
-
-    # YAML Dumper customization
-    class CustomDumper(yaml.SafeDumper):
-        def represent_str(self, data):
+    class _Dumper(yaml.SafeDumper):
+        def represent_str(self, data: str):
             return self.represent_scalar('tag:yaml.org,2002:str', data)
 
-    CustomDumper.add_representer(str, CustomDumper.represent_str)
+    _Dumper.add_representer(str, _Dumper.represent_str)
 
-    def save_to_yaml_file(data, file_path):
-        linkml_yaml = yaml.dump(data, Dumper=CustomDumper, sort_keys=False, default_flow_style=False)
-        linkml_yaml = linkml_yaml.replace(': null', ':')
-        with open(file_path, 'w') as file:
-            file.write(linkml_yaml)
+    raw = yaml.dump(
+        linkml_schema,
+        Dumper=_Dumper,
+        sort_keys=False,
+        default_flow_style=False,
+        allow_unicode=True,
+    )
+    raw = raw.replace(': null\n', ':\n')
 
-    # Save the schema
-    save_to_yaml_file(linkml_schema, output_file)
+    with open(output_file, 'w', encoding='utf-8') as fh:
+        fh.write(raw)
 
-    # Print the final counts
-    #print(f"Total processed files: {processed_files_count}")
-    #print(f"Total multi-indexed files (not processed): {multi_indexed_files_count}")
-    #print(f"Total no slot files (not processed): {no_slot_files_count}")
-
-    print(f"LinkML schema for PhenX CDE generated and saved to {output_file} successfully.")
+    n_classes = len(linkml_schema['classes'])
+    n_slots   = len(linkml_schema['slots'])
+    n_enums   = len(linkml_schema['enums'])
+    print(
+        f"PhenX LinkML schema saved to {output_file} "
+        f"({n_classes} classes, {n_slots} slots, {n_enums} enums)."
+    )
