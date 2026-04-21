@@ -3,6 +3,7 @@
 The `cde2vec` component leverages [`CurateGPT`](https://github.com/monarch-initiative/curategpt) to generate semantic vector embeddings from:
 
 - **CDE schemas** in [LinkML](https://linkml.io/) format
+- **NIDDK Central Repository (CR) study variables** (e.g., CureGN, KPMP, NEPTUNE, CRIC)
 - **OBO ontologies** (e.g., HPO, MONDO, CL)
 
 These embeddings are stored in a local vector database for downstream tasks like semantic similarity, search, and clustering.
@@ -34,6 +35,22 @@ Use the Makefile to index any supported ontology or schema:
 | `make embed-radx-up-cde` | Embed RADx-UP CDE schema from `linkml/radx_up_schema.yaml`      |
 | `make embed-heal-cde`    | Embed HEAL CDE schema from `linkml/heal_schema.yaml`            |
 | `make embed-connects-cde`| Embed CONNECTS CDE schema from `linkml/connects_schema.yaml`    |
+
+## 🔹 Embed NIDDK Study Variables (NIDDK Central Repository)
+
+The **NIDDK Central Repository (CR)** provides harmonized clinical study datasets, including detailed **study-specific variables and data dictionaries** across kidney and related diseases.
+
+Browse available studies:  
+https://repository.niddk.nih.gov/search/study
+
+| Make Target            | Description                                                  |
+|------------------------|--------------------------------------------------------------|
+| `make embed-curegn`    | Embed CureGN study variables from `linkml/curegn_schema.yaml` |
+| `make embed-kpmp`      | Embed KPMP study variables from `linkml/kpmp_schema.yaml`     |
+| `make embed-neptune`   | Embed NEPTUNE study variables from `linkml/neptune_schema.yaml` |
+| `make embed-cric`      | Embed CRIC study variables from `linkml/cric_schema.yaml`     |
+
+These schemas are derived from study data dictionaries and harmonized into LinkML for embedding and semantic search.
 
 ### 🔹 Search Examples
 

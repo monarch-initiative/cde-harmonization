@@ -122,6 +122,70 @@ embed-connects-cde:
 	   --source-locator linkml/connects_schema.yaml \
 	   -p $(DB_PATH)
 
+embed-curegn:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c dd_niddk_curegn \
+	   -m openai: \
+	   --source-locator linkml/curegn_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-kpmp:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c dd_niddk_kpmp \
+	   -m openai: \
+	   --source-locator linkml/kpmp_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-neptune:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c dd_niddk_neptune \
+	   -m openai: \
+	   --source-locator linkml/neptune_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-cric:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c dd_niddk_cric \
+	   -m openai: \
+	   --source-locator linkml/cric_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-bdc-jhs:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c bdc_jhs \
+	   -m openai: \
+	   --source-locator linkml/bdc_jhs_phs000286_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-bdc-whi:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c bdc_whi \
+	   -m openai: \
+	   --source-locator linkml/bdc_whi_phs000200_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-bdc-copdgene:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c bdc_copdgene \
+	   -m openai: \
+	   --source-locator linkml/bdc_copdgene_phs000179_schema.yaml \
+	   -p $(DB_PATH)
+
+embed-bdc-hchssol:
+	$(CURATE) view index \
+	   --view linkml_schema \
+	   -c bdc_hchssol \
+	   -m openai: \
+	   --source-locator linkml/bdc_hchssol_phs000810_schema.yaml \
+	   -p $(DB_PATH)
+
 # CurateGPT Embedding Generation for OBO Ontologies
 embed-hp-ontology:
 	$(CURATE) ontology index \
