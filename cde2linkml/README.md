@@ -155,7 +155,7 @@ cde2linkml -h
 | Enums                 | `PascalCase` + `Enum` suffix         | `FrequencyRatingEnum`                |
 | Permissible values    | Human-readable text (spaces allowed) | `Never true`, `Always true`          |
 
-### Source Column Mapping
+### CDE Repositories — Source Column Mapping
 
 | LinkML Fields    | HEAL                                       | CONNECTS                                                                           | NIH NLM                                                     | RADx-UP                                | PhenX                         |
 |------------------|--------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------|-------------------------------|
@@ -171,7 +171,7 @@ cde2linkml -h
 | `enum.permissible_values` | `PV Description` (`;`-separated, `1 = Label; 2 = Label`) | `Response Options / Derivation` (`\|`-separated, auto-detected regardless of `Variable Type`) | `valueDomain.permissibleValues` (with `meaning` from `conceptSource`) | `Choices, Calculations, OR Slider Labels` (`\|`-separated, `1, Label` format) | `VALUES` + columns to right (`\|`-separated) |
 | **Not mapped**   | `CRF Question #`, `Short Description`, `Permissible Values`, `Disease Specific Instructions`, `Disease Specific References`, `Population`, `Classification`, `CRF Name`, `External Id CDISC`, `Notes` | `IP`, `OP`, `D`, `N`, `Length`, `BDC ID`, `CDISC Mapping` | `createdBy`, `dataElementConcept`, `objectClass`, `ids`, `attachments`, `history`, `views`, `referenceDocuments`, `dataSets`, `derivationRules`, `changeNote`, `archived`, `cdeTinyIds` | `Section Header`, `Field Type`, `Field Note`, `Identifier`, `Branching Logic`, `Required Field`, `Custom Alignment`, `Question Number`, `Matrix Group Name`, `Matrix Ranking`, `Field Annotation` | `DOCFILE`, `UNITS`, `RESOLUTION`, `COMMENT2`, `VARIABLE_MAPPING`, `UNIQUEKEY`, `COLLINTERVAL`, `ORDER` |
 
-### Schema Statistics
+### CDE Repositories — Schema Statistics
 
 | Source   | Classes | Slots  | Enums | Data Downloaded | Schema Generated |
 |----------|---------|--------|-------|-----------------|------------------|
@@ -181,3 +181,30 @@ cde2linkml -h
 | CONNECTS | 16      | 356    | 52    | 03-27-2026      | 03-27-2026       |
 | RADx-UP  | 30      | 1,097  | 150   | 2025            | 2025                |
 | **Total**| **1,177** | **59,551** | **6,382** |                 |                  |
+
+### NIDDK Data Dictionaries — Source Column Mapping
+
+|                           | CureGN                                              | KPMP                                                                              | NEPTUNE                                                        | CRIC                                                                                      |
+|---------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Class name                | `DatasetName` (PascalCase)                          | `Form Name` (PascalCase)                                                          | Tab name (PascalCase)                                          | `DATASET` (PascalCase)                                                                    |
+| Slot key (`snake_case`)   | `VarName`                                           | `Variable / Field Name`                                                           | `Variable`                                                     | `Variable_Name`                                                                           |
+| `slot.title`              | —                                                   | `Variable / Field Name` (human-readable)                                          | —                                                              | —                                                                                         |
+| `slot.description`        | `LABEL`                                             | `Field Label`                                                                     | `Label`                                                        | `Variable_Short_Label`                                                                    |
+| `slot.range`              | `VarType` (`NUM` → `integer`)                       | `Text Validation Type OR Show Slider Number`                                      | `Type` (`1` → `integer`, `2` → `string`)                      | `Type` (`CONTINUOUS` → `float`, `INTEGER`/`count` → `integer`, else `string`)            |
+| `slot.minimum_value`      | —                                                   | `Text Validation Min`                                                             | —                                                              | —                                                                                         |
+| `slot.maximum_value`      | —                                                   | `Text Validation Max`                                                             | —                                                              | —                                                                                         |
+| `slot.annotations`        | `source`                                            | `source`                                                                          | `Length`, `Format Length`, `sas_format`, `source`              | `PDF_FILE`, `source`                                                                      |
+| `enum.permissible_values` | `AnswerChoices` (`\|`-separated, `1: Label` format) | `Choices, Calculations, OR Slider Labels` (`\|`-separated, `1, Label` format)    | `Format` name → stub enum                                      | `PDF_FILE` name → stub enum (e.g. `AI_CRIC.PDF` → `AiCricEnum`); fallback: `Type` (`BINARY`, `CATEGORICAL`) → `BinaryEnum`, `CategoricalEnum` |
+| **Not mapped**            | `VarLength`, `VARNUM`, `FmtName`                    | `Section Header`, `Field Type`, `Field Note`, `Identifier`, `Branching Logic`, `Required Field`, `Custom Alignment`, `Question Number`, `Matrix Group Name`, `Matrix Ranking`, `Field Annotation` | `Num`, `Informat` | `Source_Tables`                                                   |
+
+---
+
+### NIDDK Data Dictionaries — Schema Statistics
+
+| Source   | Classes | Slots      | Enums         | Data Downloaded | Schema Generated |
+|----------|---------|------------|---------------|-----------------|------------------|
+| CureGN   | 49      | 2,242      | 183           | —               | 04-07-2026       |
+| KPMP     | 62      | 5,094      | 358           | —               | 04-07-2026       |
+| NEPTUNE  | 34      | 1,906      | 150 (stubs)   | —               | 04-07-2026       |
+| CRIC     | 11      | 1,191      | 879 (stubs)   | —               | 04-07-2026       |
+| **Total**| **156** | **10,433** | **1,570**     |                 |                  |

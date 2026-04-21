@@ -6,6 +6,11 @@ from cde2linkml.nlm2linkml import process_nih_nlm_json
 from cde2linkml.phenx2linkml import process_phenx_folder
 from cde2linkml.heal2linkml import process_heal_folder
 from cde2linkml.connects2linkml import process_connects_file
+from cde2linkml.curegn2linkml import process_curegn_file
+from cde2linkml.kpmp2linkml import process_kpmp_folder
+from cde2linkml.neptune2linkml import process_neptune_file
+from cde2linkml.cric2linkml import process_cric_folder
+from cde2linkml.bdc2linkml import process_bdc_folder
 
 DEFAULT_INPUTS = {
     "radx-up":  "data/cde-radx-up",
@@ -13,6 +18,11 @@ DEFAULT_INPUTS = {
     "phenx":    "data/cde-phenx",
     "heal":     "data/cde-heal",
     "connects": "data/cde-connects",
+    "curegn":   "data/dd-niddk-curegn",
+    "kpmp":     "data/dd-niddk-kpmp",
+    "neptune":  "data/dd-niddk-neptune",
+    "cric":     "data/dd-niddk-cric",
+    "bdc":      "data/BDC",
 }
 
 
@@ -63,6 +73,32 @@ def process_command(command, input_folder, output_folder):
             return
         process_connects_file(input_folder, os.path.join(output_folder, "connects_schema.yaml"))
 
+    elif command == "curegn":
+        if not check_and_prompt_folder(input_folder, "Place CureGN xlsx file in 'data/dd-niddk-curegn'."):
+            return
+        process_curegn_file(input_folder, os.path.join(output_folder, "curegn_schema.yaml"))
+
+    elif command == "kpmp":
+        if not check_and_prompt_folder(input_folder, "Place KPMP CSV file(s) in 'data/dd-niddk-kpmp'."):
+            return
+        process_kpmp_folder(input_folder, os.path.join(output_folder, "kpmp_schema.yaml"))
+
+    elif command == "neptune":
+        if not check_and_prompt_folder(input_folder, "Place NEPTUNE xlsx file in 'data/dd-niddk-neptune'."):
+            return
+        process_neptune_file(input_folder, os.path.join(output_folder, "neptune_schema.yaml"))
+
+    elif command == "cric":
+        if not check_and_prompt_folder(input_folder, "Place CRIC xlsx file(s) in 'data/dd-niddk-cric'."):
+            return
+        process_cric_folder(input_folder, os.path.join(output_folder, "cric_schema.yaml"))
+
+    elif command == "bdc":
+        if not check_and_prompt_folder(input_folder, "Place BDC_*.csv files in 'data/BDC'."):
+            return
+        # BDC produces one YAML per CSV; output_folder is passed directly
+        process_bdc_folder(input_folder, output_folder)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate LinkML schemas from CDE data.")
@@ -72,14 +108,25 @@ def main():
     parser.add_argument('--phenx',     action='store_true', help="Process PhenX CDE data")
     parser.add_argument('--heal',      action='store_true', help="Process HEAL CDE data")
     parser.add_argument('--connects',  action='store_true', help="Process NHLBI CONNECTS CDE data")
+    parser.add_argument('--curegn',    action='store_true', help="Process CureGN SAF data dictionary")
+    parser.add_argument('--kpmp',      action='store_true', help="Process KPMP data dictionary")
+    parser.add_argument('--neptune',   action='store_true', help="Process NEPTUNE data dictionary")
+    parser.add_argument('--cric',      action='store_true', help="Process CRIC data dictionary")
+    parser.add_argument('--bdc',       action='store_true', help="Process BioData Catalyst (BDC) CSV data dictionaries")
 
     parser.add_argument('--input-folder',  type=str, default=None,    help="Input folder (overrides default)")
     parser.add_argument('--output-folder', type=str, default="linkml", help="Output folder (default: linkml/)")
 
     args = parser.parse_args()
 
-    if not any([args.radx_up, args.nih_nlm, args.phenx, args.heal, args.connects]):
-        print("Error: No dataset flag provided. Use '--radx-up', '--nih-nlm', '--phenx', '--heal', or '--connects'.")
+    if not any([
+        args.radx_up, args.nih_nlm, args.phenx, args.heal, args.connects,
+        args.curegn, args.kpmp, args.neptune, args.cric, args.bdc,
+    ]):
+        print(
+            "Error: No dataset flag provided. Use '--radx-up', '--nih-nlm', '--phenx', "
+            "'--heal', '--connects', '--curegn', '--kpmp', '--neptune', '--cric', or '--bdc'."
+        )
         parser.print_help()
         return
 
@@ -99,6 +146,21 @@ def main():
 
     if args.connects:
         process_command("connects", args.input_folder or DEFAULT_INPUTS["connects"], args.output_folder)
+
+    if args.curegn:
+        process_command("curegn", args.input_folder or DEFAULT_INPUTS["curegn"], args.output_folder)
+
+    if args.kpmp:
+        process_command("kpmp", args.input_folder or DEFAULT_INPUTS["kpmp"], args.output_folder)
+
+    if args.neptune:
+        process_command("neptune", args.input_folder or DEFAULT_INPUTS["neptune"], args.output_folder)
+
+    if args.cric:
+        process_command("cric", args.input_folder or DEFAULT_INPUTS["cric"], args.output_folder)
+
+    if args.bdc:
+        process_command("bdc", args.input_folder or DEFAULT_INPUTS["bdc"], args.output_folder)
 
 
 if __name__ == "__main__":
