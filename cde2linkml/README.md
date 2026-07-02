@@ -4,7 +4,7 @@ This package standardizes Common Data Elements (CDEs) into the [LinkML](https://
 
 ## Features
 
-- Converts RADx-UP, NLM, PhenX, HEAL, and NHLBI CONNECTS CDE data into **LinkML-compatible schemas**.
+- Converts NIH CDE, Phenx toolkit, RADx-UP, NIH HEAL, NHLBI CONNECTS, PhenX protocols, and OMOP CDM data into **LinkML-compatible schemas**.
 - Provides a command-line interface (**CLI**) for easy data transformation.
 - Includes automated **data download** scripts via `make` commands for all CDE sources.
 
@@ -53,13 +53,15 @@ deactivate
 
 Makefile commands fetch data from all supported sources into their respective directories under `data/`.
 
-| Directory            | Source          |
-|----------------------|-----------------|
-| `data/cde-radx-up`  | RADx-UP         |
-| `data/cde-nlm`      | NIH NLM         |
-| `data/cde-phenx`    | PhenX           |
-| `data/cde-heal`     | NIH HEAL        |
-| `data/cde-connects` | NHLBI CONNECTS  |
+| Directory            | Source                   |
+|----------------------|--------------------------|
+| `data/cde-radx-up`   | RADx-UP                  |
+| `data/cde-nlm`       | NIH NLM (NIH CDE)        |
+| `data/cde-phenx`     | PhenX toolkit            |
+| `data/cde-heal`      | NIH HEAL                 |
+| `data/cde-connects`  | NHLBI CONNECTS           |
+| `data/bundle-phenx`  | PhenX Bundle (protocols) |
+| `data/cdm-omop`      | OMOP CDM                 |
 
 ### Download all sources
 
@@ -70,12 +72,16 @@ make download-all
 ### Download a specific source
 
 ```bash
-make download-radx-up-cde   # RADx-UP
-make download-nlm-cde        # NIH NLM
-make download-phenx-cde      # PhenX
-make download-heal-cde       # NIH HEAL (scrapes all 14 pages of the HEAL CDE Repository)
-make download-connects-cde   # NHLBI CONNECTS (single Excel file, multiple tabs)
+make download-radx-up-cde       # RADx-UP
+make download-nlm-cde           # NIH NLM
+make download-phenx-cde         # PhenX
+make download-heal-cde          # NIH HEAL (scrapes all 14 pages of the HEAL CDE Repository)
+make download-connects-cde      # NHLBI CONNECTS (single Excel file, multiple tabs)
+make download-phenx-protocols   # PhenX Bundle (scrapes full Collection→Domain→Protocol→Variable hierarchy)
+make download-omop-cdm          # OMOP CDM (default v5.4; override with OMOP_VERSION=5.3)
 ```
+
+Scraper scripts live in `utils/` (`phenx_scraper.py`, `omop_scraper.py`) and write `.xlsx`/`.csv` output directly into their `data/` directories.
 
 ### Clean downloaded data
 
@@ -86,6 +92,8 @@ make clean-nlm-cde
 make clean-phenx-cde
 make clean-heal-cde
 make clean-connects-cde
+make clean-phenx-protocols
+make clean-omop-cdm
 ```
 
 ---
@@ -100,13 +108,17 @@ cde2linkml [--radx-up] [--nih-nlm] [--phenx] [--heal] [options]
 
 ### Commands
 
-| Flag          | Description                                           | Output file                    |
-|---------------|-------------------------------------------------------|--------------------------------|
-| `--radx-up`   | Convert RADx-UP CDE data to LinkML                    | `linkml/radx_up_schema.yaml`   |
-| `--nih-nlm`   | Convert NIH NLM CDE data to LinkML                    | `linkml/nih_nlm_schema.yaml`   |
-| `--phenx`     | Convert PhenX CDE data to LinkML                      | `linkml/phenx_schema.yaml`     |
-| `--heal`      | Convert NIH HEAL CDE `.xlsx` files to LinkML          | `linkml/heal_schema.yaml`      |
-| `--connects`  | Convert NHLBI CONNECTS CDE Excel tabs to LinkML       | `linkml/connects_schema.yaml`  |
+| Flag             | Description                                              | Output file                        |
+|------------------|-----------------------------------------------------------|-------------------------------------|
+| `--radx-up`      | Convert RADx-UP CDE data to LinkML                        | `linkml/radx_up_schema.yaml`        |
+| `--nih-nlm`      | Convert NIH NLM CDE data to LinkML                        | `linkml/nih_nlm_schema.yaml`        |
+| `--phenx`        | Convert PhenX CDE data to LinkML                          | `linkml/phenx_schema.yaml`          |
+| `--heal`         | Convert NIH HEAL CDE `.xlsx` files to LinkML               | `linkml/heal_schema.yaml`           |
+| `--connects`     | Convert NHLBI CONNECTS CDE Excel tabs to LinkML            | `linkml/connects_schema.yaml`       |
+| `--phenx-bundle` | Convert PhenX Bundle xlsx (`data/bundle-phenx/`) to LinkML | `linkml/phenx_bundle_schema.yaml`   |
+| `--omop`         | Convert OMOP CDM xlsx (`data/cdm-omop/`) to LinkML         | `linkml/omop_cdm_schema.yaml`       |
+
+`--phenx-bundle` and `--omop` auto-discover the xlsx file in their respective `data/` directory, so no filename or version needs to be passed.
 
 Multiple flags can be combined in a single run:
 
@@ -118,7 +130,7 @@ cde2linkml --radx-up --phenx --heal
 
 | Option            | Description                                                              |
 |-------------------|--------------------------------------------------------------------------|
-| `--input-folder`  | Path to input data folder. Overrides the default `data/cde-<source>` path. |
+| `--input-folder`  | Path to input data folder/file. Overrides the default `data/cde-<source>` path (or the auto-discovered xlsx for `--phenx-bundle`/`--omop`). |
 | `--output-folder` | Path to output directory for LinkML YAML files. Defaults to `linkml/`.  |
 
 ### Examples
@@ -129,10 +141,16 @@ Convert HEAL CDEs using default paths:
 cde2linkml --heal
 ```
 
+Convert PhenX Bundle and OMOP CDM:
+
+```bash
+cde2linkml --phenx-bundle --omop
+```
+
 Convert all sources at once:
 
 ```bash
-cde2linkml --radx-up --nih-nlm --phenx --heal --connects
+cde2linkml --radx-up --nih-nlm --phenx --heal --connects --phenx-bundle --omop
 ```
 
 Use a custom input and output directory:
@@ -158,15 +176,15 @@ cde2linkml -h
 ### CDE Repositories — Source Column Mapping
 
 | LinkML Fields    | HEAL                                       | CONNECTS                                                                           | NIH NLM                                                     | RADx-UP                                | PhenX                         |
-|------------------|--------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------|-------------------------------|
-| `class.name`     | Filename minus `-cde`                      | Tab name                                                                           | `steward`                                                   | `Form Name`                            | Filename minus extension      |
-| `slot.key`       | `Variable Name`                            | `Element`                                                                          | `designations[0].designation`                               | `Variable / Field Name`                | `VARNAME`                     |
-| `slot.title`     | `CDE Name`                                 | `Variable Label`                                                                   | `designations[0].designation`                               | `Variable / Field Name` (human-readable) | —                             |
-| `slot.description` | `Definition`                               | `Question`                                                                         | `definitions[0].definition`                                 | `Field Label`                          | `VARDESC`                     |
-| `slot.range`     | `Data Type`                                | `Variable Type`                                                                    | `valueDomain.datatype`                                      | `Text Validation Type OR Show Slider Number` | `TYPE`                        |
-| `slot.minimum_value` | —                                          | —                                                                                  | —                                                           | `Text Validation Min`                  | `MIN`                         |
-| `slot.maximum_value` | —                                          | —                                                                                  | —                                                           | `Text Validation Max`                  | `MAX`                         |
-| `slot_uri`       | —                                          | —                                                                                  | `tinyId`                                                    | —                                      | —                             |
+|------------------|--------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------|-----------------------------------------|--------------------------------|
+| `class.name`     | Filename minus `-cde`                      | Tab name                                                                           | `steward`                                                    | `Form Name`                             | Filename minus extension       |
+| `slot.key`       | `Variable Name`                            | `Element`                                                                          | `designations[0].designation`                                | `Variable / Field Name`                 | `VARNAME`                      |
+| `slot.title`     | `CDE Name`                                 | `Variable Label`                                                                   | `designations[0].designation`                                | `Variable / Field Name` (human-readable) | —                              |
+| `slot.description` | `Definition`                               | `Question`                                                                         | `definitions[0].definition`                                  | `Field Label`                           | `VARDESC`                      |
+| `slot.range`     | `Data Type`                                | `Variable Type`                                                                    | `valueDomain.datatype`                                       | `Text Validation Type OR Show Slider Number` | `TYPE`                     |
+| `slot.minimum_value` | —                                          | —                                                                                  | —                                                            | `Text Validation Min`                   | `MIN`                          |
+| `slot.maximum_value` | —                                          | —                                                                                  | —                                                            | `Text Validation Max`                   | `MAX`                          |
+| `slot_uri`       | —                                          | —                                                                                  | `tinyId`                                                     | —                                        | —                              |
 | `slot.annotations` | `Additional Notes (Question Text)`         | `Variable`, `Variable Label`, `Implementation Notes`                               | `designations[*]` tag `Preferred Question Text`, `registrationState.registrationStatus`, `registrationState.administrativeStatus`, `copyrightStatus`, `nihEndorsed`, `properties[Tags/Keywords]`, `stewardOrg.name`, `sources[*].sourceName`, `classification[*].elements[*].name`, `partOfBundles`, `created` | — | `VARIABLE_SOURCE`, `SOURCE_VARIABLE_ID`, `COMMENT1` |
 | `enum.permissible_values` | `PV Description` (`;`-separated, `1 = Label; 2 = Label`) | `Response Options / Derivation` (`\|`-separated, auto-detected regardless of `Variable Type`) | `valueDomain.permissibleValues` (with `meaning` from `conceptSource`) | `Choices, Calculations, OR Slider Labels` (`\|`-separated, `1, Label` format) | `VALUES` + columns to right (`\|`-separated) |
 | **Not mapped**   | `CRF Question #`, `Short Description`, `Permissible Values`, `Disease Specific Instructions`, `Disease Specific References`, `Population`, `Classification`, `CRF Name`, `External Id CDISC`, `Notes` | `IP`, `OP`, `D`, `N`, `Length`, `BDC ID`, `CDISC Mapping` | `createdBy`, `dataElementConcept`, `objectClass`, `ids`, `attachments`, `history`, `views`, `referenceDocuments`, `dataSets`, `derivationRules`, `changeNote`, `archived`, `cdeTinyIds` | `Section Header`, `Field Type`, `Field Note`, `Identifier`, `Branching Logic`, `Required Field`, `Custom Alignment`, `Question Number`, `Matrix Group Name`, `Matrix Ranking`, `Field Annotation` | `DOCFILE`, `UNITS`, `RESOLUTION`, `COMMENT2`, `VARIABLE_MAPPING`, `UNIQUEKEY`, `COLLINTERVAL`, `ORDER` |
@@ -174,18 +192,18 @@ cde2linkml -h
 ### CDE Repositories — Schema Statistics
 
 | Source   | Classes | Slots  | Enums | Data Downloaded | Schema Generated |
-|----------|---------|--------|-------|-----------------|------------------|
-| NIH NLM  | 19      | 22,215 | 3,432 | 03-27-2026      | 03-27-2026       |
-| PhenX    | 848     | 30,659 | 2,362 | 03-27-2026      | 03-27-2026       |
-| HEAL     | 264     | 5,224  | 386   | 03-27-2026      | 03-27-2026       |
-| CONNECTS | 16      | 356    | 52    | 03-27-2026      | 03-27-2026       |
-| RADx-UP  | 30      | 1,097  | 150   | 2025            | 2025                |
-| **Total**| **1,177** | **59,551** | **6,382** |                 |                  |
+|----------|---------|--------|-------|------------------|-------------------|
+| NIH NLM  | 19      | 22,215 | 3,432 | 03-27-2026       | 03-27-2026        |
+| PhenX    | 848     | 30,659 | 2,362 | 03-27-2026       | 03-27-2026        |
+| HEAL     | 264     | 5,224  | 386   | 03-27-2026       | 03-27-2026        |
+| CONNECTS | 16      | 356    | 52    | 03-27-2026       | 03-27-2026        |
+| RADx-UP  | 30      | 1,097  | 150   | 2025             | 2025              |
+| **Total**| **1,177** | **59,551** | **6,382** |              |                   |
 
 ### NIDDK Data Dictionaries — Source Column Mapping
 
 |                           | CureGN                                              | KPMP                                                                              | NEPTUNE                                                        | CRIC                                                                                      |
-|---------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+|---------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | Class name                | `DatasetName` (PascalCase)                          | `Form Name` (PascalCase)                                                          | Tab name (PascalCase)                                          | `DATASET` (PascalCase)                                                                    |
 | Slot key (`snake_case`)   | `VarName`                                           | `Variable / Field Name`                                                           | `Variable`                                                     | `Variable_Name`                                                                           |
 | `slot.title`              | —                                                   | `Variable / Field Name` (human-readable)                                          | —                                                              | —                                                                                         |
@@ -202,9 +220,9 @@ cde2linkml -h
 ### NIDDK Data Dictionaries — Schema Statistics
 
 | Source   | Classes | Slots      | Enums         | Data Downloaded | Schema Generated |
-|----------|---------|------------|---------------|-----------------|------------------|
-| CureGN   | 49      | 2,242      | 183           | —               | 04-07-2026       |
-| KPMP     | 62      | 5,094      | 358           | —               | 04-07-2026       |
-| NEPTUNE  | 34      | 1,906      | 150 (stubs)   | —               | 04-07-2026       |
-| CRIC     | 11      | 1,191      | 879 (stubs)   | —               | 04-07-2026       |
-| **Total**| **156** | **10,433** | **1,570**     |                 |                  |
+|----------|---------|------------|---------------|-----------------|-------------------|
+| CureGN   | 49      | 2,242      | 183           | —                | 04-07-2026        |
+| KPMP     | 62      | 5,094      | 358           | —                | 04-07-2026        |
+| NEPTUNE  | 34      | 1,906      | 150 (stubs)   | —                | 04-07-2026        |
+| CRIC     | 11      | 1,191      | 879 (stubs)   | —                | 04-07-2026        |
+| **Total**| **156** | **10,433** | **1,570**     |                  |                   |

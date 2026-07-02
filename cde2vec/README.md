@@ -28,13 +28,15 @@ Use the Makefile to index any supported ontology or schema:
 
 ### 🔹 Embed CDE Schemas
 
-| Make Target              | Description                                                      |
-|--------------------------|------------------------------------------------------------------|
-| `make embed-nih-cde`     | Embed NIH/NLM CDE schema from `linkml/nih_nlm_schema.yaml`      |
-| `make embed-phenx-cde`   | Embed PhenX CDE schema from `linkml/phenx_schema.yaml`          |
-| `make embed-radx-up-cde` | Embed RADx-UP CDE schema from `linkml/radx_up_schema.yaml`      |
-| `make embed-heal-cde`    | Embed HEAL CDE schema from `linkml/heal_schema.yaml`            |
-| `make embed-connects-cde`| Embed CONNECTS CDE schema from `linkml/connects_schema.yaml`    |
+| Make Target               | Description                                                         |
+|---------------------------|---------------------------------------------------------------------|
+| `make embed-nih-cde`      | Embed NIH/NLM CDE schema from `linkml/nih_nlm_schema.yaml`          |
+| `make embed-phenx-cde`    | Embed PhenX CDE schema from `linkml/phenx_schema.yaml`              |
+| `make embed-radx-up-cde`  | Embed RADx-UP CDE schema from `linkml/radx_up_schema.yaml`          |
+| `make embed-heal-cde`     | Embed HEAL CDE schema from `linkml/heal_schema.yaml`                |
+| `make embed-connects-cde` | Embed CONNECTS CDE schema from `linkml/connects_schema.yaml`        |
+| `make embed-phenx-bundle` | Embed Phenx protocols schema from `linkml/phenx_bundle_schema.yaml` |
+| `make embed-omop-cdm`     | Embed OMOP CDM schema from `linkml/omop_cdm_schema.yaml`            |
 
 ## 🔹 Embed NIDDK Study Variables (NIDDK Central Repository)
 
