@@ -1,0 +1,217 @@
+"STAR Table Name: VCA_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ABDOMINAL_WALL	Amount of Tissue Loss - Square Centimeters	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Amount of Tissue Loss	NUM		
+ABO	ABO	WL	2014-07-03 00:00:00		CLINICAL INFORMATION	CHAR(3)	ABO	
+ABO_DON	DONOR BLOOD TYPE	DDR/LDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(200)	ABO	
+ABO_MAT	Donor-Recipient ABO Match Level	CALCULATED				CHAR(1)	ABOMAT	
+ADMISSION_DATE	RECIPIENT DATE OF ADMISSION TO TX CENTER	TRR	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+ADMIT_DATE_DON	DONOR ADMIT DATE	DDR	2015-09-01 00:00:00		DONOR INFORMATION	NUM		
+AGE	Recipient Age (yrs)	TRR-CALCULATED	2015-09-01 00:00:00		RECIPIENT INFORMATION	NUM		
+AGE_DON	DONOR AGE (YRS)	DDR/LDR-CALCULATED	2015-09-01 00:00:00		DONOR INFORMATION	NUM		
+AMIS	A Locus Mismatch Level	CALCULATED				NUM		
+ARGININE_DON	DECEASED DONOR-WAS DONOR GIVEN ARGININE VASOPRESSIN WITHIN 24 HRS PRE CROSS CLAMP?	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+BMI_DON_CALC	Donor BMI - Pre/At Donation	CALCULATED				NUM		
+BMI_RECIP	Recipient BMI	CALCULATED				NUM		
+BMI_TCR	BMI AT LISTING	CALCULATED			CLINICAL INFORMATION AT LISTING	NUM		
+BMIS	B Locus Mismatch Level	CALCULATED				NUM		
+BODILY_PAIN_SCORE	Bodily Pain (BP) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Physical Health	NUM		
+BODY_PART	Desired Organ Body Parts at Removal/Current Time					NUM	VCA_BODY_PART	
+CARDARREST_POSTNEURO_DON	Cardiac arrest since neurological event that led to declaration of brain death:	DDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(1)	YNU	
+CARROLL_SCORE_LEFT	Left Limb (0-99 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - Upper Limb - Pre-Transplant - Carroll Test Score	NUM	VCA_0_99_ND	
+CARROLL_SCORE_RIGHT	Right Limb (0-99 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - Upper Limb - Pre-Transplant - Carroll Test Score	NUM	VCA_0_99_ND	
+CDC_RISK_HIV_DON	DECEASED DONOR - PER PHS, Does the Donor Have Risk Factors for Blood-Borne Disease Transmission?	DDR	2015-09-01 00:00:00		DONOR HISTORY	CHAR(1)	YN	
+CMV_STATUS	CMV Status	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Viral Detection	NUM	VCA_PNNDUNK	
+COAGULOPATHIES	Coagulopathies	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Risk Factors	CHAR(1)	YNU	
+COD	TRR/TRF Cause of Death	TRF/TRR	2015-09-01 00:00:00		PATIENT STATUS	NUM	ALL_COD	
+COD_WL	CANDIDATE CAUSE OF DEATH FOR DEATH REMOVAL	WL	2014-07-03 00:00:00		PATIENT STATUS	NUM	ALL_COD	
+COGNITIVE_DEV	Cognitive Development (for recipients younger than 18 years of age at transplant)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant	NUM	COGNITIVE_DEV	
+COLD_ISCH_TM	Cold Ischemia Time (in minutes)	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure - Preservation Information	NUM		
+COLD_ISCH_TM_LEFT	Cold Ischemia Time, Left Limb (in minutes)	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure - Preservation Information	NUM		
+COLD_ISCH_TM_RIGHT	Cold Ischemia Time, Right Limb (in minutes)	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure - Preservation Information	NUM		
+COMPOSITE_DEATH_DATE	Composite Patient Death Date from OPTN or Verified from External Sources	TRR/TRF-CALCULATED	2015-09-01 00:00:00			NUM		
+CONTROLLED_DON	DECEASED DONOR CONTROLLED NON-HEART BEATING (Y/N)	DDR	2015-09-01 00:00:00		ORGAN RECOVERY	CHAR(1)	YNU	
+CPRA_TX	TRR CPRA	CALCULATED				NUM		
+CRANIOFACIAL_AMT_TISSUE_LOSS	Craniofacial (not applicable to Head and Neck: Scalp)	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Amount of Tissue Loss	NUM	VCA_AMP_FACE	
+CTR_CODE	ENCRYPTED TRANSPLANT CENTER CODE	CALCULATED				CHAR(7)		
+DA1	Computed Donor A1 Antigen	CALCULATED			DONOR CENTER HISTOCOMPATIBILITY TYPING	NUM	ALOCUS	
+DA2	Computed Donor A2 Antigen	CALCULATED			DONOR CENTER HISTOCOMPATIBILITY TYPING	NUM	ALOCUS	
+DASH_SCORE	DASH Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - Upper Limb - Pre-Transplant	NUM		
+DATA_TRANSPLANT	Recipient TRR Data Reported	CALCULATED				CHAR(1)	YN	
+DATA_WAITLIST	Candidate WL Data Reported	CALCULATED				CHAR(1)	YN	
+DAYSWAIT_CHRON	TOTAL DAYS ON WAITING LIST INCLUDING INACTIVE TIME	CALCULATED				NUM		
+DB1	Computed Donor B1 Antigen	CALCULATED			DONOR CENTER HISTOCOMPATIBILITY TYPING	NUM	BLOCUS	
+DB2	Computed Donor B2 Antigen	CALCULATED			DONOR CENTER HISTOCOMPATIBILITY TYPING	NUM	BLOCUS	
+DDR1	Computed Donor DR1 Antigen	CALCULATED			DONOR CENTER HISTOCOMPATIBILITY TYPING	NUM	DRLOCUS	
+DDR2	Computed Donor DR2 Antigen	CALCULATED			DONOR CENTER HISTOCOMPATIBILITY TYPING	NUM	DRLOCUS	
+DEATH_DATE	DATE DIED, FOR PATIENT REMOVED FROM THE WAITING LIST FOR REASON OF DEATH	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+DIAG	TRR Primary Diagnosis	TRR	2015-09-01 00:00:00		PATIENT STATUS/CLINICAL INFORMATION	NUM	VCA_DGN	
+DISCH_HEMOGLOBIN_A1C	Hemoglobin A1c (%)	TRR	2015-09-01 00:00:00		Clinical Information: Post Transplant - Lab data at time of discharge from the hospital	NUM		
+DISCH_SERUM_CREAT	Serum Creatinine (mg/dL)	TRR	2015-09-01 00:00:00		Clinical Information: Post Transplant - Lab data at time of discharge from the hospital	NUM		
+DISCHARGE_DATE	RECIPIENT DISCHARGE DATE FROM TX CENTER	TRR	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+DISTANCE	DISTANCE FROM DONOR HOSP TO TX CENTER (Nautical Miles)	CALCULATED				NUM		
+DON_TY	DONOR TYPE - DECEASED or LIVING	TRR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(3)	DON_TYP	
+DONOR_CROSSMATCH	Donor Crossmatch Result	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Pre-Transplant Labs	NUM	VCA_PNND	
+DONOR_ID	ENCRYPTED DONOR IDENTIFIER	CALCULATED				NUM		
+DRMIS	DR Locus Mismatch Level	CALCULATED				NUM		
+EBV_IGG_CAD_DON	DECEASED DONOR EPSTEIN BARR VIRUS BY IGG TEST RESULT	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+EBV_IGM_CAD_DON	DECEASED DONOR EPSTEIN BARR VIRUS BY IGM TEST RESULT	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+EBV_SEROSTATUS	EBV Serostatus	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Viral Detection	NUM	VCA_PNNDUNK	
+ECD_DONOR	ECD DONOR	CALCULATED				NUM	YN	
+EDUCATION	Highest Education Level	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant	NUM	EDLEVEL	
+EDUCATION_DON	LIVING DONOR-HIGHEST LEVEL OF EDUCATION	LDR	2015-09-01 00:00:00		DONOR INFORMATION	NUM	EDLEVEL	
+END_CPRA	Candidate Calculated PRA at Tx/Removal/Current Time	CALCULATED				NUM		
+END_DATE	EARLIEST OF DATES OF REMOVAL FROM WAITING LIST, TRANSPLANT, DEATH, OR TIME COPY OF DATA CREATED	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+END_OPO_CTR_CODE	ENCRYPTED REMOVAL/CURRENT OPO MAPPED FROM LISTING CENTER AND ENDING DATE	CALCULATED				CHAR(7)		
+ETHCAT	Recipient Ethnicity Category	WL	2014-07-03 00:00:00		CANDIDATE INFORMATION	NUM	ETHCAT	
+ETHCAT_DON	DONOR ETHNICITY CATEGORY	DDR/LDR-CALCULATED	2015-09-01 00:00:00		DONOR INFORMATION	NUM	ETHCAT	
+ETHNICITY	RECIPIENT ETHNICITY (1=Hispanic 0=Non-Hispanic)	TRR	2023-09-14 00:00:00			NUM		
+EXTRA_ALLOGRAFT	Were extra allograft vessels/nerve/tissue from outside the donated graft used in the transplant procedure	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure	CHAR(1)	YN	
+FORM_STATUS	Form Status	TRR				CHAR(1)	FRMSTAT	
+FORM_VALID_DT	Form Validation Date	TRR				NUM		
+GENDER	Recipient Gender	WL	2014-07-03 00:00:00		CANDIDATE INFORMATION	CHAR(7)	SEX	
+GENDER_DON	DONOR GENDER	DDR/LDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(200)	SEX	
+GENERAL_HEALTH_SCORE	General Health (GH) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Physical Health	NUM		
+GRANT_FUNDING	Grant Funding	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant - Source of Payment	CHAR(1)	YN	
+HBSAB_DON	DECEASED DONOR HBSAB TEST RESULT	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HBV_CORE	HBV Core Antibody	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Viral Detection	NUM	VCA_PNNDUNK	
+HBV_CORE_DON	DDR,LDR HBV CORE ANTIBODY (P,N,ND,U)	DDR/LDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HBV_NAT_DON	DDR HBV NAT Results:	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HBV_SUR_ANTIGEN	HBV Surface Antigen	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Viral Detection	NUM	VCA_PNNDUNK	
+HBV_SUR_ANTIGEN_DON	DDR,LDR HBV SURFACE ANTIGEN (P,N,ND,U)	DDR/LDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HCV_ANTIBODY_DON	LDR HCV ANTIBODY (P,N,ND,U)	LDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HCV_NAT_DON	DDR HCV NAT Results:	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HCV_SEROSTATUS	HCV Serostatus	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Viral Detection	NUM	VCA_PNNDUNK	
+HEMOGLOBIN_A1C	Hemoglobin A1c (%)	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Pre-Transplant Labs	NUM		
+HGT_CM_DON_CALC	CALCULATED DONOR HEIGHT (CM)	CALCULATED				NUM		
+HGT_CM_TCR	Height(cm)	WL	2014-07-03 00:00:00		CLINICAL INFORMATION	NUM		
+HGT_CM_TRR	TRR Height(cm)	TRR	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+HIV_NAT_DON	DDR HIV NAT Results:	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(2)	SERSTAT	
+HLAMIS	HLA Mismatch Level	CALCULATED				NUM		
+HOSP_90_DAYS	Was patient hospitalized during the last 90 days prior to the transplant admission	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	CHAR(1)	YNU	
+INIT_AGE	CANDIDATE AGE IN YEARS AT TIME OF LISTING	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+INIT_CPRA	CANDIDATE CALCULATED PRA AT LISTING 	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+INIT_DATE	DATE PLACED ON  WAITING LIST	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+INIT_HGT_CM	CANDIDATE HEIGHT IN CM AT LISTING	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+INIT_OPO_CTR_CODE	ENCRYPTED INITIAL OPO MAPPED FROM LISTING CENTER AND BEGINNING DATE	CALCULATED				CHAR(7)		
+INIT_REGION	UNOS REGION WHERE LISTED AT LISTING	CALCULATED				NUM		
+INIT_WGT_KG	CANDIDATE WEIGHT IN KG AT LISTING	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM		
+INO_PROCURE_AGENT_1	DECEASED DONOR-INOTROPIC MEDICATION AGENT 1	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	INOMED	
+INO_PROCURE_AGENT_2	DECEASED DONOR-INOTROPIC MEDICATION AGENT 2	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	INOMED	
+INO_PROCURE_AGENT_3	DECEASED DONOR-INOTROPIC MEDICATION AGENT 3	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	INOMED	
+INOTROP_SUPPORT_DON	DECEASED DONOR INOTROPIC MEDICATION AT PROCUREMENT (Y/N)	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+INSTITUTIONAL_FUNDING	Institutional Funding	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant - Source of Payment	CHAR(1)	YN	
+INSULIN_DON	DECEASED DONOR-WAS DONOR GIVEN INSULIN WITHIN 24 HRS PRE CROSS CLAMP?	DDR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+ISCHEMIA	Ischemia	TRR	2015-09-01 00:00:00		Clinical Information: Post Transplant - If failed - Causes of Graft Failure	CHAR(1)	YN	
+ISCHEMIA_LEFT	Ischemia - Left Limb	TRR	2015-09-01 00:00:00		Clinical Information: Post Transplant - Left Limb - If failed - Causes of Graft Failure	CHAR(1)	YN	
+ISCHEMIA_RIGHT	Ischemia - Right Limb	TRR	2015-09-01 00:00:00		Clinical Information: Post Transplant - Right Limb - If failed - Causes of Graft Failure	CHAR(1)	YN	
+LIFE_SUP_TRR	TRR Patient On Life Support	TRR	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)		
+LIST_YEAR	Year of Listing Date	CALCULATED	2014-07-03 00:00:00			NUM		
+LISTING_CTR_CODE	ENCRYPTED WL LISTING CENTER	CALCULATED				CHAR(7)		
+LIV_DON_TY	LDR LIVING DONOR TYPE	LDR	2015-09-01 00:00:00		DONOR INFORMATION	NUM	LDONREL	
+LOWER_LIMB_LEFT_AMP_LEVEL	Lower Limb, Left	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Level of Amputation	NUM	VCA_AMP_LOWERLIMB	
+LOWER_LIMB_RIGHT_AMP_LEVEL	Lower Limb, Right 	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Level of Amputation	NUM	VCA_AMP_LOWERLIMB	
+LT_ONE_WEEK_DON	Donor Less Than 7 Days Old at Time of Donation	CALCULATED				CHAR(1)	YN	
+MALIG	Malignancies prior to transplant	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	CHAR(1)	YNU	
+MALIG_TY_BREAST	Malignancies prior to transplant: Breast	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_CNSTUMOR	Malignancies prior to transplant: CNS Tumor	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_GENITOURINARY	Malignancies prior to transplant: Genitourinary	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_HEPATOCELLULARCARCINOMA	Malignancies prior to transplant: Hepatocellular Carcinoma	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_LEUKEMIALYMPHOMA	Malignancies prior to transplant: Leukemia/Lymphoma	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_LIVER	Malignancies prior to transplant: Liver	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_LUNG	Malignancies prior to transplant: Lung	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_OTHERSPECIFY	Malignancies prior to transplant: Other, specify	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_SKINMELANOMA	Malignancies prior to transplant: Skin Melanoma	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_SKINNONMELANOMA	Malignancies prior to transplant: Skin Non-Melanoma	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_THYROID	Malignancies prior to transplant: Thyroid	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MALIG_TY_TONGUETHROATLARYNX	Malignancies prior to transplant: Tongue/Throat/Larynx	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant -   - If Yes, specify type (select all that apply)	NUM	YN	
+MED_COND_TRR	TRR Medical Condition	TRR	2015-09-01 00:00:00		PATIENT STATUS	NUM	MEDCOND	
+MENTAL_HEALTH_SCORE	Mental Heath (MH) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Mental Health	NUM		
+MOTOR_DEV	Motor Development (for recipients younger than 18 years of age at transplant)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant	NUM	MOTOR_DEV	
+MULTIORG	Multi-Organ Transplant	CALCULATED				CHAR(1)	YN	
+MULTIVCA	Multiple VCA Transplant	CALCULATED				CHAR(1)	YN	
+NON_HRT_DON	DDR NON-HEART BEATING	DDR	2015-09-01 00:00:00		ORGAN RECOVERY	CHAR(1)	YN	
+OPO_CTR_CODE	ENCRYPTED OPO CENTER CODE (OPO OF THE DECEASED DONOR RECOVERY FROM DDR FORM)	CALCULATED				CHAR(7)		
+OTH_LIFE_SUP	Patient on Life Support - If on life support, check if on other mechanisms of life support	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	NUM	YN	
+OTH_RISK_FACTORS	Other Risk Factors	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Risk Factors	CHAR(1)	YNU	
+PERM_STATE_TRR	TRR State of Residency	TRR	2015-09-01 00:00:00		CANDIDATE INFORMATION	CHAR(2)	STATE	
+PHYSICAL_FUNC_SCORE	Physical Functioning (PF) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Physical Health	NUM		
+PRE_TX_TXFUS	Pre-transplant blood transfusions	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	CHAR(1)	YNU	
+PREV_PREG	Number of pre-transplant pregnancies (which may or may not have resulted in a live birth) (for female recipients)	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	NUM		
+PREV_TX	Previous Transplant of Same Organ Type	CALCULATED				CHAR(1)		
+PREV_TX_ANY	CALCULATED Previous Transplant of Any Organ Type	CALCULATED				CHAR(1)		
+PREV_TX_ANY_N	CALCULATED Number of Previous Transplanted of any Organ Type in OPTN Database	CALCULATED				NUM		
+PRI_PAYMENT_CTRY_TRR	TRR Other Gov't Payment Text	TRR	2015-09-01 00:00:00		PATIENT STATUS	CHAR(4)		
+PRI_PAYMENT_TRR	TRR Primary Source Of Payment	TRR	2015-09-01 00:00:00		PATIENT STATUS	NUM	PRIMPAY	
+PROTEIN_URINE_DON	Donor PROTEIN IN URINE	DDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(1)	YNU	
+PSTATUS	Boolean Most Recent Patient Status (based on composite death date) (1=Dead, 0=Alive)	TRR/TRF-CALCULATED	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+PT_CODE	ENCRYPTED PATIENT IDENTIFIER	CALCULATED				NUM		
+PTIME	Patient Survival Time in days (based on composite death date)	CALCULATED				NUM		
+PX_STAT	TRR/TRF Most Recent Recipient Status	TRR/TRF-CALCULATED	2015-09-01 00:00:00		PATIENT STATUS	CHAR(1)	PXSTAT	
+PX_STAT_DATE	TRR/TRF Date of Most Recent Recipient Status	TRR/TRF-CALCULATED	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+PX_STAT_DATE_TRR	TRR Date of Recipient Status	TRR	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+PX_STAT_TRR	TRR Recipient Status	TRR	2015-09-01 00:00:00		PATIENT STATUS	CHAR(1)	PXSTAT	
+RA1	Patient A1 Antigen	RH	2015-09-01 00:00:00		RECIPIENT HLA TYPING	NUM	ALOCUS	
+RA2	Patient A2 Antigen	RH	2015-09-01 00:00:00		RECIPIENT HLA TYPING	NUM	ALOCUS	
+RB1	Patient B1 Antigen	RH	2015-09-01 00:00:00		RECIPIENT HLA TYPING	NUM	BLOCUS	
+RB2	Patient B2 Antigen	RH	2015-09-01 00:00:00		RECIPIENT HLA TYPING	NUM	BLOCUS	
+RDR1	Patient DR1 Antigen	RH	2015-09-01 00:00:00		RECIPIENT HLA TYPING	NUM	DRLOCUS	
+RDR2	Patient DR2 Antigen	RH	2015-09-01 00:00:00		RECIPIENT HLA TYPING	NUM	DRLOCUS	
+RECOV_COUNTRY_DON	RECOVERY COUNTRY	DDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(3)	CTRY	
+RECOV_OUT_US_DON	RECOVERED OUTSIDE THE U.S.	DDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(1)	YN	
+RECOVERY_DATE_DON	ORGAN RECOVERY DATE	DDR / LDR	2015-09-01 00:00:00		ORGAN RECOVERY	NUM		
+REFERRAL_DATE	DECEASED DONOR-REFERRAL DATE	DDR	2015-09-01 00:00:00		PROVIDER INFORMATION	NUM		
+REGION	UNOS REGION WHERE TRANSPLANTED	CALCULATED				NUM		
+REM_CD	REASON FOR REMOVAL FROM THE WAITING LIST	WL	2014-07-03 00:00:00		WAITING LIST DATA	NUM	REMCD	
+RESUSCIT_DUR_DON	DURATION OF RESUSCITATION (MINUTES)	DDR	2015-09-01 00:00:00		DONOR INFORMATION	NUM		
+RETXDATE	Date of Re-Transplant	CALCULATED				NUM		
+ROLE_EMOTIONAL_SCORE	Role-Emotional (RE) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Mental Health	NUM		
+ROLE_PHYS_SCORE	Role-Physical (RP) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Physical Health	NUM		
+SECONDARY_PAY	Secondary Source of Payment	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant - Source of Payment	NUM	SECNDPAY	
+SERUM_CREAT	Serum Creatinine (mg/dL)	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Pre-Transplant Labs	NUM		
+SHARE_TY	Share Type	CALCULATED				NUM	SHARETY	3 = Local, 4 = Regional, 5 = National, 6 = Foreign
+SKIN_TY	Skin Type	WL	2015-09-01 00:00:00		CANDIDATE INFORMATION	NUM	VCA_SKINTYPE	
+SOCIAL_FUNC_SCORE	Social Functioning (SF) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Mental Health	NUM		
+TATTOOS_DON	Donor Tattoos (Y/N)	DDR	2015-09-01 00:00:00		DONOR INFORMATION	CHAR(1)	YNU	
+TOLER_IND_TECH	Any tolerance induction technique used	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	CHAR(1)	YNU	
+TRANSPLANT_TIME	TRR Transplant Time	TRR	2023-09-14 00:00:00			Num		
+TRANSPLANTTIMEZONEID	Transplant Time Zone	TRR	2023-09-14 00:00:00			NUM	commontz	
+TRR_ID_CODE	ENCRYPTED TRANSPLANT IDENTIFIER	CALCULATED				CHAR(15)		
+TX_DATE	Transplant Date	TRR	2015-09-01 00:00:00		RECIPIENT INFORMATION	NUM		
+TX_YEAR	TRANSPLANT YEAR	CALCULATED				NUM		
+TXHRT	Simultaneous HEART - Y	CALCULATED				CHAR(1)	VCA_SIMULTX	
+TXINT	Simultaneous INTESTINE - W, S	CALCULATED				CHAR(1)	VCA_SIMULTX	W-Whole, S-Segment (This field to determines the type of multi-organ transplant performed) 
+TXKID	Simultaneous KIDNEY - R, L, E	CALCULATED				CHAR(1)	VCA_SIMULTX	R-Right, L-Left, E-En-Bloc (This is organ placement data from OPO, use TX_PROCEDUR_TY to identify transplant procedure types)
+TXLIV	Simultaneous LIVER - W, S	CALCULATED				CHAR(1)	VCA_SIMULTX	W-Whole, S-Segment/Split  (This field to determines the type of multi-organ transplant performed) 
+TXLNG	Simultaneous LUNG - R, L, D	CALCULATED				CHAR(1)	VCA_SIMULTX	R-Right, L-Left, D-Double (This field to determines the type of multi-organ transplant performed) 
+TXPAN	Simultaneous PANCREAS - W, S	CALCULATED				CHAR(1)	VCA_SIMULTX	W-Whole, S-Segment  (This field to determines the type of multi-organ transplant performed) 
+TXVCA	Simultaneous VCA - Y	CALCULATED				CHAR(1)	VCA_SIMULTX	
+UPPER_LIMB_LEFT_AMP_LEVEL	Upper Limb Amputation, Left	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Level of Amputation	NUM	VCA_AMP_UPPERLIMB	
+UPPER_LIMB_RIGHT_AMP_LEVEL	Upper Limb Amputation, Right	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant - Level of Amputation	NUM	VCA_AMP_UPPERLIMB	
+VCA_CANDIDATE_ID_CODE	ENCRYPTED VCA CANDIDATE ID	CALCULATED				NUM		
+VCA_TY	VCA Organ Type	WL	2015-09-01 00:00:00		CANDIDATE INFORMATION	CHAR(200)		
+VCA_TY_CD						CHAR(2)		
+VCA_TY_MULTI	Multiple VCA Organ Type	CALCULATED	2015-09-01 00:00:00			CHAR(200)		
+VENTILATOR	Patient on Life Support - If on life support, check if on ventilator	TRR	2015-09-01 00:00:00		Clinical Information: Pre-transplant	NUM	YN	
+VITALITY_SCORE	Vitality (VT) Score (0-100 Scale)	TRR	2015-09-01 00:00:00		Functional Status: Pre-transplant - SF-36 Score - Mental Health	NUM		
+WARM_ISCH_TM	Warm Ischemia Time (include anastomotic time) (in minutes)	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure - Preservation Information	NUM		
+WARM_ISCH_TM_LEFT	Warm Ischemia Time (include anastomotic time), Left Limb (in minutes)	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure - Preservation Information	NUM		
+WARM_ISCH_TM_RIGHT	Warm Ischemia Time (include anastomotic time), Right Limb (in minutes)	TRR	2015-09-01 00:00:00		Clinical Information: Transplant Procedure - Preservation Information	NUM		
+WGT_KG_DON_CALC	CALCULATED DONOR WEIGHT (KG)	CALCULATED				NUM		
+WGT_KG_TCR	Weight (kg)	WL	2014-07-03 00:00:00		CLINICAL INFORMATION	NUM		
+WGT_KG_TRR	TRR Weight (kg)	TRR	2015-09-01 00:00:00		CANDIDATE INFORMATION	NUM		
+WL_ID_CODE	ENCRYPTED REGISTRATION IDENTIFIER	CALCULATED				NUM		
+WLHL	WAS CANDIDATE LISTED FOR SIMULTANEOUS HEART-LUNG?	CALCULATED				CHAR(1)		
+WLHR	WAS CANDIDATE LISTED FOR SIMULTANEOUS HEART?	CALCULATED				CHAR(1)		
+WLIN	WAS CANDIDATE LISTED FOR SIMULTANEOUS INTESTINE?	CALCULATED				CHAR(1)		
+WLKI	WAS CANDIDATE LISTED FOR SIMULTANEOUS KIDNEY?	CALCULATED				CHAR(1)		
+WLKP	WAS CANDIDATE LISTED FOR SIMULTANEOUS KIDNEY-PANCREAS?	CALCULATED				CHAR(1)		
+WLLI	WAS CANDIDATE LISTED FOR SIMULTANEOUS LIVER?	CALCULATED				CHAR(1)		
+WLLU	WAS CANDIDATE LISTED FOR SIMULTANEOUS LUNG?	CALCULATED				CHAR(1)		
+WLPA	WAS CANDIDATE LISTED FOR SIMULTANEOUS PANCREAS?	CALCULATED				CHAR(1)		
+WLPI	WAS CANDIDATE LISTED FOR SIMULTANEOUS PANCREAS ISLET?	CALCULATED				CHAR(1)		
+WORK_INCOME	Working for income (for recipients 18 years of age or older)	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant	CHAR(1)	YNU	
+WORK_NO_STATUS	Working for income (for recipients 18 years of age or older) - If No, Not Working Due To	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant	NUM	WORKNO	
+WORK_YES_STATUS	Working for income (for recipients 18 years of age or older) - If Yes, indicate the recipient's working status	TRR	2015-09-01 00:00:00		Socio-Demographic Information: Pre-Transplant	NUM	WORKYES	

@@ -1,0 +1,59 @@
+"STAR Table Name: LIVING_DONOR_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ACTIVITY_LEVEL	Activity Level	LDF	2004-06-30 00:00:00		Lung CLINICAL INFORMATION	NUM	ACTIVLVL	
+ALBUM	Liver - Serum Albumin in g/dl	LDF	1999-10-25 00:00:00		Liver CLINICAL INFORMATION	NUM		
+ALBUM_DT	Liver - Serum Albumin Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+ALKPHOS	Liver - Alkaline Phosphatase in units/L	LDF	2004-06-30 00:00:00		Liver CLINICAL INFORMATION	NUM		
+ALKPHOS_DT	Liver - Alkaline Phosphatase Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+AST	Liver - SGOT/AST in U/L	LDF	1999-10-25 00:00:00		Liver CLINICAL INFORMATION	NUM		
+AST_DT	Liver - SGOT/AST://DATE: Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+BILIRUB	Liver - Total Bilirubin in mg/dl	LDF	2004-06-30 00:00:00		Liver CLINICAL INFORMATION	NUM		
+BILIRUB_DT	Liver - Bilirubin Date  	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+BP_DIAST	Kidney - Blood Pressure Diastolic	LDF	1999-10-25 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+BP_DIAST_DT	Kidney - Blood Pressure Diastolic Date	LDF	2015-03-31 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+BP_SYST	Kidney - Blood Pressure Systolic	LDF	2004-06-30 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+BP_SYST_DT	Kidney - Blood Pressure Systolic Date	LDF	2015-03-31 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+COD	Donor Cause of Death	LDF	1999-10-25 00:00:00		Donor Status	NUM	LDONCOD	
+COMPLICATIONS	Complications Since Last Follow-up? (Y/N/U)	LDF	2004-06-30 00:00:00		Complications	CHAR(1)		
+COMPLICATIONS_KI	Kidney - Complications Since Last Follow-up? (Y/N/U)	LDF	2004-06-30 00:00:00		Complications	CHAR(1)		
+COMPLICATIONS_KI_STATUS	Kidney Complications Type	LDF	2004-06-30 00:00:00		Complications	NUM	COMPKI	
+COMPLICATIONS_LI	Liver Complications Since Last Follow-up? (Y/N/U)	LDF	2004-06-30 00:00:00		Complications	CHAR(1)		
+COMPLICATIONS_LI_STATUS	Liver Complications Type 	LDF	2004-06-30 00:00:00		Complications	NUM	COMPLI	
+CREAT	Kidney - Serum Creatinine in mg/dl	LDF	2004-06-30 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+CREAT_DT	Kidney - Serum Creatinine Date	LDF	2015-03-31 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+CREAT_LI	Liver - Serum Creatinine in mg/dl	LDF	2004-06-30 00:00:00		Liver CLINICAL INFORMATION	NUM		
+CREAT_LI_DT	Liver - Serum Creatinine Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+DIAB_TREAT	Kidney - Diabetes Treatment	LDF	2004-06-30 00:00:00		Kidney CLINICAL INFORMATION	NUM	DIAB_TRT	
+DIABETES	Kidney - Diabetes (Y/N/U)	LDF	1999-10-25 00:00:00		Kidney CLINICAL INFORMATION	CHAR(1)		
+DIALYSIS	Kidney - Maintenance Dialysis (Y/N/U)	LDF	2004-06-30 00:00:00		Kidney CLINICAL INFORMATION	CHAR(1)		
+DIALYSIS_DT	Kidney - Date of First Maintenance Dialysis	LDF	2004-06-30 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+DONOR_ID	Encrypted Donor ID	CALC	1987-10-01 00:00:00		Calculated	NUM		
+ERVISIT_SINCE_DON	ER or Urgent Care Visit Related to Donation Since Last Visit ? (Y,N,U)	LDF	2015-03-31 00:00:00		CLINICAL INFORMATION	CHAR(1)		
+FOL_CD	Follow-up Code	LDF	1999-10-25 00:00:00		Generated	NUM	FOLCD	
+FOL_CTR_CODE	Donor Follow-up Center - Encrypted	LDF				CHAR(7)		
+FUNC_STAT	Functional Status at Follow-up	LDF	2004-06-30 00:00:00		Donor Status	NUM	FUNCSTAT	
+HYPERTENSION	Kidney - Hypertension Developed Requiring Medication? (Y,N,U)	LDF	1999-10-25 00:00:00		Kidney CLINICAL INFORMATION	CHAR(1)		
+INCISION_PAIN	Lung - Chronic Incisional Pain	LDF	2004-06-30 00:00:00		Lung CLINICAL INFORMATION	NUM		
+INR	Liver - INR	LDF	2004-06-30 00:00:00		Liver CLINICAL INFORMATION	NUM		
+INR_DT	Liver- INR Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+LOSS_INSURANCE_DUETO_DON	Loss of Insurance Due to Donation (Y/N/U)	LDF	2015-03-31 00:00:00		Donor Status	CHAR(1)		
+LOSS_INSURANCE_DUETO_DON_TY	Loss of Insurance Due to Donation Type (1=Health Insurance, 2=Life Insurance)	LDF	2015-03-31 00:00:00		Donor Status	NUM	INSLOSS	
+PHYSICAL_CAPACITY	Physical Capacity at Follow-up	LDF	2004-06-30 00:00:00		Donor Status	NUM		
+PLATELET_COUNT	Liver - Platelet Count	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+PLATELET_COUNT_DT	Liver - Platelet Count Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+PLATELET_COUNT_I	Liver - Platelet Count Indicator Status	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	CHAR(1)		
+PX_STAT	Most Recent Donor Status Since Last Follow-up	LDF	1999-10-25 00:00:00		Donor Status	CHAR(2)	PSTATLD	
+PX_STAT_DT	Date last contact or death	LDF	1999-10-25 00:00:00		Donor Status	NUM		
+READMIT	Has Donor been readmitted since last Follow-up? (Y/N/U)	LDF	2004-06-30 00:00:00		Complications	CHAR(1)		
+READMIT_DT	Date of First Readmission since last follow-up	LDF	2004-06-30 00:00:00		Complications	NUM		
+SGPT_ALT	Liver - SGPT/ALT in U/L	LDF	1999-10-25 00:00:00		Liver CLINICAL INFORMATION	NUM		
+SGPT_ALT_DT	Liver - SGPT/ALT in U/L Date	LDF	2015-03-31 00:00:00		Liver CLINICAL INFORMATION	NUM		
+STATUS_LDF	LDF Form Status	LDF				CHAR(1)	FRMSTAT	
+URINE_PROTEIN	Kidney - Urinalysis: Urine Protein	LDF	1999-10-25 00:00:00		Kidney CLINICAL INFORMATION	NUM	URINPROT	
+URINE_RATIO	Kidney - Diabetes Treatment	LDF	2004-06-30 00:00:00		Kidney CLINICAL INFORMATION	NUM		
+VAL_DT_LDF	LDF Validation Date	LDF				NUM		
+WEIGHT_DT	Weight Date	LDF	2015-03-31 00:00:00		CLINICAL INFORMATION	NUM		
+WORK_INCOME	Donor Working for Income at time of follow-up? (Y/N/U)	LDF	2004-06-30 00:00:00		Donor Status	CHAR(1)		

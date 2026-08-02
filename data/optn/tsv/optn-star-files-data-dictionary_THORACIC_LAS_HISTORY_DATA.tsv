@@ -1,0 +1,109 @@
+"STAR Table Name: THORACIC_LAS_HISTORY_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+BILI_DT	Current Bilirubin Date	WL	2015-02-19 00:00:00			NUM		
+BILIRUBIN	Current Bilirubin	WL	2015-02-19 00:00:00			NUM		
+BLOOD_GAS_DATE	Blood Gas Date at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+BLOOD_GAS_TY	Blood Gas Type at Current PCO2	WL	2005-05-04 00:00:00			NUM	BLDGAS	
+BMI	BMI	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_BILI	Calculated - Current Bilirubin	CALCULATED	2015-02-19 00:00:00			NUM		
+CALC_BMI	Calculated - BMI	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_CI	Calculated - Cardiac Index (CI)	CALCULATED	2006-09-13 00:00:00			NUM		
+CALC_CREAT	Calculated - Current Creatinine	CALCULATED	2004-09-15 00:00:00			NUM		
+CALC_CVP	Calculated - Central Venous Pressure (CVP)	CALCULATED	2006-09-13 00:00:00	2021-12-08 00:00:00		NUM		
+CALC_DIABETES	Calculated - Diabetes	CALCULATED	2005-05-04 00:00:00	2021-12-08 00:00:00		CHAR(1)	LUDIAB	
+CALC_FUNC_STAT	Calculated - Functional Status	CALCULATED	2008-11-01 00:00:00			NUM	FUNCSTAT	
+CALC_FVC_ABS	Calculated - Actual FVC	CALCULATED	2005-05-04 00:00:00	2021-12-08 00:00:00		NUM		
+CALC_FVC_PRE	Calculated - Predicted FVC	CALCULATED	2005-05-04 00:00:00	2021-12-08 00:00:00		NUM		
+CALC_NYHA	Calculated - New York Heart Assoc Class	CALCULATED	2005-05-04 00:00:00	2008-11-01 00:00:00		NUM		
+CALC_O2	Calculated - Oxygen Delivered	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_O2_FREQ	Calculated - Frequency of Oxygen Use	CALCULATED	2005-05-04 00:00:00			NUM	LUOXY	
+CALC_PA_SYSTOLIC	Calculated - Pulmonary Artery Systolic Pressure	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_PAP_MEAN	Calculated - Mean Pulmonary Artery Pressure	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_PCO2	Calculated - Pulmonary Capillary Oxygen at Current	WL	2005-05-04 00:00:00			NUM		
+CALC_PCW	Calculated - Pulmonary Capillary Wedge Mean	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_SERUM	Calculated - Serum Creatinine	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_SIX_MIN_WALK	Calculated - Six Min Walk Distance	CALCULATED	2005-05-04 00:00:00			NUM		
+CALC_VENT_USE	Calculated - Assisted Ventilation	CALCULATED	2005-05-04 00:00:00			NUM	LUVENT	
+CHG_DATE	Date of Waiting List Modification	WL	1987-10-01 00:00:00			NUM		
+CHG_TIME	Time of Waiting List Modification	WL	1987-10-01 00:00:00			NUM		
+CI	Cardiac Index (CI)	WL	2006-09-13 00:00:00			NUM		
+CREAT_DT	Current Creatinine Date	WL	2004-09-15 00:00:00			NUM		
+CREATININE	Current Creatinine	WL	2004-09-15 00:00:00			NUM		
+CVP_INT	Central Venous Pressure (CVP)	WL	2006-09-13 00:00:00			NUM		
+DIABETES	Diabetes	WL	2005-05-04 00:00:00			CHAR(1)	LUDIAB	
+DIABETES_DATE	Diabetes Date	WL	2005-05-04 00:00:00			NUM		
+EXPIRE_DATE	Expiration Date	WL	2005-05-04 00:00:00			NUM		
+FEV_POST_ACT	Actual Post Bronchodilator FEV	WL	2005-05-04 00:00:00			NUM		
+FEV_POST_PCT	Percent Post Post BronchodilatorFEV	WL	2005-05-04 00:00:00			NUM		
+FEV_PRE_ACT	Actual Predicted Pre Bronchodilator FEV	WL	2005-05-04 00:00:00			NUM		
+FEV_PRE_PCT	Percent Predicted Pre Bronchodilator FEV	WL	2005-05-04 00:00:00			NUM		
+FUNC_STAT	Functional Status	WL	2008-11-01 00:00:00			NUM	FUNCSTAT	
+FUNC_STAT_DATE	Functional Status Date	WL	2005-05-04 00:00:00			NUM		
+FVC_ABS	Actual Forced Vital Capacity (FVC)	WL	2005-05-04 00:00:00			NUM		
+FVC_DATE	Pulmonary Function Test Date	WL	2005-05-04 00:00:00			NUM		
+FVC_PRE	Predicted FVC Pre Bronchodilator	WL	2005-05-04 00:00:00			NUM		
+GROUPING	Diagnosis Group	WL	2005-05-04 00:00:00			CHAR(1)		
+HIGH_BILI_DT	Bilirubin Date at Highest Bilirubin	WL	2015-02-19 00:00:00			NUM		
+HIGH_BILIRUBIN	Bilirubin at Highest Bilirubin	WL	2015-02-19 00:00:00			NUM		
+HIGH_CALC_BILI	Calculated - Bilirubin at Highest Bilirubin	CALCULATED	2015-02-19 00:00:00			NUM		
+HIGH_CALC_CREAT	Calculated - Creatinine at Highest Creatinine	CALCULATED	2004-09-15 00:00:00			NUM		
+HIGH_CREAT_DT	Creatinine Date at Highest Creatinine	WL	2004-09-15 00:00:00			NUM		
+HIGH_CREATININE	Creatinine at Highest Creatinine	WL	2004-09-15 00:00:00			NUM		
+HIGH_PCO2_BLOOD_GAS_DATE	Blood Gas Date Associated with Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_BLOOD_GAS_TY	Blood Gas Type at Highest PCO2	WL	2005-05-04 00:00:00			NUM	BLDGAS	
+HIGH_PCO2_CALC_PCO2	Calculated - Pulmonary Capillary Oxygen at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_O2_LI	Oxygen Line at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_O2_PCT	Oxygen Percent at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_O2_TEST	Supplemental Oxygen at time of Test at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_PCO2	Pulmonary Capillary Oxygen at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_PCO2_MOD_DATE	PCO2 Modification Date assoc with High PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_PH	PH at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+HIGH_PCO2_PO2	PO2 at Highest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_BILI_DT	Bilirubin Date at Lowest Bilirubin	WL	2015-02-19 00:00:00			NUM		
+LOW_BILIRUBIN	Bilirubin at Lowest Bilirubin	WL	2015-02-19 00:00:00			NUM		
+LOW_CALC_BILI	Calculated - Bilirubin at Lowest Bilirubin	CALCULATED	2015-02-19 00:00:00			NUM		
+LOW_CALC_CREAT	Calculated - Creatinine at Lowest Creatinine	CALCULATED	2004-09-15 00:00:00			NUM		
+LOW_CREAT_DT	Creatinine Date at Lowest Creatinine	WL	2004-09-15 00:00:00			NUM		
+LOW_CREATININE	Creatinine at Lowest Creatinine	WL	2004-09-15 00:00:00			NUM		
+LOW_PCO2_BLOOD_GAS_DATE	Blood Gas Date Associated with Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_BLOOD_GAS_TY	Blood Gas Type at Lowest PCO2	WL	2005-05-04 00:00:00			NUM	BLDGAS	
+LOW_PCO2_CALC_PCO2	Calculated - Pulmonary Capillary Oxygen at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_O2_LI	Oxygen Line at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_O2_PCT	Oxygen Percent at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_O2_TEST	Supplemental Oxygen at time of Test at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_PCO2	Pulmonary Capillary Oxygen at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_PCO2_MOD_DATE	PCO2 Modification Date assoc with Low PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_PH	PH at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+LOW_PCO2_PO2	PO2 at Lowest PCO2	WL	2005-05-04 00:00:00			NUM		
+MOST_RECENT_CATH_DATE	Date of Most Recent Catheterization	WL	2005-05-04 00:00:00			NUM		
+NYHA	New York Heart Assoc Class	WL	2005-05-04 00:00:00	2008-11-01 00:00:00		NUM		
+NYHA_DATE	New York Heart Assoc Class Date	WL	2005-05-04 00:00:00	2008-11-01 00:00:00		NUM		
+O2	Supplemental Oxygen Amount	WL	2005-05-04 00:00:00			NUM		
+O2_CALC_METHOD	Oxygen calculated method	WL	2005-05-04 00:00:00			NUM	OXYCALC	
+O2_DATE	Supplemental Oxygen Date	WL	2005-05-04 00:00:00			NUM		
+O2_LI	Oxygen Line at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+O2_PCT	Oxygen Percent at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+O2_TEST	Supplemental Oxygen at time of Test at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+O2PERCENT	Percent Oxygen	WL	2005-05-04 00:00:00			NUM		
+PA	Pulmonary Artery Systolic Pressure	WL	2005-05-04 00:00:00			NUM		
+PA_DATE	Pulmonary Artery Systolic Pressure Date	WL	2005-05-04 00:00:00			NUM		
+PADIAST_INIT	Pulmonary Artery Diastolic Pressure	WL	2005-05-04 00:00:00			NUM		
+PAP_MEAN	Pulmonary artery Pressure Mean	WL	2005-05-04 00:00:00			NUM		
+PCO2	Pulmonary Capillary Oxygen at Current	WL	2005-05-04 00:00:00			NUM		
+PCO2_MOD_DATE	PCO2 Modification Date at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+PCW	Pulmonary Capillary Wedge Mean	WL	2005-05-04 00:00:00			NUM		
+PCW_DATE	Pulmonary Capillary Wedge Mean Date	WL	2005-05-04 00:00:00			NUM		
+PH	PH at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+PO2	Pulmonary Oxygen at Current PCO2	WL	2005-05-04 00:00:00			NUM		
+SERUM	Serum Creatinine	WL	2005-05-04 00:00:00			NUM		
+SERUM_DATE	Serum Creatinine Date	WL	2005-05-04 00:00:00			NUM		
+SIX_MIN_WALK	Six Minute Walk Distance	WL	2005-05-04 00:00:00			NUM		
+SIX_MIN_WALK_DATE	Six Minute Walk Date	WL	2005-05-04 00:00:00			NUM		
+THORACIC_DGN	Thoracic Diagnosis Code	WL	1987-10-01 00:00:00			NUM	ALL_DGN	
+VENT_USE_DATE	Assisted Ventilator Use Date	WL	2005-05-04 00:00:00			NUM		
+VENT_USE_NEW	Assisted Ventilator Use (NEW)	WL	2005-05-04 00:00:00			NUM	LUVENT	
+WL_ID_CODE	ENCRYPTED WL_ID	CALCULATED	1987-10-01 00:00:00			NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID For Linkage to Other Data	CALCULATED	1987-10-01 00:00:00			NUM		

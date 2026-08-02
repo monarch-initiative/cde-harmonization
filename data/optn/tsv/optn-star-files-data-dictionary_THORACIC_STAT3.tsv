@@ -1,0 +1,125 @@
+"STAR Table Name: THORACIC_STAT3
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ADMITTEDTOHOSPITAL	Is the Candidate Currently Admitted to the Listing Center?	Adult Heart Status 3 Justification Form				NUM		
+ANTIARRHYTHMICTHERAPY	Did Candidate have MCSD while Receiving Continuous Antiarrhythmic Therapy?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+BIVADDEVICE	Did Candidate have MCSD with Placement of a Biventricular MCSD for Treatment of Sustained Ventricular Arrhythmias?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+CRITERIAIABPSUPPORT	Candidate is Admitted to the Listing Center and is Supported by an IABP	Adult Heart Status 3 Justification Form				NUM		
+CRITERIAINOTROPESUPPORT	Candidate is Admitted to the Listing Center and is on Multiple Inotropes or a Single High Dose Inotrope and Hemodynamic Monitoring	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIALVADDISCSUPPORT	Candidate is Supported by a Dischargeable LVAD for a Discretionary 30 Days	Adult Heart Status 3 Justification Form				NUM		
+CRITERIALVADSUPPORT	Candidate is Supported by a Dischargeable LVAD	Adult Heart Status 3 Justification Form				NUM		
+CRITERIAMCSDINFECTION	Candidate is Supported by a MCSD, and Experiencing a Pump-related Local or Systemic Infection	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAMCSDMUCOSALBLEED	Candidate is Admitted to the Listing Center, is Supported by a MCSD and is Experiencing Mucosal Bleeding	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAMCSDSUPPORT	Candidate is Admitted to the Listing Center and is Supported by an MCSD and is Experiencing Recurrent or Sustained Ventricular Tachycardia or Ventricular Fibrillation	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+CRITERIAMCSDWITHAI	Candidate is Experiencing Aortic Insufficiency and is Supported by a MCSD that is not Experiencing Device Malfunction	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAMCSDWITHHEMO	Candidate is Experiencing Hemolysis and is Supported by a MCSD that is not Experiencing Device Malfunction	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAMCSDWITHPUMP	Candidate is Supported by a MCSD and is Experiencing Pump Thrombosis	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAMCSDWITHRHF	Candidate is Supported by a MCSD and has at least Moderate Right Ventricular Malfunction in the Absence of the LVAD Malfunction	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAPERCUSUPPORT	Candidate is Admitted to the Listing Center and is Supported by a Percutaneous Endovascular Circulatory Support Device	Adult Heart Status 3 Justification Form				NUM		
+CRITERIAVAECMOSUPPORT	Candidate is Admitted to the Listing Center and is Supported by a VA ECMO	Adult Heart Status 3 Justification Form				NUM		
+DEVICERECALLEXCEPTION	Exception Request Specifically Related to a Device Recall	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+EXCEPTION	Candidate Does not Meet any of the Criteria but is Admitted to the Listing Center and has an Urgency and Potential for Benefit Comparable to that of Other Candidates at this Status	Adult Heart Status 3 Justification Form				NUM		
+EXTCARDIACINDX	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTENSIONNUMBER	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration) or Criteria 5 (MCSD with Right Heart Failure)					NUM		
+EXTFAILEDWEANINGATTEMPT	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTFWAARTERIALLACTATE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTFWACARDIACINDEX	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTFWASERUMCREATININE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTFWASVO2	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTHEMODYNAMICMONITORING	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOMULDOBUTAMINE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOMULDOPAMINE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOMULEPINEPHRINE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOMULMILRINONE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOMULTIDOSE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOSINDOBUTAMINE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOSINEPINEPHRINE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOSINGLEDOSE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINOSINMILRINONE	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTINVASIVECATHETER	Applies to Criteria 2 (Multiple or Single High-Dose Inotrope Administration)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDDOBUTAMINE	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDDOBUTAMINEDT	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDDOPAMINE	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDDOPAMINEDT	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDEPINEPHRINE	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDEPINEPHRINEDT	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDMILRINONE	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDMILRINONEDT	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDNITRICOXIDE	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDNITRICOXIDEDT	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDPROSTACYCLIN	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+EXTMCSDPROSTACYCLINDT	Applies to Criteria 5 (MCSD with Right Heart Failure)	Adult Heart Status 3 Justification Form				NUM		
+FORMEFFECTIVEDT	Form Effective Date	Adult Heart Status 3 Justification Form				NUM		
+FORMSTATUS	Description of justification form status	" 
+Adult Heart Status 3 Justification Form"	2018-09-19 00:00:00					
+INOCAPWEDGEPRESSURE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Pulmonary Capillary Wedge Pressure (mmHg)	Adult Heart Status 3 Justification Form				NUM		
+INOCAPWEDGEPRESSUREDT	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Pulmonary Capillary Wedge Pressure Date	Adult Heart Status 3 Justification Form				NUM		
+INOCARDIACINDEX	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Cardiac Index (mmHg)	Adult Heart Status 3 Justification Form				NUM		
+INOCARDIACINDEXDT	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Cardiac Index Date	Adult Heart Status 3 Justification Form				NUM		
+INOHEMODYNAMICMONITORING	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Candidate has Daily Hemodynamic Monitoring to Measure Cardiac Output and Left Ventricular Filling Pressures	Adult Heart Status 3 Justification Form				NUM		
+INOINOTROPESUPPORT	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Was the Candidate on Inotropic or Mechanical Support at the Time Cardiac Index was Obtained?	Adult Heart Status 3 Justification Form				CHAR(1)		
+INOINVASIVECATHETER	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Candidate has an Invasive Pulmonary Artery Catheter	Adult Heart Status 3 Justification Form				NUM		
+INOMULDOBUTAMINE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least Two Intravenous Inotropes - Dobutamine Greater than or Equal to 3 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOMULDOPAMINE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least Two Intravenous Inotropes - Dopamine Greater than or Equal to 3 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOMULEPINEPHRINE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least Two Intravenous Inotropes - Epinephrine Greater than or Equal to 0.01 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOMULMILRINONE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least Two Intravenous Inotropes - Milrinone Greater than or Equal to 0.25 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOMULTIPLE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least Two Intravenous Inotropes	Adult Heart Status 3 Justification Form				NUM		
+INOSINDOBUTAMINE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least One High Dose Intravenous Inotrope - Dobutamine Greater than or Equal to 7.5 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOSINEPINEPHRINE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least One High Dose Intravenous Inotrope - Epinephrine Greater than or Equal to 0.02 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOSINGLE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least One High Dose Intravenous Inotrope	Adult Heart Status 3 Justification Form				NUM		
+INOSINMILRINONE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - a Continuous Infusion of at least One High Dose Intravenous Inotrope - Milrinone Greater than or Equal to 0.50 mcg/kg/min	Adult Heart Status 3 Justification Form				NUM		
+INOSYSBLOODPRESSURE	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Systolic Blood Pressure (mmHg)	Adult Heart Status 3 Justification Form				NUM		
+INOSYSBLOODPRESSUREDT	Multiple Inotropes or a Single High Dose Inotrope with Hemodynamic Monitoring - Systolic Blood Pressure Date	Adult Heart Status 3 Justification Form				NUM		
+JUSTCRITERIAINFOID	Justification Form Criteria ID		2023-03-09 00:00:00			NUM	JUSTCRITERIAINFO	
+MCSDHEMOGLOBINURIA	MCSD with Hemolysis - Hemoglobinuria	Adult Heart Status 3 Justification Form				NUM		
+MCSDINFECTIONBACANTI	MCSD with Device Infection - Bacteremia Treated with Antibiotics	Adult Heart Status 3 Justification Form				NUM		
+MCSDINFECTIONBACRECCUR	McsdInfectionBacReccur	Adult Heart Status 3 Justification Form				NUM		
+MCSDINFECTIONDEBRIDEMENT	MCSD with Device Infection - Debridement of the Driveline with Positive Cultures from Sites between the Exit Site and the Device	Adult Heart Status 3 Justification Form				NUM		
+MCSDINFECTIONERYTHEMA	MCSD with Device Infection - Erythema and Pain Along with Driveline with Either Leukocytosis or a 50 Percent Increase in White Blood Cell Count from the Last Recorded Count	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+MCSDINFECTIONPOSCULTURE	MCSD with Device Infection - Positive Culture of Material from the Pump Pocket of an Implanted Device	Adult Heart Status 3 Justification Form				NUM		
+MCSDINFECTIONRECDEBRIDEMENT	Did Candidate have MCSD with Device Infection and Recurrent Debridement?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+MCSDLACTATEDEHYDROGENASE	MCSD with Hemolysis - Blood Lactate Dehydrogenase (LDH) at least 2.5 Times the Upper Limit of Normal at the Lab Reference Range	Adult Heart Status 3 Justification Form				NUM		
+MCSDPLASMAFREEHEMOGLOBIN	MCSD with Hemolysis - Plasma Free Hemoglobin Greater than 20 mg/dL	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHPUMPABNORMALPUMP	Did Candidate have MCSD with Abnormal Pump Parameters?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+MCSDWITHPUMPINOTROPICSUPPORT	Did Candidate have MCSD with Pump Requiring Inotropic Support?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+MCSDWITHPUMPIVANTICOAGULATION	Did Candidate have MCSD with Pump Intravenous Anti-coagulation Treatment?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+MCSDWITHPUMPIVANTIPLATELET	Did Candidate have MCSD with Pump Intravenous Anti-Platelet Therapy?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+MCSDWITHPUMPIVTHROMBOLYTICS	Did Candidate have MCSD with Pump Intravenous Thrombolytics Treatment?	Adult Heart Justification Form	2022-10-27 00:00:00				YN	
+MCSDWITHPUMPTHROMBOSIS	MCSD with Pump Thrombosis - Visually Detected Thrombus in a Paracorporeal VAD	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHPUMPTRANSISCATTACK	MCSD with Pump Thrombosis - Transient Ischemic Attack, Stroke or Peripheral Thromboembolic Event	Adult Heart Status 3 Justification Form				NUM		Other Conditions Must be Satisfied
+MCSDWITHRHFDOBUTAMINE	MCSD with Right Heart Failure - Dobutamine (mcg/kg/min)	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFDOBUTAMINEDT	MCSD with Right Heart Failure - Dobutamine Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFDOPAMINE	MCSD with Right Heart Failure - Dopamine (mcg/kg/min)	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFDOPAMINEDT	MCSD with Right Heart Failure - Dopamine Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFEPINEPHRINE	MCSD with Right Heart Failure - Epinephrine (mcg/kg/min)	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFEPINEPHRINEDT	MCSD with Right Heart Failure - Epinephrine Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFMILRINONE	MCSD with Right Heart Failure - Milrinone (mcg/kg/min)	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFMILRINONEDT	MCSD with Right Heart Failure - Milrinone Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFNITRICOXIDE	MCSD with Right Heart Failure - Inhaled Nitric Oxide	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFNITRICOXIDEDT	MCSD with Right Heart Failure - Inhaled Nitric Oxide Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFPCWP	MCSD with Right Heart Failure - Pulmonary Capillary Wedge Pressure (mmHg)	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFPCWPDT	MCSD with Right Heart Failure - Pulmonary Capillary Wedge Pressure Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFPROSTACYCLIN	MCSD with Right Heart Failure - Intravenous Prostacyclin	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFPROSTACYCLINDT	MCSD with Right Heart Failure - Intravenous Prostacyclin Date	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFVENPRESSURE	MCSD with Right Heart Failure - Central Venous Pressure (mmHg)	Adult Heart Status 3 Justification Form				NUM		
+MCSDWITHRHFVENPRESSUREDT	MCSD with Right Heart Failure - Central Venous Pressure Date	Adult Heart Status 3 Justification Form				NUM		
+MUCOSALBLEEDNUMHOSP	Number of Hospitalizations for Mucosal Bleeding within the Past Six Months Excluding the one for MCSD Implantation	Adult Heart Status 3 Justification Form				NUM		
+PRIM_DEVICETYPEID	Primary Device	Adult Heart Status 3 Justification Form				NUM	VADDEVTY	
+PRIM_IMPLANTDT	Primary Device - Date of Implant/Initiation	Adult Heart Status 3 Justification Form				NUM		
+PRIM_IMPLANTTIME	Primary Device - Time of Implant/Initiation	Adult Heart Status 3 Justification Form				CHAR(5)		
+PRIM_PERCUBRANDID	Primary Device - Device Brand - Percutaneous Brand	Adult Heart Status 3 Justification Form				NUM	VADBRAND	
+PRIM_TAHBRANDID	Primary Device - Device Brand - TAH Brand	Adult Heart Status 3 Justification Form				NUM	VADBRAND	
+PRIM_VADBRANDID	Primary Device - Device Brand - VAD Brand	Adult Heart Status 3 Justification Form				NUM	VADBRAND	
+PRIM_VENTRICULARSUPPORTID	Primary Device - Ventricle Support	Adult Heart Status 3 Justification Form				NUM	VENTRIC	
+SEC_DEVICETYPEID	Secondary Device	Adult Heart Status 3 Justification Form				NUM	VADDEVTY	
+SEC_IMPLANTDT	Secondary Device - Date of Implant/Initiation	Adult Heart Status 3 Justification Form				NUM		
+SEC_PERCUBRANDID	Secondary Device - Device Brand - Percutaneous Brand	Adult Heart Status 3 Justification Form				NUM	VADBRAND	
+SEC_TAHBRANDID	Secondary Device - Device Brand - TAH Brand	Adult Heart Status 3 Justification Form				NUM	VADBRAND	
+SEC_VADBRANDID	Secondary Device - Device Brand - VAD Brand	Adult Heart Status 3 Justification Form				NUM	VADBRAND	
+SEC_VENTRICULARSUPPORTID	Secondary Device - Ventricle Support	Adult Heart Status 3 Justification Form				NUM	VENTRIC	
+UNOS_CAND_STAT_CD	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1					NUM	STAT	
+UNOS_CAND_STAT_DT	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1 Date					NUM		
+WL_ID_CODE	Encrypted Registration Identifier					NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID for Linkage to Other Data					NUM		

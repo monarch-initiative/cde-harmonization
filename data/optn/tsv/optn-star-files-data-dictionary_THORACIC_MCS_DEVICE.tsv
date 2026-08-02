@@ -1,0 +1,21 @@
+"STAR Table Name: THORACIC_MCS_DEVICE
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+AMBULATORY_STATUS	Ambulatory Status					NUM	AMBSTAT	
+DEVICE_TYPE	Device Type		2004-06-30 00:00:00			CHAR(100)		
+DEVICE_TYPE_LU	Lung Device Type					CHAR(100)		
+ECMO_SITE	ECMO Site					CHAR(100)		
+ECMO_SITE_LU	Lung ECMO Site					CHAR(100)		
+EXPLANT_DATE	Explant/Decannulation Date		2011-01-06 00:00:00			NUM		
+IMPLANT_DATE	Implant/Cannulation Date		2005-03-07 00:00:00			NUM		Implant date only collected for some devices until 1/6/2011
+INPLACE	In Place at WL Removal					NUM		
+LVAD_BRAND	LVAD Device Brand					CHAR(100)		
+MCS_REM_REASON	Explant Reason					CHAR(100)		
+PERCU_BRAND	PERCU Device Brand					CHAR(100)		
+RVAD_BRAND	RVAD Device Brand					CHAR(100)		
+TAH_BRAND	TAH Device Brand					CHAR(100)		
+VAD_BRAND	VAD Device Brand					CHAR(100)		
+VENTRICULAR_SUPPORT	Ventricular Support Device					CHAR(100)		
+WL_ID_CODE	ENCRYPTED WL_ID					NUM		

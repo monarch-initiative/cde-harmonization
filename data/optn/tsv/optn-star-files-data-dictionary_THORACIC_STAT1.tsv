@@ -1,0 +1,61 @@
+"STAR Table Name: THORACIC_STAT1
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ADMITTEDTOHOSPITAL	Is the Candidate Currently Admitted to the Listing Center?	Adult Heart Status 1 Justification Form				NUM		
+BIVADPLACEMENT	MCSD - Placement of a Biventricular Mechanical Circulatory Support Device for the Treatment of Sustained Ventricular Arrhythmias	Adult Heart Status 1 Justification Form				NUM		
+CARDIACINDEXINOTROPESUPPORT	VA ECMO - Was the Candidate on Inotropes at the Time Cardiac Index was Obtained?	Adult Heart Status 1 Justification Form				CHAR(1)		
+CRITERIABIVADSUPPORT	Candidate is Admitted to the Listing Center and is Supported by a Surgically Implanted, non-Endovascular Biventricular Support Device and Must Remain Hospitalized	Adult Heart Status 1 Justification Form				NUM		
+CRITERIAECMOSUPPORT	Candidate is Admitted to the Listing Center and is Supported by VA ECMO for Cardiogenic Shock	Adult Heart Status 1 Justification Form				NUM		
+CRITERIAMCSDSUPPORT	Candidate is Admitted to the Listing Center and is Supported by an MCSD and is Experiencing Recurrent or Sustained Ventricular Tachycardia or Ventricular Fibrillation	Adult Heart Status 1 Justification Form				NUM		
+DEVICERECALLEXCEPTION	Exception Request Specifically Related to a Device Recall	Adult Heart Status 1 Justification Form	2022-07-14 00:00:00				YN	
+ECMOCAPWEDGEPRESSURE	VA ECMO - Hemodynamic Measurements were Obtained  - Pulmonary Capillary Wedge Pressure (mmHg)	Adult Heart Status 1 Justification Form				NUM		
+ECMOCAPWEDGEPRESSUREDT	VA ECMO - Hemodynamic Measurements were Obtained - Pulmonary Capillary Wedge Pressure Test Date	Adult Heart Status 1 Justification Form				NUM		
+ECMOCARDIACINDEX	VA ECMO - Hemodynamic Measurements were Obtained - Cardiac Index (L/min/m2)	Adult Heart Status 1 Justification Form				NUM		
+ECMOCARDIACINDEXDT	VA ECMO - Hemodynamic Measurements were Obtained -Cardiac Index Date	Adult Heart Status 1 Justification Form				NUM		
+ECMOSYSTOLICBLOODPRESSURE	VA ECMO - Hemodynamic Measurements were Obtained - Systolic Blood Pressure (mmHg)	Adult Heart Status 1 Justification Form				NUM		
+ECMOSYSTOLICBLOODPRESSUREDT	VA ECMO - Hemodynamic Measurements were Obtained - Systolic Blood Pressure Date	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHHEMO	VA ECMO - Hemodynamic Measurements were Obtained	Adult Heart Status 1 Justification Form				NUM		Other Conditions Must be Satisfied
+ECMOWITHOUTHEMO	VA ECMO - Hemodynamic Measurements were not Obtained	Adult Heart Status 1 Justification Form				NUM		Other Conditions Must be Satisfied
+ECMOWITHOUTHEMOALT	VA ECMO - Hemodynamic Measurements were not Obtained - Alanine Transaminase (U/L)	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOALTDT	VA ECMO - Hemodynamic Measurements were not Obtained - Alanine Transaminase Date	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOARTLAC	VA ECMO - Hemodynamic Measurements were not Obtained - Arterial Lactate (mmol/L)	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOARTLACDT	VA ECMO - Hemodynamic Measurements were not Obtained - Arterial Lactate Date	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOAST	VA ECMO - Hemodynamic Measurements were not Obtained - Aspartate Transaminase (U/L)	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOASTDT	VA ECMO - Hemodynamic Measurements were not Obtained - Aspartate Transaminase Date	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOCPRDT	VA ECMO - Hemodynamic Measurements were not Obtained - Date of Administration of CPR	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOSBP	VA ECMO - Hemodynamic Measurements were not Obtained - Systolic Blood Pressure (mmHg)	Adult Heart Status 1 Justification Form				NUM		
+ECMOWITHOUTHEMOSBPDT	VA ECMO - Hemodynamic Measurements were not Obtained - Systolic Blood Pressure Date	Adult Heart Status 1 Justification Form				NUM		
+EXCEPTION	Candidate Does not Meet any of the Criteria but is Admitted to the Listing Center and has an Urgency and Potential for Benefit Comparable to that of Other Candidates at this Status	Adult Heart Status 1 Justification Form				NUM		
+EXTCAPWEDGEPRESSURE	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTCAPWEDGEPRESSUREDT	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTCARDIACINDEX	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTCARDIACINDEXDT	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTENSIONNUMBER	Applies to Criteria 1 (VA ECMO)					NUM		
+EXTMEANPRESSURE	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTMEANPRESSUREDT	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTSVO2	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+EXTSVO2DT	Applies to Criteria 1 (VA ECMO)	Adult Heart Status 1 Justification Form				NUM		
+FORMEFFECTIVEDT	Form Effective Date	Adult Heart Status 1 Justification Form				NUM		
+FORMSTATUS	Description of justification form status	" 
+Adult Heart Status 1 Justification Form"	2018-09-19 00:00:00					
+JUSTCRITERIAINFOID	Justification Form Criteria ID		2023-03-09 00:00:00			NUM	JUSTCRITERIAINFO	
+PRIM_DEVICETYPEID	Primary Device	Adult Heart Status 1 Justification Form				NUM	VADDEVTY	
+PRIM_IMPLANTDT	Primary Device - Date of Implant/Initiation	Adult Heart Status 1 Justification Form				NUM		
+PRIM_IMPLANTTIME	Primary Device - Time of Implant/Initiation	Adult Heart Status 1 Justification Form				CHAR(5)		
+PRIM_PERCUBRANDID	Primary Device - Device Brand - Percutaneous Brand	Adult Heart Status 1 Justification Form				NUM	VADBRAND	
+PRIM_TAHBRANDID	Primary Device - Device Brand - TAH Brand	Adult Heart Status 1 Justification Form				NUM	VADBRAND	
+PRIM_VADBRANDID	Primary Device - Device Brand - VAD Brand	Adult Heart Status 1 Justification Form				NUM	VADBRAND	
+PRIM_VENTRICULARSUPPORTID	Primary Device - Ventricle Support	Adult Heart Status 1 Justification Form				NUM	VENTRIC	
+SEC_DEVICETYPEID	Secondary Device	Adult Heart Status 1 Justification Form				NUM	VADDEVTY	
+SEC_IMPLANTDT	Secondary Device - Date of Implant/Initiation	Adult Heart Status 1 Justification Form				NUM		
+SEC_PERCUBRANDID	Secondary Device - Device Brand - Percutaneous Brand	Adult Heart Status 1 Justification Form				NUM	VADBRAND	
+SEC_TAHBRANDID	Secondary Device - Device Brand - TAH Brand	Adult Heart Status 1 Justification Form				NUM	VADBRAND	
+SEC_VADBRANDID	Secondary Device - Device Brand - VAD Brand	Adult Heart Status 1 Justification Form				NUM	VADBRAND	
+SEC_VENTRICULARSUPPORTID	Secondary Device - Ventricle Support	Adult Heart Status 1 Justification Form				NUM	VENTRIC	
+UNOS_CAND_STAT_CD	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1					NUM	STAT	
+UNOS_CAND_STAT_DT	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1 Date					NUM		
+VENTRICULAREPISODE	MCSD - The Patient was not Considered a Candidate for Other Treatment Alternatives and has Experienced 3 or More Episodes of Ventricular Fibrillation or Ventricular Tachycardia Separated by at least an Hour	Adult Heart Status 1 Justification Form				NUM		Other Conditions Must be Satisfied
+WL_ID_CODE	Encrypted Registration Identifier					NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID for Linkage to Other Data					NUM		

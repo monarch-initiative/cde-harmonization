@@ -1,0 +1,80 @@
+"STAR Table Name: THORACIC_STAT2
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ADMITTEDTOHOSPITAL	Is the Candidate Currently Admitted to the Listing Center?	Adult Heart Status 2 Justification Form				NUM		
+CRITERIADURABLEDEVSUPPORT	Candidate is Supported by a TAH, BiVAD, RVAD, or VAD for Single Ventricle Patients	Adult Heart Status 2 Justification Form				NUM		
+CRITERIAIABPSUPPORT	Candidate is Admitted to the Listing Center and is Supported by an IABP	Adult Heart Status 2 Justification Form				NUM		
+CRITERIALVADSUPPORT	Candidate is Supported by a Dischargeable LVAD	Adult Heart Status 2 Justification Form				NUM		
+CRITERIAMCSDENDOVASSUPP	Candidate is Admitted to the Listing Center and is Supported by a Percutaneous Endovascular MCSD Without an Oxygenator for Cardiogenic Shock	Adult Heart Status 2 Justification Form				NUM		
+CRITERIAMCSDMALFUNCTION	Candidate is Admitted to the Listing Center and is Supported by an MCSD that is Experiencing Device Malfunction	Adult Heart Status 2 Justification Form				NUM		Other Conditions Must be Satisfied
+CRITERIAVENTEPISODE	Candidate is Admitted to the Listing Center and is not Considered a Candidate for Other Treatment Alternatives, and is Experiencing Recurrent or Sustained Ventricular Tachycardia or Fibrillation	Adult Heart Status 2 Justification Form				NUM		Other Conditions Must be Satisfied
+DEVICERECALLEXCEPTION	Exception Request Specifically Related to a Device Recall	Adult Heart Justification Form	2022-07-14 00:00:00				YN	
+EXCEPTION	Candidate Does not Meet any of the Criteria but is Admitted to the Listing Center and has an Urgency and Potential for Benefit Comparable to that of Other Candidates at this Status	Adult Heart Status 2 Justification Form				NUM		
+EXTCAPWEDGEPRESSURE	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTCAPWEDGEPRESSUREDT	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTCARDIACINDEX	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTCARDIACINDEXDT	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTENSIONNUMBER	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)					NUM		
+EXTMEANPRESSURE	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTMEANPRESSUREDT	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTSVO2	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+EXTSVO2DT	Applies to Criteria 1(LVAD), Criteria 4 (Endovascular MCSD) or Criteria 5 (IABP)	Adult Heart Status 2 Justification Form				NUM		
+FORMEFFECTIVEDT	Form Effective Date	Adult Heart Status 2 Justification Form				NUM		
+FORMSTATUS	Description of justification form status	" 
+Adult Heart Status 2 Justification Form"	2018-09-19 00:00:00					
+IABPCAPWEDGEPRESSURE	IABP - Hemodynamic Measurements were Obtained - Pulmonary Capillary Wedge Pressure (mmHg)	Adult Heart Status 2 Justification Form				NUM		
+IABPCAPWEDGEPRESSUREDT	IABP - Hemodynamic Measurements were Obtained - Pulmonary Capillary Wedge Pressure Date	Adult Heart Status 2 Justification Form				NUM		
+IABPCARDIACINDEX	IABP - Hemodynamic Measurements were Obtained - Cardiac Index (L/min/m2)	Adult Heart Status 2 Justification Form				NUM		
+IABPCARDIACINDEXDT	IABP - Hemodynamic Measurements were Obtained - Cardiac Index Date	Adult Heart Status 2 Justification Form				NUM		
+IABPCARDIACINDEXINOTROPESUP	IABP - Hemodynamic Measurements were Obtained - Was the Candidate on Inotropes at the time Cardiac Index was Obtained?	Adult Heart Status 2 Justification Form				CHAR(1)		
+IABPSYSTOLICBLOODPRESSURE	IABP - Hemodynamic Measurements were Obtained - Systolic Blood Pressure (mmHg)	Adult Heart Status 2 Justification Form				NUM		
+IABPSYSTOLICBLOODPRESSUREDT	IABP - Hemodynamic Measurements were Obtained - Systolic Blood Pressure Date	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHHEMO	IABP - Hemodynamic Measurements were Obtained	Adult Heart Status 2 Justification Form				NUM		Other Conditions Must be Satisfied
+IABPWITHOUTHEMO	IABP - Hemodynamic Measurements were not Obtained	Adult Heart Status 2 Justification Form				NUM		Other Conditions Must be Satisfied
+IABPWITHOUTHEMOALT	IABP - Hemodynamic Measurements were not Obtained - Alanine Transaminase (U/L)	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOALTDT	IABP - Hemodynamic Measurements were not Obtained - Alanine Transaminase Date	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOARTLAC	IABP - Hemodynamic Measurements were not Obtained - Arterial Lactate (mmol/L)	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOARTLACDT	IABP - Hemodynamic Measurements were not Obtained - Arterial Lactate Date	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOAST	IABP - Hemodynamic Measurements were not Obtained - Aspartate Transaminase (U/L)	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOASTDT	IABP - Hemodynamic Measurements were not Obtained - Aspartate Transaminase Date	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOCPRDT	IABP - Hemodynamic Measurements were not Obtained - Date of Administration of CPR	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOSBP	IABP - Hemodynamic Measurements were not Obtained - Systolic Blood Pressure (mmHg)	Adult Heart Status 2 Justification Form				NUM		
+IABPWITHOUTHEMOSBPDT	IABP - Hemodynamic Measurements were not Obtained - Systolic Blood Pressure Date	Adult Heart Status 2 Justification Form				NUM		
+JUSTCRITERIAINFOID	Justification Form Criteria ID		2023-03-09 00:00:00			NUM	JUSTCRITERIAINFO	
+MCSDCAPWEDGEPRESSURE	MCSD - Hemodynamic Measurements were Obtained - Pulmonary Capillary Wedge Pressure (mmHg)	Adult Heart Status 2 Justification Form				NUM		
+MCSDCAPWEDGEPRESSUREDT	MCSD - Hemodynamic Measurements were Obtained - Pulmonary Capillary Wedge Pressure Date	Adult Heart Status 2 Justification Form				NUM		
+MCSDCARDIACINDEX	MCSD - Hemodynamic Measurements were Obtained - Cardiac Index (L/min/m2)	Adult Heart Status 2 Justification Form				NUM		
+MCSDCARDIACINDEXDT	MCSD - Hemodynamic Measurements were Obtained - Cardiac Index Date	Adult Heart Status 2 Justification Form				NUM		
+MCSDCARDIACINDEXINOTROPESUP	MCSD - Hemodynamic Measurements were Obtained - Was the Candidate on Inotropes at the time Cardiac Index was Obtained?	Adult Heart Status 2 Justification Form				CHAR(1)		
+MCSDSYSTOLICBLOODPRESSURE	MCSD - Hemodynamic Measurements were Obtained - Systolic Blood Pressure (mmHg)	Adult Heart Status 2 Justification Form				NUM		
+MCSDSYSTOLICBLOODPRESSUREDT	MCSD - Hemodynamic Measurements were Obtained - Systolic Blood Pressure Date	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHHEMO	MCSD - Hemodynamic Measurements were Obtained	Adult Heart Status 2 Justification Form				NUM		Other Conditions Must be Satisfied
+MCSDWITHOUTHEMO	MCSD - Hemodynamic Measurements were not Obtained	Adult Heart Status 2 Justification Form				NUM		Other Conditions Must be Satisfied
+MCSDWITHOUTHEMOALT	MCSD - Hemodynamic Measurements were not Obtained - Alanine Transaminase (U/L)	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOALTDT	MCSD - Hemodynamic Measurements were not Obtained - Alanine Transaminase Date	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOARTLAC	MCSD - Hemodynamic Measurements were not Obtained - Arterial Lactate (mmol/L)	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOARTLACDT	MCSD - Hemodynamic Measurements were not Obtained - Arterial Lactate Date	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOAST	MCSD - Hemodynamic Measurements were not Obtained - Aspartate Transaminase (U/L)	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOASTDT	MCSD - Hemodynamic Measurements were not Obtained - Aspartate Transaminase Date	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOCPRDT	MCSD - Hemodynamic Measurements were not Obtained - Date of Administration of CPR	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOSBP	MCSD - Hemodynamic Measurements were not Obtained - Systolic Blood Pressure (mmHg)	Adult Heart Status 2 Justification Form				NUM		
+MCSDWITHOUTHEMOSBPDT	MCSD - Hemodynamic Measurements were not Obtained - Systolic Blood Pressure Date	Adult Heart Status 2 Justification Form				NUM		
+PRIM_DEVICETYPEID	Primary Device	Adult Heart Status 2 Justification Form				NUM	VADDEVTY	
+PRIM_IMPLANTDT	Primary Device - Date of Implant/Initiation	Adult Heart Status 2 Justification Form				NUM		
+PRIM_IMPLANTTIME	Primary Device - Time of Implant/Initiation	Adult Heart Status 2 Justification Form				CHAR(5)		
+PRIM_PERCUBRANDID	Primary Device - Device Brand - Percutaneous Brand	Adult Heart Status 2 Justification Form				NUM	VADBRAND	
+PRIM_TAHBRANDID	Primary Device - Device Brand - TAH Brand	Adult Heart Status 2 Justification Form				NUM	VADBRAND	
+PRIM_VADBRANDID	Primary Device - Device Brand - VAD Brand	Adult Heart Status 2 Justification Form				NUM	VADBRAND	
+PRIM_VENTRICULARSUPPORTID	Primary Device - Ventricle Support	Adult Heart Status 2 Justification Form				NUM	VENTRIC	
+SEC_DEVICETYPEID	Secondary Device	Adult Heart Status 2 Justification Form				NUM	VADDEVTY	
+SEC_IMPLANTDT	Secondary Device - Date of Implant/Initiation	Adult Heart Status 2 Justification Form				NUM		
+SEC_PERCUBRANDID	Secondary Device - Device Brand - Percutaneous Brand	Adult Heart Status 2 Justification Form				NUM	VADBRAND	
+SEC_TAHBRANDID	Secondary Device - Device Brand - TAH Brand	Adult Heart Status 2 Justification Form				NUM	VADBRAND	
+SEC_VADBRANDID	Secondary Device - Device Brand - VAD Brand	Adult Heart Status 2 Justification Form				NUM	VADBRAND	
+SEC_VENTRICULARSUPPORTID	Secondary Device - Ventricle Support					NUM	VENTRIC	
+UNOS_CAND_STAT_CD	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1					NUM	STAT	
+UNOS_CAND_STAT_DT	MELD/PELD Allocation Score or Status Code, Different than Lab Score in Cases of Exceptions and Status 1 Date					NUM		
+WL_ID_CODE	Encrypted Registration Identifier					NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID for Linkage to Other Data					NUM		

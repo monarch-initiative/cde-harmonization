@@ -1,0 +1,45 @@
+"STAR Table Name: INTESTINE_WLHISTORY_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ACPT_ORGAN_PROC_OTHTEAM	Accept Organ if Procurred by Another Team	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+CHG_DATE	DATE OF WAITING LIST MODIFICATION	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	NUM		
+CHG_TIME	TIME OF WAITING LIST MODIFICATION	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	NUM		
+CHG_TY	TYPE OF HISTORY RECORD: A=ADD; M=MODIFY; D=DELETE	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	CHAR(1)	CHGTY	
+CPRA	CPRA	WAITING LIST DATA	2023-01-26 00:00:00					
+DONCRIT_ACPT_A2_DON	Donor Criteria - Accept an A2 donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_ABO_INCOMP	Donor Criteria - Accept an Incompatible Blood Type	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_CMV_POS	Donor Criteria - Accept Anti-CMV Positive Donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_DCD	Donor Criteria - Accept DCD donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_ACPT_DCD_IMPORT	Donor Criteria - Accept DCD donor - Import	WAITING LIST DATA		2023-03-02 00:00:00	WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HBCOREPOS	Donor Criteria - Accept a Hepatitis B Core antibody positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HBV_NAT_POS	Donor Criteria - Accept an HBV NAT positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HCV_NAT_POS	Donor Criteria - Accept an HCV NAT positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HCVPOS	Donor Criteria - Accept an HCV antibody positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HIST_DIABETES	Donor Criteria - Accept Donor with History of Diabetes	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_HTLV_POS	Donor Criteria - Accept an HTLV I/II antibody positive donor	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_ACPT_PREV_GASTRO_DIS	Donor Criteria - Accept Donor with History of Gastrointestinal Disease	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+DONCRIT_MAX_AGE	Donor Criteria - Maximum Acceptable Donor Age (months)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_MAX_AGE_IMPORT	Donor Criteria - Maximum Acceptable Donor Age (months) - Import	WAITING LIST DATA		2023-03-02 00:00:00	WAITING LIST DATA	NUM		
+DONCRIT_MAX_BMI	Donor Criteria - Maximum Acceptable Donor BMI	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_COLD_TIME	Donor Criteria - Maximum Acceptable cold ischemic time	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_FINAL_CREAT	Donor Criteria - Maximum Acceptable Final Creatinine (mg/dl)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_MILE	Donor Criteria - Maximum miles the organ or recovery team will travel	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_AMYLASE	Donor Criteria - Maximum Acceptable Peak Serum Amylase (u/L)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_CREAT	Donor Criteria - Maximum Acceptable Peak Creatinine (mg/dl)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_INR	Donor Criteria - Maximum acceptable donor INR - peak	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_LIPASE	Donor Criteria - Maximum Acceptable Peak Serum Lipase (u/L)	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_SGOT	Donor Criteria - Maximum Acceptable donor SGOT (AST) - peak	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_SGPT	Donor Criteria - Maximum acceptable donor SGPT (ALT) - peak	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_PEAK_SODIUM	Donor Criteria - Maximum acceptable donor sodium (Na) - peak	WAITING LIST DATA			WAITING LIST DATA	NUM		
+DONCRIT_MAX_WGT	Donor Criteria - Maximum Acceptable Donor Weight (kg)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_MIN_AGE	Donor Criteria - Minimum Acceptable Donor Age (months)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+DONCRIT_MIN_AGE_IMPORT	Donor Criteria - Minimum Acceptable Donor Age (months) - Import	WAITING LIST DATA		2023-03-02 00:00:00	WAITING LIST DATA	NUM		
+DONCRIT_MIN_WGT	Donor Criteria - Minimum Acceptable Donor Weight (kg)	WAITING LIST DATA			WAITING LIST DATA	NUM		Prior to 03/02/2023 this field captured donor criteria for local offers only. Since 03/02/2023 these criteria apply to ALL offers.
+INACT_REASON_CD	REASON FOR INACTIVE STATUS	WAITING LIST DATA	2006-05-24 00:00:00		WAITING LIST DATA	NUM	INACTREA	
+PRELIM_XMATCH_REQ	Preliminary Crossmatch Required	WAITING LIST DATA			WAITING LIST DATA	CHAR(1)		
+PRIORLIVINGDONOR	Prior living donor	WAITING LIST DATA	2022-11-08 00:00:00				YN	
+UNOS_CAND_STAT_CD	MELD/PELD ALLOCATION SCORE OR STATUS CODE; DIFFERENT THAN LAB SCORE IN CASES OF EXCEPTIONS AND STATUS 1	WAITING LIST DATA	1995-04-01 00:00:00		WAITING LIST DATA	NUM	STAT	
+WL_ID_CODE	ENCRYPTED REGISTRATION IDENTIFIER	CALCULATED	1987-10-01 00:00:00		WAITING LIST DATA	NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID For Linkage to Other Data	CALCULATED	1987-10-01 00:00:00		WAITING LIST DATA	NUM		

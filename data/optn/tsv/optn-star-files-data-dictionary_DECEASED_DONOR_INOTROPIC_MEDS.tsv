@@ -1,0 +1,18 @@
+"STAR Table Name: DECEASED_DONOR_INOTROPIC_MEDS
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+DONOR_ID	ENCRYPTED DONOR ID		1987-10-01 00:00:00			NUM		
+INO_PROCURE_AGENT_1	INOTROPIC MED 1		1999-10-25 00:00:00			NUM	INOMED	Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_AGENT_2	INOTROPIC MED 2		1999-10-25 00:00:00			NUM	INOMED	Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_AGENT_3	INOTROPIC MED 3		1999-10-25 00:00:00			NUM	INOMED	Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_1	INOTROPIC MED 1 DOSAGE		1999-10-25 00:00:00			NUM		Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_2	INOTROPIC MED 2 DOSAGE		1999-10-25 00:00:00			NUM		Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_3	INOTROPIC MED 3 DOSAGE		1999-10-25 00:00:00			NUM		Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_DUR_1	INOTROPIC MED 1 DOSAGE DURATION (HRS)		1999-10-25 00:00:00			NUM		Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_DUR_2	INOTROPIC MED 2 DOSAGE DURATION (HRS)		1999-10-25 00:00:00			NUM		Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_DUR_3	INOTROPIC MED 3 DOSAGE DURATION (HRS)		1999-10-25 00:00:00			NUM		Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_UNITS_1	INOTROPIC MED 1 DOSAGE UNITS		1999-10-25 00:00:00			NUM	INO_UNIT	Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_UNITS_2	INOTROPIC MED 2 DOSAGE UNITS		1999-10-25 00:00:00			NUM	INO_UNIT	Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward
+INO_PROCURE_DOSE_UNITS_3	INOTROPIC MED 3 DOSAGE UNITS		1999-10-25 00:00:00			NUM	INO_UNIT	Collected for Heart Donors 10/25/1999.  All other Organs 1/27/2003 onward

@@ -1,0 +1,136 @@
+"STAR Table Name: THORACIC_MALIG_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+BLADDER	DeNovo Solid Tumor - Bladder	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+BLADDER_DONOR	Donor Related Tumor - Bladder	MAL	2015-03-31 00:00:00		Post Transplant Donor Relatedr	NUM		
+BREAST	DeNovo Solid Tumor - Breast	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+BREAST_DONOR	Donor Related Tumor - Breast	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+COLORECTAL	DeNovo Solid Tumor - Colo-rectal	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+COLORECTAL_DONOR	Donor Related Tumor - Colo-rectal	MAL	2015-03-31 00:00:00		Post Transplant DONOR Related	NUM		
+DX_DATE_LYMPH	Date of Diagnosis of PTLD	MAL	1999-10-25 00:00:00		Post Transplant Lymphoproliferative Disease and Lymphom	NUM		
+DX_DATE1	Date of Diagnosis: Squamous Cell	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE10	Date of Diagnosis: Ovarian	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE101	Donor Related Tumor - Date of Diagnosis: Squamous Cell	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE102	Donor Related Tumor - Date of Diagnosis: Basal Cell	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE103	Donor Related Tumor - Date of Diagnosis: Melanoma	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE104	Donor Related Tumor - Date of Diagnosis: Kaposis's Sarcoma - Cutaneous	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE105	Donor Related Tumor - Date of Diagnosis: Kaposis's Sarcoma - Visceral	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE106	Donor Related Tumor - Date of Diagnosis: Brain Tumor	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE107	Donor Related Tumor - Date of Diagnosis: Renal Carcinoma	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE108	Donor Related Tumor - Date of Diagnosis: Carcinoma of Vulva, Perineum or Penis, Scrotum	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE109	Donor Related Tumor - Date of Diagnosis: Carcinoma of the Uterus	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE11	Date of Diagnosis: Testicular	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE110	Donor Related Tumor - Date of Diagnosis: Ovarian	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE111	Donor Related Tumor - Date of Diagnosis: Testicular	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE112	Donor Related Tumor - Date of Diagnosis: Esophagus	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE113	Donor Related Tumor - Date of Diagnosis: Stomach	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE114	Donor Related Tumor - Date of Diagnosis: Small Intestine	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE115	Donor Related Tumor - Date of Diagnosis: Pancreas	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE116	Donor Related Tumor - Date of Diagnosis: Larynx	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE117	Donor Related Tumor - Date of Diagnosis: Tongue, Throat	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE118	Donor Related Tumor - Date of Diagnosis: Thyroid	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE119	Donor Related Tumor - Date of Diagnosis: Bladder	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE12	Date of Diagnosis: Esophagus	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE120	Donor Related Tumor - Date of Diagnosis: Breast	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE121	Donor Related Tumor - Date of Diagnosis: Prostate	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE122	Donor Related Tumor - Date of Diagnosis: Colo-Rectal	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE123	Donor Related Tumor - Date of Diagnosis: Primary Hepatic Tumor	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE124	Donor Related Tumor - Date of Diagnosis: Metastic Liver Tumor	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE125	Donor Related Tumor - Date of Diagnosis: Lung	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE126	Donor Related Tumor - Date of Diagnosis: Leukemia	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE127	Donor Related Tumor - Date of Diagnosis: Sarcoma (excluding Kaposi's)	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE128	Donor Related Tumor - Date of Diagnosis: Other Cancers	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE129	Donor Related Tumor - Date of Diagnosis: Primary Unknown	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+DX_DATE13	Date of Diagnosis: Stomach	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE14	Date of Diagnosis: Small Intestine	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE15	Date of Diagnosis: Pancreas	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE16	Date of Diagnosis: Larynx	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE17	Date of Diagnosis: Tongue, Throat	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE18	Date of Diagnosis: Thyroid	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE19	Date of Diagnosis: Bladder	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE2	Date of Diagnosis: Basal Cell	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE20	Date of Diagnosis: Breast	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE21	Date of Diagnosis: Prostate	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE22	Date of Diagnosis: Colo-Rectal	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE23	Date of Diagnosis: Primary Hepatic Tumor	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE24	Date of Diagnosis: Metastic Liver Tumor	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE25	Date of Diagnosis: Lung	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE26	Date of Diagnosis: Leukemia	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE27	Date of Diagnosis: Sarcoma (excluding Kaposi's)	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE28	Date of Diagnosis: Other Cancers	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE29	Date of Diagnosis: Primary Unknown	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE3	Date of Diagnosis: Melanoma	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE4	Date of Diagnosis: Kaposis's Sarcoma - Cutaneous	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE5	Date of Diagnosis: Kaposis's Sarcoma - Visceral	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE6	Date of Diagnosis: Brain Tumor	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE7	Date of Diagnosis: Renal Carcinoma	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE8	Date of Diagnosis: Carcinoma of Vulva, Perineum or Penis, Scrotum	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+DX_DATE9	Date of Diagnosis: Carcinoma of the Uterus	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+ESOPHAGUS	DeNovo Solid Tumor - Esophagus	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+ESOPHAGUS_DONOR	Donor Related Tumor - Esophagus	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+KAPOSI_CUTANEOUS	DeNovo Solid Tumor - Kaposis's Sarcoma: Cutaneous	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+KAPOSI_CUTANEOUS_DONOR	Donor Related Tumor - Kaposis's Sarcoma: Cutaneous	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+KAPOSI_VISCERAL	DeNovo Solid Tumor - Kaposis's Sarcoma: Visceral	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+KAPOSI_VISCERAL_DONOR	Donor Related Tumor - Kaposis's Sarcoma: Visceral	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+LARYNX	DeNovo Solid Tumor - Larynx	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+LARYNX_DONOR	Donor Related Tumor - Larynx	MAL	2015-03-31 00:00:00		Post Transplant Donor Related Tumor	NUM		
+LEUK	DeNovo Solid Tumor - Leukemia	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+LEUK_DONOR	Donor Related Tumor - Leukemia	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+LUNG	DeNovo Solid Tumor - Lung	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+LUNG_DONOR	Donor Related Tumor - Lung	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+MALIG	Post Transplant Malignancy	TRF	1997-03-01 00:00:00		Posttransplant Malignancy	CHAR(1)		
+MALIG_DENOVO_LYMPH	Post Transplant Lymphoproliferative Disease (PTLD)	TRF	1997-03-01 00:00:00		Posttransplant Malignancy	CHAR(1)		
+MALIG_DENOVO_TUMOR	Post Transplant DeNovo Solid Tumor (excluding Skin Squamous/Basal Cancers)	CALCULATED				CHAR(1)		
+MALIG_DON_REL	Post Transplant Donor Related Tumor	TRF	1999-10-25 00:00:00		Posttransplant Malignancy	CHAR(1)		
+MALIG_PRETX_TUMOR	Post Transplant Recurrence of Pretransplant Malignancy	TRF	1999-10-25 00:00:00		Posttransplant Malignancy	CHAR(1)		
+MET_LIVER	DeNovo Solid Tumor - Metastatic Liver Tumor	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+MET_LIVER_DONOR	Donor Related Tumor - Metastatic Liver Tumor	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+OTH_CANCER	DeNovo Solid Tumor - Other Cancers	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+OTH_CANCER_DONOR	Donor Related Tumor - Other Cancers	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+OVARIAN	DeNovo Solid Tumor - Ovarian	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+OVARIAN_DONOR	Donor Related Tumor - Ovarian	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+PANCREAS	DeNovo Solid Tumor - Pancreas	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+PANCREAS_DONOR	Donor Related Tumor - Pancreas	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+PATHOLOGY	PTLD Pathology	MAL	1999-10-25 00:00:00		Post Transplant Lymphoproliferative Disease and Lymphom	NUM	PATHOLOG	
+PRE_TUMOR_TY	Type of Pretransplant Malignancy	MAL	1999-10-25 00:00:00		Recurrence of Pretransplant Malignancy	NUM	RECUR_TUMOR_TY	
+PRIM_HEPATIC	DeNovo Solid Tumor - Primary Hepatic Tumor	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+PRIM_HEPATIC_DONOR	Donor Related Tumor - Primary Hepatic Tumor	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+PRIM_UNK	DeNovo Solid Tumor - Primary Unknown	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+PRIM_UNK_DONOR	Donor Related Tumor - Primary Unknown	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+PROSTATE	DeNovo Solid Tumor - Prostate	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+PROSTATE_DONOR	Donor Related Tumor - Prostate	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+PX_STAT	TRF PATIENT STATUS	TRF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	CHAR(1)	PXSTAT	
+PX_STAT_DATE	TRF Patient Status Date	TRF	1987-10-01 00:00:00		Patient Status at Time of Follow-Up	NUM		
+RECUR_DATE	Date of Post Tx Recurrence of Pretransplant Malignancy	MAL	1999-10-25 00:00:00		Recurrence of Pretransplant Malignancy	NUM		
+RENAL_CAR	DeNovo Solid Tumor - Renal Carcinoma	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+RENAL_CAR_DONOR	Donor Related Tumor - Renal Carcinoma	MAL	2015-03-31 00:00:00		Post Transplant Donor Related Tumor	NUM		
+SARCOMA	DeNovo Solid Tumor - Sarcomas (excluding Kaposi's)	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+SARCOMA_DONOR	Donor Related Tumor - Sarcomas (excluding Kaposi's)	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+SKIN_BASAL	Skin Cancer Type - Basal Cell	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+SKIN_BASAL_DONOR	Donor Related Tumor - Skin Cancer Type - Basal Cell	MAL	2015-03-31 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+SKIN_MELANOMA	DeNovo Solid Tumor - Skin Melanoma	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+SKIN_MELANOMA_DONOR	Donor Related Tumor - DeNovo Solid Tumor - Skin Melanoma	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+SKIN_SQUAMOUS	Skin Cancer Type - Squamous Cell	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+SKIN_SQUAMOUS_DONOR	Donor Related Tumor - Skin Cancer Type - Squamous Cell	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+SM_INTEST	DeNovo Solid Tumor - Small Intestine	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+SM_INTEST_DONOR	Donor Related Tumor - Small Intestine	MAL	2015-03-31 00:00:00		Post Transplant Donor Related 	NUM		
+STATUS_MALIG	Malignancy Form Status	MAL				CHAR(1)	FRMSTAT	
+STOMACH	DeNovo Solid Tumor - Stomach	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+STOMACH_DONOR	Donor Related Tumor - Stomach	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+TESTICULAR	DeNovo Solid Tumor - Testicular	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+TESTICULAR_DONOR	Donor Related Tumor - Testicular	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+THYROID	DeNovo Solid Tumor - Thyroid	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+THYROID_DONOR	Donor Related Tumor - Thyroid	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+TONGUE_THROAT	DeNovo Solid Tumor - Tongue, Throat	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+TONGUE_THROAT_DONOR	Donor Related Tumor - Tongue, Throat	MAL	2015-03-31 00:00:00		Post Transplant Donor Related Tumor	NUM		
+TRR_FOL_ID_CODE	ENCRYPTED trr_fol_ID	CALCULATED				CHAR(15)		
+TRR_ID_CODE	ENCRYPTED TRR_ID	CALCULATED				CHAR(15)		
+TUMOR_BRAIN	DeNovo Solid Tumor - Brain Tumor Type	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM	BRAINTUM	
+TUMOR_BRAIN_DONOR	Donor Related Tumor - Brain Tumor Type	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM	BRAINTUM	
+UTERUS_CAR	DeNovo Solid Tumor - Carcinoma of the Uterus	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+UTERUS_CARCINOMA_DONOR	Donor Related Tumor - Carcinoma of the Uterus	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		
+VAL_DT_MALIG	Malignancy Form Validation Date	MAL				NUM		
+VUL_PER_PENIS_SCROT_CARCINOMA	DeNovo Solid Tumor - Carcinoma of Vulva, Perineum or Penis, Scrotum	MAL	1999-10-25 00:00:00		Post Transplant De Novo Solid Tumor	NUM		
+VUL_PER_PENIS_SCROT_CARCINOMA_DO	Donor Related Tumor - Carcinoma of Vulva, Perineum or Penis, Scrotum	MAL	2015-03-31 00:00:00		Post Transplant Donor Related	NUM		

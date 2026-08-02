@@ -1,0 +1,451 @@
+"STAR Table Name: VCA_FOLLOWUP_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ACTIVITY_LEVEL	LEVEL OF ACTIVITY	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YNU	
+ACUTE_REJ_EPI	EPISODES OF ACUTE REJECTION	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+ACUTE_REJ_EPI_LEFT	EPISODES OF ACUTE REJECTION LEFT LIMB	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+ACUTE_REJ_EPI_RIGHT	EPISODES OF ACUTE REJECTION RIGHT LIMB	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+ANTIBACT_PROPH	Antibacterial Prophylaxis	TRF	2015-09-01 00:00:00		Treatment	CHAR(1)	YN	
+ANTIBIOTIC	ANTIBIOTIC	TRF	2015-09-01 00:00:00		TREATMENT	CHAR(1)	YN	
+ANTIFUNGAL	ANTIFUNGAL	TRF	2015-09-01 00:00:00		TREATMENT	CHAR(1)	YN	
+ANTIFUNGAL_PROPH	Antifungal Prophylaxis	TRF	2015-09-01 00:00:00		Treatment	CHAR(1)	YN	
+ANTIVIRAL	ANTIVIRAL	TRF	2015-09-01 00:00:00		TREATMENT	CHAR(1)	YN	
+ANTIVIRAL_PROPH	Antiviral Prophylaxis	TRF	2015-09-01 00:00:00		Treatment	CHAR(1)	YN	
+BMI	Recipient BMI	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+BODILY_PAIN_SCORE	Bodily Pain (BP) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+CAN_FEEL_COLD	Can feel cold	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	CHAR(1)	YN	
+CAN_FEEL_HEAT	Can feel heat	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	CHAR(1)	YN	
+CARDIAC_ARREST	Cardiac arrest	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	CHAR(1)	YNU	
+CARROLL_SCORE_LEFT	Carroll Test Score, Left Limb (0-99 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_0_99_ND	
+CARROLL_SCORE_RIGHT	Carroll Test Score, Right Limb (0-99 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_0_99_ND	
+COD	Recipient Cause of Death	TRF	2015-09-01 00:00:00		PATIENT STATUS	NUM	ALL_COD	
+COGNITIVE_DEV	Cognitive Development (for recipients younger than 18 years of age at transplant and younger than 26 years of age at followup)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	COGNITIVE_DEV	
+COMPLIC_INFECTIOUS	Infectious Complications	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+COMPLIC_METABOLIC	Metabolic Complications	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+COMPLIC_NEW_ONSET_DIAB	New onset diabetes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+COMPLIC_OTH	Other Complications	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+CORNEAL_PROTECTION	Corneal protection (able to open/close)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	CHAR(1)	YN	
+DASH_SCORE	DASH Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+DECANNULATION	Decannulation (if the patient had a tracheostomy)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_YNNA	null, 1,2,3 ? Freq
+DIC	DIC (Disseminated intravascular coagulation)	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	CHAR(1)	YNU	
+DRUG10_ANTIREJ	Cytoxan(cyclophosphamide) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG11_ANTIREJ	Methotrexate(FolexPFS,MexateAQ,Rheumatrex) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG14_ANTIREJ	Atgam Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG14_DAYS	Atgam/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG14_DAYS_ST	Atgam/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG14_IND	Atgam/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG16_ANTIREJ	OKT3(Orthoclone,muromonab) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG16_DAYS	OKT3(Orthoclone,muromonab)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG16_DAYS_ST	OKT3(Orthoclone,muromonab)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG16_IND	OKT3(Orthoclone,muromonab)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG3_CURR_MAINT	Sandimmune Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG3_MAINT	Sandimmune/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG3_PREV_MAINT	Sandimmune Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG4_CURR_MAINT	Neoral Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG4_MAINT	Neoral/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG4_PREV_MAINT	Neoral Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG41_ANTIREJ	Thymoglobulin Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG41_DAYS	Thymoglobulin/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG41_DAYS_ST	Thymoglobulin/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG41_IND	Thymoglobulin/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG43_ANTIREJ	Simulect(basiliximab) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG43_DAYS	Simulect(basiliximab)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG43_DAYS_ST	Simulect(basiliximab)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG43_IND	Simulect(basiliximab)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG44_CURR_MAINT	Gengraf Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG44_MAINT	Gengraf/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG44_PREV_MAINT	Gengraf Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG45_CURR_MAINT	Zortress(everolimus) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG45_DAYS	Zortress(everolimus)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG45_DAYS_ST	Zortress(everolimus)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG45_IND	Zortress(everolimus)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG45_MAINT	Zortress(everolimus)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG45_PREV_MAINT	Zortress(everolimus) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG46_CURR_MAINT	EON(generic cyclosporine) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG46_MAINT	EON(genericcyclosporine)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG46_PREV_MAINT	EON(generic cyclosporine) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG47_CURR_MAINT	Myfortic(mycophenolicacid) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG47_MAINT	Myfortic(mycophenolicacid)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG47_PREV_MAINT	Myfortic(mycophenolicacid) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG48_CURR_MAINT	Generic cyclosporine Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG48_MAINT	Genericcyclosporine/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG48_PREV_MAINT	Generic cyclosporine Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG49_ANTIREJ	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG49_CURR_MAINT	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG49_DAYS	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG49_DAYS_ST	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG49_IND	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG49_MAINT	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG49_PREV_MAINT	Steroids(prednisone,methylprednisolone,Solumedrol,Medrol) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG5_CURR_MAINT	Prograf(tacrolimus) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG5_MAINT	Prograf(tacrolimus)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG5_PREV_MAINT	Prograf(tacrolimus) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG50_ANTIREJ	Campath(alemtuzumab) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG50_DAYS	Campath(alemtuzumab)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG50_DAYS_ST	Campath(alemtuzumab)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG50_IND	Campath(alemtuzumab)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG52_ANTIREJ	Rituxan(rituximab) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG52_DAYS	Rituxan(rituximab)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG52_DAYS_ST	Rituxan(rituximab)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG52_IND	Rituxan(rituximab)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG53_CURR_MAINT	AstagrafXL(extendedreleasetacrolimus) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG53_MAINT	AstagrafXL(extendedreleasetacrolimus)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG53_PREV_MAINT	AstagrafXL(extendedreleasetacrolimus) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG54_CURR_MAINT	Generic tacrolimus(generic Prograf) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG54_MAINT	Generictacrolimus(genericPrograf)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG54_PREV_MAINT	Generic tacrolimus(generic Prograf) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG55_CURR_MAINT	Generic MMF(generic CellCept) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG55_MAINT	GenericMMF(genericCellCept)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG55_PREV_MAINT	Generic MMF(generic CellCept) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG56_CURR_MAINT	Rapamune(sirolimus) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG56_MAINT	Nulojix(belatacept)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG56_PREV_MAINT	Rapamune(sirolimus) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG6_CURR_MAINT	Rapamune(sirolimus) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG6_DAYS	Rapamune(sirolimus)/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG6_DAYS_ST	Rapamune(sirolimus)/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG6_IND	Rapamune(sirolimus)/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG6_MAINT	Rapamune(sirolimus)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG6_PREV_MAINT	Rapamune(sirolimus) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG7_CURR_MAINT	Leflunomide(LFL) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG7_MAINT	Leflunomide(LFL)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG7_PREV_MAINT	Leflunomide(LFL) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG8_CURR_MAINT	Imuran(azathioprine,AZA) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG8_MAINT	Imuran(azathioprine,AZA)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG8_PREV_MAINT	Imuran(azathioprine,AZA) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG9_CURR_MAINT	CellCept(MMF) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG9_MAINT	CellCept(MMF)/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG9_PREV_MAINT	CellCept(MMF) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG97_ANTIREJ	Other immunosuppressive medication, specify1: Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG97_CURR_MAINT	Other immunosuppressive medication, specify1: Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG97_DAYS	Other immunosuppressive medication, specify1:/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG97_DAYS_ST	Other immunosuppressive medication, specify1:/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG97_IND	Other immunosuppressive medication, specify1:/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG97_MAINT	Other immunosuppressive medication, specify1:/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG97_PREV_MAINT	Other immunosuppressive medication, specify1: Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG98_ANTIREJ	Other immunosuppressive medication, specify2: Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG98_CURR_MAINT	Other immunosuppressive medication, specify2: Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUG98_DAYS	Other immunosuppressive medication, specify2:/Days	TRF	2015-09-01 00:00:00		Non-Topical	NUM		
+DRUG98_DAYS_ST	Other immunosuppressive medication, specify2:/ST	TRF	2015-09-01 00:00:00		Non-Topical	CHAR(2)	FIELDST	
+DRUG98_IND	Other immunosuppressive medication, specify2:/Ind.	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG98_MAINT	Other immunosuppressive medication, specify2:/Maint	TRF	2015-09-01 00:00:00		Non-Topical	NUM	YN	
+DRUG98_PREV_MAINT	Other immunosuppressive medication, specify2: Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1001_ANTIREJ	Topical Steroid (Clobetasol) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1001_CURR_MAINT	Topical Steroid (Clobetasol) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1001_MAINT	Topical Steroid (Clobetasol)/Maint	TRF	2015-09-01 00:00:00		Topical	NUM	YN	
+DRUGT1001_PREV_MAINT	Topical Steroid (Clobetasol) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1002_ANTIREJ	Topical Tacrolimus (Protopic) Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1002_CURR_MAINT	Topical Tacrolimus (Protopic) Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1002_MAINT	Topical Tacrolimus (Protopic)/Maint	TRF	2015-09-01 00:00:00		Topical	NUM	YN	
+DRUGT1002_PREV_MAINT	Topical Tacrolimus (Protopic) Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1098_ANTIREJ	Topical Other Specify1 Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1098_CURR_MAINT	Topical Other Specify1 Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1098_MAINT	Topical Other Specify1/Maint	TRF	2015-09-01 00:00:00		Topical	NUM	YN	
+DRUGT1098_PREV_MAINT	Topical Other Specify1 Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1099_ANTIREJ	Topical Other Specify2 Anti-Rejection	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1099_CURR_MAINT	Topical Other Specify2 Current Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+DRUGT1099_MAINT	Topical Other Specify2/Maint	TRF	2015-09-01 00:00:00		Topical	NUM	YN	
+DRUGT1099_PREV_MAINT	Topical Other Specify2 Previous Maintenance	TRF	2015-09-01 00:00:00		Immunosuppressive Medication	NUM	YN	
+FAIL_OTH	If Graft Failed, Other Cause	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+FAIL_OTH_LEFT	If Graft Failed, Other Cause Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+FAIL_OTH_RIGHT	If Graft Failed, Other Cause Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+FEEDING_TUBE_REMOVED	Feeding Tube Removed (if the patient had feeding tube)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_YNNA	
+FOL_CARE_PROV	Followup Care Provided By	TRF	2015-09-01 00:00:00		PROVIDER INFORMATION	NUM	FOLCAREP	
+FORM_STATUS	Form Status	TRF				CHAR(1)	FRMSTAT	
+FORM_VALID_DT	Form Validation Date	TRF				NUM		
+FUNC_OCCLUSION_RESTORED	Functional occlusion restored	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	CHAR(1)	YN	
+GENERAL_HEALTH_SCORE	General Health (GH) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+GRAFT_SYNDROME	Graft/reperfusion syndrome	TRR	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	CHAR(1)	YNU	
+GRANT_FUNDING	Grant Funding	TRF	2015-09-01 00:00:00		SOCIODEMOGRAPHIC INFORMATION	CHAR(1)	YN	
+GRF_FAIL_DT	Graft Failure Date	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+GRF_FAIL_DT_LEFT	Graft Failure Date Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+GRF_FAIL_DT_RIGHT	Graft Failure Date Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+GRF_STAT	Graft Status at Time of Follow-Up	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_GFTSTAT	
+GRF_STAT_LEFT	Graft Status at Time of Follow-Up Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_GFTSTAT	
+GRF_STAT_RIGHT	Graft Status at Time of Follow-Up Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_GFTSTAT	
+GT_5_PBRC	More than 5 pRBC (packed red blood cells) units	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	CHAR(1)	YNU	
+HGT_CM	Height (cm)	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+HOSP_SINCE_LAST_VISIT	Has patient been hospitalized since the Last Patient Status Date	TRF	2015-09-01 00:00:00		PATIENT STATUS	CHAR(1)	YNU	
+IMMUNO	Immunosuppression	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+INSTITUTIONAL_FUNDING	Institutional funding	TRF	2015-09-01 00:00:00		SOCIODEMOGRAPHIC INFORMATION	CHAR(1)	YNU	
+ISCHEMIA	Ischemia	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YNU	
+ISCHEMIA_LEFT	Ischemia Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YNU	
+ISCHEMIA_RIGHT	Ischemia Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YNU	
+MALIG	Post Transplant Malignancy	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	CHAR(1)	YNU	
+MALIG_DENOVO_LYMPH	PostTransplant Lymphoproliferative Disease (PTLD) and Lymphoma	TRF	2015-09-01 00:00:00		PostTransplant Lymphoproliferative Disease (PTLD) and Lymphoma	CHAR(1)	YNU	
+MALIG_DENOVO_LYMPH_DT	PostTransplant Lymphoproliferative Disease (PTLD) and Lymphoma Date	TRF	2015-09-01 00:00:00		PostTransplant Lymphoproliferative Disease (PTLD) and Lymphoma	NUM		
+MALIG_DENOVO_LYMPH_TY	PostTransplant Lymphoproliferative Disease (PTLD) and Lymphoma Pathology	TRF	2015-09-01 00:00:00		PostTransplant Lymphoproliferative Disease (PTLD) and Lymphoma	NUM	PATHOLOG	
+MALIG_DENOVO_TUMOR	De Novo Tumor	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	CHAR(1)	YNU	
+MALIG_DENOVO_TUMOR_1_DX	De Novo Tumor: Skin: Squamous Cell	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_1_DX_DATE	De Novo Tumor: Skin: Squamous Cell Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_10_DX	De Novo Tumor: Ovarian	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_10_DX_DATE	De Novo Tumor: Ovarian Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_11_DX	De Novo Tumor: Testicular	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_11_DX_DATE	De Novo Tumor: Testicular Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_12_DX	De Novo Tumor: Esophagus	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_12_DX_DATE	De Novo Tumor: Esophagus Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_13_DX	De Novo Tumor: Stomach	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_13_DX_DATE	De Novo Tumor: Stomach Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_14_DX	De Novo Tumor: Small Intestine	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_14_DX_DATE	De Novo Tumor: Small Intestine Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_15_DX	De Novo Tumor: Pancreas	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_15_DX_DATE	De Novo Tumor: Pancreas Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_16_DX	De Novo Tumor: Larynx	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_16_DX_DATE	De Novo Tumor: Larynx Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_17_DX	De Novo Tumor: Tongue, Throat	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_17_DX_DATE	De Novo Tumor: Tongue, Throat Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_18_DX	De Novo Tumor: Thyroid	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_18_DX_DATE	De Novo Tumor: Thyroid Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_19_DX	De Novo Tumor: Bladder	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_19_DX_DATE	De Novo Tumor: Bladder Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_2_DX	De Novo Tumor: Skin: Basal Cell	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_2_DX_DATE	De Novo Tumor: Skin: Basal Cell Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_20_DX	De Novo Tumor: Breast	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_20_DX_DATE	De Novo Tumor: Breast Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_21_DX	De Novo Tumor: Prostate	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_21_DX_DATE	De Novo Tumor: Prostate Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_22_DX	De Novo Tumor: ColoRectal	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_22_DX_DATE	De Novo Tumor: ColoRectal Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_23_DX	De Novo Tumor: Primary Hepatic Tumor	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_23_DX_DATE	De Novo Tumor: Primary Hepatic Tumor Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_24_DX	De Novo Tumor: Metastic Liver Tumor	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_24_DX_DATE	De Novo Tumor: Metastic Liver Tumor  Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_25_DX	De Novo Tumor: Lung	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_25_DX_DATE	De Novo Tumor: Lung Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_26_DX	De Novo Tumor: Leukemia	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_26_DX_DATE	De Novo Tumor: Leukemia Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_27_DX	De Novo Tumor: Sarcoma (excluding Kaposi's)	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_27_DX_DATE	De Novo Tumor: Sarcoma (excluding Kaposi's) Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_28_DX	De Novo Tumor: Other Cancers	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_28_DX_DATE	De Novo Tumor: Other Cancers Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_29_DX	De Novo Tumor: Primary Unknown	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_29_DX_DATE	De Novo Tumor: Primary Unknown Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_3_DX	De Novo Tumor: Skin: Melanoma	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_3_DX_DATE	De Novo Tumor: Skin: Melanoma Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_4_DX	De Novo Tumor: Kaposi's Sarcoma: Cutaneous	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_4_DX_DATE	De Novo Tumor: Kaposi's Sarcoma: Cutaneous Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_5_DX	De Novo Tumor: Kaposi's Sarcoma: Visceral	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_5_DX_DATE	De Novo Tumor: Kaposi's Sarcoma: Visceral Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_6_DX	De Novo Tumor: Brain	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	BRAINTUM	
+MALIG_DENOVO_TUMOR_6_DX_DATE	De Novo Tumor: Brain Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_7_DX	De Novo Tumor: Renal Carcinoma	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_7_DX_DATE	De Novo Tumor: Renal Carcinoma Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_8_DX	De Novo Tumor: Carcinoma of Vulva, Perineum or Penis, Scrotum	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_8_DX_DATE	De Novo Tumor: Carcinoma of Vulva, Perineum or Penis, Scrotum Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DENOVO_TUMOR_9_DX	De Novo Tumor: Carcinoma of the Uterus	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DENOVO_TUMOR_9_DX_DATE	De Novo Tumor: Carcinoma of the Uterus Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL	Post Transplant Malignancy - Donor Related	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	CHAR(1)	YNU	
+MALIG_DON_REL_1_DX	Donor Related Tumor: Skin: Squamous Cell	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_1_DX_DATE	Donor Related Tumor: Skin: Squamous Cell Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_10_DX	Donor Related Tumor: Ovarian	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_10_DX_DATE	Donor Related Tumor: Ovarian Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_11_DX	Donor Related Tumor: Testicular	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_11_DX_DATE	Donor Related Tumor: Testicular Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_12_DX	Donor Related Tumor: Esophagus	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_12_DX_DATE	Donor Related Tumor: Esophagus Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_13_DX	Donor Related Tumor: Stomach	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_13_DX_DATE	Donor Related Tumor: Stomach Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_14_DX	Donor Related Tumor: Small Intestine	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_14_DX_DATE	Donor Related Tumor: Small Intestine Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_15_DX	Donor Related Tumor: Pancreas	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_15_DX_DATE	Donor Related Tumor: Pancreas Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_16_DX	Donor Related Tumor: Larynx	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_16_DX_DATE	Donor Related Tumor: Larynx Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_17_DX	Donor Related Tumor: Tongue, Throat	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_17_DX_DATE	Donor Related Tumor: Tongue, Throat Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_18_DX	Donor Related Tumor: Thyroid	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_18_DX_DATE	Donor Related Tumor: Thyroid Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_19_DX	Donor Related Tumor: Bladder	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_19_DX_DATE	Donor Related Tumor: Bladder Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_2_DX	Donor Related Tumor: Skin: Basal Cell	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_2_DX_DATE	Donor Related Tumor: Skin: Basal Cell Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_20_DX	Donor Related Tumor: Breast	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_20_DX_DATE	Donor Related Tumor: Breast Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_21_DX	Donor Related Tumor: Prostate	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_21_DX_DATE	Donor Related Tumor: Prostate Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_22_DX	Donor Related Tumor: ColoRectal	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_22_DX_DATE	Donor Related Tumor: ColoRectal Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_23_DX	Donor Related Tumor: Primary Hepatic Tumor	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_23_DX_DATE	Donor Related Tumor: Primary Hepatic Tumor Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_24_DX	Donor Related Tumor: Metastic Liver Tumor	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_24_DX_DATE	Donor Related Tumor: Metastic Liver Tumor  Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_25_DX	Donor Related Tumor: Lung	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_25_DX_DATE	Donor Related Tumor: Lung Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_26_DX	Donor Related Tumor: Leukemia	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_26_DX_DATE	Donor Related Tumor: Leukemia Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_27_DX	Donor Related Tumor: Sarcoma (excluding Kaposi's)	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_27_DX_DATE	Donor Related Tumor: Sarcoma (excluding Kaposi's) Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_28_DX	Donor Related Tumor: Other Cancers	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_28_DX_DATE	Donor Related Tumor: Other Cancers Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_29_DX	Donor Related Tumor: Primary Unknown	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_29_DX_DATE	Donor Related Tumor: Primary Unknown Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_3_DX	Donor Related Tumor: Skin: Melanoma	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_3_DX_DATE	Donor Related Tumor: Skin: Melanoma Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_4_DX	Donor Related Tumor: Kaposi's Sarcoma: Cutaneous	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_4_DX_DATE	Donor Related Tumor: Kaposi's Sarcoma: Cutaneous Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_5_DX	Donor Related Tumor: Kaposi's Sarcoma: Visceral	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_5_DX_DATE	Donor Related Tumor: Kaposi's Sarcoma: Visceral Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_6_DX	Donor Related Tumor: Brain	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	BRAINTUM	
+MALIG_DON_REL_6_DX_DATE	Donor Related Tumor: Brain Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_7_DX	Donor Related Tumor: Renal Carcinoma	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_7_DX_DATE	Donor Related Tumor: Renal Carcinoma Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_8_DX	Donor Related Tumor: Carcinoma of Vulva, Perineum or Penis, Scrotum	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_8_DX_DATE	Donor Related Tumor: Carcinoma of Vulva, Perineum or Penis, Scrotum Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_DON_REL_9_DX	Donor Related Tumor: Carcinoma of the Uterus	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM	YN	
+MALIG_DON_REL_9_DX_DATE	Donor Related Tumor: Carcinoma of the Uterus Diagnosis Date	TRF	2015-09-01 00:00:00		POST TRANSPLANT MALIGNANCY	NUM		
+MALIG_PRETX_TUMOR	Recurrence of Pretransplant Malignancy	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YNU	
+MALIG_PRETX_TUMOR_DT	Recurrence of Pretransplant Malignancy Date	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+MALIG_PRETX_TUMOR_TY	Recurrence of Pretransplant Malignancy Type	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	RECUR_TUMOR_TY	
+MENTAL_HEALTH_SCORE	Mental Heath (MH) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+MOTOR_DEV	Motor Development (for recipients younger than 18 years of age at transplant and younger than 26 years of age at followup)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	MOTOR_DEV	
+MR_DSA	Donor Specific Antibodies (DSA) detected	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	SERSTAT	
+MR_HEMOGLOBIN_A1C	Hemoglobin A1c (%)	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+MR_SERUM_CREAT	Serum Creatinine (mg/dL)	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM		
+NON_COMPL_ACTIVITY	Noncompliance: level of activity	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_ACTIVITY_LEFT	Noncompliance: level of activity Left Limb	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_ACTIVITY_RIGHT	Noncompliance: level of activity Right Limb	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_IMMUNO	Noncompliance: immunosuppression	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_IMMUNO_LEFT	Noncompliance: immunosuppression Left Limb	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_IMMUNO_RIGHT	Noncompliance: immunosuppression Right Limb	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_OTH	Noncompliance: Other	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_REHAB	Noncompliance: Rehabilitation	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_REHAB_LEFT	Noncompliance: Rehabilitation Left Limb	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NON_COMPL_REHAB_RIGHT	Noncompliance: Rehabilitation Right Limb	TRF	2015-09-01 00:00:00		NONCOMPLIANCE	CHAR(1)	YN	
+NUM_ACUTE_REJ_EPI	Acute Rejection Episodes, If yes, number of rejection episodes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION: POST TRANSPLANT	NUM		
+NUM_ACUTE_REJ_EPI_LEFT	Acute Rejection Episodes, If yes, number of rejection episodes Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION: POST TRANSPLANT	NUM		
+NUM_ACUTE_REJ_EPI_RIGHT	Acute Rejection Episodes, If yes, number of rejection episodes Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION: POST TRANSPLANT	NUM		
+NUM_HOSP	Recipient hospitalized since the Last Patient Status Date If Yes, number of hospitalizations	TRF	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+OLF_FUNC_RESTORED	Olfactory function restored (only collected on 6month followup)	TRF	2015-09-01 00:00:00		HEAD AND NECK: CRANIOFACIAL	CHAR(1)	YN	
+ORAL_COMPETENCE	Oral competence	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_ORALCOMP	
+OTHER_COMPLICATIONS	Other Major Transplant Complications	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	NUM	YN	
+PERCENT_INTELLIGIBILITY	Percent Intelligibility (0-100% Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+PERIOP_ANTICOAG	Peri-operative anticoagulation	TRF	2015-09-01 00:00:00		Treatment	CHAR(1)	YN	
+PHYSICAL_FUNC_SCORE	Physical Functioning (PF) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+PRI_PAYMENT	RECIPIENT PRIMARY SOURCE OF PAYMENT	TRF	2015-09-01 00:00:00		RECIPIENT INFORMATION	NUM	PRIMPAY	
+PRI_PAYMENT_CTRY	RECIPIENT FOREIGN GOV'T AS SECONDARY PAYMENT SOURCE	TRF	2015-09-01 00:00:00		RECIPIENT INFORMATION	CHAR(4)	CTRY	
+PSYCHO_SOCIAL_CONSULT	Psychosocial consult performed	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	CHAR(1)	YN	
+PX_STAT	Recipient Status at Time of Follow-Up(Died, ReTX, Lost, Not Seen, Alive)	TRF	2015-09-01 00:00:00		PATIENT STATUS	CHAR(1)	PXSTAT	
+PX_STAT_DT	Date Last Seen, Retransplanted, or Death	TRF	2015-09-01 00:00:00		PATIENT STATUS	NUM		
+REHAB	Rehabilitation	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE	Acute Rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BANFF_SCORE	Acute Rejection - If Yes, Banff score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_1	Rejection Episode 1 - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_2	Rejection Episode 2 - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_3	Rejection Episode 3 - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_4	Rejection Episode 4 - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_5	Rejection Episode 5 - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_LEFT	Acute Rejection Left Limb - If Yes, Banff score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_LEFT_1	Rejection Episode 1 Left Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_LEFT_2	Rejection Episode 2 Left Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_LEFT_3	Rejection Episode 3 Left Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_LEFT_4	Rejection Episode 4 Left Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_LEFT_5	Rejection Episode 5 Left Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_RIGHT	Acute Rejection Right Limb - If Yes, Banff score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_RIGHT_1	Rejection Episode 1 Right Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_RIGHT_2	Rejection Episode 2 Right Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_RIGHT_3	Rejection Episode 3 Right Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_RIGHT_4	Rejection Episode 4 Right Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BANFF_SCORE_RIGHT_5	Rejection Episode 5 Right Limb - If Yes, Banff Score	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	VCA_BANFF	
+REJ_ACUTE_BIOPSY_DONE_1	Rejection Episode 1 - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_2	Rejection Episode 2 - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_3	Rejection Episode 3 - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_4	Rejection Episode 4 - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_5	Rejection Episode 5 - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_LEFT_1	Rejection Episode 1 Left Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_LEFT_2	Rejection Episode 2 Left Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_LEFT_3	Rejection Episode 3 Left Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_LEFT_4	Rejection Episode 4 Left Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_LEFT_5	Rejection Episode 5 Left Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_RIGHT_1	Rejection Episode 1 Right Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_RIGHT_2	Rejection Episode 2 Right Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_RIGHT_3	Rejection Episode 3 Right Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_RIGHT_4	Rejection Episode 4 Right Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_BIOPSY_DONE_RIGHT_5	Rejection Episode 5 Right Limb - Biopsy was done to confirm acute rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_DT_1	Rejection Episode 1 - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_2	Rejection Episode 2 - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_3	Rejection Episode 3 - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_4	Rejection Episode 4 - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_5	Rejection Episode 5 - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_LEFT_1	Rejection Episode 1 Left Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_LEFT_2	Rejection Episode 2 Left Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_LEFT_3	Rejection Episode 3 Left Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_LEFT_4	Rejection Episode 4 Left Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_LEFT_5	Rejection Episode 5 Left Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_RIGHT_1	Rejection Episode 1 Right Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_RIGHT_2	Rejection Episode 2 Right Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_RIGHT_3	Rejection Episode 3 Right Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_RIGHT_4	Rejection Episode 4 Right Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_DT_RIGHT_5	Rejection Episode 5 Right Limb - Date of acute rejection diagnosis	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	NUM	YN	
+REJ_ACUTE_LEFT	Acute Rejection Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_RIGHT	Acute Rejection Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE	Acute Rejection, If Yes, Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_1	Rejection Episode 1 - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_2	Rejection Episode 2 - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_3	Rejection Episode 3 - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_4	Rejection Episode 4 - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_5	Rejection Episode 5 - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_LEFT	Acute Rejection - Left Limb, If Yes, Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_LEFT_1	Rejection Episode 1 Left Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_LEFT_2	Rejection Episode 2 Left Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_LEFT_3	Rejection Episode 3 Left Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_LEFT_4	Rejection Episode 4 Left Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_LEFT_5	Rejection Episode 5 Left Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_RIGHT	Acute Rejection - Right Limb, If Yes, Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_RIGHT_1	Rejection Episode 1 Right Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_RIGHT_2	Rejection Episode 2 Right Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_RIGHT_3	Rejection Episode 3 Right Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_RIGHT_4	Rejection Episode 4 Right Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_SKIN_CHANGE_RIGHT_5	Rejection Episode 5 Right Limb - Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_1	Rejection Episode 1 - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_2	Rejection Episode 2 - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_3	Rejection Episode 3 - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_4	Rejection Episode 4 - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_5	Rejection Episode 5 - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_LEFT_1	Rejection Episode 1 Left Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_LEFT_2	Rejection Episode 2 Left Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_LEFT_3	Rejection Episode 3 Left Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_LEFT_4	Rejection Episode 4 Left Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_LEFT_5	Rejection Episode 5 Left Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_RIGHT_1	Rejection Episode 1 Right Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_RIGHT_2	Rejection Episode 2 Right Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_RIGHT_3	Rejection Episode 3 Right Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_RIGHT_4	Rejection Episode 4 Right Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_ACUTE_TREATED_RIGHT_5	Rejection Episode 5 Right Limb - Acute rejection was treated	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_CHRONIC	Chronic Rejection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_CHRONIC_LEFT	Chronic Rejection Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_CHRONIC_RIGHT	Chronic Rejection Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REJ_CHRONIC_SKIN_CHANGE	Chronic Rejection If Yes, Visual skin changes	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION: POST TRANSPLANT	CHAR(1)	YN	
+REJ_CHRONIC_SKIN_CHANGE_LEFT	Chronic Rejection If Yes, Visual skin changes Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION: POST TRANSPLANT	CHAR(1)	YN	
+REJ_CHRONIC_SKIN_CHANGE_RIGHT	Chronic Rejection If Yes, Visual skin changes Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION: POST TRANSPLANT	CHAR(1)	YN	
+REMOVAL_REQUESTED	Patient requested removal	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REMOVAL_REQUESTED_LEFT	Patient requested removal Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+REMOVAL_REQUESTED_RIGHT	Patient requested removal Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+ROLE_EMOTIONAL_SCORE	RoleEmotional (RE) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+ROLE_PHYS_SCORE	RolePhysical (RP) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+SECONDARY_PAY	Secondary Source of Payment	TRF	2015-09-01 00:00:00		SOCIODEMOGRAPHIC INFORMATION	NUM	SECNDPAY	
+SEMMES_WEINSTEIN_LEFT	Semmes Weinstein, Left Limb	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_SEMMESWEINSTEIN	
+SEMMES_WEINSTEIN_RIGHT	Semmes Weinstein, Right Limb	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM	VCA_SEMMESWEINSTEIN	
+SEPSIS	Sepsis / Infection	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+SEPSIS_LEFT	Sepsis / Infection Left Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+SEPSIS_RIGHT	Sepsis / Infection Right Limb	TRF	2015-09-01 00:00:00		CLINICAL INFORMATION	CHAR(1)	YN	
+SOCIAL_FUNC_SCORE	Social Functioning (SF) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+SPEAKING_RATE	Speaking rate (number of words per minute)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+THROMBOSIS	Thrombosis	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - If failed - Causes of Graft Failure	CHAR(1)	YN	
+THROMBOSIS_ARTERIAL	Arterial Thrombosis	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	CHAR(1)	YN	
+THROMBOSIS_LEFT	Thrombosis	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Left Limb - If failed - Causes of Graft Failure	CHAR(1)	YN	
+THROMBOSIS_RIGHT	Thrombosis	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Right Limb - If failed - Causes of Graft Failure	CHAR(1)	YN	
+THROMBOSIS_VENOUS	Venous Thrombosis	TRF	2015-09-01 00:00:00		Clinical Information: Post Transplant - Major Transplant Complication	CHAR(1)	YN	
+TRAUMA	TRAUMA	TRF	2015-09-01 00:00:00		GRAFT STATUS	CHAR(1)	YN	
+TRAUMA_LEFT	TRAUMA Left Limb	TRF	2015-09-01 00:00:00		GRAFT STATUS	CHAR(1)	YN	
+TRAUMA_RIGHT	TRAUMA Right Limb	TRF	2015-09-01 00:00:00		GRAFT STATUS	CHAR(1)	YN	
+TRR_ID_CODE	ENCRYPTED TRANSPLANT IDENTIFIER	CALCULATED				CHAR(15)		
+TWO_PT_DISCRIMINATION	2 point discrimination (mm)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+VCA_CANDIDATE_ID_CODE	Encrypted Candidate ID	CALCULATED				NUM		
+VCA_FOL_CD	Follow-up Code	TRF	2015-09-01 00:00:00			NUM	FOLCD	
+VCA_TY	VCA Transplant Organ Type	WL	2015-09-01 00:00:00		CANDIDATE INFORMATION	CHAR(200)		
+VITALITY_SCORE	Vitality (VT) Score (0-100 Scale)	TRF	2015-09-01 00:00:00		FUNCTIONAL STATUS	NUM		
+WGT_KG	Weight (kg)	TRF	2015-09-01 00:00:00			NUM		
+WORK_INCOME	RECIPIENT WORK FOR INCOME?	TRF	2015-09-01 00:00:00		SOCIODEMOGRAPHIC INFORMATION	CHAR(1)	YNU	
+WORK_NO_STATUS	Work for Income, If Yes, indicate the recipient's working status	TRF	2015-09-01 00:00:00		SOCIODEMOGRAPHIC INFORMATION	NUM	WORKNO	
+WORK_YES_STATUS	Work for Income, If No, Not Working Due To	TRF	2015-09-01 00:00:00		SOCIODEMOGRAPHIC INFORMATION	NUM	WORKYES	

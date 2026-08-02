@@ -1,0 +1,20 @@
+"STAR Table Name: THORACIC_LAS_AUDIT_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+BEGIN_DT	Begin Date/Time	WL	2005-05-04 00:00:00			NUM		
+CALC_LAS	Calculated LAS	WL	2005-05-04 00:00:00			NUM		
+CLINICAL_UPDATE_DT						NUM		
+END_DT	End Date/Time	WL	2005-05-04 00:00:00			NUM		
+FVC_PRE_LBV	Least Beneficial Value for FVC	WL	2005-05-04 00:00:00	2015-02-19 00:00:00		NUM		
+ID						NUM		
+MATCH_LAS	Match LAS	WL	2005-05-04 00:00:00			NUM		
+POSTTX_ATTRIBUTEPOINTS	Post-Transplant Outcomes Attribute Points	WAITING LIST DATA	2023-03-09 00:00:00					
+POSTTX_MATCHATTRIBUTEPOINTS	Post-Transplant Outcomes Attribute Points 	WAITING LIST DATA	2023-03-09 00:00:00					includes assigned score for Pediatric patients
+POSTTX_MEASURE	Post-Transplant Survival Measure	WL	2015-02-19 00:00:00			NUM		
+WL_ATTRIBUTEPOINTS	Medical Urgency Attribute Points	WAITING LIST DATA	2023-03-09 00:00:00					
+WL_ID_CODE	ENCRYPTED WL_ID	CALC	1987-10-01 00:00:00			NUM		
+WL_MATCHATTRIBUTEPOINTS	Medical Urgency Attribute Points 	WAITING LIST DATA	2023-03-09 00:00:00					includes assigned score for Pediatric patients
+WL_MEASURE	Waitlist Urgency Measure	WL	2015-02-19 00:00:00			NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID For Linkage to Other Data	CALC				NUM		

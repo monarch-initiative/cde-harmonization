@@ -1,0 +1,18 @@
+"STAR Table Name: THORACIC_STAT1B
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+AGE_GROUP	Age Group					CHAR(9)		
+CONT_IV_INOTROPES	Continuous infusion of intravenous inotropes (B)					NUM		
+GROWTH_FAILURE	Patient is experiencing growth failure (Ped C)					NUM		
+LESS_SIX_MONS	Patient is less than 6 months old and does not meet the criteria for Status 1A (Ped B)					NUM		
+OTHER	Other (Adult C Ped D)					NUM		
+REQ_LOW_INOTROPE	Requires infusion of a low-dose single inotrope (Ped A)					NUM		
+REQ1_INOTROPIC_AGENT	Infusion of inotropes but does not qualify for status 1A (Ped 1B criteria 1)		2016-03-22 00:00:00			NUM		
+REQ2_CARDIOMYOPATHY	Less than 1 year old with hypertrophic or restrictive cardiomyopathy (Ped 1B criteria 2)		2016-03-22 00:00:00			NUM		
+REQ3_CRITERIA_NOT_MET	Does not meet criteria for Status 1B but has an urgency and potential for benefit comparable to other status 1A candidates   (Ped 1B exception)		2016-03-22 00:00:00			NUM		
+UPGRADE_EXTDATE	Upgrade/Extension Date					NUM		
+VAD	Left and/or right ventricular assist device implanted (A)					NUM		
+WL_ID_CODE	ENCRYPTED WL_ID					NUM		
+WLREG_AUDIT_ID_CODE	Encrypted WLREG_AUDIT_ID For Linkage to Other Data					NUM		

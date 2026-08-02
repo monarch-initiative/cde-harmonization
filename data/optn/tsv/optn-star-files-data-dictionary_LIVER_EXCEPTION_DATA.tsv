@@ -1,0 +1,100 @@
+"STAR Table Name: LIVER_EXCEPTION_DATA
+Variable Names in red font denote that field has important information in the Comment field
+
+The data files created based on data as of 4/5/2024 will include data for registrations added and/or transplants occurring through 03/31/2024"	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+VARIABLE NAME	DESCRIPTION	FORM	VAR START DATE	VAR END DATE	FORM SECTION	DATA TYPE	SAS ANALYSIS FORMAT	COMMENT
+ABLATE	Any newer ablative therapies to be reported	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM	YN	
+AFP	Alpha-fetoprotein (ng/mL)	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM		
+BEGIN_DATE	Start Date of Exception	Calculated	2002-02-27 00:00:00			NUM		
+CASE_ID	Case Number	Calculated	2002-02-27 00:00:00			NUM		
+CASE_OUTCOME	Case Outcome	Calculated	2002-02-27 00:00:00			CHAR(32)		
+CASE_STAT	Case Status	Calculated	2002-02-27 00:00:00			CHAR(100)		
+CHEM_ABLAT	Chemical Ablation of Lesion	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM	YN	
+CONTRAST1	Contrast Enhancement on Imaging of Tumor 1	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST2	Contrast Enhancement on Imaging of Tumor 2	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST3	Contrast Enhancement on Imaging of Tumor 3	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST4	Contrast Enhancement on Imaging of Tumor 4	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST5	Contrast Enhancement on Imaging of Tumor 5	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST6	Contrast Enhancement on Imaging of Tumor 6	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST7	Contrast Enhancement on Imaging of Tumor 7	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CONTRAST8	Contrast Enhancement on Imaging of Tumor 8	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+CRYO	Cryo Ablation of Lesion	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM	YN	
+CT	Imaging - CT of Abdomen	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM	YN	
+CT_AB_DATE1	Imaging Date - CT of Abdomen of Tumor 1	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+CT_AB_DATE2	Imaging Date - CT of Abdomen of Tumor 2	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+CT_AB_DATE3	Imaging Date - CT of Abdomen of Tumor 3	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+CT_AB_DATE4	Imaging Date - CT of Abdomen of Tumor 4	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+CT_AB_DATE5	Imaging Date - CT of Abdomen of Tumor 5	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+DIAG	Diagnosis	M/P Exception Application	2002-02-27 00:00:00		MELD/PELD Score Exception	CHAR(100)		
+DIAG_CD	Type of HCC Application	M/P Exception Application	2002-02-27 00:00:00		MELD/PELD Score Exception	CHAR(10)		
+DIAG_ID	Diagnosis ID	M/P Exception Application	2002-02-27 00:00:00		MELD/PELD Score Exception	NUM	MPDIAG	
+EXC_MELD_PELD_LAB	M/P @ Time of request	M/P Exception Application	2002-02-27 00:00:00		MELD/PELD Data Collection	NUM		
+EXPIRE_DATE	End Date of Exception	Calculated	2002-02-27 00:00:00			NUM		
+EXT_BEAM	External beam radiation	M/P Exception Application	2013-10-31 00:00:00		Additional Corroborating Data	NUM		
+FORM_ID	Form ID (initial/appeal/extension)	Calculated	2002-02-27 00:00:00			NUM		
+GROWTH1	Growth Criteria selected on Tumor 1	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH2	Growth Criteria selected on Tumor 2	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH3	Growth Criteria selected on Tumor 3	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH4	Growth Criteria selected on Tumor 4	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH5	Growth Criteria selected on Tumor 5	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH6	Growth Criteria selected on Tumor 6	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH7	Growth Criteria selected on Tumor 7	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+GROWTH8	Growth Criteria selected on Tumor 8	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+HCC_DIAG	HCC Diagnosis	Calculated	2002-02-27 00:00:00			CHAR(38)		
+INIT_EXT	Initial/Extension/Appeal	Calculated	2002-02-27 00:00:00			CHAR(19)		
+MICROSPH	Radiation microspheres		2013-10-31 00:00:00		Additional Corroborating Data	NUM		
+MRI	Imaging - MRI of Abdomen	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM	YN	
+MRI_AB_DATE1	Imaging Date - MRI of Abdomen of Tumor 1	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+MRI_AB_DATE2	Imaging Date - MRI of Abdomen of Tumor 2	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+MRI_AB_DATE3	Imaging Date - MRI of Abdomen of Tumor 3	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+MRI_AB_DATE4	Imaging Date - MRI of Abdomen of Tumor 4	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+MRI_AB_DATE5	Imaging Date - MRI of Abdomen of Tumor 5	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+ORIG_APPL_DATE	Application Date	M/P Exception Application	2002-02-27 00:00:00			NUM		
+ORIG_TUMOR_IMAGE_DATE	Original/Presenting Tumor Imaging Date	M/P Exception Application	2002-02-27 00:00:00		Original/Presenting Tumor Evaluation	NUM		
+ORIG_TUMOR_SIZE1	Original/Presenting Size of tumor 1	M/P Exception Application	2002-02-27 00:00:00		Original/Presenting Tumor Evaluation	NUM		
+ORIG_TUMOR_SIZE2	Original/Presenting Size of tumor 2	M/P Exception Application	2002-02-27 00:00:00		Original/Presenting Tumor Evaluation	NUM		
+ORIG_TUMOR_SIZE3	Original/Presenting Size of tumor 3	M/P Exception Application	2002-02-27 00:00:00		Original/Presenting Tumor Evaluation	NUM		
+ORIG_TUMOR_SIZE4	Original/Presenting Size of tumor 4	M/P Exception Application	2002-02-27 00:00:00		Original/Presenting Tumor Evaluation	NUM		
+ORIG_TUMOR_SIZE5	Original/Presenting Size of tumor 5	M/P Exception Application	2002-02-27 00:00:00		Original/Presenting Tumor Evaluation	NUM		
+PERIPHERAL_RIM1	Peripheral Rim Enhancement Tumor 1	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM2	Peripheral Rim Enhancement Tumor 2	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM3	Peripheral Rim Enhancement Tumor 3	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM4	Peripheral Rim Enhancement Tumor 4	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM5	Peripheral Rim Enhancement Tumor 5	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM6	Peripheral Rim Enhancement Tumor 6	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM7	Peripheral Rim Enhancement Tumor 7	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+PERIPHERAL_RIM8	Peripheral Rim Enhancement Tumor 8	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+REGION	Region	Calculated				NUM		
+REQUEST_SCORE	Requested Score	M/P Exception Application	2002-02-27 00:00:00		MELD/PELD Score Exception	NUM		
+RESECT	Surgical Resection	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM	YN	
+RESECT_DATE	Date of Surgical Resection	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM		
+RFA	Radio Frequency Ablation of Lesion	M/P Exception Application	2003-04-30 00:00:00		Additional Corroborating Data	NUM	YN	
+TACE	Transarterial Chemoembolization		2003-04-30 00:00:00		Additional Corroborating Data	NUM		
+THERMAL	Thermal ablation		2003-04-30 00:00:00		Additional Corroborating Data	NUM		
+TREAT_DATE1	Date of Treatment 1		2013-10-31 00:00:00		Additional Corroborating Data	NUM		
+TREAT_DATE2	Date of Treatment 2		2013-10-31 00:00:00		Additional Corroborating Data	NUM		
+TREAT_DATE3	Date of Treatment 3		2013-10-31 00:00:00		Additional Corroborating Data	NUM		
+TREAT1	Treatment 1		2013-10-31 00:00:00		Additional Corroborating Data	CHAR(50)		
+TREAT2	Treatment 2		2013-10-31 00:00:00		Additional Corroborating Data	CHAR(50)		
+TREAT3	Treatment 3		2013-10-31 00:00:00		Additional Corroborating Data	CHAR(50)		
+TUMOR_SIZE1	Size of Tumor 1	M/P Exception Application	2002-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+TUMOR_SIZE2	Size of Tumor 2	M/P Exception Application	2002-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+TUMOR_SIZE3	Size of Tumor 3	M/P Exception Application	2002-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+TUMOR_SIZE4	Size of Tumor 4	M/P Exception Application	2002-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+TUMOR_SIZE5	Size of Tumor 5	M/P Exception Application	2002-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+TUMORNUM	Number of Tumors on current Application	M/P Exception Application	2002-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+ULT	Imaging - Ultrasound of Liver	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM	YN	
+ULTSND_DATE1	Imaging Date - Ultrasound of Liver of Tumor 1	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+ULTSND_DATE2	Imaging Date - Ultrasound of Liver of Tumor 2	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+ULTSND_DATE3	Imaging Date - Ultrasound of Liver of Tumor 3	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+ULTSND_DATE4	Imaging Date - Ultrasound of Liver of Tumor 4	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+ULTSND_DATE5	Imaging Date - Ultrasound of Liver of Tumor 5	M/P Exception Application	2003-02-27 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT1	Washout Seen on Tumor 1	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT2	Washout Seen on Tumor 2	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT3	Washout Seen on Tumor 3	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT4	Washout Seen on Tumor 4	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT5	Washout Seen on Tumor 5	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT6	Washout Seen on Tumor 6	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT7	Washout Seen on Tumor 7	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WASHOUT8	Washout Seen on Tumor 8	M/P Exception Application	2013-10-31 00:00:00		Most Recent Tumor Evaluation	NUM		
+WL_ID_CODE	ENCRYPTED REGISTRATION IDENTIFIER	Calculated				NUM		
